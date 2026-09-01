@@ -1,17 +1,19 @@
-node_modules/
-dist/
+!.env.example
+# Fetched at build time by scripts/fetch-fonts.mjs
+# Generated at build time by scripts/generate-og.mjs
+*-run.log
+*.log
+.DS_Store
 .astro/
 .env
 .env.*
-!.env.example
-install.log
-# Fetched at build time by scripts/fetch-fonts.mjs
-public/fonts/*.woff2
 .fonts/
-# Generated at build time by scripts/generate-og.mjs
-public/og/*.png
-candidates-*.json
-preview.log
-.DS_Store
 Thumbs.db
+candidates-*.json
 ci.log
+dist/
+install.log
+node_modules/
+preview.log
+public/fonts/*.woff2
+public/og/*.png
