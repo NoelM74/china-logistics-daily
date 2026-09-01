@@ -1,0 +1,106 @@
+---
+import { paragraphs, getTag, href, type TagCta } from '../data/site';
+
+export interface Props {
+  index: number;
+  story: {
+    headline: string;
+    tldr: string;
+    whatHappened: string;
+    whyItMatters: string;
+    hotTake: string;
+    actions: string[];
+    sourceUrl: string;
+    sourceName: string;
+    tags: string[];
+  };
+  cta: TagCta;
+}
+
+const { index, story, cta } = Astro.props;
+const n = String(index + 1).padStart(2, '0');
+const slugId = `story-${index + 1}`;
+---
+
+<article class="relative scroll-mt-28" aria-labelledby={slugId}>
+  <div class="mb-3 flex items-baseline gap-3 lg:mb-4">
+    <span class="story-index" aria-hidden="true">{n}</span>
+    <h2 id={slugId} class="text-[1.6rem] leading-[1.12] sm:text-[2rem] lg:text-[2.15rem]">
+      {story.headline}
+    </h2>
+  </div>
+
+  {/*
+    TL;DR sits high in the DOM and is written to be lifted verbatim by an AI
+    engine. Kept as one sentence, marked up so extraction is unambiguous.
+  */}
+  <div class="card-edge measure my-5">
+    <p class="dateline mb-1.5">The short version</p>
+    <p class="font-display text-[1.15rem] leading-snug font-medium sm:text-[1.25rem]">
+      {story.tldr}
+    </p>
+  </div>
+
+  <div class="prose-brief measure">
+    <h3 class="dateline !text-ink mt-7 mb-2">What happened</h3>
+    {paragraphs(story.whatHappened).map((p) => <p>{p}</p>)}
+    <p class="dateline !mt-3">
+      Source:{' '}
+      <a
+        href={story.sourceUrl}
+        rel="nofollow noopener"
+        target="_blank"
+        class="text-ink-muted underline"
+      >
+        {story.sourceName}
+      </a>
+    </p>
+
+    <h3 class="dateline !text-ink mt-7 mb-2">Why it matters to you</h3>
+    {paragraphs(story.whyItMatters).map((p) => <p>{p}</p>)}
+  </div>
+
+  {/* Hot take — quiet edge treatment so it reads as a distinct voice rather
+      than competing with the TL;DR for the same visual slot. */}
+  <div class="card-edge card-edge--quiet measure my-7">
+    <p class="dateline mb-1.5">The hot take</p>
+    <p class="font-display text-[1.1rem] leading-snug italic sm:text-[1.18rem]">
+      {story.hotTake}
+    </p>
+  </div>
+
+  <div class="measure">
+    <h3 class="dateline !text-ink mt-7 mb-2.5">What to do about it</h3>
+    <ul class="space-y-2.5">
+      {
+        story.actions.map((a) => (
+          <li class="flex gap-2.5">
+            <span class="mt-[0.55em] block h-[3px] w-3 shrink-0 bg-jade-500" aria-hidden="true" />
+            <span>{a}</span>
+          </li>
+        ))
+      }
+    </ul>
+
+    {/* Contextual CTA. Destination is derived from this story's own tags in
+        assignCtas() — never written by the model, so it always resolves. */}
+    <p class="mt-4">
+      <a href={cta.url} class="inline-cta">{cta.label}</a>
+    </p>
+  </div>
+
+  <ul class="mt-6 flex flex-wrap gap-1.5" aria-label="Topics for this story">
+    {
+      story.tags.map((slug) => {
+        const t = getTag(slug);
+        return t ? (
+          <li>
+            <a href={href(`/topics/${t.slug}`)} class="tag-pill">
+              {t.label}
+            </a>
+          </li>
+        ) : null;
+      })
+    }
+  </ul>
+</article>

@@ -1,0 +1,386 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------
+   China Logistics Daily — design tokens
+   Editorial broadsheet register. Boska (high-contrast serif) carries the
+   headlines, Satoshi carries everything else, and a system mono handles
+   datelines and metadata so we never pay for a third webfont.
+   ------------------------------------------------------------------ */
+
+@theme {
+  /* Brand — inherited from china-fulfillment.com so the subdomain reads as
+     the same company. Jade is structural, not decorative: rules, markers,
+     borders. Used sparingly it reads as authority; used everywhere it reads
+     as a template. */
+  --color-jade-50: #eaf3f3;
+  --color-jade-100: #cfe3e3;
+  --color-jade-200: #a2c9ca;
+  --color-jade-400: #2b8a8f;
+  --color-jade-500: #01696f;
+  --color-jade-600: #015a5f;
+  --color-jade-700: #01464a;
+  --color-jade-900: #062a2c;
+
+  --color-paper: #f7f6f2;
+  --color-paper-sunk: #f0eee8;
+  --color-paper-raised: #fffefb;
+
+  --color-ink: #14181a;
+  --color-ink-muted: #4a5356;
+  /* Lightest grey that clears WCAG AA 4.5:1 on paper-sunk (4.57) and paper
+     (4.90). Datelines are 11px, so they get no large-text exemption. */
+  --color-ink-faint: #646d70;
+  --color-rule: #ddd9d0;
+  --color-rule-strong: #c4bfb3;
+
+  --color-flag: #a8391f; /* sparing accent: "new", corrections, warnings */
+
+  --font-display: 'Boska', 'Iowan Old Style', 'Palatino Linotype', Palatino,
+    'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Satoshi', ui-sans-serif, system-ui, -apple-system,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
+    'Liberation Mono', monospace;
+
+  --text-dateline: 0.6875rem;
+  --text-dateline--line-height: 1.2;
+
+  --spacing-gutter: 1.25rem;
+  --spacing-measure: 42rem; /* ~72ch at our body size */
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------------------------- fonts ---------------------------- */
+/* Self-hosted, fetched at build time by scripts/fetch-fonts.mjs.
+   If the files are absent the fallback stacks above carry the design —
+   the site degrades in texture, never in layout. */
+
+@font-face {
+  font-family: 'Boska';
+  src: url('/fonts/Boska-Variable.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Boska';
+  src: url('/fonts/Boska-VariableItalic.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------------------- base ---------------------------- */
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /* Nothing should hide under the sticky masthead when jumped to. */
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    background-color: var(--color-paper);
+    background-image: var(--grain);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Room for the mobile sticky CTA so it never covers the footer. */
+  @media (max-width: 767px) {
+    body { padding-bottom: 4.25rem; }
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  p, li { text-wrap: pretty; }
+
+  a {
+    color: inherit;
+    text-decoration-color: var(--color-jade-200);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    transition: text-decoration-color 160ms var(--ease-out-quint),
+                color 160ms var(--ease-out-quint);
+  }
+  a:hover { text-decoration-color: var(--color-jade-500); }
+
+  :focus-visible {
+    outline: 2px solid var(--color-jade-500);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--color-jade-500);
+    color: var(--color-paper-raised);
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-rule);
+  }
+
+  /*
+    A link that fills its whole heading is only as tall as the line box, which
+    on a single-line heading lands just under the 24px WCAG 2.5.8 minimum. The
+    negative margin keeps the rendered spacing identical.
+  */
+  h1 a, h2 a, h3 a {
+    display: inline-block;
+    padding-block: 0.125rem;
+    margin-block: -0.125rem;
+  }
+}
+
+/* ---------------------------- components ---------------------------- */
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 68rem;
+    margin-inline: auto;
+    padding-inline: var(--spacing-gutter);
+  }
+
+  /* The reading column. ~72ch. Everything editorial sits in here. */
+  .measure {
+    max-width: var(--spacing-measure);
+  }
+
+  .dateline {
+    font-family: var(--font-mono);
+    font-size: var(--text-dateline);
+    line-height: 1.2;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-ink-faint);
+  }
+
+  /* Body copy inside a briefing. Applied to a wrapper, not per-element,
+     so the generator never has to know about classes. */
+  .prose-brief > p {
+    margin-block: 0 1.05em;
+    max-width: var(--spacing-measure);
+  }
+  .prose-brief > p:last-child { margin-bottom: 0; }
+  .prose-brief a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-jade-400);
+  }
+  .prose-brief a:hover { color: var(--color-jade-600); }
+
+  /* Jade left-border card treatment — PRD §7. Used for TL;DR and hot take,
+     differentiated by weight and type, not by colour, so the page keeps one
+     accent rather than turning into a highlighter set. */
+  .card-edge {
+    border-left: 3px solid var(--color-jade-500);
+    padding: 0.9rem 0 0.9rem 1.15rem;
+    background: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-jade-50) 70%, transparent),
+      transparent 82%
+    );
+  }
+
+  .card-edge--quiet {
+    border-left-color: var(--color-rule-strong);
+    background: none;
+  }
+
+  /* Big jade numeral that anchors each story. Deliberately breaks the
+     measure — it hangs into the left margin on wide screens. */
+  .story-index {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 0.8;
+    color: var(--color-jade-500);
+    font-variant-numeric: tabular-nums;
+  }
+  @media (min-width: 1024px) {
+    .story-index {
+      position: absolute;
+      left: -4.25rem;
+      top: 0.1rem;
+      font-size: 3.25rem;
+      opacity: 0.9;
+    }
+  }
+
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.24rem 0.5rem;
+    border: 1px solid var(--color-rule-strong);
+    border-radius: 999px;
+    color: var(--color-ink-muted);
+    text-decoration: none;
+    background: var(--color-paper-raised);
+    transition: border-color 160ms var(--ease-out-quint),
+                color 160ms var(--ease-out-quint),
+                background-color 160ms var(--ease-out-quint);
+  }
+  .tag-pill:hover {
+    border-color: var(--color-jade-500);
+    color: var(--color-jade-600);
+    background: var(--color-jade-50);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1;
+    padding: 0.8rem 1.25rem;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: transform 160ms var(--ease-out-quint),
+                background-color 160ms var(--ease-out-quint),
+                box-shadow 160ms var(--ease-out-quint);
+  }
+  .btn-primary {
+    background: var(--color-jade-500);
+    color: var(--color-paper-raised);
+    box-shadow: 0 1px 0 var(--color-jade-700);
+  }
+  .btn-primary:hover {
+    background: var(--color-jade-600);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 0 var(--color-jade-700);
+  }
+  .btn-primary:active { transform: translateY(0); box-shadow: 0 1px 0 var(--color-jade-700); }
+
+  .btn-ghost {
+    border: 1px solid var(--color-rule-strong);
+    color: var(--color-ink);
+    background: var(--color-paper-raised);
+  }
+  .btn-ghost:hover { border-color: var(--color-jade-500); color: var(--color-jade-600); }
+
+  /* Contextual CTA that lives inside a story's "what to do about it". */
+  .inline-cta {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    /* Standalone CTA, never inline in a sentence, so WCAG 2.5.8 applies. */
+    min-height: 1.5rem;
+    font-weight: 600;
+    color: var(--color-jade-600);
+    text-decoration: underline;
+    text-decoration-color: var(--color-jade-200);
+    text-underline-offset: 0.2em;
+  }
+  .inline-cta:hover { text-decoration-color: var(--color-jade-500); }
+  .inline-cta::after {
+    content: '→';
+    font-family: var(--font-mono);
+    text-decoration: none;
+    transition: transform 160ms var(--ease-out-quint);
+    display: inline-block;
+  }
+  .inline-cta:hover::after { transform: translateX(2px); }
+
+  .rule-thick { border-top: 3px solid var(--color-ink); }
+  .rule-jade { border-top: 2px solid var(--color-jade-500); }
+}
+
+/* ---------------------------- utilities ---------------------------- */
+
+@layer utilities {
+  /* One orchestrated page-load reveal beats a dozen scattered ones. */
+  .reveal {
+    animation: reveal 620ms var(--ease-out-quint) both;
+  }
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  .tnum { font-variant-numeric: tabular-nums; }
+
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+  }
+  .skip-link:focus {
+    left: 0.5rem;
+    top: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--color-ink);
+    color: var(--color-paper);
+    border-radius: 3px;
+  }
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; padding-bottom: 0; }
+}
+
+@layer components {
+  /*
+    Datelines are 11px by design, which makes an anchor about 13px tall. WCAG
+    2.5.8 wants 24px of target. Negative margin absorbs the extra height so the
+    hit area grows without moving anything on the page.
+  */
+  .dateline-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.5rem;
+    padding-inline: 0.25rem;
+    margin-inline: -0.25rem;
+    text-decoration: none;
+  }
+
+  /* Same problem in the footer link columns, at 14px. */
+  .list-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.5rem;
+  }
+}

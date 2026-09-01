@@ -1,0 +1,27 @@
+---
+export interface Props {
+  text: string;
+  /** 'lede' sits at the top of the page, 'close' repeats it at the end. */
+  variant?: 'lede' | 'close';
+}
+const { text, variant = 'lede' } = Astro.props;
+---
+
+{
+  variant === 'lede' ? (
+    /*
+      Front-loaded summary. First substantive text in the DOM after the H1 —
+      AI extraction favours the top of the document, and this is the block we
+      want quoted (PRD §9).
+    */
+    <div class="measure border-y border-rule-strong py-5">
+      <p class="dateline mb-2">The bottom line</p>
+      <p class="font-display text-[1.3rem] leading-[1.35] sm:text-[1.5rem]">{text}</p>
+    </div>
+  ) : (
+    <div class="card-edge measure">
+      <p class="dateline mb-1.5">The bottom line</p>
+      <p class="font-display text-[1.2rem] leading-snug">{text}</p>
+    </div>
+  )
+}

@@ -1,0 +1,31 @@
+---
+export interface Props {
+  faq: { question: string; answer: string }[];
+  heading?: string;
+}
+const { faq, heading = 'Questions people are asking' } = Astro.props;
+---
+
+{/*
+  Rendered as plain headings and paragraphs rather than <details>, so the
+  answers are in the DOM as visible text. Collapsed content extracts badly for
+  both search and AI engines, and there are only a handful of items.
+  FAQPage schema is emitted separately in Seo.astro.
+*/}
+<section aria-labelledby="faq-h" class="mt-14">
+  <div class="rule-jade mb-5 border-t-2" />
+  <h2 id="faq-h" class="text-[1.5rem] sm:text-[1.75rem]">{heading}</h2>
+
+  <dl class="measure mt-6 space-y-6">
+    {
+      faq.map((item) => (
+        <div class="border-b border-rule pb-6 last:border-b-0">
+          <dt class="font-display text-[1.15rem] leading-snug font-semibold">
+            {item.question}
+          </dt>
+          <dd class="mt-2 leading-relaxed text-ink-muted">{item.answer}</dd>
+        </div>
+      ))
+    }
+  </dl>
+</section>

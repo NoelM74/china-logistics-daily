@@ -1,0 +1,22 @@
+---
+import { SITE } from '../data/site';
+---
+
+{/*
+  Sticky bottom bar, mobile only (PRD §7). Body carries matching bottom padding
+  in global.css so this never covers the footer. Hidden on print.
+*/}
+<div
+  class="no-print fixed inset-x-0 bottom-0 z-40 border-t border-rule bg-paper-raised/95 backdrop-blur-sm md:hidden"
+  style="padding-bottom: env(safe-area-inset-bottom);"
+>
+  <div class="flex items-center justify-between gap-3 px-4 py-2.5">
+    <p class="text-[0.8125rem] leading-tight font-semibold">
+      Shipping from China?
+      <span class="block font-normal text-ink-muted">Talk to a team that is there.</span>
+    </p>
+    <a href={SITE.parent.contact} class="btn btn-primary shrink-0 !px-4 !py-2.5 text-sm">
+      Talk to us
+    </a>
+  </div>
+</div>

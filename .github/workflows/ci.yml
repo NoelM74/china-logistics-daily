@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build, audit, check content
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Type check
+        run: npx astro check --minimumSeverity error
+
+      - name: Validator guard tests
+        run: npm test
+
+      - name: Validate committed briefings
+        run: npm run content:check
+
+      - name: Build
+        run: npm run build
+
+      - name: Audit build output
+        run: npm run audit
+
+  feeds:
+    name: Feed health
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Informational: a publisher going quiet should not block a deploy, but it
+    # should be visible in the run log before it starves the pipeline.
+    continue-on-error: true
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run feeds:verify

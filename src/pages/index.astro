@@ -1,0 +1,174 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BottomLine from '../components/BottomLine.astro';
+import BriefingCard from '../components/BriefingCard.astro';
+import Faq from '../components/Faq.astro';
+import TrustPanel from '../components/TrustPanel.astro';
+import { allBriefings, briefingTags } from '../data/briefings';
+import { SITE, href, formatDate, publishedISO, getTag } from '../data/site';
+
+const briefings = await allBriefings();
+const latest = briefings[0];
+const previous = briefings.slice(1, 7);
+---
+
+{
+  /*
+    Duplicate-content decision (PRD §6.2): the homepage runs a generous EXCERPT,
+    not the full briefing. The dated permalink owns the content outright, which
+    keeps every briefing's authority on its own canonical URL instead of
+    splitting it with a homepage that changes daily.
+
+    GEO is not sacrificed by this. The bottom line and every TL;DR — the blocks
+    written to be quoted — are all here, above the fold, in the first screen of
+    DOM. What is not here is the long-form body, which is the part that would
+    have been duplicated.
+
+    See DECISIONS.md.
+  */
+}
+
+<BaseLayout
+  title={latest ? `China Logistics Daily | ${formatDate(latest.data.date)}` : SITE.name}
+  description={latest?.data.metaDescription ?? SITE.description}
+  path="/"
+  latestDate={latest?.data.date}
+  ogImage={latest ? `/og/${latest.data.date}.png` : undefined}
+  faq={latest?.data.faq}
+>
+  <div class="wrap py-8 sm:py-12">
+    {/* What is this and why trust it — inside the first screen (PRD §9). */}
+    <section class="reveal">
+      <p class="dateline">
+        Published every morning at {SITE.publishHour} Irish time &middot; By {SITE.author.name},
+        18 years in China
+      </p>
+      <h1 class="mt-3 max-w-[20ch] text-[2.3rem] leading-[1.04] sm:text-[3.1rem] lg:text-[3.6rem]">
+        The China logistics briefing for people who actually ship.
+      </h1>
+      <p class="measure mt-5 text-[1.075rem] leading-relaxed text-ink-muted">
+        Freight rates, tariffs, port disruption, Amazon policy changes, customs rules. Read
+        every morning and filtered down to the handful of stories that change what an
+        ecommerce seller should do this week, written from inside a fulfilment operation in
+        Shenzhen rather than a desk in a media office.
+      </p>
+    </section>
+
+    {
+      latest ? (
+        <section aria-labelledby="today-h" class="mt-14">
+          <div class="rule-thick border-t-[3px]" />
+          <div class="mt-4 flex flex-wrap items-baseline justify-between gap-3">
+            <p class="dateline">
+              <span class="text-flag">Today</span>
+              <span aria-hidden="true"> &middot; </span>
+              <time datetime={publishedISO(latest.data.date)}>
+                {formatDate(latest.data.date)}
+              </time>
+              <span aria-hidden="true"> &middot; </span>
+              {latest.data.stories.length} stories
+            </p>
+            <a href={href(`/briefing/${latest.data.date}`)} class="inline-cta text-sm">
+              Read the full briefing
+            </a>
+          </div>
+
+          <h2 id="today-h" class="mt-3 text-[1.85rem] leading-[1.1] sm:text-[2.4rem]">
+            <a
+              href={href(`/briefing/${latest.data.date}`)}
+              class="no-underline transition-colors hover:text-jade-600"
+            >
+              {latest.data.title}
+            </a>
+          </h2>
+
+          <div class="mt-6">
+            <BottomLine text={latest.data.bottomLine} variant="lede" />
+          </div>
+
+          {/* Every story's headline and TL;DR. The quotable payload, in full. */}
+          <ol class="mt-10 space-y-8">
+            {latest.data.stories.map((story, i) => (
+              <li class="relative border-t border-rule pt-5">
+                <div class="flex items-baseline gap-3">
+                  <span class="dateline tnum shrink-0">{String(i + 1).padStart(2, '0')}</span>
+                  <div class="min-w-0">
+                    <h3 class="text-[1.25rem] leading-snug sm:text-[1.45rem]">
+                      <a
+                        href={`${href(`/briefing/${latest.data.date}`)}#story-${i + 1}`}
+                        class="no-underline transition-colors hover:text-jade-600"
+                      >
+                        {story.headline}
+                      </a>
+                    </h3>
+                    <p class="measure mt-2 leading-relaxed text-ink-muted">{story.tldr}</p>
+                    <ul class="mt-3 flex flex-wrap gap-1.5">
+                      {story.tags.slice(0, 3).map((slug) => {
+                        const t = getTag(slug);
+                        return t ? (
+                          <li>
+                            <a href={href(`/topics/${t.slug}`)} class="tag-pill">
+                              {t.label}
+                            </a>
+                          </li>
+                        ) : null;
+                      })}
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+
+          <div class="mt-10 flex flex-wrap items-center gap-3">
+            <a href={href(`/briefing/${latest.data.date}`)} class="btn btn-primary">
+              Read today's full briefing
+            </a>
+            <span class="dateline">
+              Why it matters, the hot takes, what to do, and {latest.data.contentHooks.length}{' '}
+              content hooks
+            </span>
+          </div>
+        </section>
+      ) : (
+        <section class="mt-14 border-2 border-ink bg-paper-raised p-8">
+          <h2 class="text-[1.5rem]">The first briefing goes out shortly.</h2>
+          <p class="measure mt-3 text-ink-muted">
+            The pipeline runs every morning at {SITE.publishHour} Irish time. Nothing has been
+            published yet.
+          </p>
+        </section>
+      )
+    }
+
+    {
+      previous.length > 0 && (
+        <section aria-labelledby="prev-h" class="mt-16">
+          <div class="rule-jade mb-1 border-t-2" />
+          <div class="mt-4 flex flex-wrap items-baseline justify-between gap-3">
+            <h2 id="prev-h" class="text-[1.35rem]">Previous briefings</h2>
+            <a href={href('/archive')} class="inline-cta text-sm">
+              Full archive
+            </a>
+          </div>
+          <div class="mt-3 grid gap-x-10 md:grid-cols-2">
+            {previous.map((b) => (
+              <BriefingCard
+                date={b.data.date}
+                title={b.data.title}
+                bottomLine={b.data.bottomLine}
+                storyCount={b.data.stories.length}
+                tags={briefingTags(b)}
+                compact
+              />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {latest && <Faq faq={latest.data.faq} heading="Questions people are asking today" />}
+
+    <TrustPanel />
+  </div>
+</BaseLayout>

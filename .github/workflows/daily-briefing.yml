@@ -1,0 +1,104 @@
+name: Daily briefing
+
+on:
+  schedule:
+    # 05:30 UTC = 06:30 Irish time in winter, 07:30 in summer. The pipeline
+    # takes a couple of minutes and Cloudflare Pages builds in about one, so
+    # the briefing is live comfortably before 07:00 either way.
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date to generate (YYYY-MM-DD). Blank = today in Europe/Dublin.'
+        required: false
+        type: string
+      force:
+        description: 'Overwrite an existing briefing for that date'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Generate and validate but do not commit'
+        required: false
+        type: boolean
+        default: false
+
+# Never let two runs commit to main at the same time.
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate and commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then ARGS="$ARGS --date=${{ inputs.date }}"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          echo "node scripts/generate-briefing.mjs $ARGS"
+          node scripts/generate-briefing.mjs $ARGS
+
+      # Belt and braces: the generator validates before writing, but this also
+      # catches a briefing edited by hand between runs.
+      - name: Validate all committed briefings
+        if: ${{ inputs.dry_run != true }}
+        run: npm run content:check
+
+      - name: Commit and push
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          if [ -z "$(git status --porcelain src/content/briefings)" ]; then
+            echo "No new briefing to commit."
+            exit 0
+          fi
+          git config user.name  "china-logistics-daily[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/content/briefings
+          DATE=$(git diff --cached --name-only | head -1 | xargs -n1 basename | sed 's/\.json$//')
+          git commit -m "Briefing ${DATE}"
+          # A push can race the human pushing to main; rebase and retry once.
+          git push || (git pull --rebase --autostash && git push)
+
+  # Runs on every push so a broken build or a failed audit is caught here
+  # rather than by Cloudflare Pages.
+  verify:
+    name: Build and audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: ${{ inputs.dry_run != true }}
+    needs: generate
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+      - run: npm run audit

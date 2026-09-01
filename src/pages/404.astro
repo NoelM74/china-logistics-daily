@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allBriefings } from '../data/briefings';
+import { href, TAGS } from '../data/site';
+
+const briefings = await allBriefings();
+const latest = briefings[0];
+---
+
+<BaseLayout
+  title="Page not found | China Logistics Daily"
+  description="That page does not exist. Today's briefing and the full archive are one click away."
+  path="/404"
+  latestDate={latest?.data.date}
+  noindex
+>
+  <div class="wrap py-16 sm:py-24">
+    <div class="measure">
+      <p class="dateline">Error 404</p>
+      <h1 class="mt-2 text-[2.1rem] leading-[1.06] sm:text-[2.8rem]">
+        That one is not on the manifest.
+      </h1>
+      <p class="mt-4 text-[1.075rem] leading-relaxed text-ink-muted">
+        The page you were after does not exist, or it moved. Nothing has been lost from the
+        archive, so if you had a briefing bookmarked it is still there under its date.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href={href('/')} class="btn btn-primary">Today's briefing</a>
+        <a href={href('/archive')} class="btn btn-ghost">Full archive</a>
+      </div>
+
+      <h2 class="dateline mt-12 mb-3 !text-ink">Or pick a topic</h2>
+      <ul class="flex flex-wrap gap-1.5">
+        {
+          TAGS.map((t) => (
+            <li>
+              <a href={href(`/topics/${t.slug}`)} class="tag-pill">
+                {t.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

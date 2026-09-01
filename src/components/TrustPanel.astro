@@ -1,0 +1,39 @@
+---
+import { SITE, href } from '../data/site';
+
+const facts = [
+  { k: '18 years', v: 'operating in China' },
+  { k: 'Shenzhen + Zhengzhou', v: 'own warehouse operations' },
+  { k: 'Irish-owned', v: 'you can ring us and get a person' },
+];
+---
+
+{/* End-of-briefing trust panel — PRD §10. One primary button, no pop-ups. */}
+<aside class="mt-16 border-2 border-ink bg-paper-raised p-6 sm:p-8">
+  <p class="dateline">Who writes this</p>
+  <h2 class="mt-2 text-[1.45rem] sm:text-[1.7rem]">
+    We are not a newsletter. We are a fulfilment operation that reads the news.
+  </h2>
+  <p class="measure mt-3 text-ink-muted">
+    China Fulfillment runs warehouses in Shenzhen and Zhengzhou for ecommerce brands
+    shipping worldwide. Everything on this site is written from inside the operation
+    by {SITE.author.name}, who has been doing this in China for 18 years. If a story
+    here affects your stock, we are the people who would move it.
+  </p>
+
+  <dl class="mt-6 grid gap-4 sm:grid-cols-3">
+    {
+      facts.map((f) => (
+        <div class="border-t border-rule-strong pt-3">
+          <dt class="font-display text-[1.05rem] font-semibold">{f.k}</dt>
+          <dd class="text-sm text-ink-muted">{f.v}</dd>
+        </div>
+      ))
+    }
+  </dl>
+
+  <div class="mt-7 flex flex-wrap items-center gap-3">
+    <a href={SITE.parent.contact} class="btn btn-primary">Get a quote</a>
+    <a href={href('/about')} class="btn btn-ghost">More about Noel</a>
+  </div>
+</aside>

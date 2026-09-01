@@ -1,0 +1,53 @@
+---
+import { href, formatDateShort, getTag } from '../data/site';
+
+export interface Props {
+  date: string;
+  title: string;
+  bottomLine: string;
+  storyCount: number;
+  tags: string[];
+  /** Compact form drops the summary — used in the "previous briefings" strip. */
+  compact?: boolean;
+  /**
+   * Heading level for the card title. Cards sitting directly under the page h1
+   * need h2; cards inside an h2 section need h3. Getting this wrong produces a
+   * heading-level skip, which is what /archive/ had.
+   */
+  level?: 2 | 3;
+}
+
+const { date, title, bottomLine, storyCount, tags, compact = false, level = 3 } = Astro.props;
+const Heading = `h${level}` as 'h2' | 'h3';
+const url = href(`/briefing/${date}`);
+const topTags = [...new Set(tags)].slice(0, 3);
+---
+
+<article
+  class="group border-t border-rule-strong py-5 transition-colors hover:border-jade-500"
+>
+  <p class="dateline tnum">
+    <time datetime={date}>{formatDateShort(date)}</time>
+    <span aria-hidden="true"> &middot; </span>
+    {storyCount} {storyCount === 1 ? 'story' : 'stories'}
+  </p>
+
+  <Heading class={compact ? 'mt-1.5 text-[1.1rem] leading-snug' : 'mt-2 text-[1.3rem] leading-snug'}>
+    <a href={url} class="no-underline transition-colors group-hover:text-jade-600">
+      {title}
+    </a>
+  </Heading>
+
+  {!compact && <p class="measure mt-2 text-[0.95rem] leading-relaxed text-ink-muted">{bottomLine}</p>}
+
+  {
+    topTags.length > 0 && (
+      <ul class="mt-3 flex flex-wrap gap-1.5">
+        {topTags.map((slug) => {
+          const t = getTag(slug);
+          return t ? <li class="tag-pill">{t.label}</li> : null;
+        })}
+      </ul>
+    )
+  }
+</article>

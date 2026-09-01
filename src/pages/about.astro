@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { allBriefings } from '../data/briefings';
+import { SITE, SERVICE_LINKS, href } from '../data/site';
+
+const briefings = await allBriefings();
+const latest = briefings[0];
+
+const faq = [
+  {
+    question: 'Who writes China Logistics Daily?',
+    answer:
+      'Noel Murphy, who has spent 18 years working in supply chains in China and runs China Fulfillment, a third-party logistics operation with warehouses in Shenzhen and Zhengzhou. The briefing is written from inside that operation rather than from a media desk.',
+  },
+  {
+    question: 'How is the briefing put together?',
+    answer:
+      'Every morning we read the logistics and trade press, pick the three to five stories that change what an ecommerce seller should do, and write them up: what happened, why it matters to you, an honest opinion, and the specific action to take. Every factual claim links back to the source it came from.',
+  },
+  {
+    question: 'Is this free, and what is the catch?',
+    answer:
+      'It is free and there is no paywall. The catch, such as it is: we run a fulfilment company, and if a story affects your stock we would like to be the ones who move it. We think that makes the analysis better rather than worse, because we are describing problems we deal with ourselves.',
+  },
+  {
+    question: 'What time is the briefing published?',
+    answer: `Every day at ${SITE.publishHour} Irish time, seven days a week. Dates on the site use the Europe/Dublin timezone.`,
+  },
+];
+---
+
+<BaseLayout
+  title="About | Who writes China Logistics Daily"
+  description="Noel Murphy has spent 18 years in China supply chains and runs China Fulfillment, with warehouses in Shenzhen and Zhengzhou. This is why he writes a daily briefing."
+  path="/about"
+  latestDate={latest?.data.date}
+  faq={faq}
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+  ]}
+>
+  <div class="wrap py-8 sm:py-12">
+    <nav aria-label="Breadcrumb" class="dateline mb-6">
+      <a href={href('/')} class="dateline-link">Home</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">About</span>
+    </nav>
+
+    <article class="reveal">
+      <header>
+        <p class="dateline">About</p>
+        <h1 class="mt-2 text-[2.1rem] leading-[1.06] sm:text-[2.9rem]">
+          Written by someone who has to live with the answer.
+        </h1>
+      </header>
+
+      <div class="mt-10 grid gap-10 lg:grid-cols-[15rem_1fr] lg:gap-14">
+        <div class="lg:sticky lg:top-28 lg:self-start">
+          {/*
+            PRE-LAUNCH: drop a real photograph at public/noel-murphy.jpg and
+            replace this block with an <img>. A real face is a material E-E-A-T
+            signal and this placeholder is not a substitute for one.
+            See README "Before DNS cutover".
+          */}
+          <div
+            class="flex aspect-[4/5] w-full max-w-[15rem] items-center justify-center border border-rule-strong bg-paper-sunk"
+          >
+            <span class="dateline px-4 text-center">Photograph<br />to be added</span>
+          </div>
+          <p class="mt-3 font-display text-[1.15rem] font-semibold">{SITE.author.name}</p>
+          <p class="dateline mt-1">{SITE.author.role}</p>
+          <ul class="mt-4 space-y-1.5 text-sm">
+            <li><a href={SITE.parent.url} class="list-link">china-fulfillment.com</a></li>
+            <li><a href={SITE.sister.url} class="list-link">eriusourcing.com</a></li>
+            <li><a href={SITE.parent.contact} class="list-link">Get in touch</a></li>
+          </ul>
+        </div>
+
+        <div class="prose-brief measure text-[1.075rem]">
+          <p>
+            I have been working in Chinese supply chains for 18 years. Most of that time has
+            been spent on the unglamorous end of it: standing in warehouses, arguing with
+            factories about carton dimensions, and explaining to sellers why their container
+            is sitting at a port instead of on a ship.
+          </p>
+          <p>
+            China Fulfillment is the company that came out of that. We run our own warehouse
+            operations in Shenzhen and Zhengzhou, and we handle fulfilment, FBA prep,
+            consolidation, freight and customs for ecommerce brands shipping worldwide. It is
+            Irish-owned, which mostly means you can ring us and get a person who will give you
+            a straight answer.
+          </p>
+
+          <h2 class="mt-10 text-[1.5rem]">Why a daily briefing</h2>
+          <p>
+            Because the news that actually changes what a seller should do is buried in trade
+            press written for freight professionals, and the ecommerce press covers it about a
+            fortnight late, if at all. A tariff rate changes, a de minimis threshold moves, a
+            carrier announces a surcharge, and the people it hits hardest find out when the
+            invoice arrives.
+          </p>
+          <p>
+            We read that press every day anyway. It is part of running the operation. Writing
+            it up costs us very little and it is genuinely useful to the people we work with,
+            so we publish it.
+          </p>
+          <p>
+            The format is fixed on purpose. Three to five stories, and for each one: what
+            happened, why it matters to you specifically, what I actually think, and what to do
+            about it. Then the content hooks, which are angles you are welcome to lift for your
+            own posts, and a short FAQ. It should take about the length of a coffee.
+          </p>
+
+          <h2 class="mt-10 text-[1.5rem]">How it is written</h2>
+          <p>
+            Every factual claim traces back to a source article, and every source is linked. If
+            two sources disagree, the briefing says so rather than picking the tidier version.
+            Numbers, quotations and dates are never invented. Where something is my opinion it
+            sits under "the hot take", labelled as such, so you can disagree with it without
+            having to work out which bits were facts.
+          </p>
+          <p>
+            The briefing is assembled with the help of automation, which is how it goes out at
+            07:00 seven days a week. The editorial rules, the sources, the tone and the
+            judgement calls about what matters are mine, and a briefing that fails our checks
+            does not publish. The alternative was publishing three times a week when I had the
+            time, which is a worse product.
+          </p>
+
+          <h2 class="mt-10 text-[1.5rem]">The commercial bit</h2>
+          <p>
+            This site exists partly because I want people who ship from China to know who we
+            are. If a story here affects your stock, we are the company that would move it.
+            There are links throughout to the relevant service pages, and I would rather be
+            upfront about that than pretend this is a public service.
+          </p>
+          <p>
+            There is no paywall, no pop-up, and no list you have to join to read it. If you
+            never buy anything from us, the briefing is still free and still accurate.
+          </p>
+        </div>
+      </div>
+
+      <section aria-labelledby="what-h" class="mt-16">
+        <div class="rule-jade mb-5 border-t-2" />
+        <h2 id="what-h" class="text-[1.5rem]">What China Fulfillment actually does</h2>
+        <ul class="mt-5 grid gap-x-10 gap-y-0 sm:grid-cols-2">
+          {
+            SERVICE_LINKS.map((s) => (
+              <li class="border-t border-rule py-3">
+                <a href={s.url} class="inline-cta text-[0.975rem]">
+                  {s.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section aria-labelledby="about-faq-h" class="mt-14">
+        <div class="rule-jade mb-5 border-t-2" />
+        <h2 id="about-faq-h" class="text-[1.5rem]">Common questions</h2>
+        <dl class="measure mt-6 space-y-6">
+          {
+            faq.map((item) => (
+              <div class="border-b border-rule pb-6 last:border-b-0">
+                <dt class="font-display text-[1.15rem] leading-snug font-semibold">
+                  {item.question}
+                </dt>
+                <dd class="mt-2 leading-relaxed text-ink-muted">{item.answer}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </section>
+
+      <div class="mt-12 flex flex-wrap gap-3">
+        <a href={SITE.parent.contact} class="btn btn-primary">Talk to us about your freight</a>
+        <a href={href('/')} class="btn btn-ghost">Read today's briefing</a>
+      </div>
+    </article>
+  </div>
+</BaseLayout>

@@ -1,0 +1,50 @@
+{
+  "_comment": "Feed list for the daily pipeline. Add or remove entries here; no code changes needed. A feed that fails is skipped and logged, never fatal. Verify with `npm run feeds:verify` before adding.",
+  "_topics": "logistics = trade/freight publication, China relevance must be explicit in the text. china = China publication, logistics relevance must be explicit. ecommerce = seller press, needs both signals.",
+  "_googleNews": "Google News query feeds were removed deliberately. Their item links are opaque redirectors that cannot be resolved without a JS browser, which breaks source citation, full-text extraction and the hallucination guard. See DECISIONS.md.",
+  "windowHours": 36,
+  "widenedWindowHours": 72,
+  "maxCandidates": 20,
+  "feeds": [
+    { "name": "The Loadstar", "url": "https://theloadstar.com/feed/", "topic": "logistics", "weight": 3 },
+    { "name": "The Maritime Executive", "url": "https://maritime-executive.com/articles.rss", "topic": "logistics", "weight": 2 },
+    { "name": "JOC / Journal of Commerce", "url": "https://www.joc.com/rss.xml", "topic": "logistics", "weight": 3 },
+    { "name": "FreightWaves", "url": "https://www.freightwaves.com/news/feed", "topic": "logistics", "weight": 2 },
+    { "name": "Splash247", "url": "https://splash247.com/feed/", "topic": "logistics", "weight": 2 },
+    { "name": "gCaptain", "url": "https://gcaptain.com/feed/", "topic": "logistics", "weight": 1 },
+    { "name": "Container News", "url": "https://container-news.com/feed/", "topic": "logistics", "weight": 3 },
+    { "name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/rss.xml", "topic": "logistics", "weight": 2 },
+    { "name": "Hellenic Shipping News", "url": "https://www.hellenicshippingnews.com/feed/", "topic": "logistics", "weight": 1 },
+    { "name": "Supply Chain Dive", "url": "https://www.supplychaindive.com/feeds/news/", "topic": "logistics", "weight": 2 },
+    { "name": "Supply Chain Brain", "url": "https://www.supplychainbrain.com/rss/articles", "topic": "logistics", "weight": 1 },
+    { "name": "Air Cargo Week", "url": "https://www.aircargoweek.com/feed/", "topic": "logistics", "weight": 2 },
+    { "name": "Air Cargo News", "url": "https://www.aircargonews.net/feed/", "topic": "logistics", "weight": 2 },
+    { "name": "STAT Times", "url": "https://www.stattimes.com/feed", "topic": "logistics", "weight": 1 },
+    { "name": "Logistics Manager", "url": "https://www.logisticsmanager.com/feed/", "topic": "logistics", "weight": 1 },
+    { "name": "Freightos Blog", "url": "https://www.freightos.com/feed/", "topic": "logistics", "weight": 2 },
+    { "name": "Xeneta", "url": "https://www.xeneta.com/blog/rss.xml", "topic": "logistics", "weight": 2 },
+
+    { "name": "SCMP Business", "url": "https://www.scmp.com/rss/92/feed", "topic": "china", "weight": 2 },
+    { "name": "SCMP China Economy", "url": "https://www.scmp.com/rss/318198/feed", "topic": "china", "weight": 3 },
+
+    { "name": "Retail Dive", "url": "https://www.retaildive.com/feeds/news/", "topic": "ecommerce", "weight": 1 },
+    { "name": "Modern Retail", "url": "https://www.modernretail.co/feed/", "topic": "ecommerce", "weight": 1 },
+    { "name": "Practical Ecommerce", "url": "https://www.practicalecommerce.com/feed", "topic": "ecommerce", "weight": 1 },
+    { "name": "Ecommerce News Europe", "url": "https://ecommercenews.eu/feed/", "topic": "ecommerce", "weight": 1 }
+  ],
+  "relevanceKeywords": {
+    "china": [
+      "china", "chinese", "shenzhen", "ningbo", "shanghai", "yiwu", "guangzhou", "zhengzhou",
+      "xiamen", "qingdao", "hong kong", "beijing", "shekou", "yantian", "tianjin", "dalian",
+      "asia-europe", "asia-us", "transpacific", "trans-pacific", "far east", "prc"
+    ],
+    "logistics": [
+      "freight", "shipping", "logistics", "container", "tariff", "duty", "duties", "customs",
+      "fulfilment", "fulfillment", "3pl", "warehouse", "port", "carrier", "air cargo",
+      "ocean", "sea freight", "rail", "de minimis", "import", "export", "supply chain",
+      "amazon", "fba", "ecommerce", "e-commerce", "cross-border", "parcel", "surcharge",
+      "shipper", "forwarder", "haulage", "incoterm", "clearance", "sourcing", "manufacturing",
+      "vessel", "teu", "blank sailing", "transit", "consignment", "trade", "cargo", "logistic"
+    ]
+  }
+}

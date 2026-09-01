@@ -1,0 +1,177 @@
+---
+import { SITE, absolute, clampDescription } from '../data/site';
+
+export type Breadcrumb = { name: string; path: string };
+export type FaqItem = { question: string; answer: string };
+
+export interface Props {
+  title: string;
+  description: string;
+  path: string;
+  /** Set for briefing pages. Drives NewsArticle. */
+  article?: {
+    headline: string;
+    datePublished: string;
+    dateModified?: string;
+    section?: string;
+    keywords?: string[];
+  };
+  faq?: FaqItem[];
+  breadcrumbs?: Breadcrumb[];
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description: rawDescription,
+  path,
+  article,
+  faq,
+  breadcrumbs = [],
+  ogImage,
+  noindex = false,
+} = Astro.props;
+
+const description = clampDescription(rawDescription);
+const canonical = absolute(path);
+const image = ogImage ? absolute(ogImage) : absolute('/og/default.png');
+
+// ---- Entity graph -------------------------------------------------------
+// One @graph, stable @ids, cross-referenced. This is what lets Google and the
+// AI crawlers resolve "Noel Murphy" and "China Fulfillment" to the same
+// entities across every page instead of treating each page as an island.
+const ORG_ID = `${SITE.url}/#organization`;
+const PERSON_ID = `${SITE.url}/about/#noel-murphy`;
+const SITE_ID = `${SITE.url}/#website`;
+
+const organization = {
+  '@type': 'Organization',
+  '@id': ORG_ID,
+  name: SITE.parent.name,
+  alternateName: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  logo: {
+    '@type': 'ImageObject',
+    '@id': `${SITE.url}/#logo`,
+    url: absolute('/og/default.png'),
+  },
+  sameAs: [SITE.parent.url, SITE.sister.url],
+};
+
+const person = {
+  '@type': 'Person',
+  '@id': PERSON_ID,
+  name: SITE.author.name,
+  jobTitle: SITE.author.role,
+  description: SITE.author.bio,
+  url: SITE.author.url,
+  worksFor: { '@id': ORG_ID },
+  sameAs: [SITE.parent.url, SITE.sister.url],
+};
+
+const website = {
+  '@type': 'WebSite',
+  '@id': SITE_ID,
+  url: SITE.url,
+  name: SITE.name,
+  description: SITE.description,
+  inLanguage: SITE.lang,
+  publisher: { '@id': ORG_ID },
+};
+
+const graph: Record<string, unknown>[] = [organization, person, website];
+
+if (article) {
+  graph.push({
+    '@type': 'NewsArticle',
+    '@id': `${canonical}#article`,
+    isPartOf: { '@id': SITE_ID },
+    // Google truncates past ~110 chars; keep the schema headline in range.
+    headline: article.headline.slice(0, 110),
+    description,
+    datePublished: article.datePublished,
+    dateModified: article.dateModified ?? article.datePublished,
+    author: { '@id': PERSON_ID },
+    publisher: { '@id': ORG_ID },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+    image: [image],
+    inLanguage: SITE.lang,
+    ...(article.section ? { articleSection: article.section } : {}),
+    ...(article.keywords?.length ? { keywords: article.keywords.join(', ') } : {}),
+  });
+}
+
+if (faq?.length) {
+  graph.push({
+    '@type': 'FAQPage',
+    '@id': `${canonical}#faq`,
+    isPartOf: { '@id': SITE_ID },
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  });
+}
+
+if (breadcrumbs.length) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    '@id': `${canonical}#breadcrumbs`,
+    itemListElement: breadcrumbs.map((b, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: b.name,
+      item: absolute(b.path),
+    })),
+  });
+}
+
+const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex,follow" />}
+{
+  !noindex && (
+    <meta
+      name="robots"
+      content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    />
+  )
+}
+
+<meta property="og:type" content={article ? 'article' : 'website'} />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={image} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content={SITE.locale} />
+{
+  article && (
+    <>
+      <meta property="article:published_time" content={article.datePublished} />
+      <meta
+        property="article:modified_time"
+        content={article.dateModified ?? article.datePublished}
+      />
+      <meta property="article:author" content={SITE.author.name} />
+    </>
+  )
+}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+<meta name="author" content={SITE.author.name} />
+
+<script type="application/ld+json" is:inline set:html={jsonLd} />

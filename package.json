@@ -1,0 +1,42 @@
+{
+  "name": "china-logistics-daily",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily China logistics & ecommerce fulfilment briefing — news.china-fulfillment.com",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prebuild": "node scripts/fetch-fonts.mjs && node scripts/generate-og.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "briefing": "node scripts/generate-briefing.mjs",
+    "briefing:dry": "node scripts/generate-briefing.mjs --dry-run",
+    "fonts": "node scripts/fetch-fonts.mjs",
+    "feeds:verify": "node scripts/verify-feeds.mjs",
+    "content:check": "node scripts/validate-content.mjs",
+    "og": "node scripts/generate-og.mjs",
+    "audit": "node scripts/audit-build.mjs",
+    "check:layout": "node scripts/check-layout.mjs",
+    "test": "node scripts/test-validator.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.16.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "@astrojs/check": "^0.9.10",
+    "@mozilla/readability": "^0.6.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "fast-xml-parser": "^5.2.5",
+    "jsdom": "^26.1.0",
+    "satori": "^0.18.3",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
+  }
+}

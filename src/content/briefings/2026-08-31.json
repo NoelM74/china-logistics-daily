@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-31",
+  "title": "China ports slip on Saudel as Cosco orders 18 more ships",
+  "metaDescription": "Typhoon Saudel is rolling cargo out of Chinese ports, Cosco commits $3bn to 18 newbuilds, and Brussels signals movement on the China talks by year end.",
+  "bottomLine": "Typhoon Saudel has put rolled cargo and skipped port calls back into the China trades, and yard density in north and east Asia is tightening behind it. Cosco has committed about $3bn to 18 new container ships, which does nothing for your Q4 but plenty for 2028 rates. Brussels is briefing that the four-track talks with Beijing could move by the end of the year.",
+  "stories": [
+    {
+      "headline": "Saudel puts rolled cargo and skipped calls back into the China trades",
+      "tldr": "Typhoon Saudel has triggered fresh transshipment, rolled cargo and skipped port calls in China, with yard density in north and east Asia tightening behind it.",
+      "whatHappened": "The Journal of Commerce reported on 31 August that shippers are seeing fresh disruption out of China as Typhoon Saudel closes key ports again. Sources cited by the publication describe growing instances of transshipment, rolled cargo and skipped port calls in the storm's wake.\n\nThe secondary problem is what happens after the wind drops. JOC reports that yard density at ports across north and east Asia is becoming a chokepoint in its own right, which is the pattern that turns a two-day closure into a two-week schedule problem.\n\nThis is the second time Saudel has forced closures. The system has now re-formed rather than dissipated, so the disruption is compounding on ports that had not fully recovered from the first pass.",
+      "whyItMatters": "A skipped call is not a delay you can plan around. Your box does not move to the next vessel automatically at the same rate, and if the carrier rolls you, you join a queue behind everyone else who was rolled. On a China to Europe booking that is typically one to two weeks, and it lands on cargo that was already tight for Q4.\n\nYard density is the part most sellers miss. When a terminal is full, gate-in windows shrink and your forwarder cannot deliver the container to the port even if the vessel is there. If your factory is ready and your haulier cannot get a slot, the cost sits with you.\n\nIf you are shipping for a Q4 launch or a Black Friday deadline, this is the week the arithmetic changes. Cargo that was comfortable on a 35-day transit is not comfortable on 45.",
+      "hotTake": "Nobody reprices a booking for weather until it is already too late. Treat any China sailing in the next fortnight as having a two-week tail risk and plan on that basis, because the yard congestion outlasts the typhoon by a fortnight every single time. If your Q4 stock is still sitting in a factory in Guangdong waiting on a consolidation, move it now and pay the premium.",
+      "actions": [
+        "Ring your forwarder today and ask specifically whether your booking has been rolled, not whether the vessel is sailing.",
+        "Pull any Q4 or Black Friday cargo forward by two weeks and rebook it, rather than holding for a cheaper rate that will not arrive.",
+        "Split high-priority SKUs onto air for the launch quantity and leave the replenishment on the water."
+      ],
+      "sourceUrl": "https://joc.com/article/shippers-see-fresh-disruption-from-china-as-new-typhoon-again-closes-key-ports-6278823",
+      "sourceName": "Journal of Commerce",
+      "tags": ["ports-congestion", "sea-freight", "peak-season", "air-freight"]
+    },
+    {
+      "headline": "Cosco puts $3bn into 18 new box ships as the orderbook keeps climbing",
+      "tldr": "Cosco Shipping has ordered 18 new container ships at a reported $3bn, adding to an orderbook that is already at record levels.",
+      "whatHappened": "Seatrade Maritime reported on 31 August that Cosco Shipping has committed around $3bn to 18 container ship newbuildings, expanding the Chinese owner's fleet.\n\nThe order lands against an industry backdrop of mounting box ship commitments. Seatrade separately reported a $666bn orderbook heading into the SMM 2026 trade fair, with China's shipbuilding position reshaping the contest for technology and industrial value among equipment suppliers.\n\nCosco is one of the largest operators on the China to Europe and transpacific lanes, so its capacity decisions feed directly into the trades most ecommerce sellers use.",
+      "whyItMatters": "Newbuild orders do not touch your rate this quarter. Ships ordered now deliver in 2028 and 2029. What they tell you is where the carriers think rates are going, and an order of this size says Cosco expects to fill those slots.\n\nFor you the read is on contract timing. A market heading into a delivery wave in 2028 is a market where multi-year contracts signed at today's levels look expensive later. If you are being pushed towards a long fixed-rate deal, that is the context.\n\nThe near-term effect runs the other way. Carriers servicing large newbuild programmes have capital commitments to fund, and that tends to make them firmer on rate discipline and quicker to blank sailings when demand softens. Cheap capacity is not arriving in time to help your Q4.",
+      "hotTake": "Every cycle, carriers order at the top and then spend three years complaining about overcapacity they created. Sign nothing longer than twelve months at current levels. If your forwarder is pitching a two-year fixed rate as protection, they are selling you the carrier's risk, not yours.",
+      "actions": [
+        "Keep any new ocean contract to twelve months or shorter while the orderbook sits at these levels.",
+        "Ask your forwarder for a written blank sailing policy on your lane before you commit volume."
+      ],
+      "sourceUrl": "https://seatrade-maritime.com/containers/cosco-shipping-splashes-out-3bn-on-container-ship-newbuilds",
+      "sourceName": "Seatrade Maritime",
+      "tags": ["sea-freight", "ports-congestion", "manufacturing", "peak-season"]
+    },
+    {
+      "headline": "Brussels signals the China trade talks could move before the year is out",
+      "tldr": "Former European Council president Charles Michel says he expects progress on the four-track EU-China talks by late October, November or year end.",
+      "whatHappened": "Charles Michel, who was president of the European Council from 2019 to 2024, told reporters at a media briefing in Shanghai on 31 August that both Brussels and Beijing are willing to find more common ground through negotiation.\n\nMichel said that on the EU side there is an expectation of progress by the end of October or November, or at least by the end of the year. He was referring to the consultation mechanism the two sides established in June, which covers four tracks including trade and investment and export controls.\n\nMichel no longer holds office, so this is a read on the mood rather than an official position from the Commission.",
+      "whyItMatters": "If you import into the EU from China, the export controls track is the one to watch rather than the headline trade one. Controls decide whether your supplier can ship a component at all, and they change with far less notice than a duty rate.\n\nThe trade and investment track matters for anyone whose products sit near an active trade defence measure. Movement there tends to arrive as a change to a specific product category rather than a broad announcement, which is why sellers miss it until an invoice looks wrong.\n\nTiming is the useful part here. A signal that something lands between late October and the end of December means the decisions land during your peak, when your stock is already committed. Model the downside now while you can still change an order.",
+      "hotTake": "Trade talks produce announcements far more reliably than they produce changed rates, and a former official briefing journalists in Shanghai is a mood signal rather than a policy one. Plan for nothing to change, and price the possibility that it does. The sellers who get caught are the ones who bet a Q4 margin on a negotiation concluding on schedule.",
+      "actions": [
+        "List the HS codes in your range that sit under an EU trade defence measure and set a reminder to recheck them in November.",
+        "Ask your supplier now whether any component in your product needs an export licence, and get the answer in writing."
+      ],
+      "sourceUrl": "https://scmp.com/economy/china-economy/article/3365867/former-top-european-official-adopts-bullish-tone-china-eu-trade-talks-deadline-nears",
+      "sourceName": "South China Morning Post",
+      "tags": ["customs-eu", "tariffs-duties", "regulation-china", "sourcing"]
+    }
+  ],
+  "contentHooks": [
+    "The typhoon is a two-day story. The yard congestion behind it is a two-week story, and nobody prices that one.",
+    "A skipped port call is not a delay. It is a queue you join at the back of.",
+    "Carriers order ships at the top of the cycle, then spend three years blaming overcapacity for the rates.",
+    "Cosco just told you where it thinks rates are going in 2028. It committed $3bn to the answer.",
+    "Any forwarder pitching you a two-year fixed rate right now is selling you the carrier's risk.",
+    "Your Q4 contingency should not be a rate. It should be a fortnight.",
+    "The export controls track of the EU-China talks will hit more sellers than the tariff track, and gets a fraction of the coverage.",
+    "Trade negotiations produce announcements on schedule far more reliably than they produce changed duty rates.",
+    "If your factory is ready and your haulier cannot get a gate slot, the terminal's problem has quietly become your cost.",
+    "Weather risk on the China lanes is now an annual line item, not an exception.",
+    "The cheapest insurance in Q4 is booking two weeks earlier than the spreadsheet says you need to."
+  ],
+  "faq": [
+    {
+      "question": "How long do typhoon delays at Chinese ports usually last?",
+      "answer": "The port closure itself is normally short, often one to three days. The knock-on effect runs much longer because vessels skip calls, containers get rolled to later sailings and terminal yards fill up. Journal of Commerce reported on 31 August 2026 that yard density across north and east Asia was becoming a chokepoint in its own right after Typhoon Saudel. Plan on one to two weeks of schedule slippage rather than the closure length."
+    },
+    {
+      "question": "What does it mean if my container gets rolled?",
+      "answer": "Your container was booked on a vessel but did not load, so the carrier moves it to a later sailing. You do not automatically keep your original rate or get priority on the next ship. Rolled cargo queues behind other rolled cargo, so a single roll on a busy lane often costs one to two weeks. Ask your forwarder to confirm loading, not just that the vessel sailed."
+    },
+    {
+      "question": "Should I sign a long-term ocean freight contract in 2026?",
+      "answer": "Be careful past twelve months. Carriers including Cosco are placing large newbuild orders, with Seatrade Maritime reporting an $3bn order for 18 ships on 31 August 2026 against a $666bn industry orderbook. Those ships deliver from 2028, which points to more capacity later. Locking multi-year rates at today's levels transfers that risk to you rather than the carrier."
+    },
+    {
+      "question": "Will the EU-China trade talks change my import duty?",
+      "answer": "Nothing has changed yet. Charles Michel, European Council president from 2019 to 2024, said on 31 August 2026 that he expects progress by late October, November or the end of the year across four negotiation tracks agreed in June. He no longer holds office, so treat it as a signal rather than policy. Price your Q4 on current duty rates and treat any change as upside."
+    }
+  ]
+}

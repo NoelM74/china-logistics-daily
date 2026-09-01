@@ -1,0 +1,139 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BriefingCard from '../../components/BriefingCard.astro';
+import { allBriefings, briefingTags, type Briefing } from '../../data/briefings';
+import { TAGS, href, type Tag } from '../../data/site';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const briefings = await allBriefings();
+  return TAGS.map((tag) => ({
+    params: { tag: tag.slug },
+    props: {
+      tag,
+      entries: briefings.filter((b) => briefingTags(b).includes(tag.slug)),
+      siblings: TAGS.filter((t) => t.slug !== tag.slug),
+    },
+  }));
+};
+
+interface Props {
+  tag: Tag;
+  entries: Briefing[];
+  siblings: Tag[];
+}
+
+const { tag, entries, siblings } = Astro.props;
+const latest = entries[0];
+
+// Stories carrying this tag, so the hub has substance even when the briefing
+// list is short. This is what makes a tag page worth indexing on day one.
+const stories = entries
+  .flatMap((b) => b.data.stories.filter((s) => s.tags.includes(tag.slug)).map((s) => ({ s, date: b.data.date })))
+  .slice(0, 8);
+---
+
+<BaseLayout
+  title={`${tag.label} | China logistics news`}
+  description={`${tag.blurb} Daily briefings on ${tag.label.toLowerCase()} for ecommerce sellers shipping from China.`}
+  path={`/topics/${tag.slug}`}
+  latestDate={latest?.data.date}
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Topics', path: '/topics' },
+    { name: tag.label, path: `/topics/${tag.slug}` },
+  ]}
+>
+  <div class="wrap py-8 sm:py-12">
+    <nav aria-label="Breadcrumb" class="dateline mb-6">
+      <a href={href('/')} class="dateline-link">Home</a>
+      <span aria-hidden="true"> / </span>
+      <a href={href('/topics')} class="dateline-link">Topics</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{tag.label}</span>
+    </nav>
+
+    <header class="reveal">
+      <p class="dateline">Topic hub</p>
+      <h1 class="mt-2 text-[2.1rem] leading-[1.06] sm:text-[2.8rem]">{tag.label}</h1>
+      <div class="measure mt-5 text-[1.05rem] leading-relaxed">
+        <p>{tag.intro}</p>
+      </div>
+      <p class="mt-5">
+        <a href={tag.cta.url} class="inline-cta">{tag.cta.label}</a>
+      </p>
+    </header>
+
+    {
+      stories.length > 0 && (
+        <section aria-labelledby="recent-h" class="mt-14">
+          <div class="rule-jade mb-5 border-t-2" />
+          <h2 id="recent-h" class="text-[1.5rem]">Recent {tag.label.toLowerCase()} stories</h2>
+          <ul class="mt-5 space-y-6">
+            {stories.map(({ s, date }) => (
+              <li class="border-b border-rule pb-6 last:border-b-0">
+                <p class="dateline">
+                  <time datetime={date}>{date}</time>
+                </p>
+                <h3 class="mt-1.5 text-[1.15rem] leading-snug">
+                  <a
+                    href={href(`/briefing/${date}`)}
+                    class="no-underline transition-colors hover:text-jade-600"
+                  >
+                    {s.headline}
+                  </a>
+                </h3>
+                <p class="measure mt-1.5 text-[0.95rem] leading-relaxed text-ink-muted">
+                  {s.tldr}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section aria-labelledby="briefings-h" class="mt-14">
+      <div class="rule-thick mb-1 border-t-[3px]" />
+      <h2 id="briefings-h" class="mt-4 text-[1.5rem]">
+        Briefings covering {tag.label.toLowerCase()}
+      </h2>
+      {
+        entries.length > 0 ? (
+          <div class="mt-4">
+            {entries.map((b) => (
+              <BriefingCard
+                date={b.data.date}
+                title={b.data.title}
+                bottomLine={b.data.bottomLine}
+                storyCount={b.data.stories.length}
+                tags={briefingTags(b)}
+              />
+            ))}
+            <div class="border-t border-rule-strong" />
+          </div>
+        ) : (
+          <p class="measure mt-4 text-ink-muted">
+            Nothing filed under this topic yet. It gets covered the day it matters. Try the
+            <a href={href('/archive')}>archive</a>, or come back tomorrow.
+          </p>
+        )
+      }
+    </section>
+
+    <section aria-labelledby="other-h" class="mt-14">
+      <h2 id="other-h" class="dateline !text-ink mb-3">Other topics</h2>
+      <ul class="flex flex-wrap gap-1.5">
+        {
+          siblings.map((t) => (
+            <li>
+              <a href={href(`/topics/${t.slug}`)} class="tag-pill">
+                {t.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import Seo from '../components/Seo.astro';
+import type { Props as SeoProps } from '../components/Seo.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileCta from '../components/MobileCta.astro';
+import { SITE } from '../data/site';
+
+export interface Props extends SeoProps {
+  /** Latest briefing date, shown in the masthead dateline. */
+  latestDate?: string;
+}
+
+const { latestDate, ...seo } = Astro.props;
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+
+    {/* Self-hosted variable fonts. Preloaded because they carry the masthead
+        and the first headline — the two things above the fold. */}
+    <link
+      rel="preload"
+      href="/fonts/Boska-Variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/Satoshi-Variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <meta name="theme-color" content="#01696F" />
+    <Seo {...seo} />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to the briefing</a>
+    <Header latestDate={latestDate} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <MobileCta />
+  </body>
+</html>

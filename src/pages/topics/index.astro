@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allBriefings, briefingTags } from '../../data/briefings';
+import { TAGS, href } from '../../data/site';
+
+const briefings = await allBriefings();
+const counts = new Map<string, number>();
+for (const b of briefings) {
+  for (const t of briefingTags(b)) counts.set(t, (counts.get(t) ?? 0) + 1);
+}
+const latest = briefings[0];
+---
+
+<BaseLayout
+  title="Topics | China logistics news by subject"
+  description="Every subject we cover: sea and air freight, tariffs and duties, EU, UK and US customs, Amazon FBA, de minimis, peak season, sourcing and more."
+  path="/topics"
+  latestDate={latest?.data.date}
+  breadcrumbs={[
+    { name: 'Home', path: '/' },
+    { name: 'Topics', path: '/topics' },
+  ]}
+>
+  <div class="wrap py-8 sm:py-12">
+    <nav aria-label="Breadcrumb" class="dateline mb-6">
+      <a href={href('/')} class="dateline-link">Home</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">Topics</span>
+    </nav>
+
+    <header class="reveal">
+      <h1 class="text-[2.1rem] leading-[1.06] sm:text-[2.8rem]">Topics</h1>
+      <p class="measure mt-4 text-[1.05rem] leading-relaxed text-ink-muted">
+        Every story we publish is filed under the parts of the supply chain it actually
+        touches. If you only care about what happens to your Amazon inbounds, or only about
+        duty on EU imports, start here rather than reading every briefing.
+      </p>
+    </header>
+
+    <ul class="mt-12 grid gap-x-10 gap-y-0 md:grid-cols-2">
+      {
+        TAGS.map((t) => {
+          const n = counts.get(t.slug) ?? 0;
+          return (
+            <li class="group border-t border-rule-strong py-5 transition-colors hover:border-jade-500">
+              <p class="dateline tnum">
+                {n} {n === 1 ? 'briefing' : 'briefings'}
+              </p>
+              <h2 class="mt-1.5 text-[1.25rem] leading-snug">
+                <a
+                  href={href(`/topics/${t.slug}`)}
+                  class="no-underline transition-colors group-hover:text-jade-600"
+                >
+                  {t.label}
+                </a>
+              </h2>
+              <p class="mt-1.5 text-[0.95rem] leading-relaxed text-ink-muted">{t.blurb}</p>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <div class="border-t border-rule-strong" />
+  </div>
+</BaseLayout>
