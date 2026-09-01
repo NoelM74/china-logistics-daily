@@ -1,98 +1,124 @@
 {
   "date": "2026-09-01",
-  "title": "Saudel threatens China airports as Shein slips on debut",
-  "metaDescription": "Typhoon Saudel has re-formed over eight Chinese airports including Shenzhen and Guangzhou, Shein drops 10% on its Hong Kong debut, and OOCL adds more capacity.",
-  "bottomLine": "Typhoon Saudel has re-formed over the South China Sea and eight airports across southern and eastern China are in its path, including Guangzhou Baiyun, Shenzhen Baoan and Hong Kong. No large-scale cancellations have been announced yet, which is the window you have. Shein fell as much as 10% on its Hong Kong debut after raising US$1.7 billion, and OOCL named its second 24,000 TEU methanol ship.",
+  "title": "China port delays hit 10 days as Suez return threatens 2027",
+  "metaDescription": "Shanghai and Ningbo berthing waits reach 10 days after typhoons. Suez return could cut global container demand 8.7% in H1 2027. Cosco orders 18 ships.",
+  "bottomLine": "Ships are waiting 10 days to berth at Shanghai and Ningbo after Typhoon Saudel and weeks of earlier storms pushed 3.92 million TEU into queues. That is 11% of the global container fleet sitting idle. If carriers keep moving back to Suez, global head-haul container demand will contract 8.7% year on year in the first half of 2027, even if underlying cargo volumes keep growing.",
   "stories": [
     {
-      "headline": "Eight Chinese airports sit in Saudel's path and air freight has not repriced yet",
-      "tldr": "Typhoon Saudel has re-formed over the South China Sea with eight major Chinese airports in its path, but no large-scale flight cancellations have been announced.",
-      "whatHappened": "The South China Morning Post reported on 1 September that eastern and southern China are bracing for heavy to torrential rain over three days as Typhoon Saudel re-forms over the South China Sea. Authorities have warned of floods, landslides and mudslides.\n\nCiting aviation data platform VariFlight, the paper listed the airports that could be affected: Guangzhou Baiyun, Shenzhen Baoan, Zhuhai Jinwan, Xiamen Gaoqi, Fuzhou Changle, Wenzhou Longwan, Ningbo Lishe and Hong Kong International.\n\nNo large-scale flight cancellations had been announced at the time of reporting. Travellers were posting on social media about the uncertainty around whether their flights would be affected by the storm's revival.",
-      "whyItMatters": "That airport list is most of the air freight capacity serving southern China ecommerce. Guangzhou, Shenzhen and Hong Kong between them handle the bulk of what leaves the Pearl River Delta by air, and Ningbo and Xiamen cover a large share of the eastern manufacturing base.\n\nThe absence of cancellations is the operationally useful fact here. Rates and capacity have not moved yet because the disruption has not happened. Once cancellations start, backlog clears at a premium and you are bidding against everyone whose sea freight was already rolled by the first pass of this same storm.\n\nIf you have air bookings in the next few days out of any of those eight airports, the decision is whether to fly earlier at today's rate or accept the risk. For a product where a stock-out costs more than the freight, that is not a close call.",
-      "hotTake": "Book it today. Air freight out of South China gets repriced within hours of the first cancellation wave, and the sellers who wait for confirmation end up paying the surcharge and taking the delay. This is the same storm that already rolled ocean cargo last week, so the people who lost boxes to Saudel once are about to compete with you for the same air capacity.",
+      "headline": "Shanghai and Ningbo berthing waits hit 10 days after typhoons",
+      "tldr": "Ships are waiting 10 days to berth at Shanghai and Ningbo, with 3.92 million TEU held in queues worldwide after Typhoon Saudel.",
+      "whatHappened": "Ships are now waiting 10 days to berth at Shanghai and Ningbo after Typhoon Saudel hit last week. The two ports handle more container volume than any others in the world. Linerlytica estimates the global logjam is holding up 3.92 million TEU, which is 11% of the global container shipping fleet. North Asia accounts for 54% of global port congestion, with around 2.5 million TEU of vessels waiting to berth.\n\nAPL Logistics said Saudel added to unprecedented levels of global port congestion following earlier typhoons including Bavi, Noul, Dolphin and Narra in recent weeks. Shanghai and Ningbo resumed operations on Friday, but APL Logistics warned that vessel bunching and accumulated backlogs would create continued congestion and schedule reliability challenges.\n\nFreight rates remain firm on the transpacific. Asia-Europe is the exception, with rates dropping for two straight months due to falling demand. Charter rates have stayed high as newbuilding deliveries fell to a three-year low of 64,640 TEU in August due to summer holidays and fewer containerships having been ordered in early 2023. Eighteen new charters were recorded last week, with many ships above 4,000 TEU fixed forward months earlier.",
+      "whyItMatters": "Your transit time just got longer and less predictable. A 10-day berthing wait adds two weeks to your Shanghai to Los Angeles lead time once you factor in the knock-on schedule slippage. If you have stock on the water right now with a planned arrival before mid-September, assume it will be late.\n\nCarriers are scrambling for charter tonnage to replace redelivered ships, which means they are paying more and passing it through. Spot rates on the transpacific have held firm despite Asia-Europe falling for two months. You are paying for that berthing delay whether you see it on the invoice or not. Charter rates feed into contract renewals in Q4, so this congestion is already baked into your 2027 pricing.\n\nIf you are booking space for Q4 peak season, carriers have less capacity to sell because 11% of the global fleet is sitting in queues. Vessel availability is tight. You either book early and pay the rate, or you book late and pay more. There is no spare capacity waiting in reserve.",
+      "hotTake": "The typhoon season is not over. Saudel is the sixth named storm to hit Chinese ports in recent weeks, and we are still in the window for more. Carriers cannot fix schedule reliability while the weather keeps resetting the queue. If you are planning a November shipment and you have not booked space, you are already behind.",
       "actions": [
-        "Move any air booking out of Guangzhou, Shenzhen, Hong Kong, Ningbo or Xiamen forward to the earliest available departure.",
-        "Ask your forwarder to confirm in writing whether your shipment is already at the airport or still with the supplier.",
-        "Check whether an alternative gateway outside the affected list works for the shipment before rates move."
+        "Pull forward any shipments planned for late September to account for the berthing delay and schedule slippage",
+        "Confirm your carrier's vessel schedule and berthing slot before you load the container, not after",
+        "Add two weeks to your transit time assumptions for any Shanghai or Ningbo shipments until the queue clears"
       ],
-      "sourceUrl": "https://scmp.com/news/china/politics/article/3365946/unprecedented-path-revived-typhoon-saudel-eyes-eastern-and-southern-china",
-      "sourceName": "South China Morning Post",
+      "sourceUrl": "https://theloadstar.com/berthing-delay-at-congested-shanghai-and-ningbo-now-hitting-10-days",
+      "sourceName": "The Loadstar",
       "tags": [
-        "air-freight",
+        "sea-freight",
         "ports-congestion",
-        "peak-season",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Suez return would cut global container demand 8.7% in H1 2027",
+      "tldr": "If all Asia-Europe services return to Suez by year-end, global head-haul container demand will contract 8.7% year on year in H1 2027.",
+      "whatHappened": "Sea-Intelligence modelled the demand impact of carriers returning to Suez Canal routing. Currently 19% of Asia-Europe capacity is transiting the canal, following moves by Maersk, Hapag-Lloyd and MSC. Maersk and Hapag-Lloyd have shifted two Gemini services between Asia and the Mediterranean back to Suez. Maersk also moved its Middle East to US east coast MECL and West Africa to Middle East WAF6 services to Suez routings. MSC announced the return of four services: Jade and Tiger on Asia-Med, Albatross on Asia-North Europe, and Himalaya on Indian subcontinent-Mediterranean. CMA CGM has returned selected sailings, along with smaller operators including Fesco and CU Lines.\n\nSea-Intelligence assumes underlying demand growth remains at the average of the past 12 months, which is 6.6% year on year. If the current 19% Suez shift is the only change, global head-haul TEU-mile demand growth would slow to 3.8% year on year in the first half of 2027. If 50% of services returned to Suez between August and December, demand would contract by 1.1%. If all head-haul services revert to Suez by the end of the year, global head-haul container demand would fall 8.7% year on year in the first half of 2027.\n\nSea-Intelligence argued that a full return is the most realistic scenario if Suez routing proves operationally safe. Carriers maintaining services around Africa would continue to pay higher costs for longer transit times. The analyst expects some Europe-Asia back-haul services to continue routing around Africa, both for cost reasons and to absorb capacity, but stressed that market strength would be determined by head-haul demand.",
+      "whyItMatters": "The Red Sea crisis generated a substantial increase in global container demand when measured in head-haul TEU-miles, which helped underpin the strong carrier market through 2024 and into 2026. Restoring shorter Suez routings reverses that effect. You are looking at negative demand growth in 2027 even if the underlying cargo volumes remain strong, purely because of shortening distances.\n\nCarriers will have excess capacity once they stop burning miles around Africa. That will push rates down, but the timing matters. If the Suez return happens gradually through Q4 2026, you will see softer rates in Q1 2027. If it happens fast, rates could drop in November or December. Either way, your 2027 contract negotiations will be shaped by this shift.\n\nYou also need to watch transit time. Suez routing cuts 10 days off the Asia-Europe round trip compared with routing around Africa. That frees up capacity and shortens lead times, but it also means you need less inventory in the pipeline. If you have been managing to a 45-day transit and it drops to 35, you have cash tied up in stock you do not need.",
+      "hotTake": "Carriers will return to Suez as fast as their insurance and their shareholders let them. The cost difference is too large to ignore. The question is whether the Houthi threat has genuinely receded or whether carriers are just tired of losing money. I would not bet my Q1 2027 forecast on a stable Suez, but I would plan for lower rates.",
+      "actions": [
+        "Model your 2027 freight budget with a 15% rate reduction on Asia-Europe lanes starting in Q1",
+        "Review your pipeline inventory levels if you ship Europe and adjust for a 10-day shorter transit time",
+        "Lock in any remaining 2026 shipments now before carriers start discounting to fill space in Q1"
+      ],
+      "sourceUrl": "https://theloadstar.com/full-asia-europe-return-to-suez-would-reverse-head-haul-demand-growth",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
         "fuel-surcharges"
       ]
     },
     {
-      "headline": "Shein falls 10% on its Hong Kong debut after a US$1.7bn raise",
-      "tldr": "Shein dropped as much as 10% on its Hong Kong trading debut, opening flat at HK$48.56 before falling to HK$43.72.",
-      "whatHappened": "Shein Global Holdings fell as much as 10% on its first day of trading in Hong Kong on 1 September, after raising HK$13.6 billion, around US$1.7 billion.\n\nThe shares opened flat at the offer price of HK$48.56 before dropping to HK$43.72. They recovered some ground to trade at HK$46.62 by the midday break.\n\nFounder Sky Xu Yangtian attended the listing ceremony but did not speak publicly. Chief financial officer Leigh Gui spoke for the company, calling the listing a new beginning.",
-      "whyItMatters": "Shein is the clearest public proxy for direct-from-China ecommerce economics. A market marking it down on day one is the market pricing the risk in that model, and the largest single component of that risk is the treatment of low-value parcels at customs.\n\nFor you the read-across is on pricing power. If the model that runs on the thinnest margins in the category is being valued cautiously, your own assumptions about competing on landed price into the US or EU deserve a second look.\n\nThere is an opportunity here too. Shein and Temu have spent years training buyers to expect direct-from-China delivery windows. If duty and clearance costs compress that model, the sellers holding stock closer to the customer, or shipping DDP with duty priced in properly, get a cleaner run at the same buyer.",
-      "hotTake": "A 10% first-day fall in a company that raised US$1.7 billion is the market saying it does not believe the growth story survives the customs regime. If your unit economics look anything like Shein's, that is a signal worth taking personally. The winners over the next two years will be the sellers who priced duty in a year before they had to, not the ones who kept betting on an exemption.",
+      "headline": "Cosco orders 18 ships, pushing global orderbook to record 14.84m TEU",
+      "tldr": "Cosco commissioned 18 ships worth $2.99 billion, bringing its orderbook to 1.89 million TEU and the global orderbook to a record 14.84 million TEU.",
+      "whatHappened": "Cosco Shipping commissioned a dozen 22,000 TEU LNG dual-fuelled ships from Shanghai Waigaoqiao Shipbuilding and six 3,200 TEU ships from CSSC Huangpu Wenchong Shipbuilding. The large ships, to be delivered between 2028 and 2030, are priced around $224 million each. The smaller vessels, to be built between 2028 and 2029, will cost $50.5 million each.\n\nIn April, Cosco ordered a dozen 13,600 TEU LNG dual-fuelled ships for $2.22 billion, for joint operations with affiliate OOCL, for delivery between Q3 2028 and Q1 2030. That followed a January commission for a dozen 18,000 TEU LNG dual-fuelled ships for $2.4 billion with similar delivery dates. Linerlytica's figures show Cosco's orderbook now at 1.89 million TEU, the largest behind MSC's 3 million TEU pipeline, exceeding CMA CGM's orders for 1.69 million TEU.\n\nCosco's owned fleet is now 2.78 million TEU, which could rise to 4.47 million TEU once all newbuildings are delivered. That would propel it to third place in the liner capacity rankings, displacing Maersk. Maersk's owned fleet totals 3.03 million TEU, and its orderbook is modest at 867,466 TEU. Assuming Maersk does not embark on a similar spending spree, its fleet could stand at 3.9 million TEU once all its newbuildings are delivered. Linerlytica said Cosco's latest orders bring the global orderbook to a new record high of 14.84 million TEU, representing 43.1% of the current fleet.",
+      "whyItMatters": "Cosco is building to compete with MSC and CMA CGM in the top three carrier rankings, and it is doing it with large ships and LNG fuel. That has two consequences for you. First, more capacity coming online between 2028 and 2030 means lower rates in those years, assuming demand does not absorb it. Second, Cosco is betting on LNG as the fuel of the future, which means it expects carbon-related surcharges to be material enough to justify the capital cost.\n\nThe global orderbook is now 43.1% of the current fleet. That is the highest on record. Deliveries are concentrated in 2028 to 2030, so you have two years of tight capacity followed by a flood of new tonnage. If you are negotiating multi-year contracts, lock in 2027 rates now and renegotiate in 2028 when the newbuilds arrive.\n\nCosco's move to third place means you have one more carrier with global scale to negotiate with. That is good for competition, but only if Cosco prices to fill ships rather than to follow MSC and Maersk. Watch how Cosco prices its Asia-Europe contracts in Q4 2026. If it undercuts to gain share, you benefit. If it follows the market, you do not.",
+      "hotTake": "Cosco is betting $2.99 billion that demand will absorb 1.89 million TEU of new capacity by 2030. That is either visionary or reckless, depending on whether global trade grows or contracts in the next four years. I would not bet against Chinese state-owned enterprises getting the capital allocation wrong, but I would bet on them keeping the ships full by cutting rates.",
       "actions": [
-        "Rebuild your landed cost model with duty and clearance included on every unit, not as an exception.",
-        "Compare direct-from-China against holding a forward stock position for your top five SKUs by volume."
+        "Negotiate 2027 contracts now before the market absorbs the Suez return and the Shanghai queue clears",
+        "Plan for softer rates in 2028 to 2030 when Cosco's newbuilds hit the water",
+        "Include Cosco in your carrier tender if you are not already using them, because they will need to fill 1.89 million TEU"
       ],
-      "sourceUrl": "https://scmp.com/business/banking-finance/article/3365886/shein-shares-plunge-28-grey-market-ahead-hong-kong-debut",
-      "sourceName": "South China Morning Post",
-      "tags": [
-        "ecommerce-platforms",
-        "de-minimis",
-        "tariffs-duties",
-        "customs-us",
-        "customs-eu"
-      ]
-    },
-    {
-      "headline": "OOCL names its second 24,000 TEU methanol ship as the green fleet builds out",
-      "tldr": "OOCL has named OOCL Grace, the second of seven 24,000 TEU methanol dual-fuel container ships being built in China.",
-      "whatHappened": "Container News reported on 1 September that OOCL has named OOCL Grace, its second 24,000 TEU methanol dual-fuel container ship. The naming ceremony took place at the Nantong COSCO KHI Ship Engineering shipyard in China.\n\nOOCL Grace is the second of seven vessels of this class being built for OOCL at that yard. The first, OOCL Wisdom, was named in May 2026, completed its first green methanol bunkering in July, and then began its maiden voyage to Europe.\n\nSeparately, Container News reported that Höegh Autoliners has ordered six more Aurora class dual-fuel vessels, taking that programme to 18 ships, all built by China Merchants Heavy Industry in Jiangsu.",
-      "whyItMatters": "Ships this size only work on the highest-volume lanes, which means Asia to Europe. Seven of them entering that trade over the next few years is meaningful capacity on the route most European and Irish sellers use.\n\nThe fuel side is where this reaches your invoice. Methanol dual-fuel tonnage exists partly to meet emissions rules, and the cost of compliance arrives on your bill as an environmental or emissions surcharge. Carriers running newer, cleaner tonnage have a stronger case for charging it and a better story for keeping it.\n\nThe practical point is that these surcharges are becoming a standing line rather than a temporary one. If you are comparing quotes on base rate alone, you are comparing the wrong number.",
-      "hotTake": "Green tonnage is arriving whether or not shippers asked for it, and the cost is going onto your invoice as a surcharge you cannot negotiate away. Ask for all-in numbers on every quote from now on. A carrier that will not give you a landed all-in rate is telling you something about where the surcharges are going.",
-      "actions": [
-        "Ask every forwarder for an all-in rate including emissions and fuel surcharges, not a base rate.",
-        "Audit your last three freight invoices against the quotes you accepted and query anything you cannot identify."
-      ],
-      "sourceUrl": "https://container-news.com/oocl-names-second-24000-teu-methanol-dual-fuel-containership",
-      "sourceName": "Container News",
+      "sourceUrl": "https://theloadstar.com/ambitious-coscos-spending-spree-takes-box-ship-orderbook-to-new-high",
+      "sourceName": "The Loadstar",
       "tags": [
         "sea-freight",
         "fuel-surcharges",
-        "manufacturing",
-        "ports-congestion"
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Asia-Europe air freighter capacity up 18% despite ecommerce slump",
+      "tldr": "Freighter capacity from Asia Pacific to Europe rose 18% in the week of 17-23 August compared with late June, despite a steep fall in Chinese ecommerce traffic.",
+      "whatHappened": "Freighter capacity from Asia Pacific to Europe has increased sharply since the EU introduced its new low-value import rules on 1 July. Rotate data show dedicated freighter capacity from Asia Pacific to Europe 18% higher in the week of 17-23 August than 22-28 June, the final full week before the new rules took effect. That compares with an increase of just 2% in the prior period, according to The Loadstar.\n\nThe increase in freighter capacity has occurred despite a steep fall in Chinese ecommerce traffic into Europe following the EU's elimination of the low-value import exemption. The new rules require customs declarations and VAT payment on all imports, regardless of value, which has reduced the volume of small parcels shipped by air from China to Europe.",
+      "whyItMatters": "Air freighter capacity is rising while ecommerce volumes are falling, which means carriers are betting on non-ecommerce cargo to fill the planes. That cargo is your stock. If you ship air freight to Europe, you have more capacity available now than you did in June, which should push rates down. But rates have not moved yet, which means carriers are either holding the line or demand from other sectors is absorbing the freed-up capacity.\n\nThe EU's low-value import rule change has killed the ecommerce air freight model for small parcels, but it has not killed demand for air freight. Carriers are redeploying that capacity to higher-value cargo, which includes your stock if you ship samples, tooling, or fast-moving SKUs by air. You have pricing power right now if you are willing to negotiate.\n\nIf you were using an ecommerce platform that relied on the low-value exemption to ship air freight to Europe, that model is dead. You either absorb the VAT and customs cost, or you switch to sea freight and add lead time. The capacity freed up by ecommerce parcels means you have more air freight options if you need them, but you need to negotiate the rate.",
+      "hotTake": "Carriers added 18% more freighter capacity in six weeks, which means they saw this coming and positioned for it. They are not dumb. They will fill those planes with non-ecommerce cargo, and if you are shipping air freight to Europe, you should be demanding a better rate because the capacity is there.",
+      "actions": [
+        "Renegotiate your Asia-Europe air freight rates if you have not already, because capacity is up 18%",
+        "Switch from ecommerce air parcel services to traditional air freight if you ship samples or fast-moving SKUs to Europe",
+        "Model the VAT and customs cost for any remaining low-value shipments and decide whether air freight still makes sense"
+      ],
+      "sourceUrl": "https://theloadstar.com/asia-europe-air-freighter-capacity-increases-despite-ecommerce-slump",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "customs-eu",
+        "de-minimis",
+        "ecommerce-platforms"
       ]
     }
   ],
   "contentHooks": [
-    "Eight Chinese airports are in a typhoon's path and air freight rates have not moved yet. That gap is your window.",
-    "Air freight out of South China reprices within hours of the first cancellation wave, not after it clears.",
-    "The sellers who lost ocean boxes to Saudel last week are about to bid against you for air capacity this week.",
-    "Shein raised US$1.7 billion and fell 10% on day one. That is the market pricing customs risk, not retail risk.",
-    "If your unit economics look like Shein's, a 10% first-day fall is a message addressed to you.",
-    "Every quote you accept on base rate alone is a quote you have not actually compared.",
-    "Emissions surcharges are becoming a standing line on your freight invoice, not a temporary one.",
-    "Seven 24,000 TEU ships are being built for one lane. Guess which lane your stock uses.",
-    "The sellers who priced duty in a year early are about to look clever rather than cautious.",
-    "Ask your forwarder whether your cargo is at the airport or still at the factory. Those are different problems.",
-    "A carrier that will not quote you an all-in rate is telling you where the surcharges are heading."
+    "Shanghai and Ningbo are holding 11% of the global container fleet in berthing queues, and your Q4 shipment is in that mess.",
+    "Carriers are returning to Suez, which will cut global container demand 8.7% in H1 2027 even if cargo volumes stay strong.",
+    "Cosco just ordered 18 ships worth $2.99 billion, pushing the global orderbook to 43.1% of the current fleet.",
+    "Air freighter capacity to Europe is up 18% since July despite ecommerce volumes collapsing after the EU killed the low-value exemption.",
+    "The typhoon season is not over, and Saudel is the sixth storm to hit Chinese ports in recent weeks.",
+    "Your 2027 freight budget should assume a 15% rate reduction on Asia-Europe lanes once the Suez return completes.",
+    "Cosco is building to displace Maersk in the top three carrier rankings, and it needs to fill 1.89 million TEU by 2030.",
+    "The 10-day berthing wait at Shanghai adds two weeks to your lead time once you factor in schedule slippage.",
+    "Carriers are holding Asia-Europe air freight rates steady despite adding 18% more capacity, which means you have pricing power.",
+    "The global orderbook is at a record high, which means tight capacity in 2027 and a flood of new tonnage in 2028 to 2030.",
+    "If you are negotiating multi-year contracts, lock in 2027 rates now and renegotiate in 2028 when the newbuilds arrive.",
+    "The EU's low-value import rule killed the ecommerce air parcel model, but it freed up capacity for your stock."
   ],
   "faq": [
     {
-      "question": "Which Chinese airports are affected by Typhoon Saudel?",
-      "answer": "According to aviation data platform VariFlight, reported by the South China Morning Post on 1 September 2026, the airports that could be affected are Guangzhou Baiyun, Shenzhen Baoan, Zhuhai Jinwan, Xiamen Gaoqi, Fuzhou Changle, Wenzhou Longwan, Ningbo Lishe and Hong Kong International. No large-scale cancellations had been announced at the time of reporting, though heavy to torrential rain was forecast over three days."
+      "question": "How long are ships waiting to berth at Shanghai and Ningbo right now?",
+      "answer": "Ships are waiting 10 days to berth at Shanghai and Ningbo as of 1 September 2026. Typhoon Saudel hit last week and added to congestion from earlier typhoons. The ports resumed operations on Friday, but vessel bunching and backlogs mean the queue will take weeks to clear. Linerlytica estimates 3.92 million TEU are waiting worldwide, 11% of the global fleet. Add two weeks to your transit assumptions."
     },
     {
-      "question": "Should I book air freight from China before a typhoon hits?",
-      "answer": "If your shipment is time-critical, yes. Rates and capacity move once cancellations begin, not before, so booking ahead of the disruption usually costs less than clearing a backlog afterwards. The comparison to run is the cost of the earlier booking against the cost of a stock-out. For most sellers with a launch date or a peak season deadline, the earlier booking wins."
+      "question": "Will ocean freight rates drop in 2027 if carriers return to Suez?",
+      "answer": "Rates will drop if carriers return to Suez, but timing depends on how fast it happens. Sea-Intelligence modelled three scenarios. If only 19% of Asia-Europe services use Suez, global head-haul demand growth slows to 3.8% in H1 2027. If all services return, demand contracts 8.7%. Suez routing cuts 10 days off the round trip, freeing capacity and pushing rates down. Model a 15% reduction starting Q1 2027."
     },
     {
-      "question": "What does Shein's share price fall mean for small ecommerce sellers?",
-      "answer": "Shein fell as much as 10% on its Hong Kong debut on 1 September 2026 after raising US$1.7 billion. Investors are pricing risk in the direct-from-China model, much of which relates to how low-value parcels are treated at customs. If you compete on landed price into the US or EU, rebuild your model with duty and clearance included on every unit rather than treating exemptions as permanent."
+      "question": "Why is air freighter capacity to Europe increasing if ecommerce volumes are falling?",
+      "answer": "Carriers are redeploying capacity from ecommerce parcels to higher-value cargo. The EU eliminated the low-value import exemption on 1 July, killing the air freight model for small parcels. Freighter capacity from Asia Pacific to Europe rose 18% in the week of 17-23 August compared with late June. Carriers are filling planes with non-ecommerce cargo including samples and fast-moving SKUs. Renegotiate if you ship air freight to Europe."
     },
     {
-      "question": "What is a methanol dual-fuel container ship and why does it matter to me?",
-      "answer": "It is a vessel that can run on green methanol as well as conventional fuel, which helps carriers meet emissions rules. OOCL named its second such 24,000 TEU ship on 1 September 2026, one of seven being built in China. The cost of cleaner tonnage reaches shippers as an emissions or environmental surcharge, so compare all-in freight quotes rather than base rates."
+      "question": "How will Cosco's new ship orders affect freight rates?",
+      "answer": "Cosco's 18 new ships will add 1.89 million TEU between 2028 and 2030, pushing rates down unless demand absorbs it. The global orderbook hit a record 14.84 million TEU, 43.1% of the current fleet. Deliveries are concentrated in 2028 to 2030, so you have two years of tight capacity followed by a flood of new tonnage. Lock in 2027 rates now and renegotiate in 2028 when newbuilds arrive."
+    },
+    {
+      "question": "Should I book Q4 peak season shipments now or wait for rates to drop?",
+      "answer": "Book now. Vessel availability is tight because 11% of the global fleet is in berthing queues. Carriers have less capacity to sell, and charter rates are high as newbuilding deliveries fell to a three-year low in August. You either book early and pay the rate, or book late and pay more. The typhoon season is not over. If you are planning a November shipment and have not booked, you are already behind."
     }
-  ]
+  ],
+  "generatedAt": "2026-09-01T14:02:46.894Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
 }
