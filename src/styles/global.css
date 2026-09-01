@@ -46,7 +46,7 @@
   --text-dateline--line-height: 1.2;
 
   --spacing-gutter: 1.25rem;
-  --spacing-measure: 42rem; /* ~72ch at our body size */
+  --spacing-measure: 40rem; /* measured at ~71 characters at 18px */
 
   --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -89,8 +89,9 @@
   html {
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
-    /* Nothing should hide under the sticky masthead when jumped to. */
-    scroll-padding-top: 5.5rem;
+    /* Nothing should hide under the sticky masthead when jumped to. The
+       masthead measures 94px, so this keeps 10px of clearance. */
+    scroll-padding-top: 6.5rem;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -107,7 +108,7 @@
     background-image: var(--grain);
     color: var(--color-ink);
     font-family: var(--font-sans);
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     line-height: 1.65;
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
@@ -189,6 +190,21 @@
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--color-ink-faint);
+  }
+
+  /*
+    Section signposts inside a briefing: "What happened", "Why it matters to
+    you". These were sharing the 11px metadata style, which reads as a caption
+    rather than a heading. Bigger, heavier, full ink.
+  */
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-ink);
   }
 
   /* Body copy inside a briefing. Applied to a wrapper, not per-element,

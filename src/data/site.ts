@@ -20,10 +20,20 @@ export const SITE = {
   sister: { name: 'Ériu Sourcing', url: 'https://eriusourcing.com/' },
   author: {
     name: 'Noel Murphy',
+    // The name he trades under in China. Goes into Person.alternateName so the
+    // two forms resolve to one entity.
+    alternateName: 'Noel Murphy 墨菲',
     role: 'Founder, China Fulfillment',
     // Kept short because it is embedded in Person schema on every page.
     bio: '18 years operating supply chains in China. Runs fulfilment out of Shenzhen and Zhengzhou for ecommerce brands shipping worldwide.',
     url: 'https://news.china-fulfillment.com/about/',
+    // Canonical www host rather than the cn. regional mirror: same profile,
+    // but this is the form Google matches on for sameAs, and the audience is
+    // Irish, UK and EU.
+    linkedin: 'https://www.linkedin.com/in/noel-murphy-chinafulfillment',
+    // Drop a JPEG here and the about page and Person schema pick it up
+    // automatically. See src/pages/about.astro.
+    photo: '/noel-murphy.jpg',
   },
 } as const;
 

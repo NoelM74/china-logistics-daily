@@ -168,14 +168,12 @@ Or trigger **Actions → Daily briefing → Run workflow** once the secret is se
 
 ## Before DNS cutover
 
-- [ ] **Add a photograph of Noel** at `public/noel-murphy.jpg` and swap the
-      placeholder in `src/pages/about.astro`. A real face is a material E-E-A-T
-      signal and the `/about/` page is the entity anchor for the whole site.
+- [ ] **Add a photograph of Noel** at `public/noel-murphy.jpg` (`.png`/`.webp`
+      also work). No code change needed: the about page swaps its placeholder
+      automatically and Person schema gains an `image`. A real face is a
+      material E-E-A-T signal and `/about/` is the entity anchor for the site.
 - [ ] Confirm the `/about/` bio is accurate. It was written from the PRD, and
       nothing in it should go live unverified.
-- [ ] Add the LinkedIn profile URL to `SITE.author` in `src/data/site.ts` and to
-      the Person `sameAs` array. PRD §9 wants one coherent entity graph and the
-      profile is currently missing from it.
 - [ ] Run `npm run briefing` for a third seed day.
 - [ ] Verify `ANTHROPIC_API_KEY` is set, then run the workflow manually once and
       watch it commit and deploy.
@@ -206,6 +204,24 @@ writes a job summary.
 Everything user-facing is Europe/Dublin. The `date` field is today in Dublin, and
 `publishedISO()` stamps 07:00 Dublin time with the correct DST offset. The cron
 is UTC because GitHub Actions only speaks UTC.
+
+## Typography and colour
+
+Chosen for reading, and measured rather than assumed:
+
+| | Value | Why |
+|---|---|---|
+| Body | Satoshi 18px / 1.65 | 18px reads better on a phone than the 17px it started at |
+| Line length | 64 characters desktop, 43 mobile | 40rem measure; the comfortable band is 45 to 75 |
+| Headlines | Boska 26px mobile, 34px desktop | High-contrast serif carries the editorial voice |
+| Section labels | 12px mono, weight 600, full ink | Signposts inside a story, so they are heading-sized not caption-sized |
+| Body contrast | 16.4:1 | AAA |
+| Metadata contrast | 4.9:1 | AA, verified from rendered pixels |
+| Tap targets | 24px minimum | WCAG 2.5.8 |
+
+Only two webfonts load, both self-hosted variable woff2 (88kB combined) with
+`font-display: swap`. Datelines and labels use the system monospace stack, so
+they cost nothing. Verify any change with `npm run check:layout`.
 
 ## Conventions
 

@@ -15,12 +15,12 @@ const { text, variant = 'lede' } = Astro.props;
       want quoted (PRD §9).
     */
     <div class="measure border-y border-rule-strong py-5">
-      <p class="dateline mb-2">The bottom line</p>
+      <p class="section-label mb-2.5">The bottom line</p>
       <p class="font-display text-[1.3rem] leading-[1.35] sm:text-[1.5rem]">{text}</p>
     </div>
   ) : (
     <div class="card-edge measure">
-      <p class="dateline mb-1.5">The bottom line</p>
+      <p class="section-label mb-2">The bottom line</p>
       <p class="font-display text-[1.2rem] leading-snug">{text}</p>
     </div>
   )

@@ -24,7 +24,7 @@ const { hooks } = Astro.props;
       hooks.map((hook, i) => (
         <li class="flex gap-3 border-b border-rule pb-3">
           <span class="dateline tnum mt-[0.35em] shrink-0">{String(i + 1).padStart(2, '0')}</span>
-          <span class="text-[0.975rem] leading-relaxed">{hook}</span>
+          <span class="text-base leading-relaxed">{hook}</span>
         </li>
       ))
     }

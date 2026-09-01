@@ -27,8 +27,9 @@ source, an explanation of the consequence for sellers, an opinion section, and
 concrete recommended actions.
 
 Published by ${SITE.parent.name}, a third-party logistics company with warehouse
-operations in Shenzhen and Zhengzhou, China. Written by ${SITE.author.name}, who has
-18 years of experience operating supply chains in China.
+operations in Shenzhen and Zhengzhou, China. Written by ${SITE.author.name}
+(${SITE.author.alternateName}), who has 18 years of experience operating supply
+chains in China. LinkedIn: ${SITE.author.linkedin}
 
 ## How to cite this site
 

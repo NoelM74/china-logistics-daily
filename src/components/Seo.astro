@@ -1,5 +1,6 @@
 ---
 import { SITE, absolute, clampDescription } from '../data/site';
+import { hasAuthorPhoto, authorPhotoPath } from '../data/author-photo';
 
 export type Breadcrumb = { name: string; path: string };
 export type FaqItem = { question: string; answer: string };
@@ -64,11 +65,17 @@ const person = {
   '@type': 'Person',
   '@id': PERSON_ID,
   name: SITE.author.name,
+  alternateName: SITE.author.alternateName,
   jobTitle: SITE.author.role,
   description: SITE.author.bio,
   url: SITE.author.url,
   worksFor: { '@id': ORG_ID },
-  sameAs: [SITE.parent.url, SITE.sister.url],
+  // LinkedIn is the strongest third-party corroboration of this entity, so it
+  // belongs on every page rather than only on /about/.
+  sameAs: [SITE.parent.url, SITE.sister.url, SITE.author.linkedin],
+  ...(hasAuthorPhoto
+    ? { image: { '@type': 'ImageObject', url: absolute(authorPhotoPath) } }
+    : {}),
 };
 
 const website = {

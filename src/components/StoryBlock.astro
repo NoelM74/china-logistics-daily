@@ -35,14 +35,14 @@ const slugId = `story-${index + 1}`;
     engine. Kept as one sentence, marked up so extraction is unambiguous.
   */}
   <div class="card-edge measure my-5">
-    <p class="dateline mb-1.5">The short version</p>
+    <p class="section-label mb-2">The short version</p>
     <p class="font-display text-[1.15rem] leading-snug font-medium sm:text-[1.25rem]">
       {story.tldr}
     </p>
   </div>
 
   <div class="prose-brief measure">
-    <h3 class="dateline !text-ink mt-7 mb-2">What happened</h3>
+    <h3 class="section-label mt-8 mb-2.5">What happened</h3>
     {paragraphs(story.whatHappened).map((p) => <p>{p}</p>)}
     <p class="dateline !mt-3">
       Source:{' '}
@@ -56,21 +56,21 @@ const slugId = `story-${index + 1}`;
       </a>
     </p>
 
-    <h3 class="dateline !text-ink mt-7 mb-2">Why it matters to you</h3>
+    <h3 class="section-label mt-8 mb-2.5">Why it matters to you</h3>
     {paragraphs(story.whyItMatters).map((p) => <p>{p}</p>)}
   </div>
 
   {/* Hot take — quiet edge treatment so it reads as a distinct voice rather
       than competing with the TL;DR for the same visual slot. */}
   <div class="card-edge card-edge--quiet measure my-7">
-    <p class="dateline mb-1.5">The hot take</p>
+    <p class="section-label mb-2">The hot take</p>
     <p class="font-display text-[1.1rem] leading-snug italic sm:text-[1.18rem]">
       {story.hotTake}
     </p>
   </div>
 
   <div class="measure">
-    <h3 class="dateline !text-ink mt-7 mb-2.5">What to do about it</h3>
+    <h3 class="section-label mt-8 mb-3">What to do about it</h3>
     <ul class="space-y-2.5">
       {
         story.actions.map((a) => (

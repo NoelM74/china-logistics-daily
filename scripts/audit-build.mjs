@@ -148,7 +148,9 @@ for (const file of htmlFiles) {
   // external links out of the site must be nofollow, except to our own estate
   for (const [, attrs] of html.matchAll(/<a ([^>]*href="https?:\/\/[^"]*"[^>]*)>/g)) {
     const url = attrs.match(/href="([^"]*)"/)?.[1] ?? '';
-    if (/china-fulfillment\.com|eriusourcing\.com/.test(url)) continue;
+    // Our own estate, including the author's LinkedIn: these are the sameAs
+    // entity signals from PRD §9 and are followed deliberately.
+    if (/china-fulfillment\.com|eriusourcing\.com|linkedin\.com/.test(url)) continue;
     if (!/rel="[^"]*nofollow/.test(attrs)) fail(name, `external link not nofollowed: ${url}`);
   }
 
