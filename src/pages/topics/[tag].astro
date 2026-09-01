@@ -63,7 +63,22 @@ const stories = entries
     </nav>
 
     <header class="reveal">
-      <div class="mb-8 h-20 overflow-hidden rounded-[2px] sm:h-28" set:html={heroBand(tag.slug, 4)} />
+      {
+        tag.art ? (
+          <img
+            src={tag.art.src}
+            alt={tag.art.alt}
+            width="1600"
+            height="686"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            class="mb-8 aspect-[21/9] w-full rounded-[2px] bg-navy object-cover"
+          />
+        ) : (
+          <div class="mb-8 h-20 overflow-hidden rounded-[2px] sm:h-28" set:html={heroBand(tag.slug, 4)} />
+        )
+      }
       <p class="dateline">Topic hub</p>
       <h1 class="mt-2 text-[2.1rem] leading-[1.06] sm:text-[2.8rem]">{tag.label}</h1>
       <div class="measure mt-5 text-[1.05rem] leading-relaxed">

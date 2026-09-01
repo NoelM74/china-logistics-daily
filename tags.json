@@ -9,7 +9,11 @@
         "label": "Get an ocean freight quote",
         "url": "https://www.china-fulfillment.com/international-freight-forwarding-china.html"
       },
-      "intro": "Ocean freight is where most sellers' landed cost is won or lost. Rates on the China-Europe and China-US lanes swing hard on capacity, blank sailings, and whatever is happening in the Red Sea that month. A container booked in a soft week can cost less than half what the same box costs six weeks later. We track the spot indices, the carrier announcements, and the port-level noise that moves them, then translate it into the only question that matters to an operator: book now or wait? If you are shipping full containers, part containers, or consolidating several suppliers into one box, that timing call is worth real money. Everything tagged sea freight covers rate movement, transit reliability, carrier alliance changes, and the capacity decisions that decide whether your Q4 stock lands on time or lands in January."
+      "intro": "Ocean freight is where most sellers' landed cost is won or lost. Rates on the China-Europe and China-US lanes swing hard on capacity, blank sailings, and whatever is happening in the Red Sea that month. A container booked in a soft week can cost less than half what the same box costs six weeks later. We track the spot indices, the carrier announcements, and the port-level noise that moves them, then translate it into the only question that matters to an operator: book now or wait? If you are shipping full containers, part containers, or consolidating several suppliers into one box, that timing call is worth real money. Everything tagged sea freight covers rate movement, transit reliability, carrier alliance changes, and the capacity decisions that decide whether your Q4 stock lands on time or lands in January.",
+      "art": {
+        "src": "/topics/sea-freight.webp",
+        "alt": "Illustration of a container ship berthed at a Chinese port, a gantry crane lifting a container aboard."
+      }
     },
     {
       "slug": "air-freight",
@@ -19,7 +23,11 @@
         "label": "Compare air and express rates",
         "url": "https://www.china-fulfillment.com/express-international-shipping-china.html"
       },
-      "intro": "Air freight is the pressure valve. You use it when a launch slips, when a container misses its sailing, or when a product is small and valuable enough that the maths works year-round. The catch is that air rates out of China move faster than any other mode. Ecommerce demand, belly capacity on passenger routes, and fuel surcharges can add thirty percent to a lane inside a fortnight, and peak season compounds all three at once. This tag follows rate movement out of the main gateways, capacity shifts, and the surcharge announcements carriers bury in trade notices. If your margin survives air freight at one price but not another, the difference between booking on Tuesday and booking the following Monday is not a rounding error. Read it before you commit the PO."
+      "intro": "Air freight is the pressure valve. You use it when a launch slips, when a container misses its sailing, or when a product is small and valuable enough that the maths works year-round. The catch is that air rates out of China move faster than any other mode. Ecommerce demand, belly capacity on passenger routes, and fuel surcharges can add thirty percent to a lane inside a fortnight, and peak season compounds all three at once. This tag follows rate movement out of the main gateways, capacity shifts, and the surcharge announcements carriers bury in trade notices. If your margin survives air freight at one price but not another, the difference between booking on Tuesday and booking the following Monday is not a rounding error. Read it before you commit the PO.",
+      "art": {
+        "src": "/topics/air-freight.webp",
+        "alt": "Illustration of a wide-body freighter aircraft on the apron with a loader raising a pallet to the cargo door."
+      }
     },
     {
       "slug": "rail-freight",
@@ -29,7 +37,11 @@
         "label": "Ask about China-Europe rail",
         "url": "https://www.china-fulfillment.com/international-freight-forwarding-china.html"
       },
-      "intro": "China-Europe rail sits between ocean and air on both cost and transit, which makes it the mode most sellers forget to price. Roughly half the transit of sea, a fraction of the cost of air, and it avoids the maritime chokepoints entirely. That last part has mattered more in the past two years than in the decade before it. The trade-offs are real: capacity is thinner, some commodities are restricted, and border handovers add variability that ocean does not have. Departures from Zhengzhou, Xi'an and Chengdu behave differently, and the terminal you route through changes your reliability. This tag covers service launches and suspensions, transit performance, capacity, and the politics that decide whether the corridor stays viable. If you have never quoted rail on a lane, you may be leaving weeks and money on the table."
+      "intro": "China-Europe rail sits between ocean and air on both cost and transit, which makes it the mode most sellers forget to price. Roughly half the transit of sea, a fraction of the cost of air, and it avoids the maritime chokepoints entirely. That last part has mattered more in the past two years than in the decade before it. The trade-offs are real: capacity is thinner, some commodities are restricted, and border handovers add variability that ocean does not have. Departures from Zhengzhou, Xi'an and Chengdu behave differently, and the terminal you route through changes your reliability. This tag covers service launches and suspensions, transit performance, capacity, and the politics that decide whether the corridor stays viable. If you have never quoted rail on a lane, you may be leaving weeks and money on the table.",
+      "art": {
+        "src": "/topics/rail-freight.webp",
+        "alt": "Illustration of a container freight train crossing a steel viaduct on the China to Europe rail corridor."
+      }
     },
     {
       "slug": "tariffs-duties",
@@ -39,7 +51,11 @@
         "label": "Get a landed cost review",
         "url": "https://www.china-fulfillment.com/tariff-management-china.html"
       },
-      "intro": "A tariff change is a pricing change. Sellers who treat duty as an accounting detail find out the hard way when a rate moves and the margin they modelled in January stops existing in March. Classification, country of origin, valuation method and Incoterm all feed the number, and every one of them is a lever you can pull legally if you know it is there. This tag tracks rate announcements, exclusions and their expiry, origin rules, and the enforcement patterns that decide whether a ruling on paper becomes a bill in practice. We care about the operator consequence: what it does to your landed cost per unit, whether it changes your DDP quote, and how much notice you actually get. Duty is the most predictable cost in your chain, right up until it is not."
+      "intro": "A tariff change is a pricing change. Sellers who treat duty as an accounting detail find out the hard way when a rate moves and the margin they modelled in January stops existing in March. Classification, country of origin, valuation method and Incoterm all feed the number, and every one of them is a lever you can pull legally if you know it is there. This tag tracks rate announcements, exclusions and their expiry, origin rules, and the enforcement patterns that decide whether a ruling on paper becomes a bill in practice. We care about the operator consequence: what it does to your landed cost per unit, whether it changes your DDP quote, and how much notice you actually get. Duty is the most predictable cost in your chain, right up until it is not.",
+      "art": {
+        "src": "/topics/tariffs-duties.webp",
+        "alt": "Illustration of shipping cartons beside a rising stepped bar chart and an official seal, representing import duty."
+      }
     },
     {
       "slug": "customs-eu",
@@ -49,7 +65,11 @@
         "label": "Read the EU duty guide",
         "url": "https://www.china-fulfillment.com/eu-de-minimis-2026-customs-duty-guide.html"
       },
-      "intro": "The EU has spent several years rebuilding how low-value imports are taxed and cleared, and it is not finished. IOSS, the removal of the low-value consignment relief, and the wider customs reform package all change the same thing: who is liable, when, and for how much. If you sell into the EU from China, the compliance surface is now wider than a VAT registration. Import control filings, the accuracy of your commercial invoice data, and your choice of clearance agent decide whether parcels flow or sit. This tag covers regulation as it lands, the enforcement that follows, and the practical filing changes your 3PL has to make. Rules published in Brussels reach your consignments through a chain of intermediaries, and the gap between announcement and enforcement is where most sellers get caught out."
+      "intro": "The EU has spent several years rebuilding how low-value imports are taxed and cleared, and it is not finished. IOSS, the removal of the low-value consignment relief, and the wider customs reform package all change the same thing: who is liable, when, and for how much. If you sell into the EU from China, the compliance surface is now wider than a VAT registration. Import control filings, the accuracy of your commercial invoice data, and your choice of clearance agent decide whether parcels flow or sit. This tag covers regulation as it lands, the enforcement that follows, and the practical filing changes your 3PL has to make. Rules published in Brussels reach your consignments through a chain of intermediaries, and the gap between announcement and enforcement is where most sellers get caught out.",
+      "art": {
+        "src": "/topics/customs-eu.webp",
+        "alt": "Illustration of a European river port customs post with a barrier arm, a moored barge and pallets awaiting clearance."
+      }
     },
     {
       "slug": "customs-uk",
@@ -59,7 +79,11 @@
         "label": "See UK fulfilment options",
         "url": "https://www.china-fulfillment.com/china-to-uk-fulfilment-shopify.html"
       },
-      "intro": "The UK diverged from the EU customs regime and then kept moving. Different thresholds, a separate VAT treatment for low-value consignments, and its own approach to safety and security declarations mean a shipment routed for Rotterdam is not automatically fit for Felixstowe. Sellers who serve both markets from one China warehouse need two sets of paperwork logic, not one. This tag tracks HMRC guidance, threshold changes, declaration requirements, and the border processes that decide dwell time at UK ports. We flag the things that change your cost per parcel or your clearance risk, and skip the consultations that will not touch you for two years. If your UK numbers were modelled before the last round of changes, they are worth re-checking before you commit to a price."
+      "intro": "The UK diverged from the EU customs regime and then kept moving. Different thresholds, a separate VAT treatment for low-value consignments, and its own approach to safety and security declarations mean a shipment routed for Rotterdam is not automatically fit for Felixstowe. Sellers who serve both markets from one China warehouse need two sets of paperwork logic, not one. This tag tracks HMRC guidance, threshold changes, declaration requirements, and the border processes that decide dwell time at UK ports. We flag the things that change your cost per parcel or your clearance risk, and skip the consultations that will not touch you for two years. If your UK numbers were modelled before the last round of changes, they are worth re-checking before you commit to a price.",
+      "art": {
+        "src": "/topics/customs-uk.webp",
+        "alt": "Illustration of articulated lorries queuing at a British ferry port border control lane."
+      }
     },
     {
       "slug": "customs-us",
@@ -69,7 +93,11 @@
         "label": "Read the US de minimis guide",
         "url": "https://www.china-fulfillment.com/us-de-minimis-ended-2026-china-sellers-guide.html"
       },
-      "intro": "US import policy on China goods has moved more in the past three years than in the twenty before it. Section 301 rates, the treatment of low-value shipments, forced labour enforcement, and CBP's appetite for detaining first and asking later all stack on the same consignment. For a seller shipping direct to consumer or into FBA, the difference between a compliant entry and a detained one is usually documentation you could have prepared in advance. This tag follows rate and threshold changes, enforcement posture, and the filing requirements that come with them. We are interested in what it costs you per unit and what it does to your transit reliability. Policy risk on this lane is now a permanent line item, and pretending otherwise is how sellers end up with stock sitting in a bonded warehouse."
+      "intro": "US import policy on China goods has moved more in the past three years than in the twenty before it. Section 301 rates, the treatment of low-value shipments, forced labour enforcement, and CBP's appetite for detaining first and asking later all stack on the same consignment. For a seller shipping direct to consumer or into FBA, the difference between a compliant entry and a detained one is usually documentation you could have prepared in advance. This tag follows rate and threshold changes, enforcement posture, and the filing requirements that come with them. We are interested in what it costs you per unit and what it does to your transit reliability. Policy risk on this lane is now a permanent line item, and pretending otherwise is how sellers end up with stock sitting in a bonded warehouse.",
+      "art": {
+        "src": "/topics/customs-us.webp",
+        "alt": "Illustration of a shipping container opened for inspection at a North American port terminal."
+      }
     },
     {
       "slug": "amazon-fba",
@@ -79,7 +107,11 @@
         "label": "See FBA prep and consolidation",
         "url": "https://www.china-fulfillment.com/amazon-fba-consolidation.html"
       },
-      "intro": "Amazon changes the rules on sellers shipping from China more often than any other channel. Inbound placement fees, capacity limits, prep requirements, labelling standards, and the shifting definition of a compliant carton all decide whether your shipment is received cleanly or charged for. A rejection at the fulfilment centre costs you the fee, the delay, and usually a rework you cannot supervise from eight thousand kilometres away. This tag covers policy changes, fee announcements, prep and labelling requirements, and the receiving behaviour sellers are actually reporting. Doing prep properly at source in China is cheaper than fixing it in the US or Europe, and it is the single biggest lever most FBA sellers have not pulled. When Amazon moves, we tell you what it means for your next inbound."
+      "intro": "Amazon changes the rules on sellers shipping from China more often than any other channel. Inbound placement fees, capacity limits, prep requirements, labelling standards, and the shifting definition of a compliant carton all decide whether your shipment is received cleanly or charged for. A rejection at the fulfilment centre costs you the fee, the delay, and usually a rework you cannot supervise from eight thousand kilometres away. This tag covers policy changes, fee announcements, prep and labelling requirements, and the receiving behaviour sellers are actually reporting. Doing prep properly at source in China is cheaper than fixing it in the US or Europe, and it is the single biggest lever most FBA sellers have not pulled. When Amazon moves, we tell you what it means for your next inbound.",
+      "art": {
+        "src": "/topics/amazon-fba.webp",
+        "alt": "Illustration of warehouse racking stacked with cartons, a forklift below and a labelled box on a conveyor."
+      }
     },
     {
       "slug": "ecommerce-platforms",
@@ -89,7 +121,11 @@
         "label": "See D2C fulfilment",
         "url": "https://www.china-fulfillment.com/ecommerce-fulfillment.html"
       },
-      "intro": "Shopify, TikTok Shop, Temu, Etsy and the marketplaces behind them keep changing what they require of a seller shipping from China. Delivery time commitments, tracking standards, seller-fulfilled programme rules, and the penalties for missing any of them land on your fulfilment operation rather than your marketing. A platform tightening its dispatch window is an operations problem, not a listings problem. This tag tracks programme launches, policy changes, fee structures, and the fulfilment requirements attached to each. We are interested in the ones that change how fast you have to ship, what tracking you have to provide, and whether direct-from-China still qualifies at all. Selling on several channels from one China warehouse is efficient right up until one of them changes its rules and you find out from a suppressed listing."
+      "intro": "Shopify, TikTok Shop, Temu, Etsy and the marketplaces behind them keep changing what they require of a seller shipping from China. Delivery time commitments, tracking standards, seller-fulfilled programme rules, and the penalties for missing any of them land on your fulfilment operation rather than your marketing. A platform tightening its dispatch window is an operations problem, not a listings problem. This tag tracks programme launches, policy changes, fee structures, and the fulfilment requirements attached to each. We are interested in the ones that change how fast you have to ship, what tracking you have to provide, and whether direct-from-China still qualifies at all. Selling on several channels from one China warehouse is efficient right up until one of them changes its rules and you find out from a suppressed listing.",
+      "art": {
+        "src": "/topics/ecommerce-platforms.webp",
+        "alt": "Illustration of a laptop and phone showing an online storefront grid, with a parcel and delivery van."
+      }
     },
     {
       "slug": "ports-congestion",
@@ -99,7 +135,11 @@
         "label": "Talk to us about routing",
         "url": "https://www.china-fulfillment.com/international-freight-forwarding-china.html"
       },
-      "intro": "Congestion is the cost nobody quotes you. A berth backlog at Ningbo or a labour dispute at a European gateway does not show up on your rate sheet, but it shows up in your stock position six weeks later. Typhoon season, equipment shortages, terminal strikes and canal transit restrictions all do the same thing: they turn a reliable transit into a range. This tag covers the disruptions that genuinely move schedules at the ports sellers use most, and the routing alternatives worth pricing when a gateway seizes up. The useful question is never whether a port is congested. It is whether the delay is long enough to justify switching lanes, splitting a shipment, or paying for air on the portion you genuinely cannot be without."
+      "intro": "Congestion is the cost nobody quotes you. A berth backlog at Ningbo or a labour dispute at a European gateway does not show up on your rate sheet, but it shows up in your stock position six weeks later. Typhoon season, equipment shortages, terminal strikes and canal transit restrictions all do the same thing: they turn a reliable transit into a range. This tag covers the disruptions that genuinely move schedules at the ports sellers use most, and the routing alternatives worth pricing when a gateway seizes up. The useful question is never whether a port is congested. It is whether the delay is long enough to justify switching lanes, splitting a shipment, or paying for air on the portion you genuinely cannot be without.",
+      "art": {
+        "src": "/topics/ports-congestion.webp",
+        "alt": "Illustration of container ships queuing at anchor outside a congested harbour, seen from above."
+      }
     },
     {
       "slug": "sourcing",
@@ -109,7 +149,11 @@
         "label": "Get supplier management help",
         "url": "https://www.china-fulfillment.com/supplier-management-china.html"
       },
-      "intro": "Supplier selection sets the ceiling on everything downstream. Price, quality consistency, lead time reliability, and whether your factory tells you about a delay in week two or week seven are all decided before a single unit is made. Sourcing news matters to operators when it changes who can make your product, what it costs, or how much notice you get. This tag follows factory capacity, regional cost shifts, the movement of production between provinces and out of China entirely, and the trade policy driving it. We also cover the practical side: audits, sampling, and the failure patterns that catch sellers who manage suppliers over WeChat and hope. Having someone in-country who can walk into the factory changes the conversation. Everything else is a series of increasingly frustrated messages."
+      "intro": "Supplier selection sets the ceiling on everything downstream. Price, quality consistency, lead time reliability, and whether your factory tells you about a delay in week two or week seven are all decided before a single unit is made. Sourcing news matters to operators when it changes who can make your product, what it costs, or how much notice you get. This tag follows factory capacity, regional cost shifts, the movement of production between provinces and out of China entirely, and the trade policy driving it. We also cover the practical side: audits, sampling, and the failure patterns that catch sellers who manage suppliers over WeChat and hope. Having someone in-country who can walk into the factory changes the conversation. Everything else is a series of increasingly frustrated messages.",
+      "art": {
+        "src": "/topics/sourcing.webp",
+        "alt": "Illustration of a buyer and a supplier either side of a table of product samples in front of factory units."
+      }
     },
     {
       "slug": "manufacturing",
@@ -119,7 +163,11 @@
         "label": "See QC and inspection",
         "url": "https://www.china-fulfillment.com/quality-control-fba-prep-china.html"
       },
-      "intro": "Chinese manufacturing output, input costs and capacity utilisation decide what your next production run costs and how long you wait for it. PMI readings, raw material moves, energy pricing and labour availability all reach you eventually as a quoted price and a lead time. This tag covers the production-side signals worth acting on, plus the quality story that goes with them: what happens to consistency when a factory is running hot, and what happens to your reorder when it is not. Sellers usually notice a manufacturing shift one production cycle too late. The point of reading this is to notice it during the quote, not after the goods are made. If your product is going into FBA or a crowdfunding delivery, inspecting before it ships is the cheapest insurance you will buy all year."
+      "intro": "Chinese manufacturing output, input costs and capacity utilisation decide what your next production run costs and how long you wait for it. PMI readings, raw material moves, energy pricing and labour availability all reach you eventually as a quoted price and a lead time. This tag covers the production-side signals worth acting on, plus the quality story that goes with them: what happens to consistency when a factory is running hot, and what happens to your reorder when it is not. Sellers usually notice a manufacturing shift one production cycle too late. The point of reading this is to notice it during the quote, not after the goods are made. If your product is going into FBA or a crowdfunding delivery, inspecting before it ships is the cheapest insurance you will buy all year.",
+      "art": {
+        "src": "/topics/manufacturing.webp",
+        "alt": "Illustration of a factory production line with a robotic arm placing a finished product into a carton."
+      }
     },
     {
       "slug": "de-minimis",
@@ -129,7 +177,11 @@
         "label": "Rework your landed cost",
         "url": "https://www.china-fulfillment.com/tariff-management-china.html"
       },
-      "intro": "De minimis was the quiet subsidy underneath a decade of direct-from-China ecommerce. Parcels below a threshold entered duty free with light documentation, and entire business models were priced on the assumption it would hold. It has not held. The US, the EU and others have all moved to close or narrow it, and the direction of travel is one way. If your unit economics depend on a low-value exemption, this is the tag to watch. We cover threshold changes, the effective dates that matter, the documentation that replaces the exemption, and the models sellers are switching to: bulk import with domestic distribution, hybrid inventory positions, or DDP with duty priced in from the start. Losing de minimis does not end direct-from-China. It ends pricing it as if duty were free."
+      "intro": "De minimis was the quiet subsidy underneath a decade of direct-from-China ecommerce. Parcels below a threshold entered duty free with light documentation, and entire business models were priced on the assumption it would hold. It has not held. The US, the EU and others have all moved to close or narrow it, and the direction of travel is one way. If your unit economics depend on a low-value exemption, this is the tag to watch. We cover threshold changes, the effective dates that matter, the documentation that replaces the exemption, and the models sellers are switching to: bulk import with domestic distribution, hybrid inventory positions, or DDP with duty priced in from the start. Losing de minimis does not end direct-from-China. It ends pricing it as if duty were free.",
+      "art": {
+        "src": "/topics/de-minimis.webp",
+        "alt": "Illustration of a small parcel on scales beside a threshold gate, with larger cartons queued behind."
+      }
     },
     {
       "slug": "peak-season",
@@ -139,7 +191,11 @@
         "label": "Plan Q4 fulfilment",
         "url": "https://www.china-fulfillment.com/q4-peak-season-fulfillment-from-china-2026.html"
       },
-      "intro": "Peak season is the most predictable crisis in the calendar and sellers still get caught by it. Rates rise, capacity tightens, cut-off dates arrive earlier than anyone plans for, and Chinese New Year shuts the factories at the exact moment you realise you under-ordered. The pattern repeats annually, which means the whole thing is plannable. This tag covers the peak cycle as it develops: rate movement into Q4, carrier cut-offs, warehouse capacity, CNY production and shipping deadlines, and the post-holiday restart. We publish deadlines early and repeat them, because the cost of missing a cut-off is not the freight premium. It is the six weeks of stock-out that follow. If you are ordering for a season, work backwards from the dates in here rather than forwards from today."
+      "intro": "Peak season is the most predictable crisis in the calendar and sellers still get caught by it. Rates rise, capacity tightens, cut-off dates arrive earlier than anyone plans for, and Chinese New Year shuts the factories at the exact moment you realise you under-ordered. The pattern repeats annually, which means the whole thing is plannable. This tag covers the peak cycle as it develops: rate movement into Q4, carrier cut-offs, warehouse capacity, CNY production and shipping deadlines, and the post-holiday restart. We publish deadlines early and repeat them, because the cost of missing a cut-off is not the freight premium. It is the six weeks of stock-out that follow. If you are ordering for a season, work backwards from the dates in here rather than forwards from today.",
+      "art": {
+        "src": "/topics/peak-season.webp",
+        "alt": "Illustration of a warehouse at peak season, densely stacked outbound parcels and vans waiting at the loading bays."
+      }
     },
     {
       "slug": "fuel-surcharges",
@@ -149,7 +205,11 @@
         "label": "Review your express rates",
         "url": "https://www.china-fulfillment.com/express-international-shipping-china.html"
       },
-      "intro": "The headline rate is not the price. Fuel surcharges, peak surcharges, remote area fees, residential delivery adders, dimensional weight rules and the annual general rate increase all sit on top, and carriers adjust them on their own schedule. A rate that looked competitive in January can be materially worse by June without the base ever moving. This tag tracks surcharge announcements from the express carriers and the postal channels, general rate increases, and the dimensional weight changes that quietly reprice every bulky product in your catalogue. Sellers who audit their invoices find errors more often than they expect. Sellers who never audit them fund the difference. If you have not repriced your shipping in a year, you are almost certainly paying a number nobody negotiated."
+      "intro": "The headline rate is not the price. Fuel surcharges, peak surcharges, remote area fees, residential delivery adders, dimensional weight rules and the annual general rate increase all sit on top, and carriers adjust them on their own schedule. A rate that looked competitive in January can be materially worse by June without the base ever moving. This tag tracks surcharge announcements from the express carriers and the postal channels, general rate increases, and the dimensional weight changes that quietly reprice every bulky product in your catalogue. Sellers who audit their invoices find errors more often than they expect. Sellers who never audit them fund the difference. If you have not repriced your shipping in a year, you are almost certainly paying a number nobody negotiated.",
+      "art": {
+        "src": "/topics/fuel-surcharges.webp",
+        "alt": "Illustration of a bunkering barge refuelling a container ship at sea beneath a rising cost curve."
+      }
     },
     {
       "slug": "regulation-china",
@@ -159,7 +219,11 @@
         "label": "Check product compliance",
         "url": "https://www.china-fulfillment.com/product-compliance-importing-from-china-2026.html"
       },
-      "intro": "Chinese export controls, customs procedure changes, data rules and product standards all reach foreign sellers eventually, usually through a supplier saying a shipment cannot move. Battery and lithium rules, export licensing on controlled materials, CCC certification, and the documentation required to get goods out of the country are operational constraints, not background reading. This tag covers regulation on the China side that changes what you can ship, what paperwork you need, or how long clearance takes. We also cover the destination-side compliance requirements your factory has to satisfy before goods leave. The pattern that catches sellers is assuming the supplier is on top of it. Some are. Verify rather than assume, especially on anything with a battery, a plug, or a claim on the label."
+      "intro": "Chinese export controls, customs procedure changes, data rules and product standards all reach foreign sellers eventually, usually through a supplier saying a shipment cannot move. Battery and lithium rules, export licensing on controlled materials, CCC certification, and the documentation required to get goods out of the country are operational constraints, not background reading. This tag covers regulation on the China side that changes what you can ship, what paperwork you need, or how long clearance takes. We also cover the destination-side compliance requirements your factory has to satisfy before goods leave. The pattern that catches sellers is assuming the supplier is on top of it. Some are. Verify rather than assume, especially on anything with a battery, a plug, or a claim on the label.",
+      "art": {
+        "src": "/topics/regulation-china.webp",
+        "alt": "Illustration of an official sealed document beside a shipping carton and a closed barrier arm."
+      }
     },
     {
       "slug": "ireland-imports",
@@ -169,7 +233,12 @@
         "label": "See the Ireland warehouse",
         "url": "https://www.china-fulfillment.com/ireland-warehouse.html"
       },
-      "intro": "Ireland is a small market with disproportionately awkward logistics. Post-Brexit routing means goods moving through Great Britain face a customs boundary that did not exist before, and the direct routes to continental Europe carry a cost and frequency penalty. For sellers importing from China into Ireland, or using Ireland as an EU entry point, the routing decision is genuinely consequential. This tag covers Irish Revenue guidance, port and route capacity, the landbridge question, and the practical differences between clearing in Dublin and clearing elsewhere in the EU. We cover it because it is our own market, and because the seller community here gets served badly by coverage written for the US. If you are shipping into Ireland from China, the answer that works for a UK seller is frequently the wrong one."
+      "intro": "Ireland is a small market with disproportionately awkward logistics. Post-Brexit routing means goods moving through Great Britain face a customs boundary that did not exist before, and the direct routes to continental Europe carry a cost and frequency penalty. For sellers importing from China into Ireland, or using Ireland as an EU entry point, the routing decision is genuinely consequential. This tag covers Irish Revenue guidance, port and route capacity, the landbridge question, and the practical differences between clearing in Dublin and clearing elsewhere in the EU. We cover it because it is our own market, and because the seller community here gets served badly by coverage written for the US. If you are shipping into Ireland from China, the answer that works for a UK seller is frequently the wrong one.",
+      "art": {
+        "src": "/topics/ireland-imports.webp",
+        "alt": "Illustration of a roll-on roll-off ferry berthed at a small Atlantic port with a lorry driving off the ramp."
+      }
     }
-  ]
+  ],
+  "_art": "Topic artwork generated with google/nano-banana-pro on 2026-09-01 in a single house style; see scripts/fetch-topic-art.mjs for the prompts and provenance. Illustration, used on topic hubs only, never on an individual briefing story: an AI image beside a news report invites the reader to take it as a photograph of the reported event."
 }

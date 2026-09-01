@@ -134,6 +134,32 @@ dashes, "here's the thing", "game-changer", US spellings in prose, and the rest
 of the `stop-slop` list). One retry is attempted with the errors fed back, then
 the run aborts.
 
+## Images
+
+Three kinds, and the distinction is deliberate.
+
+| Where | What | Alt text |
+|---|---|---|
+| Topic hubs, topics index, homepage | Illustration, generated once with `google/nano-banana-pro` in one house style | Real, describing what is depicted |
+| Briefing pages | Route band, inline SVG generated from the date | `aria-hidden`, it is decorative |
+| Social cards | OG card per briefing, satori + resvg at build | n/a |
+
+**Artwork never appears on an individual briefing story.** An AI-generated
+image beside a news report invites the reader to take it as a photograph of the
+reported event, and the site's whole claim is that nothing here is invented.
+Topic hubs are evergreen and thematic, so illustration is honest there.
+
+Alt text on the route bands is deliberately empty. They carry no information
+about the day's news, and keyword alt text on a decorative graphic is stuffing:
+Google discounts it and it makes the page worse for screen reader users.
+
+Regenerate or extend the set with `node scripts/fetch-topic-art.mjs`, which
+records every prompt and source URL. 18 images, 689kB total, one per page.
+
+The image-SEO opportunity that is still open is **photographs of the actual
+operation** in Shenzhen and Zhengzhou. Those would carry real alt text, and
+they are worth more for E-E-A-T than any illustration.
+
 ## Structured data
 
 One `@graph` per page with stable `@id`s, so entities resolve across the site

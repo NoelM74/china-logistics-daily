@@ -44,6 +44,8 @@ export type Tag = {
   blurb: string;
   cta: TagCta;
   intro: string;
+  /** Topic hub artwork. Illustration, never used on a briefing story. */
+  art?: { src: string; alt: string };
 };
 
 export const TAGS: Tag[] = tagsData.tags;

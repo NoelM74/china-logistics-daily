@@ -49,6 +49,17 @@ const latest = briefings[0];
           const n = counts.get(t.slug) ?? 0;
           return (
             <li class="group border-t border-rule-strong py-5 transition-colors hover:border-brand-500">
+              {t.art && (
+                <img
+                  src={t.art.src}
+                  alt=""
+                  width="1600"
+                  height="686"
+                  loading="lazy"
+                  decoding="async"
+                  class="mb-3 aspect-[21/9] w-full rounded-[2px] bg-navy object-cover"
+                />
+              )}
               <p class="dateline tnum">
                 {n} {n === 1 ? 'briefing' : 'briefings'}
               </p>
