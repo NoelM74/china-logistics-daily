@@ -16,11 +16,22 @@ export interface Props {
     dateModified?: string;
     section?: string;
     keywords?: string[];
+    /** Controlled tags, emitted as schema.org Thing entities. */
+    topics?: { slug: string; name: string }[];
   };
   faq?: FaqItem[];
   breadcrumbs?: Breadcrumb[];
   ogImage?: string;
   noindex?: boolean;
+  /**
+   * Set on hub and index pages. Emits CollectionPage + ItemList so an engine
+   * can see what the page collects rather than inferring it from links.
+   */
+  collection?: {
+    name: string;
+    description?: string;
+    items: { name: string; path: string }[];
+  };
 }
 
 const {
@@ -32,6 +43,7 @@ const {
   breadcrumbs = [],
   ogImage,
   noindex = false,
+  collection,
 } = Astro.props;
 
 const description = clampDescription(rawDescription);
@@ -107,6 +119,17 @@ if (article) {
     inLanguage: SITE.lang,
     ...(article.section ? { articleSection: article.section } : {}),
     ...(article.keywords?.length ? { keywords: article.keywords.join(', ') } : {}),
+    // Topics as entities rather than only a keyword string, so an engine can
+    // resolve what the article is about instead of parsing a comma list.
+    ...(article.topics?.length
+      ? {
+          about: article.topics.map((t) => ({
+            '@type': 'Thing',
+            name: t.name,
+            url: absolute(`/topics/${t.slug}`),
+          })),
+        }
+      : {}),
   });
 }
 
@@ -120,6 +143,30 @@ if (faq?.length) {
       name: f.question,
       acceptedAnswer: { '@type': 'Answer', text: f.answer },
     })),
+  });
+}
+
+if (collection) {
+  graph.push({
+    '@type': 'CollectionPage',
+    '@id': `${canonical}#collection`,
+    isPartOf: { '@id': SITE_ID },
+    name: collection.name,
+    ...(collection.description ? { description: collection.description } : {}),
+    url: canonical,
+    inLanguage: SITE.lang,
+    isAccessibleForFree: true,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: collection.items.length,
+      itemListOrder: 'https://schema.org/ItemListOrderDescending',
+      itemListElement: collection.items.map((it, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: it.name,
+        url: absolute(it.path),
+      })),
+    },
   });
 }
 

@@ -16,6 +16,12 @@ const latest = briefings[0];
   description="Every subject we cover: sea and air freight, tariffs and duties, EU, UK and US customs, Amazon FBA, de minimis, peak season, sourcing and more."
   path="/topics"
   latestDate={latest?.data.date}
+  collection={{
+    name: 'China logistics topics',
+    description:
+      'Every subject covered by China Logistics Daily, from sea and air freight to customs, tariffs and Amazon FBA.',
+    items: TAGS.map((t) => ({ name: t.label, path: `/topics/${t.slug}` })),
+  }}
   breadcrumbs={[
     { name: 'Home', path: '/' },
     { name: 'Topics', path: '/topics' },

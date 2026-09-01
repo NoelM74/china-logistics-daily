@@ -25,6 +25,14 @@ const pageLabel = page.currentPage > 1 ? `, page ${page.currentPage}` : '';
   path={page.currentPage === 1 ? '/archive' : `/archive/${page.currentPage}`}
   latestDate={latest?.data.date}
   noindex={page.currentPage > 1}
+  collection={{
+    name: 'China Logistics Daily archive',
+    description: 'Every daily briefing published, newest first.',
+    items: page.data.map((b) => ({
+      name: b.data.title,
+      path: `/briefing/${b.data.date}`,
+    })),
+  }}
   breadcrumbs={[
     { name: 'Home', path: '/' },
     { name: 'Archive', path: '/archive' },

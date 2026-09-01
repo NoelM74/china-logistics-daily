@@ -43,6 +43,10 @@ const isLatest = pool[0]?.id === entry.id;
     datePublished: publishedISO(b.date),
     section: 'Logistics',
     keywords: tags,
+    topics: tags.flatMap((slug) => {
+      const t = getTag(slug);
+      return t ? [{ slug: t.slug, name: t.label }] : [];
+    }),
   }}
   faq={b.faq}
   breadcrumbs={[

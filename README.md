@@ -134,6 +134,21 @@ dashes, "here's the thing", "game-changer", US spellings in prose, and the rest
 of the `stop-slop` list). One retry is attempted with the errors fed back, then
 the run aborts.
 
+## Structured data
+
+One `@graph` per page with stable `@id`s, so entities resolve across the site
+instead of each page being an island.
+
+| Page type | Nodes |
+|---|---|
+| Every page | `Organization`, `Person`, `WebSite` |
+| Briefing | `NewsArticle` (+ `about` topic entities), `FAQPage`, `BreadcrumbList` |
+| Tag hub, topics index, archive | `CollectionPage` + `ItemList`, `BreadcrumbList` |
+| About | `FAQPage`, `BreadcrumbList` |
+
+`Person` carries `sameAs` to LinkedIn, china-fulfillment.com and
+eriusourcing.com on every page, and gains an `image` as soon as a photo exists.
+
 ## Setup
 
 ### 1. GitHub

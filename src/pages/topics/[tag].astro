@@ -38,6 +38,14 @@ const stories = entries
   description={`${tag.blurb} Daily briefings on ${tag.label.toLowerCase()} for ecommerce sellers shipping from China.`}
   path={`/topics/${tag.slug}`}
   latestDate={latest?.data.date}
+  collection={{
+    name: `${tag.label} briefings`,
+    description: tag.blurb,
+    items: entries.map((b) => ({
+      name: b.data.title,
+      path: `/briefing/${b.data.date}`,
+    })),
+  }}
   breadcrumbs={[
     { name: 'Home', path: '/' },
     { name: 'Topics', path: '/topics' },
