@@ -30,6 +30,10 @@ const MAX_WORDS = 2600;
  */
 const STRICT_MAX_PER_SOURCE = 2;
 
+/* Must match scripts/audit-build.mjs, which fails the build over either. */
+const MAX_TITLE = 60;
+const MAX_META = 155;
+
 /** Slop patterns from the stop-slop ruleset, as publish-blocking checks. */
 const BANNED_PATTERNS = [
   { re: /—/, label: 'em dash' },
@@ -109,9 +113,20 @@ export function validateBriefing(briefing, { allowedUrls, allowedTags, date, str
     if (typeof b[k] !== 'string' || !b[k].trim()) e.push(`missing or empty "${k}"`);
   }
   if (b.date && b.date !== date) e.push(`date is "${b.date}", expected "${date}"`);
-  if (b.title && b.title.length > 70) e.push(`title is ${b.title.length} chars, max 70`);
-  if (b.metaDescription && b.metaDescription.length > 170)
-    e.push(`metaDescription is ${b.metaDescription.length} chars, max 170`);
+
+  /*
+   * These match scripts/audit-build.mjs exactly. The validator must be at
+   * least as strict as the post-build audit on anything the audit checks:
+   * a limit enforced only at build time fails a run that has already used its
+   * retries, whereas a limit enforced here gets a second attempt.
+   */
+  if (b.title && b.title.length > MAX_TITLE) {
+    e.push(
+      `title is ${b.title.length} chars, max ${MAX_TITLE}. Shorten it: "${b.title}"`,
+    );
+  }
+  if (b.metaDescription && b.metaDescription.length > MAX_META)
+    e.push(`metaDescription is ${b.metaDescription.length} chars, max ${MAX_META}`);
 
   if (!Array.isArray(b.stories) || b.stories.length < MIN_STORIES) {
     e.push(`only ${b.stories?.length ?? 0} stories, minimum ${MIN_STORIES}`);

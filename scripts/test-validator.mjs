@@ -139,7 +139,15 @@ const CASES = [
         'A very long SEO title about China logistics that runs well past the sixty character limit';
       return b;
     },
-    /max 70/,
+    /max 60/,
+  ],
+  [
+    'title over 60 chars is rejected, matching the build audit',
+    (b) => {
+      b.title = 'China: Typhoon Saudel threatens freight hubs in south and east';
+      return b;
+    },
+    /title is 62 chars, max 60/,
   ],
   [
     'too many tags is rejected',

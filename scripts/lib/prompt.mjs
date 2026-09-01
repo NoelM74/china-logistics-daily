@@ -101,8 +101,8 @@ WRITE EACH STORY
 - tags: 3 to 6 slugs from the list above.
 
 THEN THE BRIEFING-LEVEL SECTIONS
-- title: SEO title for the whole briefing, 60 characters maximum, containing "China" and the main topic of the day. Not a headline you already used.
-- metaDescription: 155 characters maximum. Describes the briefing, reads like a person wrote it.
+- title: SEO title for the whole briefing. Hard limit of 60 characters including spaces, and the build fails at 61, so count them. Contains "China" and the main topic of the day. Not a headline you already used.
+- metaDescription: hard limit of 155 characters including spaces. Describes the briefing, reads like a person wrote it.
 - bottomLine: 2 or 3 sentences summarising the day for someone who reads nothing else. Front-loaded with the single most consequential fact.
 - contentHooks: 8 to 12 one-line angles a reader could turn into their own LinkedIn post, video or newsletter. Each one a complete thought with a point of view, not a topic label. "Everyone is watching tariff rates and ignoring the demurrage clock" beats "Tariff update".
 - faq: 3 to 5 questions phrased the way a seller would type them into Google, each answered in 80 words or fewer. Answers must stand alone with no reference to the stories above, because they get extracted and read on their own.
