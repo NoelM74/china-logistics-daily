@@ -48,8 +48,18 @@
 
   --color-flag: #b3261e; /* sparing accent: "new", corrections, warnings */
 
-  --font-display: 'Boska', 'Iowan Old Style', 'Palatino Linotype', Palatino,
-    'Georgia', 'Times New Roman', serif;
+  /*
+    Headings use the text face, not a display serif. Boska is beautiful at
+    50px and cramped at 25px, and its figures are the worst of it: "10%",
+    "US$1.7bn" and "HK$48.56" were hard to read on a phone. This site is made
+    of numbers an operator has to act on, so legibility of figures wins.
+    Boska is kept for the masthead wordmark alone, where it is large, fixed
+    and doing brand work.
+  */
+  --font-display: 'Satoshi', ui-sans-serif, system-ui, -apple-system,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-wordmark: 'Boska', 'Iowan Old Style', 'Palatino Linotype', Palatino,
+    Georgia, 'Times New Roman', serif;
   --font-sans: 'Satoshi', ui-sans-serif, system-ui, -apple-system,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
@@ -74,13 +84,6 @@
   src: url('/fonts/Boska-Variable.woff2') format('woff2-variations');
   font-weight: 300 900;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Boska';
-  src: url('/fonts/Boska-VariableItalic.woff2') format('woff2-variations');
-  font-weight: 300 900;
-  font-style: italic;
   font-display: swap;
 }
 @font-face {
@@ -124,6 +127,7 @@
     font-size: 1.125rem;
     line-height: 1.65;
     font-synthesis-weight: none;
+    font-variant-numeric: lining-nums proportional-nums;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
   }
@@ -141,9 +145,11 @@
   h1, h2, h3, h4 {
     font-family: var(--font-display);
     font-weight: 700;
-    letter-spacing: -0.015em;
-    line-height: 1.1;
+    letter-spacing: -0.021em;
+    line-height: 1.14;
     text-wrap: balance;
+    /* Full-height figures, so 10% and US$1.7bn read cleanly in a headline. */
+    font-variant-numeric: lining-nums proportional-nums;
   }
 
   p, li { text-wrap: pretty; }
@@ -261,6 +267,7 @@
   .story-index {
     font-family: var(--font-display);
     font-weight: 700;
+    letter-spacing: -0.03em;
     font-size: 2.75rem;
     line-height: 0.8;
     color: var(--color-brand-500);

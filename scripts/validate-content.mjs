@@ -41,14 +41,24 @@ for (const file of files) {
   // here is voice, shape and spelling, not re-litigating where they came from.
   const allowedUrls = (briefing.stories ?? []).map((s) => s.sourceUrl).filter(Boolean);
 
-  const errors = validateBriefing(briefing, {
+  const all = validateBriefing(briefing, {
     allowedUrls,
     allowedTags,
     date,
     strict: false,
   });
 
+  /*
+   * Length limits gate new generation; they do not retroactively invalidate a
+   * briefing that is already published. Tightening a rule should not break CI
+   * on the back catalogue, so an over-length archive entry is reported as a
+   * note rather than a failure.
+   */
+  const errors = all.filter((e) => !/^briefing is \d+ words, maximum/.test(e));
+  const lengthNotes = all.filter((e) => /^briefing is \d+ words, maximum/.test(e));
+
   const wc = wordCount(briefing);
+  for (const n of lengthNotes) console.log(`· ${file}  ${n}`);
   if (errors.length) {
     failed++;
     console.log(`\n✗ ${file}  (${wc} words)`);

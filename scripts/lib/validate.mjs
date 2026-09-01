@@ -11,7 +11,24 @@ import { normaliseUrl } from './sources.mjs';
 
 const MIN_STORIES = 2; // PRD §11: a 2-story day beats skipping the day
 const PREFERRED_MIN_STORIES = 3;
+
+/*
+ * PRD §4.3 asks for 1,200 to 2,000 words: deep enough to rank, short enough to
+ * read over coffee. The first attempt is held to the band with a small
+ * tolerance; the retry gets wider limits so a day is never lost over fifty
+ * words, but a runaway briefing still fails.
+ */
 const MIN_WORDS = 1000;
+const STRICT_MIN_WORDS = 1200;
+const STRICT_MAX_WORDS = 2100;
+const MAX_WORDS = 2600;
+
+/*
+ * A briefing sourced entirely from one publisher is a worse product and a
+ * weaker citation. Enforced on the first attempt only: some days the news
+ * genuinely does come from one place.
+ */
+const STRICT_MAX_PER_SOURCE = 2;
 
 /** Slop patterns from the stop-slop ruleset, as publish-blocking checks. */
 const BANNED_PATTERNS = [
@@ -165,9 +182,30 @@ export function validateBriefing(briefing, { allowedUrls, allowedTags, date, str
     });
   }
 
+  // ---- source diversity ------------------------------------------------
+  if (strict && b.stories.length >= 3) {
+    const perSource = new Map();
+    for (const s of b.stories) {
+      const key = (s.sourceName ?? '').trim().toLowerCase();
+      perSource.set(key, (perSource.get(key) ?? 0) + 1);
+    }
+    for (const [name, n] of perSource) {
+      if (n > STRICT_MAX_PER_SOURCE) {
+        e.push(
+          `${n} of ${b.stories.length} stories come from "${name}". Use at most ${STRICT_MAX_PER_SOURCE} from one publisher unless the day's news genuinely allows nothing else.`,
+        );
+      }
+    }
+  }
+
   // ---- length ----------------------------------------------------------
   const wc = wordCount(b);
-  if (wc < MIN_WORDS) e.push(`briefing is ${wc} words, minimum ${MIN_WORDS}`);
+  const minWords = strict ? STRICT_MIN_WORDS : MIN_WORDS;
+  const maxWords = strict ? STRICT_MAX_WORDS : MAX_WORDS;
+  if (wc < minWords) e.push(`briefing is ${wc} words, minimum ${minWords}`);
+  if (wc > maxWords) {
+    e.push(`briefing is ${wc} words, maximum ${maxWords}. Tighten whatHappened and the FAQ.`);
+  }
 
   // ---- voice -----------------------------------------------------------
   const prose = proseOf(b);

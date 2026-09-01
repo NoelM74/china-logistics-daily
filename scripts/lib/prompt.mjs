@@ -107,8 +107,11 @@ THEN THE BRIEFING-LEVEL SECTIONS
 - contentHooks: 8 to 12 one-line angles a reader could turn into their own LinkedIn post, video or newsletter. Each one a complete thought with a point of view, not a topic label. "Everyone is watching tariff rates and ignoring the demurrage clock" beats "Tariff update".
 - faq: 3 to 5 questions phrased the way a seller would type them into Google, each answered in 80 words or fewer. Answers must stand alone with no reference to the stories above, because they get extracted and read on their own.
 
+SOURCE SPREAD
+Use at most two stories from the same publisher. A briefing that is four stories from one outlet is a weaker read and a weaker citation. If the day genuinely offers nothing else, say so in the bottom line rather than padding with a thin story.
+
 LENGTH
-1,200 to 2,000 words across the whole briefing. Depth in whyItMatters, not padding in whatHappened.
+1,200 to 2,000 words across the whole briefing, and treat 2,000 as a ceiling rather than a target. Depth belongs in whyItMatters. whatHappened should be the shortest account that carries the facts, and every FAQ answer must be 80 words or fewer.
 
 Return this exact JSON shape and nothing else:
 {

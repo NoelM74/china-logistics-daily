@@ -24,15 +24,8 @@ const { latestDate, ...seo } = Astro.props;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
 
-    {/* Self-hosted variable fonts. Preloaded because they carry the masthead
-        and the first headline — the two things above the fold. */}
-    <link
-      rel="preload"
-      href="/fonts/Boska-Variable.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    {/* Satoshi carries the headlines and the body, so it is preloaded. Boska
+        is only the masthead wordmark, so it loads normally and swaps. */}
     <link
       rel="preload"
       href="/fonts/Satoshi-Variable.woff2"

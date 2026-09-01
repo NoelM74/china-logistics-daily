@@ -43,7 +43,6 @@ const UA = 'Mozilla/5.0 (compatible; china-logistics-daily-build/1.0)';
  */
 const WANTED = [
   { family: 'Boska', style: 'normal', variable: true, base: 'Boska-Variable', formats: ['woff2'] },
-  { family: 'Boska', style: 'italic', variable: true, base: 'Boska-VariableItalic', formats: ['woff2'] },
   { family: 'Satoshi', style: 'normal', variable: true, base: 'Satoshi-Variable', formats: ['woff2'] },
   { family: 'Boska', style: 'normal', variable: false, base: 'Boska-Bold', formats: ['truetype'] },
   { family: 'Satoshi', style: 'normal', variable: false, base: 'Satoshi-Medium', formats: ['truetype'] },

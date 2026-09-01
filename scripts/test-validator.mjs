@@ -14,7 +14,9 @@ import { fileURLToPath } from 'node:url';
 import { validateBriefing } from './lib/validate.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const DATE = '2026-09-01';
+// A fixed, hand-authored briefing, so the tests do not shift under a new
+// generated file landing in the archive.
+const DATE = '2026-08-31';
 
 const good = JSON.parse(
   await readFile(path.join(ROOT, 'src', 'content', 'briefings', `${DATE}.json`), 'utf8'),
@@ -74,10 +76,10 @@ const CASES = [
   [
     'wrong date is rejected',
     (b) => {
-      b.date = '2026-08-30';
+      b.date = '2026-07-04';
       return b;
     },
-    /expected "2026-09-01"/,
+    new RegExp(`expected "${DATE}"`),
   ],
   [
     'story with a one-line body is rejected',
@@ -125,10 +127,7 @@ const CASES = [
   [
     'US spelling in prose is rejected',
     (b) => {
-      b.stories[0].whyItMatters = b.stories[0].whyItMatters.replace(
-        'air freight capacity',
-        'air freight fulfillment capacity',
-      );
+      b.stories[0].whyItMatters = `Your fulfillment costs rise. ${b.stories[0].whyItMatters}`;
       return b;
     },
     /US spelling/,
