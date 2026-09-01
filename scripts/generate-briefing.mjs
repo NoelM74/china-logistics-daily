@@ -102,6 +102,26 @@ function parseModelJson(raw) {
   return JSON.parse(text.slice(start, end + 1));
 }
 
+/** Make the common auth failures self-explanatory in the Actions log. */
+function explainApiError(err) {
+  const msg = String(err?.message ?? err);
+  if (msg.includes('anthropic-workspace-id')) {
+    return (
+      'The API key is identity-linked, so it needs a workspace id. Either add an ' +
+      'ANTHROPIC_WORKSPACE_ID repo secret (Console > Settings > Workspaces, copy the id), ' +
+      'or replace the key with a workspace-scoped one, which needs no extra header.'
+    );
+  }
+  if (msg.includes('401') || /authentication/i.test(msg)) {
+    return 'ANTHROPIC_API_KEY was rejected. Check the repo secret is set and has not been revoked.';
+  }
+  if (msg.includes('429')) return 'Rate limited by the API. The next scheduled run will retry.';
+  if (msg.includes('credit') || msg.includes('billing')) {
+    return 'The Anthropic account is out of credit. Top up at console.anthropic.com.';
+  }
+  return null;
+}
+
 async function callModel(client, messages) {
   const res = await client.messages.create({
     model: MODEL,
@@ -200,7 +220,17 @@ async function main() {
   }
 
   log.step(`generating with ${MODEL}`);
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+
+  // An identity-linked Console key (one scoped to a user rather than a
+  // workspace) is rejected without an anthropic-workspace-id header. Set
+  // ANTHROPIC_WORKSPACE_ID alongside the key if yours is that kind; a plain
+  // workspace key needs nothing extra.
+  const workspaceId = process.env.ANTHROPIC_WORKSPACE_ID;
+  const client = new Anthropic({
+    apiKey: process.env.ANTHROPIC_API_KEY,
+    ...(workspaceId ? { defaultHeaders: { 'anthropic-workspace-id': workspaceId } } : {}),
+  });
+  if (workspaceId) log.info(`using workspace ${workspaceId}`);
 
   const userPrompt = buildUserPrompt({
     date: DATE,
@@ -343,6 +373,8 @@ function estimateCost({ input_tokens = 0, output_tokens = 0 }) {
 main()
   .then((code) => process.exit(code))
   .catch((err) => {
+    const hint = explainApiError(err);
+    if (hint) log.error(hint);
     log.error('unhandled failure', { reason: String(err?.stack ?? err) });
     process.exit(1);
   });
