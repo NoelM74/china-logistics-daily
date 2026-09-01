@@ -67,7 +67,7 @@ const stories = entries
     {
       stories.length > 0 && (
         <section aria-labelledby="recent-h" class="mt-14">
-          <div class="rule-jade mb-5 border-t-2" />
+          <div class="rule-accent mb-5 border-t-2" />
           <h2 id="recent-h" class="text-[1.5rem]">Recent {tag.label.toLowerCase()} stories</h2>
           <ul class="mt-5 space-y-6">
             {stories.map(({ s, date }) => (
@@ -78,7 +78,7 @@ const stories = entries
                 <h3 class="mt-1.5 text-[1.15rem] leading-snug">
                   <a
                     href={href(`/briefing/${date}`)}
-                    class="no-underline transition-colors hover:text-jade-600"
+                    class="no-underline transition-colors hover:text-brand-600"
                   >
                     {s.headline}
                   </a>

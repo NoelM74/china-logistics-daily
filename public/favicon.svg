@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#01696F"/>
-  <path d="M8 46h48" stroke="#F7F6F2" stroke-width="3" stroke-linecap="round"/>
-  <path d="M8 54h30" stroke="#F7F6F2" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <rect width="64" height="64" rx="8" fill="#0A152A"/>
+  <path d="M8 46h48" stroke="#047857" stroke-width="4" stroke-linecap="round"/>
+  <path d="M8 54h30" stroke="#F4F6FB" stroke-width="3" stroke-linecap="round" opacity=".5"/>
   <text x="32" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="34"
-        font-weight="700" fill="#F7F6F2" text-anchor="middle">C</text>
+        font-weight="700" fill="#F4F6FB" text-anchor="middle">C</text>
 </svg>

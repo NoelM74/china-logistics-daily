@@ -215,9 +215,30 @@ Chosen for reading, and measured rather than assumed:
 | Line length | 64 characters desktop, 43 mobile | 40rem measure; the comfortable band is 45 to 75 |
 | Headlines | Boska 26px mobile, 34px desktop | High-contrast serif carries the editorial voice |
 | Section labels | 12px mono, weight 600, full ink | Signposts inside a story, so they are heading-sized not caption-sized |
-| Body contrast | 16.4:1 | AAA |
-| Metadata contrast | 4.9:1 | AA, verified from rendered pixels |
+| Body contrast | 16.2:1 | AAA |
+| Metadata contrast | 5.4:1 | AA, verified from rendered pixels |
 | Tap targets | 24px minimum | WCAG 2.5.8 |
+
+### Palette
+
+Sampled from china-fulfillment.com so the subdomain reads as the same company.
+Navy ink on a cool ground, emerald as the single accent, navy as a field for the
+footer and the masthead rule.
+
+| Token | Value | Notes |
+|---|---|---|
+| `--color-ink` | `#0c1a2e` | the parent site's text navy, 16.15:1 on paper |
+| `--color-ink-muted` | `#42576d` | 6.90:1 |
+| `--color-ink-faint` | `#51677e` | 5.41:1; datelines are 11px so no large-text exemption |
+| `--color-paper` | `#f4f6fb` | the parent site's cool ground |
+| `--color-brand-500` | `#047857` | accent, 5.07:1 |
+| `--color-brand-600` | `#065f46` | links and hover, 7.11:1 |
+| `--color-brand-400` | `#10b981` | 3.49:1, so large text and UI only |
+| `--color-navy` | `#0a152a` | footer field; white on it is 18.2:1 |
+| `--color-navy-faint` | `#9aacc4` | muted text on navy, 7.86:1 |
+
+Anything on the navy field needs the `.on-navy` scope, which switches datelines
+to `--color-navy-faint`. The light-ground greys drop to about 3:1 on navy.
 
 Only two webfonts load, both self-hosted variable woff2 (88kB combined) with
 `font-display: swap`. Datelines and labels use the system monospace stack, so

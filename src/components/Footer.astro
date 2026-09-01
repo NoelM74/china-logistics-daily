@@ -4,24 +4,24 @@ import { SITE, TAGS, SERVICE_LINKS, href } from '../data/site';
 const year = new Date().getFullYear();
 ---
 
-<footer class="no-print mt-20 border-t-2 border-ink bg-paper-sunk">
+<footer class="on-navy no-print mt-20 bg-navy text-paper">
   <div class="wrap grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
     <div class="sm:col-span-2 lg:col-span-1">
       <p class="font-display text-xl font-bold tracking-[-0.02em]">
-        China Logistics <span class="text-jade-500">Daily</span>
+        China Logistics <span class="text-brand-500">Daily</span>
       </p>
-      <p class="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
+      <p class="mt-3 max-w-sm text-sm leading-relaxed text-rule">
         A daily briefing on China freight, tariffs and ecommerce fulfilment, written
         for the people who actually have stock on the water. Published every morning
         at {SITE.publishHour} Irish time.
       </p>
       <p class="dateline mt-4">
-        Written by <a href={href('/about')} class="dateline-link text-ink-muted">{SITE.author.name}</a>
+        Written by <a href={href('/about')} class="dateline-link !text-paper">{SITE.author.name}</a>
       </p>
     </div>
 
     <nav aria-labelledby="ft-site">
-      <h2 id="ft-site" class="dateline mb-3 !text-ink">The site</h2>
+      <h2 id="ft-site" class="dateline mb-3 !text-brand-200">The site</h2>
       <ul class="space-y-2 text-sm">
         <li><a href={href('/')} class="list-link">Today's briefing</a></li>
         <li><a href={href('/archive')} class="list-link">Archive</a></li>
@@ -33,7 +33,7 @@ const year = new Date().getFullYear();
     </nav>
 
     <nav aria-labelledby="ft-topics">
-      <h2 id="ft-topics" class="dateline mb-3 !text-ink">Topics</h2>
+      <h2 id="ft-topics" class="dateline mb-3 !text-brand-200">Topics</h2>
       <ul class="space-y-2 text-sm">
         {
           TAGS.slice(0, 8).map((t) => (
@@ -46,7 +46,7 @@ const year = new Date().getFullYear();
     </nav>
 
     <nav aria-labelledby="ft-services">
-      <h2 id="ft-services" class="dateline mb-3 !text-ink">We also ship your stock</h2>
+      <h2 id="ft-services" class="dateline mb-3 !text-brand-200">We also ship your stock</h2>
       <ul class="space-y-2 text-sm">
         {
           SERVICE_LINKS.map((s) => (
@@ -59,7 +59,7 @@ const year = new Date().getFullYear();
     </nav>
   </div>
 
-  <div class="border-t border-rule">
+  <div class="border-t border-white/15">
     <div
       class="wrap flex flex-col gap-2 py-5 sm:flex-row sm:items-center sm:justify-between"
     >
@@ -67,11 +67,11 @@ const year = new Date().getFullYear();
         &copy; {year} {SITE.parent.name}. Shenzhen &middot; Zhengzhou &middot; Ireland.
       </p>
       <p class="dateline">
-        <a href={SITE.parent.url} class="dateline-link text-ink-muted">china-fulfillment.com</a>
+        <a href={SITE.parent.url} class="dateline-link !text-paper">china-fulfillment.com</a>
         <span aria-hidden="true"> &middot; </span>
-        <a href={SITE.sister.url} class="dateline-link text-ink-muted">eriusourcing.com</a>
+        <a href={SITE.sister.url} class="dateline-link !text-paper">eriusourcing.com</a>
         <span aria-hidden="true"> &middot; </span>
-        <a href={SITE.author.linkedin} class="dateline-link text-ink-muted">LinkedIn</a>
+        <a href={SITE.author.linkedin} class="dateline-link !text-paper">LinkedIn</a>
       </p>
     </div>
   </div>

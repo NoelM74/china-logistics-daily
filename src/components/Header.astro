@@ -18,7 +18,7 @@ const isCurrent = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
 ---
 
 <header
-  class="no-print sticky top-0 z-40 border-b border-rule bg-paper/90 backdrop-blur-sm"
+  class="no-print sticky top-0 z-40 border-t-[5px] border-t-navy border-b border-b-rule bg-paper/90 backdrop-blur-sm"
 >
   {/* Row 1 — masthead + dateline */}
   <div class="wrap flex items-baseline justify-between gap-4 pt-3 pb-2">
@@ -26,7 +26,7 @@ const isCurrent = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
       <span
         class="font-display text-[1.35rem] leading-none font-bold tracking-[-0.02em] sm:text-[1.6rem]"
       >
-        China Logistics <span class="text-jade-500">Daily</span>
+        China Logistics <span class="text-brand-500">Daily</span>
       </span>
     </a>
 
@@ -46,8 +46,8 @@ const isCurrent = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
                 href={item.href}
                 aria-current={isCurrent(item.href) ? 'page' : undefined}
                 class:list={[
-                  'dateline dateline-link transition-colors hover:text-jade-600',
-                  isCurrent(item.href) && '!text-jade-600',
+                  'dateline dateline-link transition-colors hover:text-brand-600',
+                  isCurrent(item.href) && '!text-brand-600',
                 ]}
               >
                 {item.label}
@@ -60,7 +60,7 @@ const isCurrent = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
 
     <a
       href={SITE.parent.url}
-      class="dateline dateline-link hidden transition-colors hover:text-jade-600 md:inline-flex"
+      class="dateline dateline-link hidden transition-colors hover:text-brand-600 md:inline-flex"
     >
       A service of china&#8209;fulfillment.com
     </a>

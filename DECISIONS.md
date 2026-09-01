@@ -133,7 +133,32 @@ change to one file.
 
 ---
 
-## 8. Two-story briefings are allowed, three preferred
+## 8. Re-skinned to the live parent-site palette, not the PRD's
+
+**PRD §7** specifies jade `#01696F` on off-white `#F7F6F2` as "the
+china-fulfillment.com brand system". The site was built to that and then
+re-skinned, because sampling the live parent site showed it is navy, not jade.
+
+Measured across three pages of china-fulfillment.com: dominant fields
+`#0a152a` / `#0c1a2e` / `#0d2144` navy, ground `#f4f6fb` cool grey, secondary
+text `#4a6178` slate, borders `#dae0ec`, and an emerald accent
+`#059669` / `#047857`. Jade `#01696F` appears nowhere.
+
+Keeping jade would have missed the point of §7, which is that the subdomain
+should read as the same company.
+
+**Mapping.** Navy became the ink and the footer field; emerald became the single
+structural accent, taking jade's role unchanged; the ground went cool. Every
+value was contrast-checked before use, and the masthead stayed light because a
+dark sticky bar costs 11% of a phone screen on a text-heavy daily read.
+
+**To reverse.** The palette is nine tokens in the `@theme` block of
+`src/styles/global.css` plus the constants at the top of
+`scripts/generate-og.mjs`. Nothing else hardcodes a colour.
+
+---
+
+## 9. Two-story briefings are allowed, three preferred
 
 The validator's hard floor is two stories, matching PRD §11 ("publish a 2-story
 briefing rather than skipping the day"). The first generation attempt is run in

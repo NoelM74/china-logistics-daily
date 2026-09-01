@@ -24,7 +24,7 @@ const topTags = [...new Set(tags)].slice(0, 3);
 ---
 
 <article
-  class="group border-t border-rule-strong py-5 transition-colors hover:border-jade-500"
+  class="group border-t border-rule-strong py-5 transition-colors hover:border-brand-500"
 >
   <p class="dateline tnum">
     <time datetime={date}>{formatDateShort(date)}</time>
@@ -33,7 +33,7 @@ const topTags = [...new Set(tags)].slice(0, 3);
   </p>
 
   <Heading class={compact ? 'mt-1.5 text-[1.1rem] leading-snug' : 'mt-2 text-[1.3rem] leading-snug'}>
-    <a href={url} class="no-underline transition-colors group-hover:text-jade-600">
+    <a href={url} class="no-underline transition-colors group-hover:text-brand-600">
       {title}
     </a>
   </Heading>

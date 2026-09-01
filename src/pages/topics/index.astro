@@ -42,14 +42,14 @@ const latest = briefings[0];
         TAGS.map((t) => {
           const n = counts.get(t.slug) ?? 0;
           return (
-            <li class="group border-t border-rule-strong py-5 transition-colors hover:border-jade-500">
+            <li class="group border-t border-rule-strong py-5 transition-colors hover:border-brand-500">
               <p class="dateline tnum">
                 {n} {n === 1 ? 'briefing' : 'briefings'}
               </p>
               <h2 class="mt-1.5 text-[1.25rem] leading-snug">
                 <a
                   href={href(`/topics/${t.slug}`)}
-                  class="no-underline transition-colors group-hover:text-jade-600"
+                  class="no-underline transition-colors group-hover:text-brand-600"
                 >
                   {t.label}
                 </a>

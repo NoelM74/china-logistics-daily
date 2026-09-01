@@ -24,11 +24,13 @@ const OUT = path.join(ROOT, 'public', 'og');
 
 const W = 1200;
 const H = 630;
-const JADE = '#01696F';
-const PAPER = '#F7F6F2';
-const INK = '#14181A';
-const INK_MUTED = '#4A5356';
-const RULE = '#C4BFB3';
+// Matches the site tokens in src/styles/global.css.
+const NAVY = '#0A152A';
+const ACCENT = '#047857';
+const PAPER = '#F4F6FB';
+const INK = '#0C1A2E';
+const INK_MUTED = '#42576D';
+const RULE = '#C2CBDD';
 
 const exists = (p) => access(p, constants.F_OK).then(() => true, () => false);
 
@@ -52,7 +54,7 @@ function card({ kicker, headline, footnote }) {
       flexDirection: 'column',
       justifyContent: 'space-between',
       backgroundColor: PAPER,
-      borderTop: `14px solid ${JADE}`,
+      borderTop: `14px solid ${NAVY}`,
       padding: '58px 72px 52px',
       fontFamily: 'Satoshi',
     },
@@ -79,7 +81,7 @@ function card({ kicker, headline, footnote }) {
         // word spacing instead.
         el({ fontFamily: 'Boska', fontSize: 38, color: INK, letterSpacing: -0.6, gap: 9 }, [
           { type: 'span', props: { children: 'China Logistics' } },
-          { type: 'span', props: { style: { color: JADE }, children: 'Daily' } },
+          { type: 'span', props: { style: { color: ACCENT }, children: 'Daily' } },
         ]),
         el({ fontSize: 20, color: INK_MUTED }, footnote),
       ]),
@@ -91,7 +93,7 @@ function card({ kicker, headline, footnote }) {
 function fallbackPng() {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
     <rect width="${W}" height="${H}" fill="${PAPER}"/>
-    <rect width="${W}" height="14" fill="${JADE}"/>
+    <rect width="${W}" height="14" fill="${NAVY}"/>
     <rect x="72" y="${H - 150}" width="1056" height="2" fill="${RULE}"/>
   </svg>`;
   return new Resvg(svg).render().asPng();

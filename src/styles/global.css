@@ -8,32 +8,45 @@
    ------------------------------------------------------------------ */
 
 @theme {
-  /* Brand — inherited from china-fulfillment.com so the subdomain reads as
-     the same company. Jade is structural, not decorative: rules, markers,
-     borders. Used sparingly it reads as authority; used everywhere it reads
-     as a template. */
-  --color-jade-50: #eaf3f3;
-  --color-jade-100: #cfe3e3;
-  --color-jade-200: #a2c9ca;
-  --color-jade-400: #2b8a8f;
-  --color-jade-500: #01696f;
-  --color-jade-600: #015a5f;
-  --color-jade-700: #01464a;
-  --color-jade-900: #062a2c;
+  /*
+    Palette sampled from china-fulfillment.com so the subdomain reads as the
+    same company: navy ink on a cool ground, with emerald as the one accent.
+    Every value below was contrast-checked against the backgrounds it is
+    actually used on; the ratio is noted where it is the binding constraint.
 
-  --color-paper: #f7f6f2;
-  --color-paper-sunk: #f0eee8;
-  --color-paper-raised: #fffefb;
+    Emerald is structural, not decorative: rules, markers, borders, the one
+    button. Used sparingly it reads as authority; used everywhere it reads as
+    a template.
+  */
+  --color-brand-50: #e8f2ee;
+  --color-brand-100: #cfe4dc;
+  --color-brand-200: #a3cbbd;
+  --color-brand-400: #10b981; /* large text and UI only, 3.49 on paper */
+  --color-brand-500: #047857; /* accent, 5.07 on paper */
+  --color-brand-600: #065f46; /* hover and links, 7.11 on paper */
+  --color-brand-700: #04503a;
+  --color-brand-900: #013024;
 
-  --color-ink: #14181a;
-  --color-ink-muted: #4a5356;
-  /* Lightest grey that clears WCAG AA 4.5:1 on paper-sunk (4.57) and paper
-     (4.90). Datelines are 11px, so they get no large-text exemption. */
-  --color-ink-faint: #646d70;
-  --color-rule: #ddd9d0;
-  --color-rule-strong: #c4bfb3;
+  /* The parent site's navy. Used as a field for the footer. */
+  --color-navy: #0a152a;
+  --color-navy-deep: #040d18;
+  /* Muted text on a navy field. The light-ground ink-faint is only 3.11 there,
+     which fails AA at 11px; this is 7.86. */
+  --color-navy-faint: #9aacc4;
 
-  --color-flag: #a8391f; /* sparing accent: "new", corrections, warnings */
+  --color-paper: #f4f6fb;
+  --color-paper-sunk: #e9eef7;
+  --color-paper-raised: #ffffff;
+
+  --color-ink: #0c1a2e; /* the parent site's text navy, 16.15 on paper */
+  --color-ink-muted: #42576d; /* 6.90 on paper */
+  /* Datelines are 11px, so they get no large-text exemption. 5.41 on paper,
+     5.02 on paper-sunk. */
+  --color-ink-faint: #51677e;
+  --color-rule: #dae0ec; /* the parent site's border colour */
+  --color-rule-strong: #c2cbdd;
+
+  --color-flag: #b3261e; /* sparing accent: "new", corrections, warnings */
 
   --font-display: 'Boska', 'Iowan Old Style', 'Palatino Linotype', Palatino,
     'Georgia', 'Times New Roman', serif;
@@ -83,7 +96,7 @@
 @layer base {
   :root {
     color-scheme: light;
-    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.022'/%3E%3C/svg%3E");
   }
 
   html {
@@ -132,22 +145,22 @@
 
   a {
     color: inherit;
-    text-decoration-color: var(--color-jade-200);
+    text-decoration-color: var(--color-brand-200);
     text-decoration-thickness: 1px;
     text-underline-offset: 0.18em;
     transition: text-decoration-color 160ms var(--ease-out-quint),
                 color 160ms var(--ease-out-quint);
   }
-  a:hover { text-decoration-color: var(--color-jade-500); }
+  a:hover { text-decoration-color: var(--color-brand-500); }
 
   :focus-visible {
-    outline: 2px solid var(--color-jade-500);
+    outline: 2px solid var(--color-brand-500);
     outline-offset: 2px;
     border-radius: 2px;
   }
 
   ::selection {
-    background: var(--color-jade-500);
+    background: var(--color-brand-500);
     color: var(--color-paper-raised);
   }
 
@@ -216,19 +229,19 @@
   .prose-brief > p:last-child { margin-bottom: 0; }
   .prose-brief a {
     text-decoration: underline;
-    text-decoration-color: var(--color-jade-400);
+    text-decoration-color: var(--color-brand-400);
   }
-  .prose-brief a:hover { color: var(--color-jade-600); }
+  .prose-brief a:hover { color: var(--color-brand-600); }
 
   /* Jade left-border card treatment — PRD §7. Used for TL;DR and hot take,
      differentiated by weight and type, not by colour, so the page keeps one
      accent rather than turning into a highlighter set. */
   .card-edge {
-    border-left: 3px solid var(--color-jade-500);
+    border-left: 3px solid var(--color-brand-500);
     padding: 0.9rem 0 0.9rem 1.15rem;
     background: linear-gradient(
       to right,
-      color-mix(in srgb, var(--color-jade-50) 70%, transparent),
+      color-mix(in srgb, var(--color-brand-50) 70%, transparent),
       transparent 82%
     );
   }
@@ -238,14 +251,14 @@
     background: none;
   }
 
-  /* Big jade numeral that anchors each story. Deliberately breaks the
+  /* Big accent numeral that anchors each story. Deliberately breaks the
      measure — it hangs into the left margin on wide screens. */
   .story-index {
     font-family: var(--font-display);
     font-weight: 700;
     font-size: 2.75rem;
     line-height: 0.8;
-    color: var(--color-jade-500);
+    color: var(--color-brand-500);
     font-variant-numeric: tabular-nums;
   }
   @media (min-width: 1024px) {
@@ -276,9 +289,9 @@
                 background-color 160ms var(--ease-out-quint);
   }
   .tag-pill:hover {
-    border-color: var(--color-jade-500);
-    color: var(--color-jade-600);
-    background: var(--color-jade-50);
+    border-color: var(--color-brand-500);
+    color: var(--color-brand-600);
+    background: var(--color-brand-50);
   }
 
   .btn {
@@ -298,23 +311,23 @@
                 box-shadow 160ms var(--ease-out-quint);
   }
   .btn-primary {
-    background: var(--color-jade-500);
+    background: var(--color-brand-500);
     color: var(--color-paper-raised);
-    box-shadow: 0 1px 0 var(--color-jade-700);
+    box-shadow: 0 1px 0 var(--color-brand-700);
   }
   .btn-primary:hover {
-    background: var(--color-jade-600);
+    background: var(--color-brand-600);
     transform: translateY(-1px);
-    box-shadow: 0 3px 0 var(--color-jade-700);
+    box-shadow: 0 3px 0 var(--color-brand-700);
   }
-  .btn-primary:active { transform: translateY(0); box-shadow: 0 1px 0 var(--color-jade-700); }
+  .btn-primary:active { transform: translateY(0); box-shadow: 0 1px 0 var(--color-brand-700); }
 
   .btn-ghost {
     border: 1px solid var(--color-rule-strong);
     color: var(--color-ink);
     background: var(--color-paper-raised);
   }
-  .btn-ghost:hover { border-color: var(--color-jade-500); color: var(--color-jade-600); }
+  .btn-ghost:hover { border-color: var(--color-brand-500); color: var(--color-brand-600); }
 
   /* Contextual CTA that lives inside a story's "what to do about it". */
   .inline-cta {
@@ -324,12 +337,12 @@
     /* Standalone CTA, never inline in a sentence, so WCAG 2.5.8 applies. */
     min-height: 1.5rem;
     font-weight: 600;
-    color: var(--color-jade-600);
+    color: var(--color-brand-600);
     text-decoration: underline;
-    text-decoration-color: var(--color-jade-200);
+    text-decoration-color: var(--color-brand-200);
     text-underline-offset: 0.2em;
   }
-  .inline-cta:hover { text-decoration-color: var(--color-jade-500); }
+  .inline-cta:hover { text-decoration-color: var(--color-brand-500); }
   .inline-cta::after {
     content: '→';
     font-family: var(--font-mono);
@@ -340,7 +353,7 @@
   .inline-cta:hover::after { transform: translateX(2px); }
 
   .rule-thick { border-top: 3px solid var(--color-ink); }
-  .rule-jade { border-top: 2px solid var(--color-jade-500); }
+  .rule-accent { border-top: 2px solid var(--color-brand-500); }
 }
 
 /* ---------------------------- utilities ---------------------------- */
@@ -398,5 +411,13 @@
     display: inline-flex;
     align-items: center;
     min-height: 1.5rem;
+  }
+
+  /*
+    Anything sitting on the navy field. Secondary text has to switch to a light
+    tone: the light-ground greys drop to about 3:1 against navy.
+  */
+  .on-navy .dateline {
+    color: var(--color-navy-faint);
   }
 }

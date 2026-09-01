@@ -86,7 +86,7 @@ const isLatest = pool[0]?.id === entry.id;
       </header>
 
       {/* Stories. The left padding on large screens makes room for the hanging
-          jade numerals without pushing the reading column off-centre. */}
+          accent numerals without pushing the reading column off-centre. */}
       <div class="mt-12 space-y-16 lg:mt-14 lg:space-y-20 lg:pl-[4.5rem]">
         {b.stories.map((story, i) => <StoryBlock index={i} story={story} cta={ctas[i]!} />)}
       </div>
@@ -95,7 +95,7 @@ const isLatest = pool[0]?.id === entry.id;
       <Faq faq={b.faq} />
 
       <section class="mt-14">
-        <div class="rule-jade mb-5 border-t-2" />
+        <div class="rule-accent mb-5 border-t-2" />
         <h2 class="text-[1.5rem] sm:text-[1.75rem]">The bottom line</h2>
         <div class="mt-5">
           <BottomLine text={b.bottomLine} variant="close" />
