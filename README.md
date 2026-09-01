@@ -1,7 +1,7 @@
 # China Logistics Daily
 
 Auto-updating daily news briefing on China logistics, freight, tariffs and
-ecommerce fulfilment. Lives at **news.china-fulfillment.com**. A traffic and
+ecommerce fulfilment. Lives at **chinalogisticsdaily.com**. A traffic and
 authority engine for china-fulfillment.com.
 
 Nobody touches it day to day. A GitHub Actions job reads the trade press every
@@ -192,7 +192,10 @@ Under Settings → Actions → General, set Workflow permissions to
 - Build command: `npm run build`
 - Output directory: `dist`
 - Node version: `22`
-- Custom domain: `news.china-fulfillment.com` (CNAME)
+- Custom domain: `chinalogisticsdaily.com`
+- Do not also attach `news.china-fulfillment.com` to this project. Two hostnames
+  serving identical pages is duplicate content. If you want that hostname alive,
+  point it at a 301 redirect to `chinalogisticsdaily.com`.
 
 Nothing else. No environment variables are needed at build time.
 
@@ -290,6 +293,9 @@ they cost nothing. Verify any change with `npm run check:layout`.
 - **UK English in prose**, always. `fulfilment`, `organise`, `optimise`,
   `centre`. The exceptions are the domain `china-fulfillment.com` and the
   company's registered name, China Fulfillment. `npm run audit` enforces this.
+- **The domain lives in one place.** `SITE.url` in `src/data/site.ts`, which
+  `astro.config.mjs` mirrors. `robots.txt` and `llms.txt` are generated routes
+  so their absolute URLs derive from it and cannot rot after a move.
 - **Trailing slashes on every internal link.** Set once in `astro.config.mjs` and
   applied by `href()` in `src/data/site.ts`. Never hand-write an internal path.
   The audit fails the build if one slips through.

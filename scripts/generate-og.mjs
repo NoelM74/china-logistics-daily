@@ -131,7 +131,7 @@ async function main() {
       name: 'default',
       kicker: 'Published every morning, 07:00 Irish time',
       headline: 'The China logistics briefing for people who actually ship.',
-      footnote: 'Noel Murphy · news.china-fulfillment.com',
+      footnote: 'Noel Murphy · chinalogisticsdaily.com',
     },
   ];
 

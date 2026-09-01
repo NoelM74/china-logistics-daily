@@ -3,7 +3,7 @@ import tagsData from '../../tags.json';
 export const SITE = {
   name: 'China Logistics Daily',
   shortName: 'CLD',
-  url: 'https://news.china-fulfillment.com',
+  url: 'https://chinalogisticsdaily.com',
   tagline: 'The daily China logistics briefing for people who actually ship',
   description:
     'A daily briefing on China logistics, freight, tariffs and ecommerce fulfilment, written for sellers who ship from China. Published every morning, 07:00 Irish time.',
@@ -26,7 +26,7 @@ export const SITE = {
     role: 'Founder, China Fulfillment',
     // Kept short because it is embedded in Person schema on every page.
     bio: '18 years operating supply chains in China. Runs fulfilment out of Shenzhen and Zhengzhou for ecommerce brands shipping worldwide.',
-    url: 'https://news.china-fulfillment.com/about/',
+    url: 'https://chinalogisticsdaily.com/about/',
     // Canonical www host rather than the cn. regional mirror: same profile,
     // but this is the form Google matches on for sameAs, and the audience is
     // Irish, UK and EU.

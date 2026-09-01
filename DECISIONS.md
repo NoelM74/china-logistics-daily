@@ -158,7 +158,35 @@ dark sticky bar costs 11% of a phone screen on a text-heavy daily read.
 
 ---
 
-## 9. Two-story briefings are allowed, three preferred
+## 9. Standalone domain, and the paper is its own publisher
+
+**PRD §3** specifies `news.china-fulfillment.com`. The site now runs on
+`chinalogisticsdaily.com`, bought and pointed at Cloudflare after the build.
+
+**What that changes.** A subdomain inherits some trust from the parent domain;
+a new registration starts from nothing and has to earn its own authority. The
+trade is that the paper gets an unambiguous identity of its own, which suits a
+daily publication that is meant to be cited by name.
+
+Nothing was lost in the move because the subdomain was never deployed or
+indexed, so no redirects are needed. The commercial relationship is unchanged:
+the header still reads "A service of china-fulfillment.com", every briefing
+still links contextually to the service pages, and the entity graph now states
+the relationship explicitly rather than implying it.
+
+**Schema followed the domain.** The publisher was an `Organization` named
+China Fulfillment with the paper as an `alternateName`, which collapsed two
+entities into one. It is now a `NewsMediaOrganization` named China Logistics
+Daily, with `parentOrganization` pointing at China Fulfillment, `founder`
+pointing at the Person, and `publishingPrinciples` pointing at `/about/`.
+
+**Do not attach both hostnames** to the Pages project. Two hostnames serving
+identical pages is duplicate content; use a 301 if the subdomain should stay
+alive.
+
+---
+
+## 10. Two-story briefings are allowed, three preferred
 
 The validator's hard floor is two stories, matching PRD §11 ("publish a 2-story
 briefing rather than skipping the day"). The first generation attempt is run in

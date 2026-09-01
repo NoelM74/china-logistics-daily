@@ -55,14 +55,20 @@ const image = ogImage ? absolute(ogImage) : absolute('/og/default.png');
 // AI crawlers resolve "Noel Murphy" and "China Fulfillment" to the same
 // entities across every page instead of treating each page as an island.
 const ORG_ID = `${SITE.url}/#organization`;
+const PARENT_ID = `${SITE.parent.url}#organization`;
 const PERSON_ID = `${SITE.url}/about/#noel-murphy`;
 const SITE_ID = `${SITE.url}/#website`;
 
+/*
+ * On its own domain the paper is its own publisher, not an alias of the
+ * fulfilment company. NewsMediaOrganization with a parentOrganization edge
+ * states the relationship accurately and keeps the commercial tie legible to
+ * an engine instead of collapsing two entities into one.
+ */
 const organization = {
-  '@type': 'Organization',
+  '@type': 'NewsMediaOrganization',
   '@id': ORG_ID,
-  name: SITE.parent.name,
-  alternateName: SITE.name,
+  name: SITE.name,
   url: SITE.url,
   description: SITE.description,
   logo: {
@@ -70,7 +76,21 @@ const organization = {
     '@id': `${SITE.url}/#logo`,
     url: absolute('/og/default.png'),
   },
-  sameAs: [SITE.parent.url, SITE.sister.url],
+  founder: { '@id': PERSON_ID },
+  parentOrganization: { '@id': PARENT_ID },
+  // The about page sets out how the briefing is sourced and written.
+  publishingPrinciples: absolute('/about'),
+  sameAs: [SITE.parent.url, SITE.sister.url, SITE.author.linkedin],
+};
+
+const parentOrganization = {
+  '@type': 'Organization',
+  '@id': PARENT_ID,
+  name: SITE.parent.name,
+  url: SITE.parent.url,
+  description:
+    'Third-party logistics and ecommerce fulfilment from Shenzhen and Zhengzhou, China.',
+  sameAs: [SITE.sister.url],
 };
 
 const person = {
@@ -81,7 +101,7 @@ const person = {
   jobTitle: SITE.author.role,
   description: SITE.author.bio,
   url: SITE.author.url,
-  worksFor: { '@id': ORG_ID },
+  worksFor: { '@id': PARENT_ID },
   // LinkedIn is the strongest third-party corroboration of this entity, so it
   // belongs on every page rather than only on /about/.
   sameAs: [SITE.parent.url, SITE.sister.url, SITE.author.linkedin],
@@ -100,7 +120,7 @@ const website = {
   publisher: { '@id': ORG_ID },
 };
 
-const graph: Record<string, unknown>[] = [organization, person, website];
+const graph: Record<string, unknown>[] = [organization, parentOrganization, person, website];
 
 if (article) {
   graph.push({

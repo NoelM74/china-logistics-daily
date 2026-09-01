@@ -16,7 +16,7 @@ import { XMLParser } from 'fast-xml-parser';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const UA =
-  'Mozilla/5.0 (compatible; ChinaLogisticsDaily/1.0; +https://news.china-fulfillment.com/about/)';
+  'Mozilla/5.0 (compatible; ChinaLogisticsDaily/1.0; +https://chinalogisticsdaily.com/about/)';
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@' });
 const asArray = (x) => (x == null ? [] : Array.isArray(x) ? x : [x]);
 

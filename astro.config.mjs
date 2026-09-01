@@ -4,7 +4,7 @@ import sitemap, { ChangeFreqEnum } from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://news.china-fulfillment.com',
+  site: 'https://chinalogisticsdaily.com',
   output: 'static',
   // Trailing-slash policy: enforced in one place. Every internal link in the
   // codebase ends with "/" so Cloudflare Pages never has to 307 us.
@@ -14,7 +14,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => !page.includes('/og/'),
       serialize(item) {
-        if (item.url === 'https://news.china-fulfillment.com/') {
+        if (item.url === 'https://chinalogisticsdaily.com/') {
           item.changefreq = ChangeFreqEnum.DAILY;
           item.priority = 1.0;
         } else if (item.url.includes('/briefing/')) {

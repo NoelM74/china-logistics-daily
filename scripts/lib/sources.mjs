@@ -2,7 +2,7 @@ import { XMLParser } from 'fast-xml-parser';
 import { log } from './log.mjs';
 
 const UA =
-  'Mozilla/5.0 (compatible; ChinaLogisticsDaily/1.0; +https://news.china-fulfillment.com/about/)';
+  'Mozilla/5.0 (compatible; ChinaLogisticsDaily/1.0; +https://chinalogisticsdaily.com/about/)';
 
 /** Aggregator links we cannot resolve to a real publisher URL. */
 const UNRESOLVABLE = /^https?:\/\/(news\.google\.com|www\.bing\.com\/news|news\.yahoo\.com\/rss)/i;

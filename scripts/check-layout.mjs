@@ -8,7 +8,7 @@
  *
  *   npm run dev                # in one terminal
  *   npm run check:layout       # in another
- *   npm run check:layout -- --url=https://news.china-fulfillment.com
+ *   npm run check:layout -- --url=https://chinalogisticsdaily.com
  *
  * puppeteer is not a dependency of this project, because pulling a browser
  * download into the daily pipeline for a check that runs at launch and after

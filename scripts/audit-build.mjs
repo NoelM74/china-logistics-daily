@@ -15,7 +15,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
-const ORIGIN = 'https://news.china-fulfillment.com';
+const ORIGIN = 'https://chinalogisticsdaily.com';
 
 const problems = [];
 const notes = [];
@@ -126,7 +126,7 @@ for (const file of htmlFiles) {
     try {
       const g = JSON.parse(ld);
       const types = (g['@graph'] ?? []).map((n) => n['@type']);
-      for (const req of ['Organization', 'Person', 'WebSite']) {
+      for (const req of ['NewsMediaOrganization', 'Organization', 'Person', 'WebSite']) {
         if (!types.includes(req)) fail(name, `JSON-LD missing ${req}`);
       }
       if (name.startsWith('briefing/')) {
