@@ -6,45 +6,273 @@
   "widenedWindowHours": 72,
   "maxCandidates": 20,
   "feeds": [
-    { "name": "The Loadstar", "url": "https://theloadstar.com/feed/", "topic": "logistics", "weight": 3 },
-    { "name": "The Maritime Executive", "url": "https://maritime-executive.com/articles.rss", "topic": "logistics", "weight": 2 },
-    { "name": "JOC / Journal of Commerce", "url": "https://www.joc.com/rss.xml", "topic": "logistics", "weight": 3 },
-    { "name": "FreightWaves", "url": "https://www.freightwaves.com/news/feed", "topic": "logistics", "weight": 2 },
-    { "name": "Splash247", "url": "https://splash247.com/feed/", "topic": "logistics", "weight": 2 },
-    { "name": "gCaptain", "url": "https://gcaptain.com/feed/", "topic": "logistics", "weight": 1 },
-    { "name": "Container News", "url": "https://container-news.com/feed/", "topic": "logistics", "weight": 3 },
-    { "name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/rss.xml", "topic": "logistics", "weight": 2 },
-    { "name": "Hellenic Shipping News", "url": "https://www.hellenicshippingnews.com/feed/", "topic": "logistics", "weight": 1 },
-    { "name": "Supply Chain Dive", "url": "https://www.supplychaindive.com/feeds/news/", "topic": "logistics", "weight": 2 },
-    { "name": "Supply Chain Brain", "url": "https://www.supplychainbrain.com/rss/articles", "topic": "logistics", "weight": 1 },
-    { "name": "Air Cargo Week", "url": "https://www.aircargoweek.com/feed/", "topic": "logistics", "weight": 2 },
-    { "name": "Air Cargo News", "url": "https://www.aircargonews.net/feed/", "topic": "logistics", "weight": 2 },
-    { "name": "STAT Times", "url": "https://www.stattimes.com/feed", "topic": "logistics", "weight": 1 },
-    { "name": "Logistics Manager", "url": "https://www.logisticsmanager.com/feed/", "topic": "logistics", "weight": 1 },
-    { "name": "Freightos Blog", "url": "https://www.freightos.com/feed/", "topic": "logistics", "weight": 2 },
-    { "name": "Xeneta", "url": "https://www.xeneta.com/blog/rss.xml", "topic": "logistics", "weight": 2 },
-
-    { "name": "SCMP Business", "url": "https://www.scmp.com/rss/92/feed", "topic": "china", "weight": 2 },
-    { "name": "SCMP China Economy", "url": "https://www.scmp.com/rss/318198/feed", "topic": "china", "weight": 3 },
-
-    { "name": "Retail Dive", "url": "https://www.retaildive.com/feeds/news/", "topic": "ecommerce", "weight": 1 },
-    { "name": "Modern Retail", "url": "https://www.modernretail.co/feed/", "topic": "ecommerce", "weight": 1 },
-    { "name": "Practical Ecommerce", "url": "https://www.practicalecommerce.com/feed", "topic": "ecommerce", "weight": 1 },
-    { "name": "Ecommerce News Europe", "url": "https://ecommercenews.eu/feed/", "topic": "ecommerce", "weight": 1 }
+    {
+      "name": "The Loadstar",
+      "url": "https://theloadstar.com/feed/",
+      "topic": "logistics",
+      "weight": 3
+    },
+    {
+      "name": "The Maritime Executive",
+      "url": "https://maritime-executive.com/articles.rss",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "JOC / Journal of Commerce",
+      "url": "https://www.joc.com/rss.xml",
+      "topic": "logistics",
+      "weight": 3
+    },
+    {
+      "name": "FreightWaves",
+      "url": "https://www.freightwaves.com/news/feed",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Splash247",
+      "url": "https://splash247.com/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "gCaptain",
+      "url": "https://gcaptain.com/feed/",
+      "topic": "logistics",
+      "weight": 1
+    },
+    {
+      "name": "Container News",
+      "url": "https://container-news.com/feed/",
+      "topic": "logistics",
+      "weight": 3
+    },
+    {
+      "name": "Seatrade Maritime",
+      "url": "https://www.seatrade-maritime.com/rss.xml",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Hellenic Shipping News",
+      "url": "https://www.hellenicshippingnews.com/feed/",
+      "topic": "logistics",
+      "weight": 1
+    },
+    {
+      "name": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/feeds/news/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Supply Chain Brain",
+      "url": "https://www.supplychainbrain.com/rss/articles",
+      "topic": "logistics",
+      "weight": 1
+    },
+    {
+      "name": "Air Cargo Week",
+      "url": "https://www.aircargoweek.com/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Air Cargo News",
+      "url": "https://www.aircargonews.net/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "STAT Times",
+      "url": "https://www.stattimes.com/feed",
+      "topic": "logistics",
+      "weight": 1
+    },
+    {
+      "name": "Logistics Manager",
+      "url": "https://www.logisticsmanager.com/feed/",
+      "topic": "logistics",
+      "weight": 1
+    },
+    {
+      "name": "Freightos Blog",
+      "url": "https://www.freightos.com/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Xeneta",
+      "url": "https://www.xeneta.com/blog/rss.xml",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "SCMP Business",
+      "url": "https://www.scmp.com/rss/92/feed",
+      "topic": "china",
+      "weight": 2
+    },
+    {
+      "name": "SCMP China Economy",
+      "url": "https://www.scmp.com/rss/318198/feed",
+      "topic": "china",
+      "weight": 3
+    },
+    {
+      "name": "Retail Dive",
+      "url": "https://www.retaildive.com/feeds/news/",
+      "topic": "ecommerce",
+      "weight": 1
+    },
+    {
+      "name": "Modern Retail",
+      "url": "https://www.modernretail.co/feed/",
+      "topic": "ecommerce",
+      "weight": 1
+    },
+    {
+      "name": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/feed",
+      "topic": "ecommerce",
+      "weight": 1
+    },
+    {
+      "name": "Ecommerce News Europe",
+      "url": "https://ecommercenews.eu/feed/",
+      "topic": "ecommerce",
+      "weight": 1
+    },
+    {
+      "name": "China Daily Business",
+      "url": "https://www.chinadaily.com.cn/rss/bizchina_rss.xml",
+      "topic": "china",
+      "weight": 2
+    },
+    {
+      "name": "Dimerco (Asia freight)",
+      "url": "https://www.dimerco.com/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "Sixth Tone",
+      "url": "https://www.sixthtone.com/rss",
+      "topic": "china",
+      "weight": 1
+    },
+    {
+      "name": "Economic Observer (经济观察网)",
+      "url": "http://www.eeo.com.cn/rss.xml",
+      "topic": "china",
+      "weight": 1,
+      "lang": "zh"
+    }
   ],
   "relevanceKeywords": {
     "china": [
-      "china", "chinese", "shenzhen", "ningbo", "shanghai", "yiwu", "guangzhou", "zhengzhou",
-      "xiamen", "qingdao", "hong kong", "beijing", "shekou", "yantian", "tianjin", "dalian",
-      "asia-europe", "asia-us", "transpacific", "trans-pacific", "far east", "prc"
+      "china",
+      "chinese",
+      "shenzhen",
+      "ningbo",
+      "shanghai",
+      "yiwu",
+      "guangzhou",
+      "zhengzhou",
+      "xiamen",
+      "qingdao",
+      "hong kong",
+      "beijing",
+      "shekou",
+      "yantian",
+      "tianjin",
+      "dalian",
+      "asia-europe",
+      "asia-us",
+      "transpacific",
+      "trans-pacific",
+      "far east",
+      "prc",
+      "中国",
+      "中国的",
+      "深圳",
+      "宁波",
+      "上海",
+      "义乌",
+      "广州",
+      "郑州",
+      "厦门",
+      "青岛",
+      "香港",
+      "北京",
+      "盐田"
     ],
     "logistics": [
-      "freight", "shipping", "logistics", "container", "tariff", "duty", "duties", "customs",
-      "fulfilment", "fulfillment", "3pl", "warehouse", "port", "carrier", "air cargo",
-      "ocean", "sea freight", "rail", "de minimis", "import", "export", "supply chain",
-      "amazon", "fba", "ecommerce", "e-commerce", "cross-border", "parcel", "surcharge",
-      "shipper", "forwarder", "haulage", "incoterm", "clearance", "sourcing", "manufacturing",
-      "vessel", "teu", "blank sailing", "transit", "consignment", "trade", "cargo", "logistic"
+      "freight",
+      "shipping",
+      "logistics",
+      "container",
+      "tariff",
+      "duty",
+      "duties",
+      "customs",
+      "fulfilment",
+      "fulfillment",
+      "3pl",
+      "warehouse",
+      "port",
+      "carrier",
+      "air cargo",
+      "ocean",
+      "sea freight",
+      "rail",
+      "de minimis",
+      "import",
+      "export",
+      "supply chain",
+      "amazon",
+      "fba",
+      "ecommerce",
+      "e-commerce",
+      "cross-border",
+      "parcel",
+      "surcharge",
+      "shipper",
+      "forwarder",
+      "haulage",
+      "incoterm",
+      "clearance",
+      "sourcing",
+      "manufacturing",
+      "vessel",
+      "teu",
+      "blank sailing",
+      "transit",
+      "consignment",
+      "trade",
+      "cargo",
+      "logistic",
+      "物流",
+      "海运",
+      "空运",
+      "运费",
+      "集装箱",
+      "关税",
+      "海关",
+      "清关",
+      "仓储",
+      "跨境",
+      "电商",
+      "供应链",
+      "货运",
+      "港口",
+      "出口",
+      "进口",
+      "船公司",
+      "报关",
+      "保税"
     ]
-  }
+  },
+  "_chineseSources": "Chinese-language coverage breaks earlier than the English trade press, but the outlets that matter have retired RSS. Probed 2026-09-01: Cifnews 404, Ebrun 403, LogClub 404, Shanghai Shipping Exchange 404, GACC 404. Only Economic Observer serves a working feed, and it is general business rather than logistics. Cifnews and CFLP are scrapable from their listing pages; see DECISIONS.md for what that would take."
 }

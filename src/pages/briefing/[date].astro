@@ -9,6 +9,7 @@ import TrustPanel from '../../components/TrustPanel.astro';
 import BriefingCard from '../../components/BriefingCard.astro';
 import { allBriefings, relatedBriefings, briefingTags, type Briefing } from '../../data/briefings';
 import { SITE, href, formatDate, publishedISO, assignCtas, getTag } from '../../data/site';
+import { heroBand } from '../../data/hero';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const briefings = await allBriefings();
@@ -65,6 +66,14 @@ const isLatest = pool[0]?.id === entry.id;
     </nav>
 
     <article class="reveal">
+      {/*
+        Decorative route band, inlined. aria-hidden on purpose: it carries no
+        information about the day's news, and giving a decorative graphic
+        keyword alt text is stuffing, which helps nobody and hurts screen
+        reader users. See README "Images".
+      */}
+      <div class="mb-8 h-20 overflow-hidden rounded-[2px] sm:h-28" set:html={heroBand(b.date, 5)} />
+
       <header class="lg:pl-0">
         <div class="dateline flex flex-wrap items-center gap-x-2 gap-y-1">
           <time datetime={publishedISO(b.date)}>{formatDate(b.date)}</time>

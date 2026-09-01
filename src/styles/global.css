@@ -133,9 +133,14 @@
     body { padding-bottom: 4.25rem; }
   }
 
+  /*
+    Boska is a display face: beautiful at headline sizes, spindly in running
+    text. It is confined to actual headings. Anything that is a sentence or
+    more of prose uses Satoshi, whatever its size.
+  */
   h1, h2, h3, h4 {
     font-family: var(--font-display);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.015em;
     line-height: 1.1;
     text-wrap: balance;

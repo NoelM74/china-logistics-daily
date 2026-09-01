@@ -20,7 +20,7 @@ const { faq, heading = 'Questions people are asking' } = Astro.props;
     {
       faq.map((item) => (
         <div class="border-b border-rule pb-6 last:border-b-0">
-          <dt class="font-display text-[1.15rem] leading-snug font-semibold">
+          <dt class="text-[1.1rem] leading-snug font-semibold">
             {item.question}
           </dt>
           <dd class="mt-2 leading-relaxed text-ink-muted">{item.answer}</dd>
