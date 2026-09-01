@@ -14,3 +14,4 @@ candidates-*.json
 preview.log
 .DS_Store
 Thumbs.db
+ci.log
