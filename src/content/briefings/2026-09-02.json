@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-02",
+  "title": "China: Typhoon, COSCO spying claims, and COSCO's orderbook",
+  "metaDescription": "Typhoon Saudel reforms over South China Sea threatening airports. US accuses COSCO of concealed intelligence gear. COSCO orders 1.89m teu fleet.",
+  "bottomLine": "Typhoon Saudel reformed yesterday over the South China Sea after hitting Zhejiang on Friday, and now threatens airports from Guangzhou to Hong Kong with three days of heavy rain. No mass cancellations yet, but VariFlight lists eight airports at risk including Shenzhen Baoan and Guangzhou Baiyun. If you have air freight moving this week, check with your forwarder this morning.",
+  "stories": [
+    {
+      "headline": "Typhoon Saudel reforms, threatens southern and eastern China airports",
+      "tldr": "Typhoon Saudel reformed over the South China Sea on 1 September after hitting Zhejiang on Friday, threatening eight airports including Guangzhou and Shenzhen with three days of rain.",
+      "whatHappened": "A tropical depression strengthened back into Typhoon Saudel over the northwestern South China Sea early on 1 September. The storm had made landfall in Zhejiang on Friday as the third typhoon to strike the province this year, then weakened and was declassified on Sunday.\n\nVariFlight lists eight airports at risk: Guangzhou Baiyun, Shenzhen Baoan, Zhuhai Jinwan, Xiamen Gaoqi, Fuzhou Changle, Wenzhou Longwan, Ningbo Lishe and Hong Kong International. Authorities warned of floods, landslides and mudslides over the next three days. No large-scale flight cancellations had been announced as of Tuesday morning.",
+      "whyItMatters": "If you have air freight booked out of Shenzhen, Guangzhou or Hong Kong this week, assume delays until you hear otherwise. Airlines will cancel discretionary cargo before passenger flights, and three days of heavy rain means ramp crews work slower and cargo sits longer on the tarmac.\n\nThe timing is poor. You are two weeks from the start of serious peak-season volume, and carriers were already stretching capacity on the trunk lanes. A two-day closure at Baiyun or Baoan pushes your shipment into next week's backlog, and you lose the rate you locked in if your forwarder has to rebook on a different carrier.\n\nCheck your forwarder's last free day at origin. If the storm delays your pickup and you miss the consolidation window, you pay for another week of storage in Shenzhen or you pay the deconsolidation fee to pull your pallets out and send them direct. Either one costs more than the original freight.",
+      "hotTake": "This is the third typhoon to hit Zhejiang this year, which tells you the province is having a bad summer. The fact that Saudel reformed after landfall is unusual enough that the South China Morning Post called the path unprecedented. I would not bet money on the three-day forecast holding, so if your air shipment is time-sensitive, start working on a Plan B now rather than Thursday night.",
+      "actions": [
+        "Email your forwarder this morning and ask for confirmation that your shipment will move on schedule, or get a revised ETA.",
+        "Check your last free day at the origin warehouse and calculate whether a three-day delay puts you into storage fees.",
+        "If you have a critical Q4 restock moving this week, price the cost of sending it DHL or FedEx express as insurance against the consolidation missing its slot."
+      ],
+      "sourceUrl": "https://scmp.com/news/china/politics/article/3365946/unprecedented-path-revived-typhoon-saudel-eyes-eastern-and-southern-china",
+      "sourceName": "South China Morning Post",
+      "tags": [
+        "air-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "US accuses COSCO of concealed intelligence equipment on ships",
+      "tldr": "Two senior Trump administration officials told Reuters that COSCO uses concealed signals intelligence equipment on ships to collect military communications data for Beijing.",
+      "whatHappened": "Two senior Trump administration officials told Reuters on 1 September that COSCO uses concealed equipment on board its ships to collect intelligence on military communications near the coastlines of target nations including the US. The officials said COSCO has maintained an intelligence-gathering partnership with Beijing for decades.\n\nThe equipment is described as sophisticated signals intelligence platforms used to gather information about military communications technologies and encryption. COSCO did not respond to a request for comment. China's embassy in Washington rejected the claims. The Pentagon added COSCO to its list of companies linked to China's military in January 2025.",
+      "whyItMatters": "COSCO is one of the three largest container carriers in the world and calls at every major US port. If the Trump administration decides to escalate these allegations into sanctions or port restrictions, your ocean freight options narrow immediately.\n\nThe Pentagon already listed COSCO as military-linked in January 2025, which means this is not new information to the US government. What changed is that two officials went on the record with Reuters about concealed equipment and a decades-long intelligence programme. That language is stronger than the usual boilerplate about civil-military fusion, and it lands two weeks before Trump and Xi meet in Washington.\n\nIf COSCO gets sanctioned or restricted from US ports, Maersk and MSC absorb the volume and your spot rates go up. If COSCO stays operational but under a cloud, some US importers will route around them to avoid reputational risk or future disruption, which has the same effect on capacity. Either way, you pay more for less choice.",
+      "hotTake": "COSCO has been on the Pentagon list since January 2025, and it is still calling at Long Beach and Savannah. The timing of this Reuters story, two weeks before the Trump-Xi summit, suggests someone wanted it in the room when they meet. I would not rebook cargo off COSCO today, but I would price what it costs to do so if you have a Q4 shipment already on the water.",
+      "actions": [
+        "If you have cargo on the water on a COSCO vessel bound for a US port, confirm with your freight forwarder that they have a contingency plan if port access changes.",
+        "Price the cost delta between COSCO and the next-cheapest carrier on your lane, so you know what a sudden reroute would cost.",
+        "If you are booking new shipments for November or December, consider splitting volume across two carriers rather than going all-in on COSCO."
+      ],
+      "sourceUrl": "https://gcaptain.com/chinese-shipper-cosco-collects-intel-for-beijing-with-concealed-equipment",
+      "sourceName": "gCaptain",
+      "tags": [
+        "sea-freight",
+        "regulation-china",
+        "customs-us"
+      ]
+    },
+    {
+      "headline": "COSCO orderbook hits 1.89m teu, largest behind MSC",
+      "tldr": "COSCO's container ship orderbook reached 1.89m teu after ordering 18 vessels last week, the second-largest orderbook globally and enough to push it past Maersk into third place by capacity.",
+      "whatHappened": "COSCO ordered a dozen 22,000 teu LNG dual-fuelled ships and six 3,200 teu ships last week. The large ships will be delivered between 2028 and 2030 at around $224m each, while the smaller vessels will be built between 2028 and 2029 at $50.5m each.\n\nCOSCO's orderbook now stands at 1.89m teu, the largest behind MSC's 3m teu pipeline. COSCO's owned fleet is 2.78m teu, which could rise to 4.47m teu once all newbuildings are delivered, propelling it to third place and displacing Maersk. Linerlytica said the latest orders bring the global orderbook to a record 14.84m teu, representing 43.1% of the current fleet.",
+      "whyItMatters": "COSCO is building a fleet large enough to overtake Maersk and become the third-largest carrier in the world by 2030. That matters because COSCO is state-owned, and Beijing does not run shipping lines to maximise shareholder returns. It runs them to ensure Chinese exporters have capacity when they need it, and to keep rates low enough that Chinese goods stay competitive.\n\nThe global orderbook is now 43.1% of the current fleet, which is the highest on record. When all those ships deliver between 2028 and 2030, the market will have more capacity than it needs unless demand grows faster than anyone expects. Overcapacity means lower rates, which is good for you if you are shipping volume, but it also means carriers will blank sailings, drop lanes, or exit alliances to manage utilisation.\n\nIf you are on a lane that COSCO serves, you will likely see more capacity and more competitive pricing in 2029 and 2030. If you are on a lane that Maersk or CMA CGM serves and COSCO does not, you may see less choice as those carriers redeploy vessels to compete with COSCO on the trunk routes.",
+      "hotTake": "Beijing is building a merchant fleet that can move Chinese exports without relying on European carriers, and it is doing it in plain sight. The global orderbook is now 43% of the current fleet, which means someone is going to lose money when all those ships deliver. I would rather be a shipper in that market than a carrier shareholder.",
+      "actions": [
+        "If you are planning capacity for 2029 or 2030, model your ocean freight costs down by 15% to 20% from current levels and see what that does to your landed cost.",
+        "If you have multi-year contracts coming up for renewal in 2028, consider a shorter-term deal that lets you renegotiate once the new capacity hits the water.",
+        "Track COSCO's lane deployments as the new ships deliver, because that tells you where the competitive pressure will land first."
+      ],
+      "sourceUrl": "https://theloadstar.com/ambitious-coscos-spending-spree-takes-box-ship-orderbook-to-new-high",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Typhoon Saudel reformed after landfall, which the South China Morning Post called unprecedented, and now eight airports from Guangzhou to Hong Kong are on the watch list.",
+    "Everyone is pricing air freight out of Shenzhen and ignoring the three-day rain forecast that could push their shipment into next week's backlog.",
+    "The US just accused COSCO of hiding intelligence gear on its ships for decades, two weeks before Trump and Xi meet in Washington.",
+    "COSCO has been on the Pentagon's military-linked list since January 2025 and is still calling at every major US port, which tells you the gap between rhetoric and action.",
+    "COSCO's orderbook is now 1.89m teu, enough to overtake Maersk by 2030, and Beijing is not building that fleet to maximise shareholder returns.",
+    "The global container ship orderbook is 43.1% of the current fleet, the highest on record, which means someone is going to lose money when those ships deliver.",
+    "If you have air freight moving through Guangzhou or Shenzhen this week, check your forwarder's last free day at origin before the typhoon delay puts you into storage fees.",
+    "COSCO ordered 18 more ships last week while the US accused it of espionage, which is either confidence or indifference, and neither one suggests it is worried about sanctions.",
+    "When COSCO's fleet hits 4.47m teu in 2030, it will have more capacity than Maersk, and that capacity will be priced to keep Chinese exports competitive, not to reward investors.",
+    "The timing of the COSCO intelligence allegations is not random, it is two weeks before the Trump-Xi summit, which means someone wanted it in the room.",
+    "Typhoon season in Zhejiang is worse this year than usual, with three typhoons hitting the province and one of them reforming after landfall, which is rare enough to get called unprecedented.",
+    "If you are booking Q4 shipments and going all-in on COSCO, price what it costs to split volume across two carriers, because the risk is not zero."
+  ],
+  "faq": [
+    {
+      "question": "Will Typhoon Saudel disrupt air freight from Shenzhen and Guangzhou this week?",
+      "answer": "Typhoon Saudel reformed over the South China Sea on 1 September and threatens heavy rain for three days. VariFlight lists Shenzhen Baoan and Guangzhou Baiyun among eight airports at risk. No mass cancellations had been announced as of Tuesday morning. Airlines cancel cargo before passenger flights during weather disruptions, and ramp operations slow in heavy rain. Contact your forwarder for updated ETAs and check whether delays will push you past your last free day at the origin warehouse."
+    },
+    {
+      "question": "What happens if COSCO gets sanctioned by the US?",
+      "answer": "If COSCO is sanctioned or restricted from US ports, Maersk and MSC would absorb the volume and spot rates would rise. COSCO calls at every major US port. The Pentagon added COSCO to its military-linked list in January 2025, but it continues operating. Recent US allegations about concealed intelligence equipment landed two weeks before a Trump-Xi summit. If you have cargo on COSCO vessels bound for US ports, confirm your forwarder has a contingency plan and price the cost of rerouting."
+    },
+    {
+      "question": "How will COSCO's fleet expansion affect ocean freight rates?",
+      "answer": "COSCO's orderbook of 1.89m teu will push its total fleet to 4.47m teu by 2030, overtaking Maersk for third place globally. The global container ship orderbook is now 43.1% of the current fleet. When those ships deliver between 2028 and 2030, the market will have overcapacity unless demand grows faster than expected. Overcapacity typically lowers rates. COSCO is state-owned and prioritises ensuring Chinese exporters have capacity at competitive prices. Expect more capacity and competitive pricing on COSCO-served lanes by 2029."
+    },
+    {
+      "question": "Which airports in China are affected by Typhoon Saudel?",
+      "answer": "VariFlight lists eight airports at risk: Guangzhou Baiyun, Shenzhen Baoan, Zhuhai Jinwan, Xiamen Gaoqi, Fuzhou Changle, Wenzhou Longwan, Ningbo Lishe and Hong Kong International Airport. The storm reformed over the South China Sea on 1 September after making landfall in Zhejiang on Friday. Authorities warned of floods, landslides and mudslides over three days. No large-scale flight cancellations had been announced as of Tuesday morning. Monitor updates from airlines and forwarders."
+    },
+    {
+      "question": "Is COSCO still safe to use for shipping to the US?",
+      "answer": "COSCO remains operational and calls at all major US ports despite being on the Pentagon's military-linked list since January 2025. Recent US allegations about concealed intelligence equipment are serious, but no new sanctions or port restrictions have been announced. The timing, two weeks before a Trump-Xi summit, suggests the allegations may be leverage for negotiations. If you have cargo booked on COSCO, it should move as scheduled, but confirm your forwarder has a backup plan. For future bookings, consider splitting volume across carriers."
+    }
+  ],
+  "generatedAt": "2026-09-02T09:48:13.655Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
