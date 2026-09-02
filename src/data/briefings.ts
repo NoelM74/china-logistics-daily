@@ -1,6 +1,13 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { typesetDeep } from './typography';
 
 export type Briefing = CollectionEntry<'briefings'>;
+
+/*
+ * Fields that must survive untouched. sourceUrl is a link and date is parsed
+ * downstream; everything else is prose and gets typographic punctuation.
+ */
+const VERBATIM = ['sourceUrl', 'date', 'model'] as const;
 
 /**
  * All briefings, newest first. Future-dated files are excluded so a briefing
@@ -10,7 +17,9 @@ export type Briefing = CollectionEntry<'briefings'>;
 export async function allBriefings(): Promise<Briefing[]> {
   const today = new Date().toISOString().slice(0, 10);
   const items = await getCollection('briefings', ({ data }) => data.date <= today);
-  return items.sort((a, b) => b.data.date.localeCompare(a.data.date));
+  return items
+    .map((item) => ({ ...item, data: typesetDeep(item.data, VERBATIM) }))
+    .sort((a, b) => b.data.date.localeCompare(a.data.date));
 }
 
 export async function latestBriefing(): Promise<Briefing | undefined> {
