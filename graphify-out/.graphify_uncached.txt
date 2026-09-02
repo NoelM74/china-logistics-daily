@@ -1,0 +1,4 @@
+E:\ClaudeData\news.china-fulfillment.com\.github\workflows\ci.yml
+E:\ClaudeData\news.china-fulfillment.com\.github\workflows\daily-briefing.yml
+E:\ClaudeData\news.china-fulfillment.com\DECISIONS.md
+E:\ClaudeData\news.china-fulfillment.com\README.md

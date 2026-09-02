@@ -22,6 +22,11 @@ on:
         required: false
         type: boolean
         default: false
+      test_alarm:
+        description: 'Exercise the failure alarm on this run (it normally only arms on the schedule)'
+        required: false
+        type: boolean
+        default: false
 
 # Never let two runs commit to main at the same time.
 concurrency:
@@ -105,3 +110,121 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run audit
+
+  # An alarm nobody sees is not an alarm. GitHub emails the repo owner when a
+  # scheduled run fails and those get filtered into oblivion, so this opens a
+  # real issue instead, comments on it if one is already open rather than
+  # spamming new ones, and closes it once a run succeeds again.
+  #
+  # It also catches the quieter failure: a run that reports success but commits
+  # nothing, leaving the site serving stale content while every job is green.
+  #
+  # Armed on the schedule only. A manual run has a human watching it, and this
+  # would otherwise file an issue every time someone backfills a date. Pass
+  # test_alarm to exercise it deliberately.
+  alarm:
+    name: Alarm
+    runs-on: ubuntu-latest
+    needs: [generate, verify]
+    if: ${{ always() && (github.event_name == 'schedule' || inputs.test_alarm) }}
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Assess the run
+        id: assess
+        env:
+          GEN: ${{ needs.generate.result }}
+          VER: ${{ needs.verify.result }}
+          TEST_ALARM: ${{ inputs.test_alarm }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          : > problems.md
+
+          # A drill. Injecting the fault only when no alarm is already open
+          # makes two consecutive test runs walk the whole loop: the first
+          # raises the issue, the second finds it open, reports healthy, and
+          # stands it down again. Testing the alarm therefore leaves nothing
+          # behind, which is the only reason to trust it.
+          if [ "${TEST_ALARM:-false}" = "true" ]; then
+            OPEN_NOW=$(gh issue list --label pipeline-failure --state open --limit 1 --json number --jq '.[0].number // empty')
+            if [ -z "$OPEN_NOW" ]; then
+              echo "- Drill: this is a deliberate test of the alarm, triggered with \`test_alarm\`. Nothing is wrong. Re-run the workflow with \`test_alarm\` again and this issue will close itself." >> problems.md
+            else
+              echo "Drill: alarm #$OPEN_NOW is already open, reporting healthy so it stands down."
+            fi
+          fi
+
+          if [ "$GEN" != "success" ]; then
+            echo "- The **generate** job finished as \`$GEN\`." >> problems.md
+          fi
+          # verify is skipped on a dry run, which is not a failure.
+          if [ "$VER" != "success" ] && [ "$VER" != "skipped" ]; then
+            echo "- The **build and audit** job finished as \`$VER\`." >> problems.md
+          fi
+
+          NEWEST=$(ls src/content/briefings/*.json | xargs -n1 basename | sed 's/\.json$//' | sort | tail -1)
+          TODAY=$(TZ=Europe/Dublin date +%F)
+          AGE=$(( ( $(date -u -d "$TODAY" +%s) - $(date -u -d "$NEWEST" +%s) ) / 86400 ))
+          echo "newest=$NEWEST" >> "$GITHUB_OUTPUT"
+          echo "newest briefing: $NEWEST | today: $TODAY | age: ${AGE}d"
+
+          # One miss is a blip and self-corrects tomorrow. Two is a stall.
+          if [ "$AGE" -gt 1 ]; then
+            echo "- The newest briefing is \`$NEWEST\`, **$AGE days** behind today (\`$TODAY\`). The site is serving stale content." >> problems.md
+          fi
+
+          if [ -s problems.md ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Raise the alarm
+        if: steps.assess.outputs.ok == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          {
+            echo "The daily briefing pipeline did not complete cleanly."
+            echo
+            cat problems.md
+            echo
+            echo "Run: $RUN_URL"
+            echo
+            echo "This issue closes itself when a scheduled run succeeds again."
+          } > body.md
+
+          EXISTING=$(gh issue list --label pipeline-failure --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "Alarm already open as #$EXISTING, adding a comment."
+            gh issue comment "$EXISTING" --body-file body.md
+          else
+            gh label create pipeline-failure --color B60205               --description "The daily briefing pipeline needs attention" 2>/dev/null || true
+            gh issue create --title "Daily briefing pipeline needs attention"               --label pipeline-failure --body-file body.md
+          fi
+
+      - name: Stand down the alarm
+        if: steps.assess.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          NEWEST: ${{ steps.assess.outputs.newest }}
+        run: |
+          set -euo pipefail
+          OPEN=$(gh issue list --label pipeline-failure --state open --json number --jq '.[].number')
+          if [ -z "$OPEN" ]; then
+            echo "Nothing to stand down."
+            exit 0
+          fi
+          for n in $OPEN; do
+            gh issue close "$n" --comment "Recovered. Newest briefing is \`$NEWEST\`. Run: $RUN_URL"
+          done
