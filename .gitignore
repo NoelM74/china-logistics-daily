@@ -17,3 +17,6 @@ node_modules/
 preview.log
 public/fonts/*.woff2
 public/og/*.png
+
+# graphify knowledge-graph output and caches, local scratch
+graphify-out/
