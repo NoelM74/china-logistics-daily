@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-03",
+  "title": "China trans-Pacific rates hit $9,791 on typhoon delays",
+  "metaDescription": "Trans-Pacific spot rates reach new highs as typhoon disruption compounds peak season demand. Panama Canal draft limits force schedule changes.",
+  "bottomLine": "Trans-Pacific spot rates rose to $9,791 per FEU on the China to US East Coast lane last week, up 2% week-on-week, with typhoons closing Shanghai and Ningbo adding to congestion that carriers cannot unwind. If you have cargo moving in September, expect omitted port calls and shifted transshipment routing that will add days to your transit.",
+  "stories": [
+    {
+      "headline": "Trans-Pacific rates rise 2% as typhoon backlog tightens capacity",
+      "tldr": "Spot rates from China to the US East Coast reached $9,791 per FEU last week, up 2%, as typhoon-driven port closures compound peak season congestion.",
+      "whatHappened": "Trans-Pacific spot rates climbed to $7,621 per FEU on the China to US West Coast lane and $9,791 on the China to US East Coast lane in the week ending 2 September 2026, according to data from Freightos. Both lanes rose 2% week-on-week.\n\nA series of typhoons since mid-July forced closures at Shanghai and Ningbo, creating severe congestion that carriers described as increasingly difficult to clear. Carriers responded by omitting port calls, rerouting cargo through transshipment hubs and adjusting vessel rotations.\n\nPeak season demand that began in May has remained firmer than expected. Ocean shipments of data centre hardware and the absence of new tariff increases in July supported volumes. Carriers plan to add some trans-Pacific capacity in September ahead of blank sailings around China's Golden Week holiday period, but scheduled service withdrawals later in the month may restrict available space again.",
+      "whyItMatters": "You are paying more per container and waiting longer for less reliable service. The 2% rate increase follows months of sustained peak pricing, and the typhoon backlog means your cargo faces a higher chance of being bumped, rerouted or delayed even after the storms passed.\n\nIf your shipment was booked through Shanghai or Ningbo in the past three weeks, check whether your carrier omitted the call. Cargo shifted to transshipment hubs adds five to seven days to your transit. That matters if you are trying to hit an Amazon receiving window or a retail shelf date.\n\nCarriers are considering low-water surcharges for Panama Canal transits. If those charges land, your landed cost on East Coast-bound cargo climbs again, particularly if your service depends on the canal rather than routing through Suez or around Africa. Some sellers will find it cheaper to shift to West Coast discharge and pay the inland leg.",
+      "hotTake": "The congestion will not clear before Golden Week blank sailings start, which means tight capacity through October. If you have Q4 inventory still in a factory, book it now and accept the rate rather than waiting for relief that will not arrive until November at the earliest.",
+      "actions": [
+        "Check whether your carrier omitted Shanghai or Ningbo calls in the past three weeks and confirm your cargo's actual routing",
+        "Pull forward any Q4 bookings still in the factory and lock capacity at current rates",
+        "Compare West Coast discharge plus inland haulage against East Coast all-in pricing if Panama surcharges are added"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/trans-pacific-spot-rates-reach-new-highs-on-resilient-demand-port-congestion",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Panama Canal draft limits force one-off schedule changes to US East Coast",
+      "tldr": "Container services to the US East Coast face schedule disruptions from draft restrictions at the Panama Canal and recent typhoon closures at Chinese ports.",
+      "whatHappened": "Container services to the US East Coast experienced a series of one-off schedule changes stemming from draft limits at the Panama Canal and typhoons that shut major Chinese ports, according to the Journal of Commerce.\n\nThe draft restrictions at the canal have forced carriers to adjust vessel loadings and in some cases reroute services. Combined with the typhoon disruptions at Chinese load ports, the changes have introduced unpredictability into published schedules on the trans-Pacific East Coast lane.",
+      "whyItMatters": "One-off schedule changes are harder to plan around than a consistent delay. You cannot build a buffer if you do not know which sailings will be affected or how carriers will adjust. A vessel rerouted around Africa instead of through Panama adds two weeks to your transit, turning a six-week lead time into an eight-week one.\n\nIf you ship to East Coast warehouses or FBA centres, the combination of Panama restrictions and typhoon backlogs means your cargo faces compounding risk. A delayed departure from Shanghai, a rerouted vessel and a missed transshipment connection can turn a single disruption into a three-week gap.\n\nCarriers protect their schedule integrity by displacing your cargo. They will omit a port call, shift a container to the next sailing or reroute through a different hub. You find out after the fact, usually when your forwarder sends the revised ETD.",
+      "hotTake": "Draft limits at Panama are not new, but the combination with typhoon delays creates more variance than most sellers have buffered for. If you are shipping anything time-sensitive to the East Coast, assume two extra weeks and route accordingly.",
+      "actions": [
+        "Confirm your carrier's Panama Canal policy and whether your service is at risk of rerouting",
+        "Add two weeks to your East Coast lead time assumptions for any cargo departing China in September",
+        "Consider splitting high-priority shipments across multiple sailings to reduce single-vessel risk"
+      ],
+      "sourceUrl": "https://joc.com/article/ocean-carriers-skipping-panama-canal-china-ports-as-delays-mount-6280487",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Chinese offshore investment quotas rise to $6.84bn as diversification demand grows",
+      "tldr": "China granted $6.84 billion in new qualified domestic institutional investor quotas in August, expanding access to overseas stocks for mainland investors.",
+      "whatHappened": "China's foreign exchange regulator granted $6.84 billion in qualified domestic institutional investor quotas to mutual fund firms, insurers and banks by the end of August 2026, according to data from the State Administration of Foreign Exchange.\n\nEighteen money managers including China Asset Management and GF Fund Management received allocations of $100 million each. More than 20 banks' wealth management arms received quotas for the first time.\n\nThe expansion follows a July pledge by the foreign exchange regulator to increase allocations for overseas investments amid rising demand from Chinese investors. Demand for overseas financial products offered through official channels increased after Beijing cracked down on illegal offshore stock accounts opened by Chinese investors.",
+      "whyItMatters": "This does not change your freight rate, but it signals capital flow patterns that affect your customers. If Chinese consumers and investors are moving money offshore through official channels, they are hedging against domestic asset performance. That typically precedes caution in discretionary spending.\n\nThe $6.84 billion figure is small relative to total Chinese savings, but the policy direction matters. Beijing is opening legitimate channels for outbound investment after tightening scrutiny on non-compliant offshore assets. That combination reduces pressure on unofficial capital flight but also reflects weaker confidence in domestic returns.\n\nIf you sell consumer goods into China, watch for spending to soften as wealth preservation takes priority over consumption. The same households that are diversifying offshore are the ones who buy imported goods. A shift in asset allocation often shows up in retail data two quarters later.",
+      "hotTake": "Capital seeking diversification is capital not chasing consumption. If your customer base skews towards affluent Chinese consumers, build in a weaker H1 2027 forecast and adjust your inventory buys accordingly.",
+      "actions": [
+        "Review your China market sales forecast and stress-test it against weaker consumer spending in H1 2027",
+        "Reduce inventory exposure to discretionary categories sold into China if your customer base skews affluent"
+      ],
+      "sourceUrl": "https://scmp.com/business/china-business/article/3366063/china-widens-access-overseas-stocks-handing-out-nearly-us7b-qdii-quotas",
+      "sourceName": "South China Morning Post",
+      "tags": [
+        "sourcing",
+        "manufacturing",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Trans-Pacific spot rates hit $9,791 per FEU on the East Coast lane, up 2% in a week, and typhoon backlogs mean the congestion will not clear before Golden Week blank sailings start in October.",
+    "Carriers are omitting Shanghai and Ningbo port calls to protect schedule integrity, which means your cargo gets bumped to transshipment hubs and loses five to seven days in transit.",
+    "Panama Canal draft limits are forcing one-off schedule changes on East Coast services, turning predictable delays into unpredictable reroutes that can add two weeks to your lead time.",
+    "Peak season demand that started in May is still firm in September, which almost never happens, and it is being driven by data centre hardware shipments rather than retail restocking.",
+    "If you have Q4 inventory still sitting in a Chinese factory, book it now at current rates because capacity will tighten further when Golden Week blank sailings start later this month.",
+    "Chinese regulators granted $6.84 billion in offshore investment quotas in August, signalling capital diversification that typically precedes weaker consumer spending two quarters later.",
+    "The combination of typhoon delays, Panama restrictions and peak season overlap creates more variance than most sellers have buffered for, and carriers will protect their schedules by displacing your cargo.",
+    "One-off schedule changes are harder to manage than consistent delays because you cannot build a buffer if you do not know which sailings will be affected or how carriers will adjust.",
+    "West Coast discharge plus inland haulage may be cheaper than East Coast all-in pricing once Panama Canal surcharges land, particularly for cargo that was routing through the canal.",
+    "Affluent Chinese consumers are moving money offshore through official channels, which means they are prioritising wealth preservation over discretionary spending on imported goods.",
+    "Typhoon closures at Shanghai and Ningbo created backlogs that carriers cannot unwind, and the congestion is now tightening effective capacity even though the storms passed weeks ago.",
+    "If you ship anything time-sensitive to the US East Coast, assume two extra weeks in your lead time for September departures and route accordingly."
+  ],
+  "faq": [
+    {
+      "question": "What are current container rates from China to the US in September 2026?",
+      "answer": "Spot rates from China to the US West Coast reached $7,621 per forty-foot container in the week ending 2 September 2026, up 2%. China to US East Coast rates hit $9,791 per FEU, also up 2%. Both lanes remain elevated due to peak season demand that started in May and typhoon-driven congestion at Shanghai and Ningbo. Carriers plan capacity additions in September ahead of Golden Week blank sailings, but service withdrawals later in the month may restrict space again."
+    },
+    {
+      "question": "How are typhoons affecting China container shipping in September 2026?",
+      "answer": "A series of typhoons since mid-July forced closures at Shanghai and Ningbo, creating severe congestion that carriers describe as increasingly difficult to unwind. Carriers responded by omitting port calls, rerouting cargo through transshipment hubs and adjusting vessel rotations. The disruption has tightened effective capacity on trans-Pacific and Asia-Europe lanes even though the storms have passed. Cargo shifted to transshipment hubs typically adds five to seven days to transit time. The backlog will not clear before Golden Week blank sailings start in October, meaning tight capacity through the fourth quarter."
+    },
+    {
+      "question": "Are Panama Canal restrictions affecting container shipping from China to US East Coast?",
+      "answer": "Draft limits at the Panama Canal are forcing carriers to make one-off schedule changes on container services to the US East Coast. Combined with typhoon disruptions at Chinese load ports, the restrictions have introduced unpredictability into published schedules. Some carriers are considering low-water surcharges for Panama Canal transits. If implemented, those charges will increase landed costs for East Coast-bound cargo, particularly for services that depend on the canal rather than routing through the Suez Canal or around Africa. Vessels rerouted around Africa add approximately two weeks to transit time."
+    },
+    {
+      "question": "When is China Golden Week 2026 and how does it affect shipping?",
+      "answer": "China's Golden Week holiday occurs in early October. Carriers typically schedule blank sailings around the holiday period, withdrawing capacity from regular services. In 2026, carriers plan to add some trans-Pacific capacity in early September ahead of the Golden Week blank sailings, but scheduled service withdrawals later in the month may restrict available space again. Combined with ongoing typhoon-related congestion at Shanghai and Ningbo, capacity is expected to remain tight through October. Sellers with fourth-quarter inventory requirements should book space at current rates rather than waiting for relief that is unlikely to arrive until November."
+    },
+    {
+      "question": "Why are Chinese investors moving money offshore in 2026?",
+      "answer": "China's foreign exchange regulator granted $6.84 billion in qualified domestic institutional investor quotas in August 2026, expanding access to overseas stocks for mainland investors. The move followed increased demand from Chinese investors seeking diversification amid a prolonged decline in home prices and falling returns from fixed-income assets. Beijing opened legitimate channels for outbound investment after cracking down on illegal offshore stock accounts. This capital diversification typically signals weaker confidence in domestic returns and often precedes reduced discretionary consumer spending two quarters later."
+    }
+  ],
+  "generatedAt": "2026-09-03T10:00:09.244Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
