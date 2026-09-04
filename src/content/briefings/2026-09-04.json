@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-04",
+  "title": "China ocean rates split as Europe sinks, US rises",
+  "metaDescription": "Shanghai-Europe spot rates fell 10% this week while transpacific climbed 5%. Typhoon Saudel hits Fujian. Europe port strikes crush schedules.",
+  "bottomLine": "Ocean rates split hard this week. Shanghai to Genoa dropped 10% to $4,368 per 40ft while Shanghai to Los Angeles rose 5% to $7,185. If you have Europe stock on the water, your carrier may have extra space to sell next week and blank sailings are dropping to one. US-bound cargo faces tighter capacity with double the blanks.",
+  "stories": [
+    {
+      "headline": "Shanghai-Europe rates fall 10%, transpacific rises 5% as lanes diverge",
+      "tldr": "Shanghai to Genoa spot rates dropped 10% to $4,368 per 40ft container while Shanghai to Los Angeles rose 5% to $7,185 in the week to 3 September 2026.",
+      "whatHappened": "Drewry's World Container Index held at $4,465 per 40ft container for the week ending 3 September 2026, but the east-west trades moved in opposite directions. Shanghai to Genoa fell 10% to $4,368 per 40ft. Shanghai to Rotterdam dropped 5% to $4,092.\n\nTranspacific rates strengthened. Shanghai to Los Angeles rose 5% to $7,185 per 40ft. Shanghai to New York increased 3% to $9,587. Carriers announced six blank sailings for next week on the transpacific, double this week's number, whilst cargo demand remains resilient.\n\nAsia-Europe blank sailings will fall from four this week to one next week as carriers add capacity. Drewry expects further modest declines on the Europe lanes as demand softens.",
+      "whyItMatters": "You are paying different rates for different destinations from the same factory door, and the gap is widening. If you split shipments between the US and Europe, your blended freight cost changed 7.5% in a week depending on the split.\n\nEurope-bound cargo faces falling rates and rising capacity, which means carriers have space to sell. You can negotiate harder on the Europe lanes right now, particularly if you can commit volume for October. US-bound cargo is moving the other way. Six blanks next week means carriers are pulling capacity out to defend the rate. Spot bookings will get harder and rolling cargo becomes more likely.\n\nThe carrier return to Suez is part of this. Services shifting off the Cape route cut days and fuel cost, which lets carriers undercut routes still going around Africa. If your forwarder quotes a Cape routing for Europe, ask why. Someone else is probably offering Suez at a lower rate.",
+      "hotTake": "Europe sellers have two weeks of softening rates before October bookings lock. US sellers face the opposite problem: blanks are doubling whilst demand holds, which is the setup for a sudden spike. I would lock US space now for anything shipping after 20 September, and wait another week on Europe to see how far this drops.",
+      "actions": [
+        "Request fresh Europe quotes today and compare against contracts locked in August",
+        "Book US-bound October shipments now before the six blanks next week tighten space further",
+        "Ask your forwarder which routing they are quoting for Europe and reject Cape diversions unless Suez is unavailable"
+      ],
+      "sourceUrl": "https://gcaptain.com/container-spot-rates-hold-steady-as-transpacific-gains-offset-asia-europe-declines",
+      "sourceName": "gCaptain",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Typhoon Saudel hits Fujian after third landfall, port disruption risks rise",
+      "tldr": "Typhoon Saudel made its third landfall in Fujian province on 4 September 2026 at 06:30 local time, following widespread eastern China port closures last week.",
+      "whatHappened": "Saudel landed along the coast of Gulei in Zhangpu, Fujian province, at 06:30 local time on 4 September 2026 as a tropical storm, according to China's National Meteorological Centre. The storm had earlier made landfall twice in Zhejiang province on 28 August before moving back over water.\n\nPort terminal operations at Ningbo and Shanghai were severely disrupted last week, resulting in delays exceeding 10 days in the most severe cases, according to Linerlytica. The disruption compounded existing global congestion pressures, with 3.92 million TEU, or 11.4% of the global container fleet, tied up at anchorages.\n\nAll monitored mainland Chinese ports remain open as of 2 September, according to Wilhelmsen Port Services. However, Quanzhou and Fuzhou are reporting moderate-to-heavy rain and strong winds. The National Meteorological Centre warned of heavy rain on 4 September in central and southern Fujian, southern Jiangxi, eastern Guangdong, and northern and southern Taiwan.",
+      "whyItMatters": "Fujian ports handle a different cargo mix than Shanghai and Ningbo. Quanzhou and Fuzhou are export hubs for footwear, textiles and stone products. If you source from factories in Fujian, Jiangxi or northern Guangdong, your container may be sitting at a closed terminal or stuck in traffic trying to reach one.\n\nThe 10-day delays from last week's Shanghai and Ningbo closures are still working through the system. Vessel schedules are already compressed and any new disruption in Fujian adds to the backlog. If you have cargo departing southern China in the next two weeks, your vessel may have skipped a Fujian call to make up time, which means your container gets rolled or rerouted through a different port.\n\nPorts say they are open, but that does not mean your cargo is moving. Heavy rain stops truck deliveries, terminal operations slow down, and customs clearance backs up. The lag between the weather event and the visible delay is two to four days, so you will not know the real impact until early next week.",
+      "hotTake": "I have seen this pattern twice already this summer. Ports claim normal operations whilst trucks sit at the gate and containers pile up in the yard. If your factory is inland from Quanzhou or Fuzhou, assume a three-day delay minimum and add it to your lead time now rather than waiting for the forwarder to tell you next Tuesday.",
+      "actions": [
+        "Contact your forwarder today for any Fujian-origin cargo shipping this week and confirm port readiness",
+        "Add five days to your delivery estimate for any cargo transiting Quanzhou or Fuzhou ports between now and 10 September",
+        "Check whether your vessel skipped a Fujian call to recover schedule and confirm your container routing"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/saudel-makes-third-landfall-in-china-port-disruption-risks-high",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "ports-congestion",
+        "sea-freight",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Europe port strikes push schedule reliability to single digits",
+      "tldr": "On-time performance on Asia-Europe lanes fell to unprecedented single-digit levels as German dockworkers walked out and Dutch unions prepared to strike on 4 September 2026.",
+      "whatHappened": "Dockworkers in Germany have walked out and Dutch unions are preparing to strike on 4 September, according to the Journal of Commerce. On-time performance of ocean carriers on Asia-Europe trade lanes has fallen to single-digit percentages, described as unprecedented lows.\n\nThe strikes compound existing schedule disruption from Typhoon Saudel, which forced widespread port closures in eastern China last week. Vessel availability remains tight, supporting charter rates, as new ship deliveries in August fell to a three-year low of 64,640 TEU, according to Linerlytica.\n\nFreight rates on Asia-Europe have declined for eight consecutive weeks, according to Linerlytica, even as schedule reliability collapses.",
+      "whyItMatters": "Single-digit schedule reliability means your container has a 90% chance of missing the original delivery date. If you booked Europe-bound cargo expecting a 25 September arrival, you should plan for 5 October and hope for better.\n\nThe combination of falling rates and collapsing reliability creates a planning trap. Cheaper freight looks attractive until your stock arrives two weeks late and you miss the sales window. The German and Dutch strikes will ripple through October because ports do not catch up, they just carry the backlog forward. Every vessel that arrives late leaves late, and the next vessel in the string arrives to a full berth.\n\nYou cannot fix this with premium freight because the problem is at the destination port, not the origin. Air freight from China to Europe is the only way to bypass the port strikes, but that doubles or triples your transport cost. The decision is whether your margin can absorb late delivery or whether you need to pay for air.",
+      "hotTake": "I would not book ocean freight to Europe for any product launching in October. The strike news will get worse before it gets better, and the September typhoon backlog is still working through the system. Air rates to Europe are expensive, but they are knowable. Ocean transit times right now are a guess.",
+      "actions": [
+        "Add 14 days to any Europe delivery estimate for cargo shipping by ocean in September",
+        "Request air freight quotes for time-sensitive Europe inventory and compare against the cost of a stockout",
+        "Contact your 3PL in Europe and confirm they have capacity to receive late-arriving containers in early October"
+      ],
+      "sourceUrl": "https://joc.com/article/port-strikes-hit-europe-as-schedule-reliability-drops-to-single-digits-6281165",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Shanghai-Europe rates dropped 10% this week whilst transpacific rose 5%. Same factory, opposite freight cost moves.",
+    "Carriers announced six transpacific blank sailings for next week, double this week. That is capacity coming out, not going in.",
+    "Europe schedule reliability fell to single digits as German and Dutch port strikes hit. 90% of containers will miss the delivery date.",
+    "Typhoon Saudel made landfall in Fujian on 4 September after closing Shanghai and Ningbo last week. The 10-day delays are still in the system.",
+    "Ports claim normal operations during typhoons, then trucks sit at the gate for three days. The lag between weather and visible delay is real.",
+    "Falling Europe rates look cheap until your container arrives two weeks late and you miss the sales window.",
+    "Air freight to Europe costs double or triple ocean, but it is the only routing that skips the port strikes right now.",
+    "Vessel schedules are already compressed from August typhoons. Any new Fujian disruption adds to the backlog, not replaces it.",
+    "Europe-bound sellers have two weeks of softening rates. US-bound sellers face tightening capacity. The strategies are opposite.",
+    "Single-digit schedule reliability means you plan for the late date and hope for the early one, not the other way around.",
+    "Six blanks next week on transpacific whilst demand holds is the setup for a sudden rate spike.",
+    "The carrier return to Suez is cutting Europe rates. If your forwarder quotes Cape routing, someone else is offering Suez cheaper."
+  ],
+  "faq": [
+    {
+      "question": "Why are ocean freight rates to Europe falling whilst US rates are rising?",
+      "answer": "Carriers are adding capacity to Europe and cutting it from the US. Asia-Europe blank sailings drop from four this week to one next week, which adds ships and pushes rates down. Transpacific blank sailings double from three to six, which pulls capacity out and supports rates. Demand patterns differ as well. Europe demand is softening whilst US cargo volumes remain resilient, according to Drewry's 3 September 2026 report. The carrier return to Suez also cuts Europe costs, letting them undercut Cape routes."
+    },
+    {
+      "question": "How long will the delays from Typhoon Saudel last?",
+      "answer": "Ningbo and Shanghai saw delays exceeding 10 days from last week's closures, and those are still working through the system. Saudel made a third landfall in Fujian on 4 September 2026, which adds new disruption on top of the existing backlog. Ports do not catch up, they carry the backlog forward. Every late vessel leaves late, and the next vessel arrives to a full berth. Assume the Fujian impact adds another week to southern China exports, on top of the ongoing Shanghai and Ningbo delays."
+    },
+    {
+      "question": "Should I book air freight to Europe to avoid the port strikes?",
+      "answer": "Only if the cost of a stockout exceeds the air freight premium. Ocean to Europe has single-digit schedule reliability right now because of German and Dutch port strikes. Air costs double or triple ocean rates, but it skips the destination port strikes entirely. If you are launching a product in October or restocking for peak, air may be cheaper than missing the sales window. For routine replenishment, absorb the ocean delay and adjust your safety stock upward."
+    },
+    {
+      "question": "Are Chinese ports still open after Typhoon Saudel?",
+      "answer": "All monitored mainland Chinese ports remained open as of 2 September 2026, according to Wilhelmsen Port Services. However, Quanzhou and Fuzhou in Fujian province are reporting moderate-to-heavy rain and strong winds from Saudel's 4 September landfall. Open status does not mean normal operations. Heavy rain stops truck deliveries, terminal operations slow, and customs clearance backs up. The lag between the weather event and the visible delay is two to four days."
+    },
+    {
+      "question": "How do I know if my container was affected by the Europe port strikes?",
+      "answer": "Contact your forwarder and ask for the vessel schedule and berth booking at the destination port. If your vessel calls Hamburg, Rotterdam, or another strike-affected port, assume delay. Single-digit schedule reliability means 90% of containers miss the original date. Check whether your 3PL in Europe has capacity to receive late containers. The strikes will ripple through October because ports carry backlogs forward rather than clearing them."
+    }
+  ],
+  "generatedAt": "2026-09-04T09:48:58.396Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
