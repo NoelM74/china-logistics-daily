@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-09",
+  "title": "China air cargo splits: US lanes up 13%, EU down 14%",
+  "metaDescription": "Asia air cargo diverges as AI hardware props transpacific demand. Europe lanes fall 14% after duty changes. Ocean rates ease but fuel sets floor.",
+  "bottomLine": "Air cargo out of China and Hong Kong split hard in August: US volumes up 13% year on year, Europe down 14%, with Hong Kong to Europe worst at minus 30%. Ocean rates are easing off peak but bunker fuel at June levels means they will not fall far, and typhoon congestion is keeping capacity tight.",
+  "stories": [
+    {
+      "headline": "Hong Kong to Europe air cargo down 30% as duty reform bites",
+      "tldr": "Hong Kong to Europe air volumes fell 30% year on year in August and 24% from June, after the EU ended its €150 de minimis exemption on 1 July.",
+      "whatHappened": "Combined China and Hong Kong air cargo volumes to the US rose 13% year on year in August, according to WorldACD. Volumes to Europe fell 14%. Hong Kong to Europe was hit hardest, with tonnage down 30% year on year and 24% below June, before the EU ended its €150 de minimis duty exemption on 1 July.\n\nAverage China and Hong Kong to Europe spot rates fell from $5.22 per kg in May and June to $4.34 in August, a 17% decline. China and Hong Kong to US spot rates dropped from $6.59 per kg in June to $5.89 in August, an 11% decline, but remained 26% above last year. Freightos Air Index showed China to North America rates rising 5% last week to $6.30 per kg, and China to North Europe up 6% to $4.88.",
+      "whyItMatters": "If you ship small parcels to Europe by air, your lane just got cheaper but the volume drop tells you why: buyers are shifting to consolidated ocean or avoiding the EU altogether. You are competing in a thinner market.\n\nThe US lane held up because AI hardware orders out of Taiwan are soaking up belly capacity and keeping rates elevated. If you are shipping consumer goods to the US by air, you are paying a premium set by someone else's data centre schedule.\n\nThe week-on-week uptick in Hong Kong to Europe volumes in late August suggests the worst may be behind you, but you are still 30% below last year. If you planned Q4 air capacity to Europe based on 2025 numbers, you overbooked.",
+      "hotTake": "The EU killed its own parcel import lane and everyone is pretending it will recover. It will not. Sellers will consolidate into pallets, ship ocean, or route through a third country with a higher threshold.",
+      "actions": [
+        "Reprice your EU air shipments at $4.30 to $4.90 per kg and assume that range holds through Q4.",
+        "Review your August and September EU sales velocity and adjust your Q4 air allocation down by 20% if volumes are tracking below last year.",
+        "For parcels under 2 kg to the EU, model consolidated ocean with a fulfilment partner in Rotterdam or Hamburg rather than direct air to the buyer."
+      ],
+      "sourceUrl": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "customs-eu",
+        "de-minimis",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Transpacific ocean rates hold near $9,500 as fuel costs climb",
+      "tldr": "China to US East Coast rates are $9,500 per FEU, back to 2024 peak levels, as bunker fuel returns to June prices and typhoon congestion keeps capacity tight.",
+      "whatHappened": "Transpacific ocean rates are around $7,600 per FEU to the West Coast and $9,500 to the East Coast, matching peak season 2024, according to Freightos. Bunker fuel prices have climbed back to June levels following the Iran ceasefire collapse in July and increased tensions around the Strait of Hormuz. Both bunker and jet fuel are around 60% higher than before the war started.\n\nSevere typhoon-driven congestion at Asia container hubs is also contributing to current rate levels. Carriers have increased blanked sailings this week, possibly to recover schedules disrupted by the storms. The Panama Canal Authority postponed an additional draft reduction for Neopanamax transits but reduced daily transits by four to 32 this month.",
+      "whyItMatters": "You are paying $9,500 to the East Coast not because demand is surging but because fuel is expensive and carriers are blanking sailings to manage typhoon delays. Your rate is structurally higher than early summer and will not fall much even when peak season demand eases in October.\n\nIf you locked in a contract rate below $8,000 per FEU to the East Coast, you are ahead. If you are on the spot market, you are paying 2024 peak prices in a year when import growth is slower. That is a margin problem.\n\nThe blanked sailings this week mean your sailing might get rolled even if you booked space. Carriers are prioritising schedule recovery over honouring allocations, so add a week to your transit assumption and check with your forwarder before you promise a delivery date.",
+      "hotTake": "Fuel is doing what tariffs used to do: it is setting a floor under rates that demand cannot break. If you thought transpacific rates would collapse after peak season, recalibrate. They will ease, but $7,000 per FEU to the East Coast is the new baseline.",
+      "actions": [
+        "Reforecast your Q4 ocean freight at $7,500 West Coast and $9,000 East Coast and assume those rates hold through November.",
+        "Add seven days to your transpacific transit time for shipments departing this week and next, and do not rely on a vessel departure date until your forwarder confirms the sailing was not blanked.",
+        "If you are on the spot market and shipping volume to the East Coast, get a contract rate quote for Q1 2027 now while carriers are still negotiating."
+      ],
+      "sourceUrl": "https://freightwaves.com/news/fuel-congestion-push-trans-pacific-ocean-rates-near-9500",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Asia to Europe ocean rates fall as carriers test Suez return",
+      "tldr": "Shanghai to Rotterdam rates fell 5% to $4,092 per FEU and Shanghai to Genoa dropped 10% to $4,368 on 3 September as blank sailings decline and some services resume through Suez.",
+      "whatHappened": "Shanghai to Genoa rates reached $4,368 per FEU on 3 September, down 10% week on week, according to Drewry's World Container Index. Shanghai to Rotterdam fell 5% to $4,092. Blank sailings on Asia to Europe are set to drop from four to one next week, according to Sogese.\n\nAsian port congestion stood at 4.3 million TEU, above the 4 million TEU recorded at the pandemic peak, according to Linerlytica data cited by Sogese. Cape of Good Hope diversions are absorbing around 5% to 7% of global container capacity. Andrea Monti, CEO of Sogese, said carriers are adjusting individual services rather than making broad capacity changes across their networks.",
+      "whyItMatters": "If you ship to Europe by ocean, your rate just dropped 5% to 10% in a week and blank sailings are declining, which means capacity is coming back. That is the first sustained easing since mid-year.\n\nThe Suez return is not a full reopening. Carriers are testing selective services to ease congestion and improve schedule reliability, not shifting entire strings back through the canal. Your transit time will not improve much, but your rate will. If you are quoting landed costs into Europe for Q4, use $4,000 to $4,500 per FEU as your range.\n\nThe congestion number matters because 4.3 million TEU stuck at anchor is higher than the pandemic peak. Your vessel might depart on time from Shenzhen or Shanghai but then wait three days for a berth in Singapore or Port Klang.",
+      "hotTake": "Carriers spent two years telling you Suez was closed and rates had to stay high. Now congestion is worse than the pandemic and they are quietly resuming Suez transits anyway. The rate drop is real, but the reliability improvement is not.",
+      "actions": [
+        "Reprice your Europe ocean freight at $4,000 to $4,500 per FEU for shipments departing in September and October.",
+        "Add five days to your Asia to Europe transit time to account for port congestion, and do not promise a delivery date until your container is discharged in Europe.",
+        "If you are booking Q4 volume to Europe, negotiate a contract rate now while spot rates are falling."
+      ],
+      "sourceUrl": "https://container-news.com/asia-europe-rates-fall-as-carriers-gradually-return-to-suez",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Taiwan export orders hit record on AI server demand",
+      "tldr": "Taiwan's export orders reached $97.94 billion in July, up 61.9% year on year, with US orders jumping 88.9% to $40.79 billion, the largest monthly increase on record.",
+      "whatHappened": "Taiwan's export orders hit $97.94 billion in July, surging 61.9% year on year, according to Taiwan's Ministry of Economic Affairs. Orders from the US jumped 88.9% to $40.79 billion, the largest monthly increase on record. Orders for information and communications technology products rose 89.5%. The ministry said server orders had been stronger than expected.\n\nTaiwan's July exports rose 32.9% to $75.3 billion, with electronic components up 50.5% and integrated circuits up 52.3%. SATS chief executive Kerry Mok told the Financial Times that the handler was seeing server racks, storage systems and GPUs being moved by air to meet time-critical data centre construction schedules.",
+      "whyItMatters": "If you ship consumer goods by air to the US, you are competing for belly capacity with Taiwan's AI hardware exports, and you are losing. Server racks and GPUs are time-critical and price-insensitive, which means they set the clearing price for transpacific air freight.\n\nThis is not a Q4 spike. Taiwan's export orders are up 61.9% year on year and server demand is stronger than expected, which means the AI hardware surge is structural. Transpacific air rates will stay elevated through the end of the year and into 2027 unless airlines add dedicated freighter capacity, which they have not announced.\n\nThe scale of the Taiwan export boom also explains why ocean rates to the US are holding near $9,500 per FEU. AI hardware moves by air, but the components, cooling systems and peripherals move by ocean, and that volume is keeping container demand firm even as other categories soften.",
+      "hotTake": "AI is eating the transpacific air freight market and no one is talking about it. If you ship anything that is not time-critical, you should be on ocean. If you ship anything that is time-critical but not high-value, you are about to get priced out.",
+      "actions": [
+        "Shift your US-bound air shipments to ocean for any product where you can absorb an extra 20 days of lead time.",
+        "Model your Q4 and Q1 air freight to the US at $6.50 per kg and assume that rate holds until Taiwan's server orders decline.",
+        "If you are quoting new business that depends on transpacific air freight, add 15% to your cost per kg estimate to cover the AI premium."
+      ],
+      "sourceUrl": "https://theloadstar.com/ai-boom-drives-two-speed-asian-air-cargo-export-market-ahead-of-peak",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "sourcing",
+        "manufacturing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Hong Kong to Europe air volumes fell 30% year on year in August. The EU duty reform did not slow the parcel trade, it killed it.",
+    "Transpacific ocean rates are $9,500 per FEU to the East Coast, matching 2024 peak levels, but import growth is slower this year. That is a margin problem.",
+    "Bunker fuel is back to June prices and setting a floor under ocean rates that demand cannot break. Peak season or not, $7,000 per FEU is the new baseline.",
+    "Asia to Europe ocean rates dropped 10% in a week as carriers test Suez services again. The rate relief is real, but transit reliability is worse than the pandemic.",
+    "Taiwan's export orders hit $97.94 billion in July, up 61.9% year on year, driven by AI server demand. If you ship consumer goods by air to the US, you are competing with data centre construction schedules.",
+    "China and Hong Kong to US air volumes up 13% year on year, Europe down 14%. The market split is structural, not seasonal.",
+    "Typhoon congestion at Asia hubs is keeping ocean capacity tight even as demand softens. Your vessel might depart on time but wait three days for a berth.",
+    "Asian port congestion is at 4.3 million TEU, above the pandemic peak. If your goods are time-sensitive, ocean to Europe is not reliable right now.",
+    "AI hardware is setting the clearing price for transpacific air freight. If your product is not time-critical and high-value, you should be on ocean.",
+    "Mediterranean ocean rates have fallen faster than North Europe, possibly because some services are resuming through the Red Sea. The rate gap that used to be 17% is now zero.",
+    "Carriers are blanking fewer sailings to Europe next week, an early sign that capacity is returning. If you need Q4 space to Europe, book now while rates are falling.",
+    "Spot rates on China and Hong Kong to Europe air fell from $5.22 per kg in June to $4.34 in August, a 17% decline. If you are quoting EU air shipments at June prices, you are 20% too high."
+  ],
+  "faq": [
+    {
+      "question": "Why did air cargo volumes from Hong Kong to Europe fall 30% in August?",
+      "answer": "The EU ended its €150 de minimis duty exemption on 1 July and introduced a €3 charge on low-value imports. That killed the business model for small parcel shipments by air. Volumes from Hong Kong to Europe fell 30% year on year in August and were 24% below June levels. Sellers are shifting to consolidated ocean or avoiding the EU. Air rates to Europe dropped 17% from June to August as demand collapsed."
+    },
+    {
+      "question": "What are current ocean freight rates from China to the US?",
+      "answer": "Around $7,600 per FEU to the West Coast and $9,500 to the East Coast as of early September 2026. Those rates match peak season 2024 levels and are holding because bunker fuel costs have climbed back to June prices and typhoon congestion in Asia is keeping capacity tight. Expect rates to stay above $7,000 per FEU to the East Coast through Q4."
+    },
+    {
+      "question": "Are ocean rates from China to Europe falling?",
+      "answer": "Yes. Shanghai to Rotterdam rates fell 5% to $4,092 per FEU and Shanghai to Genoa dropped 10% to $4,368 on 3 September. Blank sailings are declining and some carriers are resuming selective services through the Suez Canal to ease congestion. Mediterranean rates have fallen faster than North Europe and are now about even. Use $4,000 to $4,500 per FEU for Q4 shipments to Europe."
+    },
+    {
+      "question": "Why are air freight rates to the US staying high?",
+      "answer": "AI hardware exports from Taiwan are soaking up belly capacity and setting the clearing price. Taiwan's export orders hit $97.94 billion in July, up 61.9% year on year, with US orders jumping 88.9%. Server racks and GPUs are moving by air to meet data centre construction deadlines. They are time-critical and price-insensitive, so they crowd out consumer goods. China and Hong Kong to US air rates are $5.89 per kg, still 26% above last year."
+    },
+    {
+      "question": "What is causing port congestion in Asia right now?",
+      "answer": "Typhoons disrupted schedules at major Asia container hubs in late August and early September. Asian port congestion is at 4.3 million TEU, above the pandemic peak. Carriers are blanking sailings to recover schedules, which keeps capacity tight. Cape of Good Hope diversions are also absorbing 5% to 7% of global container capacity. Your vessel might depart on time but wait days for a berth."
+    }
+  ],
+  "generatedAt": "2026-09-09T09:59:01.737Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
