@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-12",
+  "title": "China typhoons push delays to October, rates near COVID",
+  "metaDescription": "Four typhoons pushed China port delays out two weeks. Transpacific spot rates touch 2021 levels. Red Sea capacity returns while Gulf rates hit records.",
+  "bottomLine": "Four consecutive typhoons created berthing delays lasting two weeks across Shanghai, Ningbo and Yantian, and those delays will persist into October. Transpacific spot rates now sit 7% below COVID peaks at $10,955 to the US East Coast while carriers blank eight sailings next week to hold the line. The Red Sea is open again for some services, but the Strait of Hormuz remains closed and Gulf rates have broken every previous record.",
+  "stories": [
+    {
+      "headline": "Four typhoons push China port delays into October",
+      "tldr": "Four consecutive typhoons created berthing delays lasting up to two weeks across Shanghai, Ningbo-Zhoushan and Yantian, with effects expected to persist into October.",
+      "whatHappened": "Four consecutive typhoons forced terminal closures and pushed vessels into sheltered anchorages across Shanghai, Ningbo-Zhoushan and Yantian, according to Xeneta. Berthing delays stretched to two weeks at the affected ports.\n\nShanghai port congestion averaged 94 hours in week 35 before improving to 64 hours in week 36, Drewry reported. Carriers announced eight blank sailings for the week beginning 16 September, up from seven the previous week.",
+      "whyItMatters": "If your goods were booked to load in Shanghai or Ningbo during the last fortnight of August, they missed the vessel. That two-week slip means your container arrives in Los Angeles in late September instead of early September, and into an FBA receiving network already dealing with peak season volume.\n\nThe eight blank sailings next week tighten capacity further. Carriers are using weather disruption as cover to withdraw slots and hold rates, which is exactly what you would do if you ran a liner service. It works because the disruption is real, even if the capacity withdrawal is strategic.\n\nYou cannot control typhoons, but you can control your booking window. The congestion data from Drewry shows the delays easing slightly, but 64 hours of average dwell time still adds three days to your Shanghai departure. Add that to your lead time calculation for October orders, and book earlier if you are aiming for a November FBA delivery slot.",
+      "hotTake": "The Western Pacific typhoon season runs through November, so this is not over. Carriers will use every storm as an excuse to blank another sailing, and they will get away with it because the weather gives them plausible cover. Book tight cut-offs at your own risk.",
+      "actions": [
+        "Add five days to your Shanghai and Ningbo lead times for October shipments to account for residual congestion and blank sailing risk",
+        "Check your booking confirmation for the specific vessel name and verify it has not been blanked before your cargo arrives at the port",
+        "Move November FBA inventory bookings forward by one week to absorb weather and carrier scheduling variability"
+      ],
+      "sourceUrl": "https://joc.com/article/typhoon-delays-on-china-container-services-expected-to-last-into-october-6286961",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Transpacific spot rates 7% below COVID peak as bunker and blanks stack up",
+      "tldr": "Spot rates from Shanghai to the US East Coast reached $10,955 per 40ft container, sitting 7% below the COVID-era peak despite weak demand.",
+      "whatHappened": "Shanghai to US East Coast spot rates climbed to $10,955 per FEU in the week to 10 September 2026, now 7% below the COVID peak. Shanghai to US West Coast rates rose 2% week on week to $7,352 per FEU, according to Drewry's World Container Index.\n\nVLSFO bunker prices in Singapore nearly doubled from $400 per tonne in January 2026 to $900 in September. Carriers announced eight blank sailings for next week, up from seven this week. July volumes from China to the US were up 4% year on year.",
+      "whyItMatters": "Your ocean freight rate is now close to what you paid in 2021, but this time the volume is not there to justify it. July China to US volumes were up 4%, which is normal peak season, not the panic buying that drove COVID rates. The difference is supply-side: bunker fuel doubled and carriers are blanking sailings every week to keep capacity tight.\n\nThat $10,955 rate into the East Coast does not include your port fees, your drayage, your demurrage risk or the various adders carriers stack on top. The Drewry figure is a spot rate, which means contract rates are lower but not by much, and you are paying more than the headline either way.\n\nIf you are pricing inventory for Q4 right now, use $11,000 per FEU to the East Coast and $7,500 to the West Coast as your planning figures. Do not assume rates will fall in October just because demand is weak. Carriers control capacity and they will keep blanking sailings until shippers break.",
+      "hotTake": "The bunker cost doubling explains maybe half the rate increase. The rest is carriers blanking sailings and calling it capacity management. They learned in COVID that shippers will pay almost anything if the alternative is missing the season, and they are testing that lesson again.",
+      "actions": [
+        "Lock in Q4 ocean freight contracts now at current spot levels rather than waiting for a drop that may not arrive",
+        "Model your landed cost using $11,000 per FEU to the East Coast and $7,500 to the West Coast for September through November shipments",
+        "Verify your carrier contract includes a fuel surcharge cap, because bunker prices are still climbing"
+      ],
+      "sourceUrl": "https://xeneta.com/blog/death-by-a-thousand-paper-cuts-why-transpacific-rates-are-back-near-covid-peaks",
+      "sourceName": "Xeneta",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Red Sea capacity doubles but Gulf rates break COVID records",
+      "tldr": "Red Sea capacity doubled in August to 23% of pre-crisis levels, while spot rates from China to Jeddah and Khor al Fakkan exceeded COVID peaks.",
+      "whatHappened": "Capacity transiting the Bab el-Mandeb strait in August 2026 doubled compared to 12 months earlier, but remained at 23% of August 2023 levels. MSC returned services to the Red Sea with a written reversibility clause rather than a full network change.\n\nThe Strait of Hormuz has been closed to container shipping for more than six months. Spot rates from China to Jeddah rose 256% since 28 February, while China to Khor al Fakkan rates climbed 479%. Both routes now exceed the previous record highs set during COVID disruption. Routing through the Red Sea cuts transit time by 11 days on a typical China to Genoa service compared to the Cape route.",
+      "whyItMatters": "The Red Sea reopening means your Asia to Europe transit time could drop by 11 days if your carrier chooses that route, but the operative word is \"if\". MSC put a reversibility clause in their commitment, which means they can pull out again if the security situation changes. Some carriers are using the Red Sea only on the westbound leg into the Mediterranean, so your return leg might still go around the Cape.\n\nIf you ship into the Gulf, you are paying record rates with no alternative. The Strait of Hormuz is closed, so everything goes through Jeddah or Khor al Fakkan and then overland. Rates from China to Khor al Fakkan are up 479% since February, which is worse than COVID, and you are also dealing with longer transit times and worse reliability.\n\nCheck your booking confirmation for the specific routing. Do not assume your carrier is using the Red Sea just because capacity is returning. If you are shipping to Saudi Arabia or the UAE, build the inflated rate into your cost model because it is not coming down while the Strait remains closed.",
+      "hotTake": "Carriers will route through the Red Sea when it suits them and pull out when it does not, and you will find out which they chose after your cargo is already moving. The Gulf situation is simpler: you have no leverage and you pay what they charge.",
+      "actions": [
+        "Confirm your Asia to Europe routing with your carrier in writing before the booking, because published schedules may not reflect actual vessel movements",
+        "Add 479% to your pre-February ocean freight baseline if you ship into the UAE via Khor al Fakkan",
+        "Diversify your Gulf shipments across multiple carriers to reduce exposure if one carrier changes routing or pricing suddenly"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/shipping-capacity-is-returning-to-red-sea-while-rates-from-china-to-jeddah-and-khor-al-fakkan-break-covid-19-records",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Four typhoons in a row created two-week berthing delays across Shanghai, Ningbo and Yantian, and those delays will last into October.",
+    "Transpacific rates are 7% below COVID peaks but this time the demand is not there to justify it.",
+    "Carriers doubled bunker costs and then blanked eight sailings next week, calling it capacity management.",
+    "Red Sea capacity is back at 23% of normal levels but carriers can reverse course any time the security situation shifts.",
+    "Spot rates from China to Khor al Fakkan are up 479% since February, breaking every record including COVID.",
+    "The Strait of Hormuz has been closed for six months and everything into the Gulf now routes overland through Jeddah or Khor al Fakkan.",
+    "Shanghai port congestion improved from 94 hours to 64 hours but that still adds three days to your departure window.",
+    "Carriers are using typhoon disruption as cover to withdraw capacity and hold rates, and it works because the weather is real.",
+    "If your container was booked to load in Shanghai in late August it missed the vessel and arrives in LA three weeks late.",
+    "Bunker fuel costs doubled from $400 to $900 per tonne but that explains maybe half the transpacific rate increase.",
+    "MSC put a reversibility clause in their Red Sea commitment, which means they can pull out again without restructuring the network.",
+    "The Western Pacific typhoon season runs through November so every storm between now and then is another blank sailing excuse."
+  ],
+  "faq": [
+    {
+      "question": "How long will typhoon delays at Shanghai and Ningbo last?",
+      "answer": "Four typhoons created berthing delays lasting up to two weeks across Shanghai, Ningbo and Yantian. Congestion at Shanghai improved from 94 hours to 64 hours but that still adds three days to departure. Carriers are blanking eight sailings next week. Expect delays to persist into October. Add five days to your Shanghai and Ningbo lead times for October shipments."
+    },
+    {
+      "question": "Why are transpacific ocean freight rates so high right now?",
+      "answer": "Shanghai to US East Coast spot rates reached $10,955 per FEU, sitting 7% below the COVID peak. Bunker fuel costs doubled from $400 per tonne in January to $900 in September. Carriers also blanked sailings every week to tighten capacity despite weak demand. July China to US volumes were up only 4% year on year. The rate increase began accelerating in June after sitting around $2,000 per FEU earlier in the year."
+    },
+    {
+      "question": "Are carriers using the Red Sea again?",
+      "answer": "Capacity transiting the Bab el-Mandeb strait doubled in August but remained at 23% of pre-crisis levels. Some carriers transit the Red Sea on one leg into the Mediterranean. MSC returned services with a reversibility clause, meaning they can pull out if security changes. Routing through the Red Sea cuts transit time by 11 days on China to Genoa versus the Cape route. Confirm your routing with your carrier before booking."
+    },
+    {
+      "question": "What is happening with shipping rates into the Middle East Gulf?",
+      "answer": "The Strait of Hormuz has been closed for more than six months. All cargo routes through Jeddah or Khor al Fakkan and then overland. Spot rates from China to Jeddah rose 256% since 28 February, while China to Khor al Fakkan rates climbed 479%. Both routes exceed COVID peaks. These inflated rates will persist while the Strait remains closed."
+    },
+    {
+      "question": "Should I book ocean freight now or wait for rates to drop?",
+      "answer": "Lock in Q4 contracts now at current spot levels. Carriers are blanking eight sailings next week to hold capacity tight. Bunker fuel costs doubled and show no sign of falling. The typhoon season runs through November, giving carriers more excuses to withdraw capacity. Model your landed cost using $11,000 per FEU to the East Coast and $7,500 to the West Coast for Q4 shipments."
+    }
+  ],
+  "generatedAt": "2026-09-12T09:30:00.186Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
