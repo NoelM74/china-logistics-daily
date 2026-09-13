@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-13",
+  "title": "China intra-Asia slots tighten as carriers reshuffle",
+  "metaDescription": "CU Lines enters Indonesia via slot share, SITC shuffles Philippines ports. Short lanes matter if you sell regionally from Chinese factories.",
+  "bottomLine": "Two carriers reshuffled their intra-Asia networks this week, tightening slot availability between China and Indonesia and moving port calls across the Philippines. If you consolidate in Shanghai for onward sale in Southeast Asia, your lane just got smaller and your backup options fewer.",
+  "stories": [
+    {
+      "headline": "CU Lines enters China–Indonesia through slots on rival service",
+      "tldr": "CU Lines launches mid-September China–Indonesia service using slots on a CMA CGM, COSCO and OOCL joint service, adding another buyer to constrained capacity.",
+      "whatHappened": "China United Lines will start its CN1 service between China and Indonesia in mid-September 2026. The carrier operates through slots on the CHN1/SIS1/CIP1 joint service run by CNC Line, COSCO Shipping Lines and OOCL. CNC Line is CMA CGM's intra-Asia arm.\n\nThe rotation covers Shanghai, Ningbo, Quanzhou, Jakarta and Surabaya before returning to Shanghai. CU Lines gains access to Indonesia's two main container gateways without deploying its own tonnage.",
+      "whyItMatters": "Slot agreements reduce the number of carriers controlling space on a lane. CU Lines now competes with you for the same boxes that CMA CGM, COSCO and OOCL sell. If you ship consumer goods from Ningbo to Jakarta, your forwarder has one fewer independent option and less leverage when spot rates move.\n\nIndonesia is the fourth-largest ecommerce market in Southeast Asia, and Jakarta handles 60% of the country's container volume. A new entrant buying slots rather than deploying ships signals that carriers see demand but not enough to justify another string. That keeps capacity tight and rates volatile.\n\nIf your buyer is in Surabaya, you now have a direct call from Quanzhou, which matters if you source textiles or electronics in Fujian. The alternative has been transhipment through Singapore, adding a week and a handling leg.",
+      "hotTake": "Slot purchases are the canary. When a carrier buys space instead of adding ships, it means the lane is profitable but lumpy, which means your rate will swing 20% in either direction on a two-week view.",
+      "actions": [
+        "Lock in a six-month contract if you ship Ningbo to Jakarta monthly, because spot will whip around",
+        "Check whether your forwarder has direct CU Lines rates or only access through the slot partner, which adds a margin layer",
+        "Quote Quanzhou as an export gateway if you source in Fujian, because you just gained a direct Indonesia call"
+      ],
+      "sourceUrl": "https://container-news.com/cu-lines-adds-china-indonesia-service-through-slot-agreement",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "SITC moves Iloilo and Cebu calls between Philippines services",
+      "tldr": "SITC transfers Iloilo and Cebu from its CPX7 to CPX4 service and adds Batangas to CPX7, changing frequency and rotation for three Philippine ports.",
+      "whatHappened": "SITC will reorganise port coverage on its CPX4 and CPX7 services connecting China with the Philippines later in September 2026. The carrier moves Iloilo from CPX7 to CPX4, where it will receive fortnightly calls. Cebu also leaves CPX7 and joins CPX4.\n\nBatangas will be added to the CPX7 service. On the revised CPX4, Batangas and Cebu will alternate between rotations, while Iloilo receives fortnightly calls. The revised CPX4 rotation is Shanghai, Xiamen, Batangas or Cebu, Cagayan de Oro, Iloilo and back to Shanghai. The revised CPX7 rotation is Shanghai, Qingdao, Wenzhou, Xiamen, Batangas, Davao and back to Shanghai.",
+      "whyItMatters": "Cebu is the second-largest container gateway in the Philippines, handling imports for the central Visayas region. Moving it to an alternating call doubles your transit time if your container lands on the wrong week. If you sell into Cebu retailers, you now have a scheduling problem every other sailing.\n\nIloilo drops from weekly to fortnightly, which matters if you run a lean inventory model. A fortnightly call gives you half the cutoff windows and twice the buffer stock to cover the gap. That eats working capital.\n\nBatangas serves Metro Manila and is the fastest-growing Philippine gateway. Adding it to CPX7 gives you a new discharge option closer to the capital than Manila North Harbour, but only if your cargo suits the Qingdao or Wenzhou load ports. If you consolidate in Shanghai for multiple destinations, you now have to split shipments across two SITC services to cover Batangas and Cebu in the same week.",
+      "hotTake": "SITC is balancing tonnage against calls, which tells you intra-Asia demand is not strong enough to fill two strings at the same frequency. The carrier is asking you to adjust your shipping calendar to fit their deployment, and if you do not, you will sit in Xiamen waiting for the next boat.",
+      "actions": [
+        "Check your Cebu shipment calendar against the alternating rotation and move orders forward if you land on an off week",
+        "Add a week of safety stock if you serve Iloilo, because fortnightly calls mean longer gaps when a vessel blanks",
+        "Quote Batangas as a discharge port if you load in Qingdao or Wenzhou, because it cuts your drayage into Manila"
+      ],
+      "sourceUrl": "https://container-news.com/sitc-revises-two-china-philippines-services",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "CU Lines bought slots instead of deploying ships on China–Indonesia, which means the lane is profitable but not stable enough to risk tonnage.",
+    "Slot agreements reduce the number of carriers controlling space, and your forwarder just lost leverage on the Shanghai–Jakarta lane.",
+    "SITC moved Cebu to an alternating call, which doubles your transit time if your container lands on the wrong week.",
+    "Iloilo dropped from weekly to fortnightly, eating your working capital if you run lean inventory.",
+    "Carriers are balancing tonnage against calls in Southeast Asia, which means you adjust your calendar to fit their deployment or you wait.",
+    "Intra-Asia capacity is tight enough that new entrants buy slots rather than add strings, so expect spot rates to swing 20% in either direction.",
+    "Batangas just joined the CPX7 string, giving you a new discharge option closer to Manila if you load north of Shanghai.",
+    "Fortnightly calls mean a single blank sailing creates a four-week gap instead of two, doubling your stockout risk."
+  ],
+  "faq": [
+    {
+      "question": "Why does it matter if a carrier uses slots instead of deploying its own ships?",
+      "answer": "A carrier buying slots on another carrier's service reduces the number of independent sellers of space on that lane. You compete with the slot buyer for the same boxes, and your forwarder has one fewer alternative when negotiating rates. Slot purchases also signal that demand is real but volatile, because the carrier sees profit but not enough stability to justify deploying its own tonnage. That keeps capacity tight and makes spot rates swing harder."
+    },
+    {
+      "question": "What happens to my shipping schedule when a port call moves from weekly to fortnightly?",
+      "answer": "You lose half your cutoff windows and double the gap between sailings. If you miss a cutoff, your cargo waits two weeks instead of one. That forces you to carry more safety stock to cover the longer cycle, which ties up working capital. Fortnightly calls also mean a single blank sailing creates a four-week gap instead of two, so schedule reliability matters more and your risk of a stockout doubles."
+    },
+    {
+      "question": "What should I do if my port loses its direct call and moves to an alternating rotation?",
+      "answer": "Check your shipment calendar against the new rotation and move orders forward if your cargo lands on an off week. Add safety stock to cover the longer cycle between calls. Ask your forwarder for alternative routings through nearby ports, even if it adds a short truck leg, because consistency beats waiting for the alternating call. Lock in a longer-term contract if you ship monthly, because alternating calls make spot rates jump when space tightens."
+    },
+    {
+      "question": "Why are carriers reshuffling intra-Asia services right now?",
+      "answer": "Carriers are balancing tonnage against demand, moving ships to lanes where they can fill them and consolidating calls where volumes are thin. Intra-Asia demand is profitable but lumpy, so carriers adjust port rotations to keep vessels full without adding strings they cannot sustain. For sellers, this means tighter capacity, fewer schedule options, and more volatility in spot rates. It also means you adjust your shipping calendar to fit the carrier's deployment, or you wait."
+    },
+    {
+      "question": "How does an alternating port call affect my landed cost?",
+      "answer": "An alternating call does not change your ocean freight rate, but it doubles your transit time every other sailing and forces you to hold more inventory. That increases your working capital cost and raises your risk of markdowns if demand shifts while cargo is in transit. If you serve retail customers with tight delivery windows, you may need to switch to air freight on the off weeks, which can triple your transport cost per unit."
+    }
+  ],
+  "generatedAt": "2026-09-13T10:25:54.516Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 8
+}
