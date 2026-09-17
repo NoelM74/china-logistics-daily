@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-17",
+  "title": "China to Europe hits 6% on-time, spot rates near €8k",
+  "metaDescription": "Global reliability drops to 29% as Far East to Europe hits 6%. Shanghai to Rotterdam spot rates hold near pandemic highs. Typhoons laid up 1.1m TEU.",
+  "bottomLine": "Far East to Europe reliability collapsed to 6% on-time in August with average delays of 8.2 days, matching the worst of the pandemic. Four typhoons laid up 1.1 million TEU across Ningbo and Shanghai, and global reliability is now 29% after three months of decline. If you have stock on the water, add ten days to whatever your forwarder told you.",
+  "stories": [
+    {
+      "headline": "Far East to Europe hits 6% on-time, worst since late 2021",
+      "tldr": "Far East to Europe reliability fell to 6% on-time in August with 8.2 days average delay, the lowest since the pandemic peak.",
+      "whatHappened": "Global schedule reliability dropped 4 percentage points to 29% on-time in August, the third consecutive monthly decline, according to Xeneta's scorecard released 17 September. Average delay increased from 4.2 days in July to 5.1 days in August.\n\nFar East to Europe fell 10 percentage points to 6% on-time with 8.2 days average delay. Four back-to-back typhoons in China laid up 1.1 million TEU at anchorage across Ningbo and Shanghai. Africa dropped 15 percentage points to 21% on-time, and South America East Coast fell 12 percentage points to 34% following a three-day pilotage strike in Argentina in early August.",
+      "whyItMatters": "You cannot plan around 6% on-time. If you have a container booked Shanghai to Rotterdam, the carrier will miss the arrival date 94 times out of 100, and when it does arrive late the average delay is more than a week.\n\nIf you are restocking for Q4 and your stock needs to land in a fulfilment centre by a specific cut-off, you now need to add at least ten days to the quoted transit time. That means booking earlier, which means committing cash earlier, which means smaller orders or fewer SKUs. The reliability collapse is a working capital tax.\n\nThe typhoons have passed, but the congestion they created has not cleared. North Europe ports remain backed up, larger ships still require longer berth stays, and Cape routing adds two weeks to the base transit. Reliability will not recover quickly, and a single weather event or labour action can reset the whole system. If your lane depends on predictable arrivals, you are now in the wrong lane.",
+      "hotTake": "Six per cent is not a schedule, it is a suggestion. Carriers are running a lottery and charging you spot rates near €8,000 per FEU for the privilege. If your margin depends on hitting a date, you need to either build a two-week buffer or find another way to move the goods.",
+      "actions": [
+        "Add ten days minimum to quoted transit times on Far East to Europe bookings through October",
+        "Review Q4 restocks and pull forward any booking with a hard FBA or retail delivery deadline",
+        "Run the air freight cost on your top five SKUs to see if speed is worth the premium when the ocean schedule is this broken"
+      ],
+      "sourceUrl": "https://xeneta.com/blog/xeneta-schedule-reliability-scorecard-august-2026",
+      "sourceName": "Xeneta",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "amazon-fba"
+      ]
+    },
+    {
+      "headline": "Transpacific spot rates near Covid peaks despite 300% container oversupply",
+      "tldr": "China to US East Coast spot rates reached $11,000 per FEU, 7% below Covid peaks, driven by typhoons and bunker costs, not demand.",
+      "whatHappened": "Spot rates from China to the US East Coast climbed to near $11,000 per FEU, 7% below the Covid peak, according to an analysis published 17 September in Hellenic Shipping News. China to US West Coast rates reached $8,000 per FEU. Rates began climbing from June 2026 after stabilising at $2,000 per FEU in January.\n\nVLSFO bunker prices in Singapore nearly doubled from $400 per tonne in January to $900 in September following the Iran war. July volumes from China to Europe rose 12% year on year, whilst China to US volumes increased only 4%. The Western Pacific saw multiple typhoons in August, which the analysis identifies as a unique pressure point on transpacific lanes.",
+      "whyItMatters": "You are paying near-pandemic rates without pandemic demand. If you are shipping to the US, your ocean freight is now three times what it was in January, and the bunker cost increase explains maybe half of that. The rest is capacity withdrawn by weather and carriers holding rates because they can.\n\nThis hits hard if you price your product to a landed cost assumption that is now eight months old. A $2,000 swing on a 40-foot container can wipe out margin on anything below $50 per unit, depending on cube. If you locked customer pricing in Q1 and are now eating the freight increase, you are either losing money or about to raise prices into Q4.\n\nThe typhoons have stopped, but the capacity they removed has not returned. Carriers are not adding sailings, they are holding the schedule tight and collecting the rate. The Iran war is not ending soon, so bunker costs stay elevated. Rates may soften in November when peak season ends, but you will not see January levels again this year.",
+      "hotTake": "Nobody predicted this market because nobody believed carriers could hold $11,000 rates with this much surplus capacity. They can, and they are. If you are quoting Q4 landed costs to a customer today, use current spot rates and add 10%. Being wrong low in October is worse than being wrong high in July.",
+      "actions": [
+        "Recalculate your Q4 landed cost using current spot rates, not contract or January assumptions",
+        "Review any fixed-price commitments you made to customers in Q1 and decide whether to renegotiate or absorb the loss",
+        "Consider splitting shipments between ocean and air for high-margin SKUs where speed pays for itself"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/death-by-a-thousand-paper-cuts-why-transpacific-rates-are-back-near-covid-peaks",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "PanStar completes 20-day Arctic trial, plans three 2027 voyages",
+      "tldr": "South Korea's PanStar completed a 20-day Busan to UK trial via the Northern Sea Route and will run up to three voyages in 2027.",
+      "whatHappened": "South Korea's PanStar Group completed a trial container voyage from Busan to the UK in 20 days using the Northern Sea Route along Russia's Arctic coast, according to a report published 16 September. The 2,758 TEU vessel PanStar Acro departed Busan on 22 August and reached Felixstowe on 12 September before continuing to Rotterdam and Gdansk.\n\nPanStar plans up to three voyages in 2027, operating between July and October when Arctic waters are more navigable. The carrier will use vessels of around 3,000 TEU or smaller, targeting time-sensitive cargo including temperature-sensitive chemicals, shipbuilding equipment and heavy wind-turbine components. For the trial voyage, the ship carried 20-ton industrial rings that attract freight rates two to five times higher than standard containers.",
+      "whyItMatters": "A 20-day Busan to UK transit cuts two weeks off the Suez route and does not require rerouting around the Cape. If you ship high-value, time-sensitive goods from Korea, Japan or northern China, this route can save you enough time to justify a premium rate, particularly if you are competing with air freight on cost.\n\nThe catch is the service only runs July to October, so it works for peak season but not for year-round restocking. The other catch is capacity: 3,000 TEU vessels running three times a year is not a lot of slots, and PanStar is targeting industrial cargo that pays better than ecommerce. You will need to book early and pay a premium if you want space.\n\nThe bigger story is China moving faster. If Chinese carriers scale Arctic services with ice-class vessels and state backing, they will own the route within two years and you will have no leverage on pricing. For now, the Northern Sea Route is a niche option for sellers with the right cargo and the right timing. In three years it may be a mainstream lane.",
+      "hotTake": "Twenty days is fast enough to matter, but three sailings a year is not a supply chain. This is a tactical option for Q3 and Q4 high-value shipments, not a strategy. Watch what China does next, because they will either kill this route commercially or make it cheap enough for everyone.",
+      "actions": [
+        "Run the cost comparison for your top ten SKUs: Northern Sea Route premium rate versus Cape routing versus air freight",
+        "Contact PanStar or a forwarder with Arctic access if you ship temperature-sensitive or heavy goods from Korea or Japan in Q3 2027",
+        "Monitor Chinese carrier Arctic announcements in Q1 2027 to see if capacity scales and rates drop"
+      ],
+      "sourceUrl": "https://gcaptain.com/south-korean-carrier-bets-on-20-day-arctic-route-to-europe",
+      "sourceName": "gCaptain",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Far East to Europe hit 6% on-time in August. That is not a schedule, that is a coin toss with worse odds.",
+    "Four typhoons laid up 1.1 million TEU across Shanghai and Ningbo. The ships have left anchorage but the congestion has not cleared.",
+    "Global reliability is 29% on-time with 5.1 days average delay. If you are planning to a carrier ETA, add ten days minimum.",
+    "China to US East Coast spot rates hit $11,000 per FEU, near Covid peaks, with 300% container oversupply. Carriers are holding rates because they can.",
+    "Bunker costs doubled from $400 to $900 per tonne, but that only explains half the rate increase. The rest is withdrawn capacity and carrier discipline.",
+    "If you priced your product in Q1 and locked customer rates, you are now eating an $8,000 freight swing or raising prices into Q4.",
+    "PanStar ran Busan to UK in 20 days via the Arctic, a third of the Suez time. Three sailings planned for 2027, July to October only.",
+    "Northern Sea Route works for high-value, time-sensitive cargo if you can book the slot and pay the premium. Not a year-round solution yet.",
+    "China is building ice-class container ships and scaling Arctic trials. They will own this route in two years if they commit.",
+    "Six per cent on-time means your container misses the date 94 times out of 100. Plan accordingly or find another lane.",
+    "Reliability collapsed to pandemic levels but rates stayed at pandemic levels. You are paying crisis pricing for a crisis that is now baked in.",
+    "If your margin depends on hitting an FBA delivery window, add two weeks to the quoted transit or switch to air for your top SKUs."
+  ],
+  "faq": [
+    {
+      "question": "Why are container shipping rates so high in September 2026?",
+      "answer": "Spot rates from China to the US East Coast reached $11,000 per FEU, driven by bunker costs doubling from $400 to $900 per tonne after the Iran war, four typhoons in August that laid up 1.1 million TEU across Shanghai and Ningbo, and carriers holding capacity tight. Rates rose from $2,000 in January to current levels, with bunker costs explaining roughly half the increase."
+    },
+    {
+      "question": "How bad is schedule reliability from China to Europe right now?",
+      "answer": "Far East to Europe reliability fell to 6% on-time in August 2026 with 8.2 days average delay, the worst performance since late 2021. Global reliability dropped to 29% on-time with 5.1 days average delay. Four typhoons in China, North Europe port congestion, Cape routing and larger ships requiring longer berth stays all contributed. Add at least ten days to any quoted transit time."
+    },
+    {
+      "question": "What is the Northern Sea Route and can I use it to ship from China?",
+      "answer": "The Northern Sea Route runs along Russia's Arctic coast from Asia to Europe. South Korea's PanStar completed a 20-day Busan to UK trial in August 2026 and plans up to three voyages in 2027, July to October only, using 3,000 TEU vessels. The service targets high-value cargo like chemicals and heavy equipment. Limited capacity and seasonal operation mean it is a niche option, not a replacement for traditional lanes."
+    },
+    {
+      "question": "How long should I expect my container to be delayed from China in Q4 2026?",
+      "answer": "Average delay on Far East to Europe reached 8.2 days in August, and global average delay is 5.1 days. Reliability is 6% on-time for Europe and 29% globally. Add ten days minimum to any ETA your forwarder gives you for bookings through October. Typhoon disruptions, Cape routing, port congestion and peak season demand are all keeping schedules broken."
+    }
+  ],
+  "generatedAt": "2026-09-17T10:11:38.386Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
