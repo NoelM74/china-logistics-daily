@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-19",
+  "title": "China-US rates near pandemic peak, FedEx adds fees",
+  "metaDescription": "Far East-US East Coast container rates hit $11,259 per FEU, 11% below all-time high. FedEx levies demand surcharges on China imports starting Monday.",
+  "bottomLine": "Container spot rates from China to the US East Coast reached $11,259 per FEU on 17 September, just 11% below the pandemic record set in January 2022. FedEx adds demand surcharges on China imports starting 21 September, with per-pound fees climbing to $0.91 on express services. If you have stock on the water, your landed cost just changed again.",
+  "stories": [
+    {
+      "headline": "Far East-US East Coast rates hit $11,259, 11% below pandemic peak",
+      "tldr": "Spot rates from Far East to US East Coast reached $11,259 per FEU on 17 September, up 325% since late February.",
+      "whatHappened": "Spot rates from the Far East to the US East Coast reached $11,259 per forty-foot container on 17 September, according to Xeneta. That price sits 11.2% below the all-time high of $12,683 per FEU set on 1 January 2022. Far East to US West Coast rates hit $7,960 per FEU, 17.9% below the pandemic peak of $9,699 set on 1 February 2022. Both trades have risen more than 320% since 28 February.\n\nCarriers added 6% to 7% more capacity on the Far East to US East Coast route in September compared with August. Peter Sand, Xeneta chief analyst, expects one more rate push at the start of October as sellers rush cargo out before Golden Week, then a slowdown in growth or an outright softening within two to three weeks.",
+      "whyItMatters": "Your ocean freight cost has quadrupled in seven months. If you locked in a contract rate in February, you are watching spot buyers pay four times what you pay. If you are quoting spot right now, you are paying more for a container than at any point since early 2022.\n\nGolden Week runs 1-7 October. Factories close, freight piles up at the ports beforehand, and carriers know it. Sand expects another rate spike in early October as everyone tries to ship before the shutdown. If you have October inventory to move, book it now or accept that the rate will be higher in ten days.\n\nThe 11% gap to the pandemic record is narrow enough that a single GRI or fuel surcharge adjustment closes it. If that happens, you will be paying the highest container rate in history. Your working capital is tied up in freight that used to cost a quarter of what it costs today.",
+      "hotTake": "Carriers are adding capacity into a lane where rates have already quadrupled, which tells you they expect demand to hold through early October at least. I would treat the next two weeks as the last reliable window before Golden Week chaos, and I would not wait for rates to fall.",
+      "actions": [
+        "Book October shipments this week, before the Golden Week rush starts pushing rates higher in early October",
+        "Review Q4 orders and pull forward anything you can ship before 25 September to avoid the pre-holiday spike",
+        "Calculate your breakeven on air freight for high-value SKUs, because the gap between ocean and air is narrower than it has been in two years"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/xeneta-carriers-seize-opportunity-as-freight-rates-head-towards-record-levels-from-far-east-to-us",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "customs-us"
+      ]
+    },
+    {
+      "headline": "FedEx adds demand surcharges on China imports from Monday",
+      "tldr": "FedEx levies demand surcharges of $0.54 to $0.91 per pound on US-bound shipments from China starting 21 September.",
+      "whatHappened": "FedEx will impose demand surcharges on US-bound shipments from China, Hong Kong and Macau starting 21 September. The fee is $0.54 per pound for economy services and $0.91 per pound for express services. Shipments from other Asian countries face $0.54 to $0.73 per pound depending on service level.\n\nThe carrier also introduced new demand surcharges on imports from Canada at $0.14 per pound, Europe and Israel at $0.25 per pound, and Latin America and Caribbean at $0.12 per pound. The surcharges apply during periods of elevated volumes and high demand for capacity, with no stated end date.",
+      "whyItMatters": "You pay these fees on every pound you ship, and they stack on top of the base rate. A 10-pound parcel from Shenzhen to Los Angeles on FedEx International Priority now carries a $9.10 demand surcharge before fuel, residential delivery, or any other fee. That is a 30% to 40% increase on many shipments, depending on your negotiated rate.\n\nFedEx ran a similar surcharge last year when importers rushed inventory ahead of tariff changes and de minimis reform. The carrier saw international export package volume climb 5% year over year in the quarter ending 31 May, and it is now pricing for continued demand through peak season. If you rely on air freight for restocks or direct-to-consumer shipments, your unit economics just changed.\n\nThe surcharge applies until further notice, which in practice means FedEx will lift it when volume falls or competition forces them to. Neither is likely before January. If you are running paid ads with a free-shipping promise, recalculate your contribution margin today.",
+      "hotTake": "FedEx is pricing what the market will bear, and the market is bearing a lot right now because sellers have no choice. You can switch to UPS or DHL, but they will read the same demand signals and adjust accordingly. The real question is whether your product can support these inbound costs and still hit your margin target.",
+      "actions": [
+        "Recalculate landed cost per unit for air shipments using the new $0.91 per pound surcharge on express and $0.54 on economy",
+        "Test DHL and UPS rates this week to see if they offer a better effective cost before they add their own demand surcharges",
+        "Review SKUs shipped by air and consider switching low-margin items to ocean if your inventory depth allows it"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/fedex-levies-fees-on-us-imports-from-canada-europe-and-others/830797",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "Four Asian carriers order 14 container ships, CU Lines jumps to 14,000 TEU",
+      "tldr": "China United Lines, Wan Hai, Asean Seas Line and Regional Container Lines ordered 14 container ships from Chinese yards.",
+      "whatHappened": "China United Lines signed a contract with Hudong-Zhonghua Shipbuilding for two 14,000 TEU container ships, the largest vessels the carrier has ever ordered. CU Lines had not previously ordered tonnage exceeding 10,000 TEU.\n\nWan Hai contracted six 11,000 TEU container ships with Shanghai Waigaoqiao Shipbuilding. Asean Seas Line ordered two 5,300 TEU vessels from CSSC Huangpu Wenchong with options for two more. Regional Container Lines ordered four 1,900 TEU container ships from CSSC Huangpu Wenchong.",
+      "whyItMatters": "Carriers order ships when they expect sustained demand, and they are ordering now. CU Lines doubling its maximum vessel size to 14,000 TEU is a signal that the carrier sees long-term demand on the lanes it serves, which include China-Southeast Asia and China-Australia. Wan Hai adding six 11,000 TEU ships points to the same conclusion.\n\nThese ships will not deliver for two to three years, but the order flow tells you where carriers are putting their capital. They are not ordering for a six-month rate spike. They are ordering because they think the structural demand that drove the Hormuz crisis rate increases will persist. If they are right, your contract rate negotiations in 2028 will be harder than they were in 2024.\n\nAsean Seas Line and RCL ordering smaller feeders suggests the intra-Asia network is also seeing capacity growth. If you source from Vietnam, Thailand or Indonesia and consolidate through a Chinese gateway, those feeder rates matter. More capacity should eventually ease rates, but you will not see the benefit until 2028.",
+      "hotTake": "Carriers spent 2023 and early 2024 talking about capacity discipline, and now they are ordering ships again. The gap between what they say in earnings calls and what they do in shipyards is the gap between managing investor expectations and managing their own businesses. I trust the orders more than the transcripts.",
+      "actions": [
+        "Lock in contract rates for 2027 now if your volume supports it, before carriers price in the expectation of continued tight capacity",
+        "Model your 2027 and 2028 ocean freight budget assuming rates stay elevated rather than reverting to 2023 levels",
+        "Review your intra-Asia feeder lanes and confirm your forwarder has capacity locked in, especially if you consolidate in Hong Kong or Singapore"
+      ],
+      "sourceUrl": "https://container-news.com/asian-carriers-order-14-container-ships-in-new-fleet-expansion",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China crude imports rose 6.2% in August, up from four-month low",
+      "tldr": "China imported 37.9 million tonnes of crude oil in August, up 6.2% from July but down 23% year over year.",
+      "whatHappened": "China imported 37.9 million tonnes of crude oil in August, a 6.2% increase from July and the highest level in four months, according to Chinese customs data. The August figure remains 23% lower than the same month in 2025. September imports are running at 7.84 million barrels per day, up from 7.25 million bpd in August, according to Kpler.",
+      "whyItMatters": "China buying more crude oil means refineries are running harder, which means more diesel, bunker fuel and petrochemicals. If refinery throughput is rising, the industrial activity that consumes those products is likely rising too. That shows up in your supply chain as factory utilisation, trucking availability, and bunker fuel costs.\n\nThe year-over-year decline of 23% is still significant. China has been running down stockpiles since the start of the war with Iran, and the August increase is a sign that either stockpiles are low enough to require replenishment or demand is recovering. Either way, more crude imports support the narrative that Chinese industrial output is stabilising after months of weak data.\n\nBunker fuel costs feed directly into ocean freight surcharges. If Chinese refineries are producing more bunker fuel, supply increases and prices could ease slightly. But crude oil is still expensive because of the war, so do not expect a meaningful drop in fuel surcharges.",
+      "hotTake": "China does not import more crude oil because things are getting worse. This is a stabilisation signal, and stabilisation is better than contraction. I would rather source from a country buying more oil than one buying less, because the former is running factories and the latter is not.",
+      "actions": [
+        "Monitor bunker fuel price indices over the next two weeks to see if increased refinery output translates to lower fuel surcharges",
+        "Confirm your factory's production schedule for Q4, because rising industrial activity in China often precedes capacity constraints",
+        "Review your supplier's energy costs if you negotiate on an open-book basis, because diesel and electricity prices move with crude imports"
+      ],
+      "sourceUrl": "https://scmp.com/economy/china-economy/article/3368047/chinas-crude-imports-are-rising-again-what-will-mean-oil-prices",
+      "sourceName": "South China Morning Post",
+      "tags": [
+        "manufacturing",
+        "sourcing",
+        "fuel-surcharges"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Far East-US East Coast container rates are 11% below the pandemic record, and bunker costs could close that gap in the next two weeks",
+    "FedEx just added a $9.10 surcharge to every 10-pound express parcel from China, and your unit economics need recalculating today",
+    "Carriers are ordering ships again after two years of capacity discipline talk, which tells you what they really think about demand",
+    "Golden Week starts 1 October, and the rate spike always comes before the shutdown, not after",
+    "Ocean freight has quadrupled since February, but everyone is still talking about tariffs instead of the freight line eating their margin",
+    "CU Lines ordering 14,000 TEU ships is a bigger signal than any quarterly earnings call about capacity discipline",
+    "China imported 6.2% more crude oil in August, which means refineries are running and factories are using the output",
+    "FedEx demand surcharges apply until further notice, which in practice means until January at the earliest",
+    "Spot rates are up 325% in seven months, but contract rate negotiations for 2027 are happening right now at much lower increases",
+    "If your free-shipping promise was modelled on July air freight costs, your paid ad campaigns are losing money today",
+    "The gap between a carrier's investor presentation and their shipyard orders is the gap between what they say and what they believe",
+    "Bunker fuel costs feed ocean freight surcharges, and China buying more crude oil does not mean your fuel surcharge is going down"
+  ],
+  "faq": [
+    {
+      "question": "What are current container rates from China to the US?",
+      "answer": "Spot rates from the Far East to the US East Coast reached $11,259 per FEU on 17 September, up 325% since late February. Far East to US West Coast rates hit $7,960 per FEU, up 324%. Both are within 11% to 18% of pandemic highs set in early 2022. Analysts expect one more rate push in early October before Golden Week."
+    },
+    {
+      "question": "How much are FedEx demand surcharges from China?",
+      "answer": "FedEx demand surcharges on US-bound shipments from China start at $0.54 per pound for economy services and $0.91 per pound for express services, effective 21 September. A 10-pound parcel on express from Shenzhen to Los Angeles carries a $9.10 surcharge before fuel or other fees. No end date has been stated."
+    },
+    {
+      "question": "When is Golden Week 2026 and how does it affect shipping?",
+      "answer": "Golden Week runs 1-7 October 2026. Factories close and freight volumes spike beforehand. Analysts expect container rates to increase in early October as demand peaks before the shutdown. Booking space becomes harder in the final week of September. Rates usually soften two to three weeks after the holiday."
+    },
+    {
+      "question": "Why are container rates from China so high right now?",
+      "answer": "Container rates from China to the US have risen more than 320% since late February, driven by the Hormuz crisis that disrupted global shipping routes. Carriers rerouted vessels to avoid the Middle East, adding voyage time and reducing capacity. Rising bunker fuel costs pushed surcharges higher. Demand remains strong heading into peak season."
+    }
+  ],
+  "generatedAt": "2026-09-19T09:40:49.317Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
