@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-20",
+  "title": "CMA CGM cuts Hong Kong, US-China LNG talks near deal",
+  "metaDescription": "CMA CGM drops Hong Kong from CIMEX1. US-China discuss tariff cuts on LNG and $30bn goods ahead of Xi visit. F-35 parts diverted to Hong Kong.",
+  "bottomLine": "CMA CGM removed Hong Kong from its CIMEX1 service this week, forcing shippers to reroute through Shenzhen or Nansha. The US and China are discussing tariff cuts on $30 billion of goods ahead of Xi Jinping's Washington visit on 24 September, which could signal wider trade relief if it lands.",
+  "stories": [
+    {
+      "headline": "CMA CGM drops Hong Kong from CIMEX1 Middle East service",
+      "tldr": "CMA CGM removed Hong Kong and Sohar from CIMEX1 rotation, leaving Shenzhen Shekou and Nansha as the only South China calls.",
+      "whatHappened": "CMA CGM removed Hong Kong and Sohar calls from its CIMEX1 service connecting the Far East with the Middle East and Indian subcontinent. The revised CIMEX1 rotation is now Shenzhen Shekou, Nansha, Singapore, Fujairah, Singapore, Shenzhen.\n\nSohar moved to the CIMEX3 rotation, which launched in July 2026. CIMEX3 added Qingdao, Fujairah and Colombo. The revised rotation is Qingdao, Ningbo, Shenzhen Shekou, Colombo, Fujairah, Sohar, Colombo, Singapore, Qingdao.",
+      "whyItMatters": "If you ship to Dubai, Jebel Ali or anywhere in the Gulf from Hong Kong, you now have one fewer direct service. You reroute through Shenzhen Shekou or Nansha, which adds a trucking leg and two to three days if your stock is warehoused in the New Territories or Kowloon. That moves your cut-off earlier and tightens your margin on container bookings that were already close.\n\nShenzhen Shekou is the better choice for most Hong Kong shippers because the port is 45 minutes from the border and trucking is reliable. Nansha is further, 90 minutes in good traffic, and the border crossing adds variability. If you have a forwarder quoting Nansha because the slot is cheaper, price in the risk of missing the sailing.\n\nThe CIMEX3 addition of Qingdao and Fujairah gives you a second option if you source from Shandong and ship to the Gulf, but the rotation is longer and less frequent than CIMEX1. Check the actual sailing schedule before you assume weekly departures.",
+      "hotTake": "Carriers keep pruning Hong Kong calls and shippers keep pretending it is temporary. It is not. Shenzhen has better equipment availability, faster turnaround and lower port costs. If you are still routing through Hong Kong because that is where your forwarder is, move the booking to Shekou and save yourself the grief.",
+      "actions": [
+        "Check your Gulf bookings for the next eight weeks and confirm the vessel still calls Hong Kong",
+        "Get a Shekou trucking quote from your Hong Kong warehouse and compare the landed cost",
+        "Move your cut-off two days earlier if you switch to a Shenzhen departure"
+      ],
+      "sourceUrl": "https://container-news.com/cma-cgm-further-reshapes-cimex-services",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "US and China discuss tariff cuts on $30bn of goods before Xi visit",
+      "tldr": "The US and China are discussing tariff cuts on about $30 billion of goods, including a potential reduction or elimination of China's 15% tariff on US LNG.",
+      "whatHappened": "The US and China are discussing tariff cuts on about $30 billion of goods, including a plan to reduce or eliminate China's 15% tariff on American LNG. The agreements could be announced when Chinese President Xi Jinping visits Washington on 24 September, according to two people briefed on the discussions.\n\nChina imposed the 15% LNG tariff in February 2025 in retaliation for President Donald Trump's duties on Chinese goods. That effectively halted the US-China LNG trade. The discussions are part of efforts to stabilise trade ties ahead of the Trump-Xi meeting and are not final.",
+      "whyItMatters": "A $30 billion tariff cut is small in the context of total US-China trade, but it signals direction. If the announcement lands on 24 September, watch which product categories get relief. Textiles, electronics and consumer goods are the categories that matter to you, and LNG is not. The LNG discussion tells you the White House is willing to trade concessions in unrelated sectors, which means there is room to move on the goods you actually ship.\n\nThe last time the US and China announced a trade framework, in January 2025, the market priced in relief that never came and spot rates dropped 8% in two weeks as sellers delayed bookings. If this announcement hits, expect the same behaviour. Shippers will wait to see if their category gets named, and carriers will blank sailings to defend rates.\n\nThe timing matters because 24 September is four weeks before the Q4 peak booking window closes for a pre-Christmas arrival on the West Coast. If you have October shipments and you think your category might get relief, you are weighing a tariff saving against the risk of missing the sailing. That is a bad trade unless you have a backup sailing locked.",
+      "hotTake": "Trade announcements are not trade deals. Xi and Trump will shake hands, the market will move, and then the implementation will drag for months. Do not delay a Q4 shipment because you think a tariff cut is coming. Book the freight, pay the duty, and if relief lands later you can claim a refund.",
+      "actions": [
+        "Confirm your October sailings are locked and do not wait for a tariff announcement to book",
+        "Check if your HS codes fall under previous exclusion lists from the 2025 framework",
+        "Run the numbers on a refund claim process if tariff relief lands after you clear customs"
+      ],
+      "sourceUrl": "https://gcaptain.com/us-china-discuss-cutting-tariffs-on-us-lng-ahead-of-xi-visit",
+      "sourceName": "gCaptain",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "F-35 parts diverted to Hong Kong in shipment breakdown",
+      "tldr": "Unserviceable F-35 fighter jet components intended for US repair from Australia were diverted to Hong Kong mid-Pacific, raising supply-chain security concerns.",
+      "whatHappened": "US lawmakers and the Pentagon are investigating the diversion of unserviceable F-35 fighter jet components from Australia to Hong Kong. The shipment was intended to travel to the United States for repair but was rerouted while crossing the Pacific. The components were being transported by an intermediary for Lockheed Martin.\n\nAmong the diverted equipment was an F-35 canopy, the cockpit enclosure that incorporates low-observable stealth technology. It remains unclear why the shipment was diverted, whether it was a mistake or unauthorised, and who now possesses the parts. State Department and Pentagon officials began briefing congressional staff in June, with additional briefings expected in coming weeks.",
+      "whyItMatters": "This is not your shipment, but the breakdown is identical to the one that will hit you if you ship controlled goods through Hong Kong. Someone in the supply chain rerouted a load mid-transit and the shipper did not know until it landed in the wrong port. That is a process failure, not a one-off, and it tells you the tracking systems failed at multiple points.\n\nIf you ship dual-use goods, controlled electronics, or anything on the Commerce Control List, your forwarder's systems need to flag a deviation before the container moves. Most do not. They rely on the carrier's routing, and carriers reroute loads constantly to balance equipment. A Hong Kong diversion is not unusual in itself, but it becomes a violation if the shipment is controlled and you did not file for it.\n\nThe Pentagon will tighten controlled-cargo rules after this, and the tightening will land on commercial shippers first because that is easier than fixing military logistics. Expect more audits on freight forwarders handling dual-use goods, longer approval times for controlled shipments, and higher insurance costs for anything classified as sensitive.",
+      "hotTake": "If a defence contractor can lose an F-35 canopy in the Pacific, you can lose a shipment of lithium batteries or encryption hardware just as easily. The problem is not the diversion, it is that nobody noticed until someone asked where the parts were. That is a tracking problem, and your forwarder has the same gap.",
+      "actions": [
+        "Check if your forwarder has automated alerts for route deviations on controlled cargo",
+        "Review your HS codes for dual-use classification and confirm your export licences cover Hong Kong transits",
+        "Add a clause to your freight contract requiring written approval for any port-of-discharge change"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/federal-probe-into-diversion-of-f-35-parts-to-hong-kong",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "customs-us",
+        "sea-freight",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "CMA CGM just removed Hong Kong from another Middle East service and shippers are still booking through there because they always have",
+    "The US-China tariff discussion is real but the $30bn number is smaller than the headline makes it sound, check which categories actually get relief",
+    "Trade announcements in September always move the market and delay bookings, do not let a handshake cost you a sailing slot",
+    "An F-35 canopy got diverted to Hong Kong mid-Pacific and nobody noticed until it was gone, your freight forwarder has the same tracking gap",
+    "Shenzhen Shekou is 45 minutes from Hong Kong and has better equipment availability, there is no reason to keep routing through HKG",
+    "If your Gulf shipments go through Hong Kong you now have a trucking leg and a two-day delay you did not price in",
+    "Controlled cargo rules will tighten after the F-35 incident and commercial shippers will get audited first because that is how enforcement works",
+    "Carriers keep pruning Hong Kong calls and the trend is not reversing, move your routing now instead of scrambling when your service gets cut",
+    "The Xi-Trump meeting is four weeks before the Q4 peak window closes, do not delay an October shipment waiting for tariff relief that might not land",
+    "Your forwarder's route-deviation alerts probably do not exist, add a contract clause requiring written approval for any discharge-port change",
+    "LNG tariff cuts tell you the White House is trading concessions across unrelated categories, which means there is more room to move than the headlines suggest",
+    "A $30bn tariff cut is 3% of total US-China trade, the signal matters more than the number"
+  ],
+  "faq": [
+    {
+      "question": "Which CMA CGM services still call Hong Kong from South China?",
+      "answer": "CIMEX1 no longer calls Hong Kong after the restructuring announced on 19 September 2026. CIMEX3 also does not call Hong Kong. Shenzhen Shekou and Nansha remain the primary South China calls for both services. If you ship from Hong Kong to the Middle East or Indian subcontinent, you need to truck containers to Shekou or Nansha or book a different carrier. Check your specific service rotation because CMA CGM has been pruning Hong Kong calls across multiple services in 2026."
+    },
+    {
+      "question": "Will the US-China tariff cuts affect my product category?",
+      "answer": "The discussions cover about $30 billion of goods, including LNG, energy and agriculture. The specific product categories have not been announced and the framework is not final. The last US-China trade framework in January 2025 excluded most consumer goods and electronics. If your products were excluded then, they will probably be excluded now. Do not delay shipments waiting for relief unless you have confirmation your HS code is included. The announcement is scheduled for 24 September 2026."
+    },
+    {
+      "question": "How do I prevent my shipment being diverted to Hong Kong without approval?",
+      "answer": "Add a contract clause requiring written approval for any change to the port of discharge. Most forwarders do not have automated alerts for route deviations. If you ship controlled goods or dual-use items, confirm your export licence covers Hong Kong as a transit point, because carriers reroute containers constantly. Check the carrier's actual rotation before booking, not just the destination port, and ask your forwarder if their tracking system flags deviations in real time."
+    },
+    {
+      "question": "Should I delay my October China shipment until tariff relief is announced?",
+      "answer": "No. The Xi-Trump meeting on 24 September 2026 might produce a tariff framework, but implementation takes months and categories are not confirmed. October sailings are already inside the Q4 peak window for pre-Christmas West Coast arrival. If you delay and relief does not land, you miss the sailing and pay higher spot rates. Book the container, pay the duty, and file for a refund if relief lands after customs clearance."
+    },
+    {
+      "question": "What counts as controlled cargo that needs export approval for Hong Kong transit?",
+      "answer": "Controlled cargo includes anything on the US Commerce Control List, dual-use goods, items with military applications, encryption hardware, certain electronics and lithium batteries above specific watt-hour ratings. Hong Kong is a Chinese special administrative region, so some controlled goods require an export licence even for transit. Check your HS codes against the CCL and confirm with your forwarder whether your shipment needs a licence. The F-35 incident will tighten enforcement, so expect more audits starting in Q4 2026."
+    }
+  ],
+  "generatedAt": "2026-09-20T09:56:48.716Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 6
+}
