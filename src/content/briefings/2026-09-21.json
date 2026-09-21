@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-21",
+  "title": "China rates: Pacific up 28%, Europe down 5% same week",
+  "metaDescription": "Transpacific spot rates jumped 28% whilst Asia-Europe fell 5% in week 38. CMA CGM stacks peak surcharges. Hong Kong pivots from volume to value.",
+  "bottomLine": "The transpacific lane and the Asia-Europe lane moved in opposite directions in week 38, with Shanghai to North America spot rates climbing 28% whilst Shanghai to North Europe dropped 5% to $2,425 per FEU. If you have stock on the water to Rotterdam, you caught a falling rate. If you are booking LA or New York right now, you are paying the highest spread between the two trades on record.",
+  "stories": [
+    {
+      "headline": "Transpacific spot rates up 28%, Europe down 5% in week 38",
+      "tldr": "Shanghai to North America spot rates rose 28% in week 38 whilst Shanghai to North Europe fell 5% to $2,425 per FEU, the widest gap on record.",
+      "whatHappened": "Clarksons Research reported geographic divergence in container freight markets in week 38, with Shanghai to North Europe spot rates falling 5% week on week to $2,425 per FEU. Transpacific rates moved in the opposite direction, though Clarksons did not publish the specific figure.\n\nThe Loadstar podcast for week 38 described transpacific freight rates as on the rise, with Stephanie Loomis of Noatum Logistics discussing rate increases, booking risks and service reliability on the lane. The gap between transpacific and Asia-Europe spot rates has widened to unprecedented levels, according to Splash247.",
+      "whyItMatters": "You face different problems depending on which lane you are using. If you ship to Europe, the 5% drop in spot rates gives you room to negotiate with your forwarder, particularly if you are tendering October or November sailings. Carriers are cutting rates to fill ships, which means you have leverage if you can commit volume.\n\nIf you ship to the US, you are paying a record premium over the Europe lane. The 28% week-on-week increase suggests capacity is tight, but the podcast guests are questioning whether that is the real driver or whether carriers are restricting space to support rates. Either way, you are booking into a rising market. If you have Q4 stock still to move, the longer you wait, the more you pay.\n\nThe divergence also affects your lane choice if you have flexibility. Routing into a European warehouse and then redistributing to the US adds time and complexity, but the rate gap is now wide enough that it may be worth modelling for non-urgent shipments.",
+      "hotTake": "When two lanes move this far apart this fast, someone is getting squeezed and someone is getting space. Transpacific capacity is either genuinely tight or carriers are holding it back. I would bet on the latter until I see utilisation data that proves otherwise. Book now if your shipment is time-sensitive, or wait two weeks and see if the rate spike holds.",
+      "actions": [
+        "Pull your forwarder's week 38 rate sheet and compare it to week 37 on both lanes to see where you stand.",
+        "If you ship to Europe, request a quote for October sailings and use the falling spot market as leverage.",
+        "Model the cost of routing Q4 stock through Europe if your delivery window allows the extra time."
+      ],
+      "sourceUrl": "https://splash247.com/transpacific-europe-rate-gap-blows-out-to-record",
+      "sourceName": "Splash247",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "CMA CGM adds peak surcharges on China to US, Africa, Mauritius",
+      "tldr": "CMA CGM applied peak season surcharges from 21 September, including $1,000 per FEU from North Europe to the US and $200 per TEU from China to Mauritius.",
+      "whatHappened": "CMA CGM announced peak season surcharges across multiple trades, taking effect between 21 September and 15 October. From 21 September, shipments from China to West Africa face surcharges ranging from $50 to $200 per TEU depending on destination. Nigeria, Côte d'Ivoire, Benin and Equatorial Guinea face $50 per TEU, Ghana and Togo $150, and Liberia, Mauritania and other smaller markets $200. Senegal is $100 per TEU.\n\nFrom 25 September, CMA CGM will charge $350 per TEU on shipments from China to Durban. The carrier also introduced a $200 per TEU surcharge from China, Northeast Asia and Southeast Asia to Port Louis, Mauritius. CMA CGM postponed its North Europe to US surcharge from 20 September to 1 October at $1,000 per FEU.",
+      "whyItMatters": "Peak season surcharges stack on top of the base ocean freight, so your landed cost rises even if the headline rate holds steady. The $1,000 per FEU from North Europe to the US is particularly high, and if you are using that routing you need to model whether it still makes sense against a direct China to US shipment.\n\nThe Durban surcharge at $350 per TEU is steep for a single port and suggests either congestion or a lack of competing services. The West Africa surcharges are lower but vary widely by port, so check your specific destination before booking.\n\nFor shipments already contracted or quoted, check whether your forwarder included peak season surcharges in the original quote. Many do not, and the surcharge appears as a line item when you receive the final invoice. If you are quoting landed costs to your own customers, build these surcharges into your model now rather than absorbing them later.",
+      "hotTake": "CMA CGM is not the only carrier stacking surcharges right now, so expect similar announcements from the other majors in the next week. The postponement of the North Europe to US surcharge from 20 September to 1 October suggests the market is softer than the carrier expected, which is useful information. Watch whether the surcharge actually takes effect on 1 October or gets postponed again.",
+      "actions": [
+        "Request an updated quote from your forwarder that includes all peak season surcharges, not just the base rate.",
+        "If you ship from North Europe to the US, model the cost difference against a direct China to US routing.",
+        "Add the relevant surcharge to your landed cost model for Q4 and recalculate your margin."
+      ],
+      "sourceUrl": "https://container-news.com/cma-cgm-updates-peak-season-surcharges-across-major-trades",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Hong Kong port drops volume chase, targets value instead",
+      "tldr": "Hong Kong's 2026-2030 Five-Year Plan shifts the port from volume growth to higher-value logistics services, with a 30% emissions cut target by 2030.",
+      "whatHappened": "Hong Kong released its 2026-2030 Five-Year Plan for Economic and Social Development, which sets a new direction for the container port. The government aims to stabilise container throughput rather than chase volume, whilst increasing the value generated by the wider maritime and logistics sector.\n\nThe government plans to modernise the Kwai Tsing Container Terminals with autonomous electric vehicles, remotely controlled cranes and onshore power supply facilities. Hong Kong aims to reduce carbon emissions from Kwai Tsing by 30% by 2030 compared with 2021. The government said freight connections involving Chongqing, Chengdu, Shenzhen and Hong Kong can reduce cargo transportation times between the Chengdu-Chongqing region and Hong Kong from two to four weeks to approximately three days.",
+      "whyItMatters": "Hong Kong is no longer competing with Shenzhen on throughput, which means the two ports are now aiming at different customers. If you move volume and your forwarder offers a choice between Hong Kong and Shenzhen, expect Shenzhen to remain the cheaper option. Hong Kong is positioning itself for high-value goods and faster transit, which matters if you ship electronics, fashion or anything with a short shelf life.\n\nThe rail connection cutting transit time from Chengdu-Chongqing to three days is a significant improvement if you source from inland China. That puts Hong Kong back in the frame for goods that need to reach a ship quickly, particularly if you are shipping to North America or Europe and the extra day or two on the water costs you a sale.\n\nThe green transformation targets are not just corporate responsibility. If you ship to buyers who track scope 3 emissions or who require carbon reporting, routing through Hong Kong may give you cleaner data than other Chinese ports. That is worth more to some buyers than a few dollars saved on the ocean freight.",
+      "hotTake": "Hong Kong is conceding the volume war to Shenzhen and betting it can win on speed and data instead. That is the right call, but the plan is vague on how the port will actually deliver faster turnaround or better visibility. The rail connection to Chengdu-Chongqing is real and matters, but I would want to see proof that the Port Community System actually speeds up customs clearance before I route stock through Hong Kong purely for that reason.",
+      "actions": [
+        "Ask your forwarder for a transit time comparison between Shenzhen and Hong Kong on your specific lane.",
+        "If you ship high-value goods or electronics, request a quote for Hong Kong routing and compare it to Shenzhen on total cost and time.",
+        "Check whether your buyers require carbon reporting, and if so, ask your forwarder whether Hong Kong routing gives you better emissions data."
+      ],
+      "sourceUrl": "https://container-news.com/hong-kong-shifts-port-strategy-from-volume-to-value",
+      "sourceName": "Container News",
+      "tags": [
+        "ports-congestion",
+        "sourcing",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Transpacific spot rates up 28% in one week whilst Europe rates fell 5%. The gap between the two lanes is the widest on record.",
+    "CMA CGM stacked peak season surcharges across six trades starting 21 September. Your forwarder's quote from last week is already outdated.",
+    "The North Europe to US surcharge was postponed from 20 September to 1 October, which tells you the market is softer than the carrier expected.",
+    "Hong Kong just admitted it cannot compete with Shenzhen on volume, so it is pivoting to high-value goods and faster transit instead.",
+    "If you ship from inland China, the new rail connection to Hong Kong cuts Chengdu-Chongqing transit time from four weeks to three days.",
+    "Peak season surcharges are not included in most forwarder quotes, so they appear as a surprise line item on your final invoice.",
+    "The $350 per TEU surcharge to Durban is steep for a single port. Either the port is congested or CMA CGM has no competition on the lane.",
+    "When two major lanes move this far apart this fast, someone is restricting capacity. Watch the next two weeks to see if the transpacific spike holds.",
+    "Hong Kong's carbon reduction target is not just corporate responsibility. If your buyers require scope 3 emissions data, routing matters.",
+    "The Port Community System in Hong Kong has 8,000 companies registered, but registration is not the same as faster customs clearance.",
+    "If you quoted Q4 landed costs to your customers two weeks ago, your margin just got squeezed by surcharges you did not see coming.",
+    "Carriers postponed the North Europe to US surcharge once. If they postpone it again, that is a signal to negotiate harder on the base rate."
+  ],
+  "faq": [
+    {
+      "question": "Why are transpacific rates rising whilst Asia-Europe rates are falling?",
+      "answer": "Transpacific spot rates rose 28% in week 38 whilst Asia-Europe rates fell 5% to $2,425 per FEU. The divergence is the widest on record. Carriers cite tight capacity on the Pacific lane, but some forwarders question whether carriers are restricting space to support rates. The Europe lane has more capacity and weaker demand, so carriers are cutting rates to fill ships."
+    },
+    {
+      "question": "Do peak season surcharges apply to contracts or only spot shipments?",
+      "answer": "Peak season surcharges typically apply to short-term contracts and spot shipments, not to annual contracts with negotiated all-in rates. CMA CGM's recent surcharges specify that they apply to cargo under short-term contracts. If you have an annual contract, check whether peak season surcharges are excluded or capped. Many contracts include a clause allowing the carrier to add surcharges."
+    },
+    {
+      "question": "Is Hong Kong cheaper than Shenzhen for shipping to the US or Europe?",
+      "answer": "Shenzhen is typically cheaper than Hong Kong for volume shipments. Hong Kong is positioning itself for high-value goods and faster transit rather than competing on price. If you ship electronics, fashion or anything time-sensitive, Hong Kong may offer faster turnaround, particularly if your stock is coming from inland China via the new rail connection from Chengdu-Chongqing."
+    },
+    {
+      "question": "What are the peak season surcharges from China to West Africa?",
+      "answer": "CMA CGM applied peak season surcharges from China to West Africa starting 21 September 2026. Nigeria, Côte d'Ivoire, Benin and Equatorial Guinea face $50 per TEU. Ghana and Togo $150 per TEU. Liberia, Mauritania, Gambia, Sierra Leone and others $200 per TEU. Senegal $100 per TEU. These surcharges stack on top of the base ocean freight."
+    },
+    {
+      "question": "Should I book my Q4 shipments now or wait for rates to drop?",
+      "answer": "Transpacific rates rose 28% in one week, which suggests capacity is tight or carriers are restricting space. If your shipment is time-sensitive and you need it to arrive before Q4 peak, book now. Waiting will cost you more if the rate spike holds. On the Asia-Europe lane, rates are falling, so you have more room to negotiate or wait."
+    }
+  ],
+  "generatedAt": "2026-09-21T10:54:54.748Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
