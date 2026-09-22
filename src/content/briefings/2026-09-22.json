@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-22",
+  "title": "China rates: transpacific closes in on Covid peaks",
+  "metaDescription": "Transpacific spot rates up 324% since February, approaching Covid records. Carriers add capacity. Europe down seven weeks running. What it means for Q4.",
+  "bottomLine": "Transpacific spot rates rose another 5% to 7% last week and now sit 324% above February levels, closing in on the peaks last seen during Covid disruption. Carriers are adding capacity to chase the margin, Golden Week blanks are lighter than usual, and the divergence with Europe is now in its seventh week.",
+  "stories": [
+    {
+      "headline": "Transpacific rates up 5% to 7%, now 324% above February",
+      "tldr": "Shanghai to US West Coast rose 5% to $7,712 per 40ft, East Coast up 7% to $10,394, both now 324% higher than 28 February.",
+      "whatHappened": "Shanghai to Los Angeles increased 5% to $7,712 per 40-foot container in the week to 20 September, according to Drewry's World Container Index. Shanghai to New York climbed 7% to $10,394. Peter Sand at Xeneta said spot rates from the Far East to both US coasts have risen 324% and 325% respectively since 28 February.\n\nDrewry noted this marks the seventh consecutive week of divergent trends between the transpacific and Asia-Europe trades. Pre-Golden Week demand and carrier capacity management are supporting transpacific rates, the consultancy said.",
+      "whyItMatters": "You are paying three times what you paid in February to ship a container from China to the US. If you locked in an annual contract at the start of the year, your spot exposure is bleeding margin. If you are all spot, your landed cost has blown out.\n\nCarriers are adding capacity to the transpacific to chase the margin, which means they see demand holding through October at least. If you have inventory still to move for Q4, the window is narrowing. Rates this high compress the calendar, because you cannot afford to sit on the water.\n\nThe comparison to Covid peaks matters because those rates triggered a wave of air freight conversions and a scramble for warehouse space. We are not there yet, but the behaviour is starting to look familiar.",
+      "hotTake": "Carriers are adding capacity because they think this lasts. I think they are right through October, wrong by mid-November. The demand spike is front-loaded Q4 volume, not sustained consumption. When it breaks, it will break fast.",
+      "actions": [
+        "Pull forward any remaining Q4 shipments scheduled for October and book this week",
+        "Model your landed cost at $12,000 per FEU to the East Coast and decide now what you cannot afford to ship",
+        "Lock a contract rate for November to January if you have predictable volume"
+      ],
+      "sourceUrl": "https://container-news.com/transpacific-rates-surge-as-europe-falls-further",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Carriers blank fewer Golden Week sailings this year",
+      "tldr": "Ocean carriers are blanking fewer sailings during Golden Week than in previous years, though more capacity cuts are expected as the holiday approaches.",
+      "whatHappened": "Ocean carriers are blanking fewer sailings for Golden Week this year on both the transpacific and Asia-Europe trades, according to the Journal of Commerce. The number of blanked sailings and the reduction in available capacity are lower than in recent years.\n\nExperts quoted by JOC said the number of blanks and capacity reductions are likely to increase as the week-long holiday, which begins 1 October, draws closer.",
+      "whyItMatters": "Carriers blank sailings when they think demand will drop. Fewer blanks means they think demand will hold, or they are willing to run ships with empty slots to protect market share. Either way, it tells you they are not seeing the usual Q4 slowdown ahead of Golden Week.\n\nFor you, fewer blanks means more nominal capacity, but it does not mean lower rates. Carriers are running the ships because they can still fill them at peak rates. It also means your cutoff dates are tighter than usual. If carriers decide late that they need to blank more sailings, your booking gets rolled and you lose a week.\n\nThe other risk is that carriers are overestimating demand and will flood capacity back in mid-October, collapsing rates just as you finish shipping. That is the risk of moving early, but it is a better risk than missing your Amazon receive-by date.",
+      "hotTake": "Carriers usually blank aggressively ahead of Golden Week because it gives them an excuse to prop up rates. The fact they are not doing it this year means they think the market can bear the rate without the artificial squeeze. That confidence will not last past October.",
+      "actions": [
+        "Confirm your Golden Week cutoff dates with your forwarder today, because they will move",
+        "Assume any booking after 25 September will roll at least once",
+        "Do not wait for a rate drop in October, it will come too late for Q4 stock"
+      ],
+      "sourceUrl": "https://joc.com/article/ocean-carriers-blanking-fewer-golden-week-sailings-for-now-6292049",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "China buys 9 million tonnes of US soybeans, tariffs still at 13%",
+      "tldr": "China has booked 8.98 million tonnes of US soybeans for the current marketing year, double last year, but a 13% import duty remains in place.",
+      "whatHappened": "China has booked 8.98 million metric tons of US soybeans for marketing year 2026-27, which began in September, according to US Department of Agriculture data. Total US soybean export commitments have reached 18.9 million tonnes, more than double the year-ago level.\n\nThe buying spree comes ahead of a scheduled summit between US President Donald Trump and Chinese President Xi Jinping on 24 to 25 September. China imposes a total import duty of 13% on US soybeans, including an additional 10% levy on top of the 3% most-favoured-nation tariff. Several exporters expect Chinese purchases to reach 25 million tonnes in the current marketing year.",
+      "whyItMatters": "This matters because it tells you the shape of the next six months of US-China trade policy. Trump and Xi meet in two days. China is buying US agricultural products in volume ahead of that meeting, which is the standard playbook for de-escalation.\n\nIf the summit produces any kind of agreement, you should expect tariff relief on some categories and continued pressure on others. The signal you are watching for is whether the 10% additional levy on soybeans gets dropped, because that will tell you whether Trump is willing to take a win or whether he is holding out for more.\n\nFor your business, the risk is that a deal triggers a surge in container demand from sellers who have been sitting on the sidelines. That would push transpacific rates higher in October, not lower. The other risk is no deal, which leaves the tariff structure in place and grinds down demand through the end of the year.",
+      "hotTake": "China does not buy 9 million tonnes of soybeans by accident two days before a summit. This is the choreography of a deal. If Trump takes it, you get a short rate spike and then a Q1 collapse. If he does not, you get grinding deflation and a wave of seller exits.",
+      "actions": [
+        "Watch the 24 to 25 September summit for any tariff announcement and be ready to move volume the same week if relief is announced",
+        "If you are in a category that stays under tariff, model a 15% reduction in Q1 demand and cut your forward stock accordingly"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/chinas-soybean-buying-revival-boosts-us-export-outlook-tariffs-cloud-prospects",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "tariffs-duties",
+        "sea-freight",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Chinese shipyards took 82% of global orders in first half",
+      "tldr": "Chinese shipbuilders won new orders totalling 121 million DWT in the first half of 2026, 2.7 times last year, lifting China's global share to 82%.",
+      "whatHappened": "New orders from Chinese shipbuilders in the first half of 2026 amounted to 121.06 million deadweight tonnes, according to the China Association of the National Shipbuilding Industry. This is 2.7 times larger than the same period last year. China's share of new orders worldwide increased by 14 percentage points to 82%.\n\nChina State Shipbuilding Corporation saw new orders reach 22.45 million DWT in the first half, more than doubling from the same period last year. The surge follows the blockade of the Strait of Hormuz. Ship owners in Asia have ordered large oil tankers for long-distance crude oil transport to diversify suppliers.",
+      "whyItMatters": "This does not change your cost to ship a container this month, but it tells you what happens in 2028 and 2029. Chinese shipyards now control 82% of global capacity, which means they set the price for every ship built and every ship financed. When they deliver this wave of tonnage in two to three years, container capacity will flood the market and rates will collapse.\n\nFor you, the lesson is that the current rate spike is a short-term dislocation, not a structural shift. Carriers are ordering ships because they think the Iran conflict is permanent and trade lanes are permanently longer. They are probably wrong on both counts. When those ships hit the water, you will have more capacity than demand and rates will go back to where they were in 2023.",
+      "hotTake": "Shipowners always overbuild at the top of the cycle. This is the top. The ships ordered now will deliver into a glut, and the carriers ordering them will either go bankrupt or consolidate. Your 2028 freight rate is being set right now, and it is much lower than today.",
+      "actions": [
+        "Do not sign multi-year freight contracts at today's rates, because 2028 will be a buyer's market",
+        "Plan for lower inbound freight costs in two years and higher carrier consolidation risk"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/shipbuilding-orders-reached-120-million-tons-in-the-first-half-of-the-year-diversified-%e4%ba%9e-shipbuilding-supply-lines-to-block-hormuz-new-orders-for-large-oil-tankers-chinas-reflective-profits",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "manufacturing",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Transpacific spot rates are now 324% higher than February and still climbing. If you are shipping on spot, your Q4 margin is gone.",
+    "Carriers are adding capacity to the transpacific because they think demand holds through October. I think they are wrong by mid-November.",
+    "Fewer Golden Week blanks means carriers think they can still fill ships at peak rates. Your cutoff dates will move.",
+    "China bought 9 million tonnes of US soybeans two days before the Trump-Xi summit. That is not a coincidence, that is a deal being staged.",
+    "If the summit delivers tariff relief, expect a surge in container demand and another rate spike in October, not the drop everyone is waiting for.",
+    "Chinese shipyards took 82% of global orders in the first half. Your 2028 freight rate is being set right now, and it is much lower than today.",
+    "Shipowners always overbuild at the top of the cycle. The ships ordered now will deliver into a glut.",
+    "Everyone is watching tariff rates and ignoring the fact that the transpacific is about to repeat the 2021 capacity crunch.",
+    "The comparison to Covid peaks matters because those rates triggered air freight conversions and a warehouse scramble. We are not there yet, but close.",
+    "Carriers blank fewer sailings when they think demand will hold. That confidence will not last past October.",
+    "If you are in a category that stays under tariff after the summit, model a 15% drop in Q1 demand and cut your forward stock now.",
+    "Do not wait for a rate drop in October. It will come too late for Q4 stock and you will miss your Amazon receive-by date."
+  ],
+  "faq": [
+    {
+      "question": "Why are transpacific container rates so high right now?",
+      "answer": "Spot rates from Shanghai to the US West Coast hit $7,712 per 40-foot container in the week to 20 September, up 324% since 28 February. The surge follows the Strait of Hormuz crisis, which disrupted global shipping lanes. Carriers have added capacity to chase the margin, but demand ahead of Q4 peak season is outstripping supply."
+    },
+    {
+      "question": "Will container rates drop after Golden Week?",
+      "answer": "Carriers are blanking fewer sailings than usual for Golden Week, which suggests they expect demand to hold through early October. Rates may soften slightly after the holiday, but any drop is likely to be short-lived. If the Trump-Xi summit on 24 to 25 September produces tariff relief, a flood of new bookings could push rates higher in October."
+    },
+    {
+      "question": "What does the US-China soybean deal mean for tariffs?",
+      "answer": "China has bought 8.98 million tonnes of US soybeans ahead of the Trump-Xi summit on 24 to 25 September, a standard move to signal de-escalation. If the summit produces an agreement, some tariff categories may see relief whilst others remain under pressure. The 13% import duty on soybeans, including a 10% additional levy, is a test case."
+    },
+    {
+      "question": "Should I ship my Q4 stock now or wait for rates to drop?",
+      "answer": "Ship now. Transpacific spot rates are at $7,712 per 40-foot container to the US West Coast and carriers are adding capacity because they think demand holds through October. Waiting for a rate drop risks missing your Amazon receive-by date. Model your landed cost at current rates and decide what you cannot afford to ship, then move everything else this week."
+    }
+  ],
+  "generatedAt": "2026-09-22T10:09:42.842Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
