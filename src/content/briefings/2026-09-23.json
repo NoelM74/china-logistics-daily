@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-23",
+  "title": "China ecommerce exports to EU fall 65% in August",
+  "metaDescription": "EU ecommerce from China down 65% in August. Container reliability worst since pandemic at 6% on Far East–Europe. What it means for your Q4.",
+  "bottomLine": "Chinese ecommerce exports to the EU fell 65% year on year in August, the second month of collapse since the €3-per-item fee took effect. Meanwhile, container schedule reliability on Far East–Europe dropped to 6%, with delays averaging 8.2 days, levels not seen since late 2021. If you have stock moving through Europe right now, your arrival date is fiction.",
+  "stories": [
+    {
+      "headline": "Chinese ecommerce to EU fell 65% in August after customs fee",
+      "tldr": "Chinese low-value ecommerce exports to the EU dropped 65% year on year in August, following a 54% fall in July.",
+      "whatHappened": "Chinese low-value and ecommerce exports to the European Union fell 65% year on year in August, according to Trade and Transport Group managing director Frederic Horst. The August decline followed a 54% fall in July.\n\nExports to the UK also fell, although at a slower rate, down 13% in August and 5% in July. The slump follows the introduction of a €3-per-item fee on low-value imports into the EU.",
+      "whyItMatters": "If you are shipping low-value parcels into the EU, your lane economics changed in July and got worse in August. The €3 fee per item turns a €12 product into a €15 landed cost before VAT, which kills margin on anything under €20 and makes multichannel arbitrage harder to close.\n\nThe UK decline is slower because the fee structure is different, but the direction is the same. If your average order value is under £25, you are absorbing cost or losing customers. The 13% drop in August suggests buyers are either consolidating orders or walking away.\n\nAir freight volumes out of China to Europe have followed the parcel decline. If you were relying on cheap air capacity for Q4 restocks, that capacity is still there, but it is being reallocated to higher-value shipments and you will compete with those on price.",
+      "hotTake": "The 65% drop is not a surprise, it is the fee working as designed. The EU wants to kill the low-value parcel model and it is succeeding. If you are still shipping single units direct to consumers in the EU, you are either in a high-margin category or you are losing money and have not admitted it yet.",
+      "actions": [
+        "Calculate your landed cost per unit including the €3 fee and decide if the lane is still profitable",
+        "Test consolidation into EU fulfilment and ship multiple units per customer from local stock",
+        "Shift low-value SKUs to UK fulfilment if your customer base splits cleanly between UK and EU"
+      ],
+      "sourceUrl": "https://theloadstar.com/continued-china-europe-ecommerce-slump-exposes-shifting-air-cargo-flows",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "customs-eu",
+        "de-minimis",
+        "ecommerce-platforms",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Container reliability on China to Europe falls to 6% on time",
+      "tldr": "Far East–Europe container reliability fell to 6% on time in August, with average delays reaching 8.2 days.",
+      "whatHappened": "Global container shipping schedule reliability fell for a third consecutive month in August, with just 29% of vessels arriving on time, according to Xeneta. The average delay rose from 4.2 days in July to 5.1 days in August.\n\nFar East–Europe was the worst-affected major lane. On-time performance fell 10 percentage points to 6%, whilst average delay reached 8.2 days. Xeneta said these reliability levels had not been seen since the height of Covid-19 supply-chain disruption in late 2021.\n\nThe lane continues to contend with operational effects of the Red Sea crisis, including longer diverted routings around Africa even as major carriers return to the Suez Canal route, as well as North European port congestion, bigger ships requiring longer berth stays and weather-related disruptions. Four consecutive typhoons in China left 1.1 million TEUs of cargo held at anchorage across Ningbo, Shanghai and Yantian in the week after Typhoon Saudel passed. Those backlogs are likely to ripple into downstream ports in Europe and North America in the coming weeks.",
+      "whyItMatters": "If you have a container on the water to Europe right now, your delivery date is a guess. Six per cent on-time performance means 94 vessels out of 100 arrive late, and the average delay is more than a week. That matters if you are stocking for a product launch, a seasonal peak, or an FBA capacity window.\n\nThe 1.1 million TEUs stuck at anchorage in China after the typhoons will cascade into European port congestion in late September and early October. Your container may leave China on time and still miss its berth window in Rotterdam or Hamburg because the ship ahead of it is late. Dwell time at European ports will stretch, and demurrage clocks will run.\n\nThis is not a rate story, it is a lead-time story. You cannot buy your way out of schedule unreliability, and you cannot assume your freight forwarder's ETA is accurate. The risk is highest if you are moving stock into FBA and your receive date is fixed.",
+      "hotTake": "Six per cent is not a supply chain, it is a lottery. If your Q4 inventory plan assumes containers arrive when the carrier says they will, you are planning around a number that is wrong 94 times out of 100. Add two weeks to every delivery window and book accordingly.",
+      "actions": [
+        "Add 10 to 14 days to every China–Europe ocean transit estimate for shipments departing in September and October",
+        "Front-load Q4 FBA shipments by two weeks to absorb delay without missing the receive window",
+        "Check your demurrage and detention terms and confirm your forwarder will pull the container the day it is available, not when it is convenient"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/new-report-just-a-third-of-container-shipping-on-time",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "amazon-fba",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Swire Coca-Cola installs picking robots in Zhengzhou warehouse",
+      "tldr": "Swire Coca-Cola began using a robotic system for order picking in Zhengzhou this month, part of a 900 million yuan investment.",
+      "whatHappened": "Swire Coca-Cola began using a robotic system for order picking this month in a factory in Zhengzhou, capital of Henan province, where it has invested 900 million yuan (US$134.3 million).\n\nPeter Mills, chief supply chain officer of Swire Coca-Cola, said China is a growth market and consumer habits are changing. The company needs a more flexible and responsive supply chain to meet shifting needs, covering emerging sales channels including convenience stores, vending coolers and snack stores.\n\nThe facility automated shrink-wrapped order picking, which was a heavy challenge in markets where manual labour was still used.",
+      "whyItMatters": "Zhengzhou is a fulfilment hub for central China, and Swire's move to automate picking signals where the market is headed. If a beverage company is spending 900 million yuan to speed up mixed-SKU orders for convenience stores, the bar for manual fulfilment is rising. You compete with that when you quote lead times to your customers.\n\nThe shift to automation is not just about cost, it is about flexibility. Chinese consumers want more variety, smaller order sizes, and faster replenishment. If your fulfilment setup in China cannot pick and pack mixed orders quickly, you are slower than the baseline. That matters if you are selling into Chinese domestic channels or using China as a fulfilment base for cross-border.\n\nZhengzhou is also a logistics node for the China–Europe rail corridor. Swire's investment suggests the city is positioning itself as a fulfilment hub that can serve both domestic and export lanes. If you are considering where to locate inventory in China, watch where the big operators put their automation spend.",
+      "hotTake": "Swire's 900 million yuan bet on Zhengzhou is a signal about where fulfilment infrastructure is moving in central China. If you are still running manual picking in a Chinese warehouse, you are not competing on cost anymore, you are competing on speed, and you are losing.",
+      "actions": [
+        "Ask your 3PL in China what their pick rate is for mixed-SKU orders and compare it to your customer promise",
+        "Test Zhengzhou as a fulfilment location if you are shipping both domestic and cross-border from central China",
+        "Review your Chinese fulfilment costs and decide if automation would compress your lead time enough to justify the capex"
+      ],
+      "sourceUrl": "https://scmp.com/business/china-business/article/3368217/swire-coca-cola-gets-robots-heavy-lifting-satisfying-chinese-consumers-thirst",
+      "sourceName": "South China Morning Post",
+      "tags": [
+        "sourcing",
+        "ecommerce-platforms",
+        "manufacturing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Chinese ecommerce to the EU fell 65% in August and everyone is pretending it will recover. It will not.",
+    "The €3-per-item fee killed low-value parcels into the EU in two months. If you are still shipping singles, your margin is gone.",
+    "Far East–Europe container reliability is 6%. That is not a supply chain, that is a coin flip with worse odds.",
+    "1.1 million TEUs stuck at Chinese anchorages after typhoons will cascade into European port congestion in October. Add two weeks to every ETA.",
+    "If your Q4 inventory plan assumes containers arrive on schedule, you are planning around a number that is wrong 94 times out of 100.",
+    "Swire Coca-Cola just spent 900 million yuan on picking robots in Zhengzhou. That is where the fulfilment bar is now.",
+    "You cannot buy your way out of schedule unreliability on China–Europe. The only fix is longer lead times.",
+    "UK ecommerce from China fell 13% in August, slower than the EU but heading the same direction. Low-value direct-to-consumer is dying everywhere.",
+    "Zhengzhou is positioning itself as a fulfilment hub for both domestic China and cross-border. Watch where the automation spend goes.",
+    "The China–Europe parcel model is dead. Consolidation into EU fulfilment is the only economics that work now.",
+    "Six per cent on-time performance on China–Europe means your FBA receive date is fiction. Front-load everything by two weeks.",
+    "Chinese 3PLs are automating mixed-SKU picking whilst Western operators are still quoting manual rates. The speed gap is widening."
+  ],
+  "faq": [
+    {
+      "question": "Why did Chinese ecommerce exports to the EU fall so much in August 2026?",
+      "answer": "The EU introduced a €3-per-item customs fee on low-value imports in July 2026. Chinese ecommerce exports to the EU fell 54% in July and 65% in August year on year. The fee raises the landed cost of every parcel by €3 before VAT, which destroys margin on products under €20. Sellers either stopped shipping, raised prices, or shifted to consolidated fulfilment in the EU. The UK saw smaller declines, 5% in July and 13% in August, because the fee structure differs."
+    },
+    {
+      "question": "What is the container schedule reliability on China to Europe right now?",
+      "answer": "On-time performance on Far East–Europe fell to 6% in August 2026, the worst level since late 2021. Average delays reached 8.2 days. Only 6 vessels out of 100 arrive on schedule. The Red Sea crisis, North European port congestion, larger ships requiring longer berth stays, and typhoons in China all contributed. Four typhoons left 1.1 million TEUs stuck at anchorage in Ningbo, Shanghai and Yantian. Those backlogs will ripple into European ports through September and October."
+    },
+    {
+      "question": "Should I add extra time to my China to Europe shipping estimates?",
+      "answer": "Yes. Add 10 to 14 days to every ocean transit estimate for China–Europe shipments departing in September and October 2026. Schedule reliability is 6%, meaning 94% of vessels arrive late. Average delays are 8.2 days, and typhoon-related backlogs in Chinese ports will worsen European congestion in the coming weeks. If you are shipping to FBA or have a fixed delivery deadline, front-load your bookings by two weeks to absorb the delay."
+    },
+    {
+      "question": "Is it still profitable to ship low-value parcels from China to the EU?",
+      "answer": "No, not for most sellers. The €3-per-item fee added in July 2026 turns a €12 product into a €15 landed cost before VAT. That kills margin on anything under €20 and makes arbitrage difficult on items under €30. Chinese ecommerce exports to the EU fell 65% in August, confirming that sellers have walked away from the lane or shifted to consolidated fulfilment inside the EU. If your average order value is under €25, the economics no longer work."
+    },
+    {
+      "question": "What does Swire Coca-Cola's warehouse automation in Zhengzhou mean for ecommerce sellers?",
+      "answer": "Swire Coca-Cola invested 900 million yuan in a robotic picking system in Zhengzhou, signalling where fulfilment infrastructure is moving in central China. The facility automates mixed-SKU orders for convenience stores and vending channels. For ecommerce sellers, this raises the baseline for fulfilment speed. If you are using manual picking in China, you compete on speed with automated systems. Zhengzhou is also a rail hub for China–Europe, making it a candidate for cross-border fulfilment."
+    }
+  ],
+  "generatedAt": "2026-09-23T10:10:34.978Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
