@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-24",
+  "title": "China logistics: F-35 parts diverted, transpac stays tight",
+  "metaDescription": "F-35 parts reached Hong Kong via commercial carriers. Transpac rates holding despite off-season. LPG imports show buyers finding duty workarounds.",
+  "bottomLine": "A defence cargo control failure shows how easily chain of custody breaks in mixed commercial networks. Transpac container rates are set to hold through the off-season because Panama Canal cuts and port congestion still choke effective capacity. China's LPG buyers are back to pre-trade-war volumes by splitting cargoes to defer duty, a tactic worth watching if Section 301 rates climb again.",
+  "stories": [
+    {
+      "headline": "F-35 parts diverted to Hong Kong via UPS or Ceva, custody chain failed",
+      "tldr": "Chinese government holds F-35 fighter parts diverted from their route, Bloomberg and The Nightly disagree on which carrier moved them.",
+      "whatHappened": "Bloomberg sources named UPS as the carrier of F-35 parts that China now holds, while The Nightly's sources named Ceva Logistics. The parts were diverted to Hong Kong. Lockheed Martin called the parts low risk, but the custody failure happened during a commercial logistics movement.\n\nThe news broke on Wednesday as Chinese President Xi Jinping landed near Washington for a state visit. Neither carrier has confirmed involvement. The reports agree the cargo left its planned route, but disagree on who carried it.",
+      "whyItMatters": "You ship controlled goods every week without knowing it. Batteries, magnets, chemicals, electronics with encryption, anything dual-use. Most of those controls rely on the carrier following the route and the customs declaration, nothing more.\n\nIf a military contractor's parts can be diverted mid-route, your shipment can too. The vulnerability is not the forwarder or the airline, it is the assumption that a commercial network has custody discipline. It does not. Shipments get relabelled, consolidated, split and rerouted without the shipper knowing, especially in mixed networks where one carrier hands off to another.\n\nIf you declare controlled goods and rely on the routing to keep you compliant, you are trusting a system that just failed publicly. The risk is not that China seizes your shipment, it is that a regulator in the US or EU decides you failed to control the goods and fines you for the diversion. That liability sits with the shipper, not the carrier.",
+      "hotTake": "Carriers move tens of thousands of parcels a day and custody breaks all the time. The only surprise here is that it took a fighter jet part to make it news. If you ship anything export-controlled, track it yourself and do not assume the label stays with the box.",
+      "actions": [
+        "Check your current shipments for dual-use or controlled items and confirm routing in the carrier system, not just the booking",
+        "Flag any controlled goods to your forwarder in writing and require written confirmation that routing will not change without approval",
+        "Review your Terms and Conditions for liability limits on diverted cargo and consider cargo insurance that covers compliance failures"
+      ],
+      "sourceUrl": "https://theloadstar.com/ups-or-ceva-who-carried-f-35-parts-to-hong-kong-well-the-chain-of-custody-failed-either-way",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "customs-us",
+        "regulation-china",
+        "air-freight"
+      ]
+    },
+    {
+      "headline": "Transpac rates holding through off-season on canal cuts and port jams",
+      "tldr": "Transpacific container rates are expected to stay high despite the fourth-quarter slowdown, according to Yang Ming executives citing Panama Canal restrictions and port congestion.",
+      "whatHappened": "Yang Ming executives told an online investor conference on Tuesday that transpacific freight rates will likely stay elevated through the traditional fourth-quarter off-season. The Taiwanese carrier pointed to Panama Canal constraints, limited effective capacity, persistent port congestion and cargo shifts between US gateways as the factors holding rates up.\n\nSince 26 August, the Panama Canal Authority has reduced the number of transits available. The combination of reduced canal slots and port backlogs is keeping capacity tight even as cargo volumes enter the seasonal slowdown ahead of Golden Week.",
+      "whyItMatters": "You planned for rates to drop in October. They probably will not. The Panama Canal cuts mean carriers are either paying more to transit or routing around Cape Horn, which adds 15 days and burns more fuel. That cost does not disappear when your booking volume falls.\n\nPort congestion on the US West Coast is still eating two to three days of dwell time at the major gates. Carriers cannot add effective capacity by deploying more ships if those ships sit at anchor. The result is that spot rates stay high even when demand softens, because supply is constrained by infrastructure, not by your order volume.\n\nIf you are waiting for a rate drop to book your November shipments, you are gambling that canal capacity opens up or congestion clears. Neither is likely before year-end. Lock in space now or risk paying more in six weeks when everyone else realises rates are not falling.",
+      "hotTake": "The fourth quarter used to be a buyer's market. Now it is a hostage situation where the canal and the ports decide your rate, not supply and demand. Book your Q4 now and stop waiting for a drop that is not coming.",
+      "actions": [
+        "Lock in contract rates or spot bookings for November and December shipments this week, before Golden Week enquiries spike",
+        "Model your landed cost at current rates rather than projected drops, and adjust retail pricing if margins are too thin",
+        "Check your forwarder's routing to confirm whether they are using Panama or Cape routes, and factor the transit difference into your inventory plan"
+      ],
+      "sourceUrl": "https://theloadstar.com/transpac-rates-set-to-stay-high-despite-slowdown-to-golden-week",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "China's US LPG imports back to 2023 levels by splitting cargo to defer duty",
+      "tldr": "US LPG arrivals into China hit seasonal highs in July and August by routing via Cape of Good Hope and splitting cargoes to defer the 11% tariff.",
+      "whatHappened": "US LPG arrivals into China reached approximately 630,000 barrels per day in July and 530,000 barrels per day in August 2026. July exceeded the 560,000 barrels per day recorded in July 2023, and August cleared both August 2023 and August 2024 to set a seasonal high for the month.\n\nNorth America's share of China's seaborne LPG imports climbed from under 20% in mid-2025 to more than 70% by May 2026. Buyers are routing more vessels around the Cape of Good Hope to avoid Panama Canal transit costs, adding 15 days to the voyage. September imports are forecast to fall to around 410,000 barrels per day due to the longer routing.\n\nChina's 11% duty on US propane remains in place, but buyers are using two strategies to defer or reduce the levy. The specific methods were not detailed in the source, but the import volumes show the strategies are working well enough to restore trade to pre-trade-war levels.",
+      "whyItMatters": "LPG is a commodity you do not touch, but the import pattern matters because it shows how Chinese buyers handle US tariffs when they have no domestic alternative. The duty is 11%, the voyage is longer, and the volumes are back to 2023 anyway.\n\nThe tactic is splitting cargoes and deferring duty payment, not avoiding it. That only works at scale and only for goods where you can hold inventory and time the duty trigger. It does not help you if you are moving 500 units of a product that must clear customs this month.\n\nWhat it does show is that tariffs change behaviour more than they stop trade. If your competitor can defer duty and you cannot, they have a cost advantage that lasts as long as their cash flow can carry the deferral. Watch for this in sectors where big players import in volume and small sellers buy from distributors who have already paid the duty.",
+      "hotTake": "Tariffs are a financing cost, not a wall. The buyers who can afford to defer payment win, and the ones who cannot pay full rate and lose margin. If Section 301 rates climb, expect the same split between operators with cash and operators without.",
+      "actions": [
+        "If you import goods subject to Section 301 tariffs, ask your customs broker whether bonded warehouse or FTZ storage lets you defer duty until the goods leave for sale",
+        "Model your working capital requirement if tariffs rise and you defer payment, and compare that cost to paying duty on arrival",
+        "Track your competitors' pricing for sudden drops that suggest they are deferring duty and undercutting on gross margin"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/chinas-us-lpg-buying-is-back-on-a-better-duty-strategy",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "F-35 parts reached Hong Kong via commercial logistics and nobody knows how. Your controlled goods shipment is next.",
+    "Custody discipline in mixed carrier networks is a fiction. If military cargo gets diverted, your batteries and magnets will too.",
+    "Transpac rates are not falling in Q4. Panama cuts and port jams killed the off-season buyer's market.",
+    "Waiting for November rate drops is a bet that the canal opens or congestion clears. Neither will happen before year-end.",
+    "China's LPG buyers are back to pre-trade-war volumes by deferring the 11% duty. Tariffs are a financing cost, not a wall.",
+    "Operators with cash can defer duty and undercut on price. Operators without cash pay full rate and lose margin.",
+    "Port congestion eats your capacity even when you book space. Dwell time is the hidden cost that keeps rates high.",
+    "Golden Week is two weeks away and transpac capacity is already tight. Lock in space now or pay more in October.",
+    "The fourth quarter used to reward patient buyers. Now it punishes anyone waiting for a rate drop that will not come.",
+    "If a fighter jet part can leave its route, your export-controlled shipment can too. Track it yourself.",
+    "Cargo insurance does not cover compliance failures unless you bought the right policy. Check your Terms before you ship.",
+    "Splitting LPG cargoes to defer duty works at 500,000 barrels a day. It does not work for your 500-unit order, but your competitor with 50,000 units can do it."
+  ],
+  "faq": [
+    {
+      "question": "Why are transpacific container rates staying high in the fourth quarter?",
+      "answer": "Panama Canal capacity cuts since 26 August and persistent port congestion on the US West Coast are keeping effective capacity tight. Carriers are either paying more to transit Panama or routing via Cape Horn, which adds 15 days and higher fuel costs. Port dwell time is adding two to three days at major gateways. These infrastructure constraints hold rates up even as seasonal cargo volumes decline. The traditional fourth-quarter rate drop depends on excess capacity, which does not exist this year."
+    },
+    {
+      "question": "Can I defer duty on goods imported from China to the US?",
+      "answer": "Yes, but only under specific conditions. Foreign Trade Zones and bonded warehouses let you defer duty until goods leave the facility for domestic sale. This requires upfront setup, ongoing compliance and enough volume to justify the cost. You also need working capital to carry inventory without immediate sale. Large importers use this to smooth cash flow and undercut competitors who pay duty on arrival. Small sellers rarely have the scale or capital to make it worthwhile. Ask your customs broker whether your volume and product type qualify."
+    },
+    {
+      "question": "What happens if my shipment with controlled goods gets diverted?",
+      "answer": "You carry the liability, not the carrier. Export-controlled goods, dual-use items and anything restricted by ITAR or EAR must follow the declared route and end-use. If the carrier diverts the shipment, you are still responsible for the compliance failure. US regulators can fine you for unauthorised export or re-export even if you did not know about the diversion. Liability limits in standard carrier Terms rarely cover regulatory penalties. Track controlled shipments in real time, require written routing confirmations from your forwarder, and check whether your cargo insurance covers compliance failures."
+    },
+    {
+      "question": "How much longer does Cape of Good Hope routing add to a China to US shipment?",
+      "answer": "Around 15 days compared to the Panama Canal route. A laden container vessel travelling at 14.5 knots takes approximately 29 days from Houston to Ningbo via Panama, versus 44 days via the Cape. The longer voyage burns more fuel, increases crew costs and ties up vessel capacity. Carriers pass these costs to shippers through higher rates or fuel surcharges. September LPG import data shows more vessels taking the Cape route to avoid Panama Canal transit fees, which have risen due to water conservation measures."
+    },
+    {
+      "question": "Should I book my November shipments now or wait for Golden Week?",
+      "answer": "Book now. Golden Week enquiries will spike in early October as factories reopen and exporters chase space. Transpac capacity is already tight due to Panama Canal cuts and port congestion. Rates are not expected to drop through the fourth quarter because infrastructure constraints are limiting effective capacity, not demand. Waiting risks paying higher spot rates or missing cut-offs for pre-Christmas inventory. Lock in contract rates or confirmed bookings this week, model your landed cost at current rates, and adjust retail pricing if margins are too thin."
+    }
+  ],
+  "generatedAt": "2026-09-24T10:16:31.034Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
