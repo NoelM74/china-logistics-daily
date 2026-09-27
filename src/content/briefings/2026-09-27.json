@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-27",
+  "title": "China trans-Pacific rates double as Med collapses",
+  "metaDescription": "Spot rates from China to US West Coast hit $8,446 per FEU whilst Mediterranean drops 50%. Bookings data shows European demand is holding.",
+  "bottomLine": "China to US West Coast spot rates closed at $8,446 per FEU on 23 September, nearly double the 12-month average, whilst Mediterranean rates fell 50% from July peaks. Bookings data shows European demand is up 38% year over year, so the Med collapse is a supply story, not a demand one. If you ship to Europe, ask for October quotes now before carriers realise they have overcorrected.",
+  "stories": [
+    {
+      "headline": "Trans-Pacific rates hit $8,446 whilst Med falls to $3,591 on same demand growth",
+      "tldr": "China to US West Coast spot rates reached $8,446 per FEU on 23 September whilst Mediterranean rates dropped to $3,591, despite booking volumes rising on both lanes.",
+      "whatHappened": "The Freightos Baltic Daily Index for China to North America West Coast closed at $8,446 per FEU on 23 September 2026, nearly double the 12-month average of $4,381. The China to Mediterranean index fell to $3,591 per FEU, down more than 50% from its July peak of $7,540.\n\nConfirmed TEU bookings from Shanghai, Ningbo and Yantian to five major Mediterranean ports are up 38% year over year. Bookings into North Europe are up 26% year over year. Total confirmed TEUs from China to US and Canadian West Coast are up about 50% from last year, nearly all to Long Beach. The median West Coast lane is up only 1% year over year.",
+      "whyItMatters": "You are paying radically different rates for similar demand conditions. If you ship to the Mediterranean, your carrier has cut your rate in half in seven weeks even though cargo volumes are climbing. If you ship to the US West Coast, you are paying double the yearly average for capacity that is not materially tighter than Europe.\n\nThe booking data kills the usual explanation. European demand is not collapsing. It is growing faster than North American demand on a year-over-year basis. Carriers have been shifting Asia-Europe services back through the Suez Canal, adding capacity faster than bookings can absorb it. On the trans-Pacific, Long Beach is soaking up most volume growth whilst Los Angeles bookings from Ningbo are down 33%.\n\nIf you have Q4 volume going to Europe, the current rate environment will not last. Carriers will notice they have overcorrected and start pulling capacity or raising rates in October. If you are on the trans-Pacific and your bookings are not going to Long Beach, ask your forwarder to quote Oakland or Seattle and compare the all-in cost including drayage.",
+      "hotTake": "The Med rate collapse is a gift that expires the moment carriers look at their own booking data. If you ship to Europe and you have not locked Q4 rates yet, do it this week. On the trans-Pacific, the $8,446 headline is a Long Beach number that does not reflect what most lanes are doing.",
+      "actions": [
+        "Request October and November quotes for Mediterranean lanes today and lock them before carriers reverse the cuts",
+        "Compare all-in costs for Oakland and Seattle against Los Angeles if your West Coast bookings are not to Long Beach",
+        "Pull forward any European bookings you were planning for late October to capture current rates"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/trans-pacific-rates-soar-mediterranean-sinks-and-demand-doesnt-explain-either",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Kuehne+Nagel and CATL launch battery-swapping pilot for heavy trucks in China",
+      "tldr": "Kuehne+Nagel and CATL signed an MoU to run a battery-swapping pilot for heavy-duty trucks in China, launching in 2026 using Qiji technology.",
+      "whatHappened": "Kuehne+Nagel and battery manufacturer CATL signed a Memorandum of Understanding on 26 September 2026 to cooperate on battery logistics, transport electrification and emissions reduction. One of the first projects will involve a battery-swapping pilot for heavy-duty trucks in China using technology provided by Qiji, expected to launch in 2026.\n\nThe companies said demand for electric truck batteries rose by more than 75% in 2024. The partnership will also explore cooperation in battery recycling, aftersales support, and energy storage solutions for logistics facilities. No investment value or timeframe for expanding beyond the initial projects was disclosed.",
+      "whyItMatters": "Battery-swapping infrastructure for heavy trucks in China matters to you because it changes the economics of overland transport from the factory to the port or fulfilment centre. If swapping works at scale, hauliers can run electric trucks without the downtime and range penalties that currently make them unviable for long regional runs. That means lower fuel costs, which eventually show up in your inland transport quotes.\n\nThe Qiji pilot is the part to watch. Battery swapping has been tried and abandoned multiple times because standardisation is hard and the infrastructure cost is enormous. If Kuehne+Nagel and CATL can make it work on their own controlled lanes first, it proves the model before anyone asks you to pay for it.\n\nFor now, this does not change your rates or your lead times. It is a pilot, and pilots in China often stay pilots. But if you are quoting new factory relationships in Jiangsu or Guangdong and your haulier mentions electric trucks, ask whether they are part of a swapping network or relying on overnight charging.",
+      "hotTake": "Battery swapping for trucks has failed everywhere it has been tried because no one could agree on standards. CATL has the manufacturing scale to force a standard, and Kuehne+Nagel has the lane density to make the infrastructure economics work. If this pilot works, it will be because they ignored everyone else and built it for themselves first.",
+      "actions": [
+        "Ask your haulier in Shenzhen or Shanghai whether they are testing electric trucks and whether they use swapping or overnight charging",
+        "Flag any 2027 inland transport quotes that include a sustainability surcharge and ask what specific infrastructure change justifies it"
+      ],
+      "sourceUrl": "https://container-news.com/kuehnenagel-and-catl-partner-on-battery-logistics-and-truck-electrification",
+      "sourceName": "Container News",
+      "tags": [
+        "sourcing",
+        "regulation-china",
+        "manufacturing"
+      ]
+    },
+    {
+      "headline": "Mariana Express adds Xiamen and Nansha calls from mid-October",
+      "tldr": "PIL's Mariana Express Lines will add Xiamen and Nansha to its Micronesia Express service from mid-October 2026, serving Guam and Palau.",
+      "whatHappened": "PIL's Mariana Express Lines will add regular calls at Xiamen and Nansha to its Micronesia Express service from mid-October 2026. The service is operated by two 780 TEU container ships. The revised rotation will be Xiamen, Hong Kong, Nansha, Hong Kong, Kaohsiung, Apra, Saipan, Yap, Koror, and back to Xiamen.",
+      "whyItMatters": "This matters if you sell into Guam, Saipan or Palau and your factory or fulfilment centre is in Fujian or the Pearl River Delta. You now have a direct service from Xiamen and Nansha instead of trucking to Hong Kong or transshipping through Kaohsiung. That cuts out a land leg and the associated handling.\n\nTwo 780 TEU ships is a tiny service, and tiny services get suspended the moment utilisation drops. If you are moving regular volume to these islands, the Xiamen and Nansha calls give you a second load port option, which is useful insurance if Hong Kong or Kaohsiung hit congestion. But do not build your entire Q4 plan around it until you see the service run for a month.\n\nIf you are not shipping to the Pacific islands, this does not affect you. The service is too small to move pricing or capacity on the main China export lanes.",
+      "hotTake": "A 780 TEU service adding two calls in southern China is a rounding error in global capacity terms, but if you are one of the six people who ship to Palau regularly, it is the only news that matters this week.",
+      "actions": [
+        "Contact your forwarder to confirm Xiamen and Nansha load dates for the first October sailing if you have Guam or Saipan volume",
+        "Compare the all-in cost of Xiamen or Nansha direct against trucking to Hong Kong for your next Pacific islands shipment"
+      ],
+      "sourceUrl": "https://container-news.com/mariana-express-adds-xiamen-and-nansha-to-mxs-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Mediterranean spot rates are down 50% since July whilst bookings are up 38% year over year, and carriers have not noticed yet",
+    "You are paying $8,446 to move a box to Los Angeles whilst the same box to Genoa costs $3,591, and demand growth is higher on the Genoa lane",
+    "Long Beach bookings have doubled year over year and everyone else is paying the premium for capacity that is only tight on one berth",
+    "European carriers added so much Suez capacity that they crashed their own rates in seven weeks, and the correction is coming in October",
+    "Battery swapping for trucks has failed everywhere because no one could agree on standards, but CATL has the scale to force one",
+    "Kuehne+Nagel is running a China truck battery-swapping pilot in 2026, and if it works your inland transport costs drop in 2027",
+    "A 780 TEU feeder adding Xiamen and Nansha calls is irrelevant unless you ship to Guam, in which case it is the only thing that matters this week",
+    "Trans-Pacific headline rates are a Long Beach story, not a West Coast story, and you should not pay Long Beach prices for an Oakland booking",
+    "Ask your Mediterranean forwarder for October quotes today, because the current rate collapse will not survive the next carrier earnings call",
+    "Electric truck pilots in China stay pilots until a haulier mentions swapping infrastructure without you asking, then they become real",
+    "The Med rate drop is a supply correction that happened too fast, and the snapback will happen just as fast once carriers look at their booking data",
+    "If your cargo is not going to Long Beach, you are paying a trans-Pacific premium for a market that is looser than the index suggests"
+  ],
+  "faq": [
+    {
+      "question": "Why are China to US West Coast rates so much higher than Mediterranean rates right now?",
+      "answer": "China to US West Coast spot rates hit $8,446 per FEU on 23 September 2026, whilst Mediterranean rates fell to $3,591. The gap is not driven by demand. Bookings to the Mediterranean are up 38% year over year, faster than most trans-Pacific lanes. Carriers shifted Asia-Europe services back through the Suez Canal, adding capacity faster than bookings can absorb. On the trans-Pacific, Long Beach bookings doubled whilst most other ports are flat, concentrating volume and letting carriers price aggressively."
+    },
+    {
+      "question": "Should I lock Mediterranean rates now or wait for further drops?",
+      "answer": "Lock them now. Mediterranean rates are down more than 50% from July peaks to $3,591 per FEU, but booking volumes are up 38% year over year. Carriers have overcorrected and will start pulling capacity or raising rates in October once they review booking data. The current rate environment is a supply correction that happened too fast. If you have Q4 volume to Europe, request October and November quotes this week and lock them before carriers reverse the cuts."
+    },
+    {
+      "question": "What is battery swapping for trucks and why does it matter for China logistics?",
+      "answer": "Battery swapping lets electric trucks replace a depleted battery with a charged one in minutes, instead of waiting hours for charging. Kuehne+Nagel and CATL are launching a pilot in China in 2026 using Qiji technology. If it works at scale, hauliers can run electric trucks on long regional routes without downtime penalties. That means lower fuel costs, which eventually show up in your inland transport quotes from factory to port. For now it is a pilot."
+    },
+    {
+      "question": "Are trans-Pacific rates going to keep climbing through Q4?",
+      "answer": "The headline rate of $8,446 per FEU to the US West Coast is driven by Long Beach, where bookings have more than doubled year over year. Most other West Coast ports show flat or declining bookings, with Los Angeles down 33% from Ningbo. If your cargo is not going to Long Beach, you are paying a premium for capacity that is looser than the index suggests. Compare quotes for Oakland or Seattle against Los Angeles including drayage."
+    },
+    {
+      "question": "Does the new Xiamen and Nansha service to Guam affect my shipping options?",
+      "answer": "Only if you ship to Guam, Saipan or Palau and your factory is in Fujian or the Pearl River Delta. PIL's Mariana Express is adding Xiamen and Nansha calls from mid-October 2026, giving you a direct service instead of trucking to Hong Kong. The service uses two 780 TEU ships, so schedule reliability is fragile. If you move regular volume to these islands, the new calls give you a second load port option."
+    }
+  ],
+  "generatedAt": "2026-09-27T10:40:49.313Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 7
+}
