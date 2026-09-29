@@ -66,10 +66,17 @@ const US_SPELLINGS = [
   [/\borganiz(?:e|ed|es|ing|ation)\b/i, 'organise'],
   [/\boptimiz(?:e|ed|es|ing|ation)\b/i, 'optimise'],
   [/\banalyz(?:e|ed|es|ing)\b/i, 'analyse'],
-  [/\bcenter(?:s|ed)?\b/i, 'centre'],
-  [/\bdefense\b/i, 'defence'],
-  [/\blabor\b/i, 'labour'],
-  [/\bcolor(?:s|ed)?\b/i, 'colour'],
+  /*
+   * The four below are lowercase only, deliberately. Capitalised they are
+   * usually American proper nouns where the American spelling is correct:
+   * the US Department of Labor, Department of Defense, World Trade Center.
+   * A retry told to "fix" one either breaks the name or fails the day, which
+   * is what happened on 30 September.
+   */
+  [/\bcenter(?:s|ed)?\b/, 'centre'],
+  [/\bdefense\b/, 'defence'],
+  [/\blabor\b/, 'labour'],
+  [/\bcolor(?:s|ed)?\b/, 'colour'],
 ];
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length;

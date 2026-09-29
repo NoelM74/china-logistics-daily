@@ -133,6 +133,22 @@ const CASES = [
     /US spelling/,
   ],
   [
+    'American proper nouns are not flagged as US spelling',
+    (b) => {
+      b.stories[0].whatHappened = `The US Department of Labor and the Department of Defense both commented. ${b.stories[0].whatHappened}`;
+      return b;
+    },
+    null,
+  ],
+  [
+    'lowercase US spelling is still rejected',
+    (b) => {
+      b.stories[0].whyItMatters = `Your labor costs rise. ${b.stories[0].whyItMatters}`;
+      return b;
+    },
+    /US spelling "labor"/,
+  ],
+  [
     'over-length title is rejected',
     (b) => {
       b.title =
