@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-29",
+  "title": "China tariff deal skips soybeans, port fees still live",
+  "metaDescription": "China and US cut tariffs on $30bn of goods, but soybeans excluded and port fees on Chinese ships restart 10 November unless extended.",
+  "bottomLine": "China and the US announced tariff cuts on $30bn of goods each, covering 1,696 product lines, but the deal lands too late to change weakening transpac rates and does not touch the port fees on Chinese-built and Chinese-operated vessels, which restart 10 November unless USTR acts. Soybeans remain subject to an additional 10% tariff in China, and the whole deal still requires domestic legal procedures before it takes effect.",
+  "stories": [
+    {
+      "headline": "Port fees on Chinese ships restart 10 November without USTR notice",
+      "tldr": "US port-entry fees on China-linked vessels resume 10 November despite the broader trade truce extension, leaving carriers and cargo interests awaiting formal USTR action.",
+      "whatHappened": "The US-China trade truce was extended to 10 January 2027 on 23 September, but the extension does not cover the Section 301 port-entry fees targeting Chinese-built, Chinese-owned and Chinese-operated vessels. Those fees remain scheduled to resume at the start of 10 November unless USTR issues a modification before the current suspension expires at 11:59pm ET on 9 November.\n\nUnder the original schedule, Chinese vessel operators face a $50-per-net-ton fee, and non-Chinese operators using Chinese-built vessels face the higher of $18 per net ton or $120 per discharged container. A coalition including the American Association of Port Authorities and National Retail Federation sent a letter to USTR Jamieson Greer on 23 September urging an extension. No formal notice had been issued by 28 September.",
+      "whyItMatters": "If the fees restart, your landed cost goes up even if you are not shipping on a Chinese carrier. The $120-per-container fee on Chinese-built vessels operated by non-Chinese carriers hits carriers like MSC, Maersk and Hapag-Lloyd, and they will pass it through. The fee applies to vessels, not to individual shipments, so it gets baked into the rate or added as a surcharge.\n\nYou need to know whether the vessel carrying your container was built in China, which is not always visible in your booking. If you are moving a 40ft container, the fee could add $240 to your cost. The 10 November restart date is two weeks away. If you have a shipment loading in early November for US arrival in late November or December, you are exposed.",
+      "hotTake": "The truce was extended on television and the port fees were not mentioned, which means someone forgot or someone chose not to include them. Either way, you are left holding the risk.",
+      "actions": [
+        "Ask your freight forwarder which vessels on your lane are Chinese-built and what the fee exposure is per container",
+        "If you have Q4 stock on the water arriving after 10 November, model the $120-per-container fee into your landed cost",
+        "Do not accelerate bookings to beat the deadline unless you already have a firm rate and confirmed space"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/no-mention-of-u-s-china-ship-taxes-in-trade-truce",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "tariffs-duties",
+        "customs-us",
+        "regulation-china",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "China and US cut tariffs on $30bn each, soybeans excluded",
+      "tldr": "China and the US agreed to cut tariffs on $30bn of goods each, covering 1,696 product lines, but soybeans remain subject to an additional 10% tariff in China.",
+      "whatHappened": "China and the US announced a mutual tariff cut on $30bn worth of goods each, covering a combined 1,696 product lines. Tariffs on more than 90% of listed products will drop to standard most-favoured-nation rates. The Chinese list includes 1,619 items, and the US list covers 77 items. Both sides must complete domestic legal procedures before the cuts take effect simultaneously.\n\nChina's list includes US meat, corn, dairy and soybean derivatives like soy oil and soy meal. Whole soybeans are absent and will still face an additional 10% import tariff. The US list includes Chinese fireworks, tableware, toys, Christmas ornaments and soccer balls, but excludes rare earth minerals and technologies used for advanced artificial intelligence.",
+      "whyItMatters": "The tariff cuts do not move your unit cost unless you are importing the specific products on the list. If you source Christmas ornaments, toys or tableware from China, you have a cost reduction coming, but you do not know the magnitude or the effective date yet. Each side still has to publish the details.\n\nYou also do not know what this does to your Section 301 exposure. The announcement does not clarify whether these tariff cuts replace existing Section 301 duties or sit alongside them. The exclusion of soybeans signals that China is still using agricultural purchases as leverage. For sellers, the broader point is that this deal is narrow, requires implementation steps on both sides, and does not change the fact that transpac rates are falling.",
+      "hotTake": "A $60bn tariff deal sounds large until you realise it covers Christmas ornaments and soccer balls, not the volume categories that move transpac rates. The soybeans exclusion is a reminder that China still treats trade as a negotiation tool.",
+      "actions": [
+        "Cross-check your HS codes against the published lists when they appear to see whether your products qualify",
+        "Do not reorder Q4 stock expecting tariff savings unless you have a firm effective date and confirmed rate reduction",
+        "If you import toys or holiday goods, flag the potential saving to your buyer but price conservatively until the details land"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/china-to-cut-tariffs-on-host-of-u-s-agrigoods-but-soybeans-not-included",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sourcing",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "Transpac rates set to fall despite China-US tariff deal",
+      "tldr": "Transpacific spot rates are falling even after the China-US tariff agreement, because the deal arrives too late to generate demand that would support rates.",
+      "whatHappened": "Transpacific container rates are set to fall despite the announcement of mutual tariff cuts by China and the US. The $30bn-for-$30bn deal covers more than 90% of 1,696 listed product lines, but the tariff reductions arrive too late in the peak season cycle to reverse weakening demand on the transpac lane. The agreement was announced after the US-China summit concluded 25 September.",
+      "whyItMatters": "You are booking Q4 stock into a falling rate environment, which means carriers have less pricing power than they did in August. If you locked in rates in early September expecting peak season strength, you are now paying above the spot market. If you are still booking, you have room to negotiate.\n\nThe tariff deal does not change the volume picture. Demand on the transpac lane is holding rather than accelerating, according to a 24 September JP Morgan note citing Kuehne+Nagel meetings. That imbalance pushes rates down. For sellers moving stock from China to the US in October and November, this is a short-term cost opportunity.",
+      "hotTake": "The tariff deal is a headline that does not move containers. Rates are falling because demand is soft, and no trade announcement changes that.",
+      "actions": [
+        "Pull spot quotes this week and compare them to your September bookings to see how much the market has moved",
+        "If you are still loading Q4 stock, negotiate on rate rather than waiting for further declines",
+        "Do not accelerate orders expecting a demand surge from the tariff cuts"
+      ],
+      "sourceUrl": "https://theloadstar.com/china-us-trade-truce-too-late-to-boost-weakening-transpac-rates",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "tariffs-duties",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Shein profit drops 67% in Q2, warns on tariffs and logistics costs",
+      "tldr": "Shein Global Holdings reported a 67% drop in second-quarter profit and warned that tariff headwinds and logistics cost volatility would persist for the rest of the year.",
+      "whatHappened": "Shein Global Holdings posted a 67% drop in second-quarter profit in its first earnings report since listing in Hong Kong. The online fashion retailer warned that tariff headwinds and logistics cost volatility would persist for the rest of the year. Shares fell as much as 14% to HK$30.24 during the day on 29 September and closed down 10.7% at HK$31.50.",
+      "whyItMatters": "Shein moves volume that most sellers do not, but the company's logistics cost warning is a signal for anyone shipping apparel or low-value goods from China. If Shein, with its scale and direct relationships with carriers, is struggling with cost volatility, you are facing the same pressure without the negotiating power.\n\nThe tariff warning is more specific. Shein ships a large proportion of its goods under de minimis rules, which allow low-value shipments to enter markets without paying duties. Those rules are closing or tightening worldwide, and Shein is exposed. If you are using a similar model, you are watching the same regulatory risk.",
+      "hotTake": "Shein built a model on fast fashion, low prices and de minimis loopholes, and now the loopholes are closing. The profit drop is what happens when your cost structure depends on regulatory arbitrage and the arbitrage disappears.",
+      "actions": [
+        "If you ship direct to consumer in low-value parcels, model the cost of full customs clearance and duties into your landed cost",
+        "Do not assume air freight rates or courier surcharges will soften in Q4",
+        "If you compete with Shein on price, factor in that they are under margin pressure and may not hold current pricing"
+      ],
+      "sourceUrl": "https://scmp.com/tech/article/3369136/shein-drops-14-record-low-after-profit-misses-first-results-hong-kong-ipo",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "air-freight",
+        "tariffs-duties",
+        "de-minimis",
+        "ecommerce-platforms",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The trade truce was extended on television but the port fees restart in two weeks, which tells you everything about how this administration manages supply chain policy",
+    "Transpac rates are falling in peak season, which has not happened in a normal year since 2019",
+    "China cut tariffs on soy meal and soy oil but not soybeans, because trade negotiations are still about leverage, not efficiency",
+    "Shein's profit dropped 67% and the stock fell 14% in one day, which is what happens when your model depends on regulatory loopholes that are closing",
+    "The $30bn tariff deal covers Christmas ornaments and soccer balls, not the product categories that actually move container volume",
+    "You are booking Q4 stock into a falling rate environment, which means you have negotiating power if you use it this week",
+    "Port fees on Chinese-built vessels could add $120 per container in two weeks, and most sellers do not know which vessels on their lane are Chinese-built",
+    "The tariff cuts require domestic legal procedures on both sides before they take effect, which means you do not have an effective date or a confirmed rate reduction",
+    "Shein warned that logistics cost volatility will persist for the rest of the year, which is a signal for anyone shipping low-value goods from China",
+    "The US and China extended the trade truce to January but did not mention the port fees, which means someone forgot or someone chose not to include them",
+    "If Shein with its scale is struggling with logistics costs, you are facing the same pressure without the negotiating power",
+    "The soybeans exclusion is a reminder that China treats trade as a negotiation tool, not a rules-based system"
+  ],
+  "faq": [
+    {
+      "question": "Do the China-US tariff cuts apply to my products?",
+      "answer": "The tariff cuts cover 1,696 product lines combined. China cut tariffs on 1,619 items including US meat, corn, dairy and soybean derivatives. The US cut tariffs on 77 Chinese items including fireworks, tableware, toys, Christmas ornaments and soccer balls. Both sides must complete domestic legal procedures before the cuts take effect. No effective date or specific rate reductions have been published. Cross-check your HS codes against the published lists when they appear."
+    },
+    {
+      "question": "Will the US port fees on Chinese ships restart in November?",
+      "answer": "The US port-entry fees on China-linked vessels are scheduled to resume at the start of 10 November unless USTR issues a modification before the current suspension expires at 11:59pm ET on 9 November. The fees target Chinese-built, Chinese-owned and Chinese-operated vessels. Chinese vessel operators face a $50-per-net-ton fee. Non-Chinese operators using Chinese-built vessels face the higher of $18 per net ton or $120 per discharged container."
+    },
+    {
+      "question": "Are transpac container rates going up or down in October?",
+      "answer": "Transpacific spot rates are falling despite the China-US tariff agreement. The deal arrives too late in the peak season cycle to generate demand that would support rates. US import demand is holding rather than accelerating. If you are booking Q4 stock in October, you are entering a falling rate environment, which gives you negotiating power. The risk is that rates fall further, but the bigger risk is misjudging your inventory position."
+    },
+    {
+      "question": "How much will the Chinese ship port fees cost per container?",
+      "answer": "If you ship on a Chinese carrier or Chinese-owned vessel, the fee is $50 per net ton, which varies by vessel size. If you ship on a non-Chinese carrier using a Chinese-built vessel, the fee is the higher of $18 per net ton or $120 per discharged container. For a standard 40ft container on a Chinese-built vessel operated by a non-Chinese carrier, the fee could add $240 to your cost."
+    }
+  ],
+  "generatedAt": "2026-09-29T11:29:30.298Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
