@@ -44,6 +44,12 @@ const MODEL = env('BRIEFING_MODEL') || DEFAULT_MODELS[PROVIDER] || DEFAULT_MODEL
 const MAX_TOKENS = Number(env('BRIEFING_MAX_TOKENS')) || 8000;
 const TARGET_STORIES = '3 to 5';
 
+// Three, not two. The retry that fixes the length routinely breaks something
+// else (a starved story, a lost tag), and with only two attempts that second
+// error lost the day: 28 and 30 September. A third attempt costs a few cents on
+// a bad day and nothing on a good one.
+const MAX_ATTEMPTS = 3;
+
 const argv = process.argv.slice(2);
 const flag = (name) => argv.includes(`--${name}`);
 const opt = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
@@ -213,7 +219,7 @@ async function main() {
   async function attemptWith(provider, model) {
     const turns = [{ role: 'user', content: userPrompt }];
 
-    for (let attempt = 1; attempt <= 2; attempt++) {
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
       const { text, usage, stopReason } = await provider.complete({
         system: SYSTEM_PROMPT,
         turns,
@@ -251,7 +257,7 @@ async function main() {
         }
       }
 
-      if (attempt === 1) {
+      if (attempt < MAX_ATTEMPTS) {
         log.info('retrying once with the validation errors fed back');
         turns.push(
           { role: 'assistant', content: text },
@@ -305,7 +311,7 @@ async function main() {
   });
 
   if (!briefing) {
-    log.error('generation failed validation twice. Aborting without commit.');
+    log.error('generation failed validation on every attempt. Aborting without commit.');
     await summary([
       `### ❌ Briefing ${DATE} failed`,
       '',

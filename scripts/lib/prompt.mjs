@@ -143,5 +143,11 @@ export function buildRetryPrompt(errors) {
 
 ${errors.map((e) => `- ${e}`).join('\n')}
 
-Produce the corrected briefing. Same rules, same JSON shape, no preamble, no markdown fences. Fix every item listed. Do not invent source URLs to satisfy a rule: use only URLs from the candidate list you were given.`;
+Produce the corrected briefing. Same rules, same JSON shape, no preamble, no markdown fences. Fix every item listed. Do not invent source URLs to satisfy a rule: use only URLs from the candidate list you were given.
+
+While fixing, do not break a rule that already passed. In particular, when cutting length:
+- Cut from the FAQ answers and from repetition first. Every FAQ answer must be 80 words or fewer.
+- Keep every whatHappened and every whyItMatters at 55 words or more. Drop a whole weak story rather than starving several.
+- Keep 3 to 6 tags on every story, a title of 60 characters or fewer, and a metaDescription of 155 characters or fewer.
+- If you drop a story, make sure no more than 2 of the remaining stories share a publisher.`;
 }
