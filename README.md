@@ -134,6 +134,40 @@ dashes, "here's the thing", "game-changer", US spellings in prose, and the rest
 of the `stop-slop` list). One retry is attempted with the errors fed back, then
 the run aborts.
 
+## Choosing the model
+
+The briefing can be written by Claude or by a model from the free
+[build.nvidia.com](https://build.nvidia.com/models) catalogue. `scripts/lib/llm.mjs`
+is the whole difference between them; the rest of the pipeline only sees JSON.
+
+**Pick with evidence, not spec sheets.** `npm run bake-off` sends the real prompt,
+with byte-identical input, to each model on a shortlist and scores every result
+with the real validator: banned phrases, US spellings, invented source URLs,
+shape and length. Each output is saved in `bake-off/` so you can read the prose,
+which is the half no validator can judge.
+
+```bash
+NVIDIA_API_KEY=nvapi-... npm run bake-off
+NVIDIA_API_KEY=nvapi-... npm run bake-off -- --models=z-ai/glm-5.3,moonshotai/kimi-k3 --runs=3
+```
+
+**Switching** is repository variables, not code (Settings > Secrets and variables
+> Actions > Variables):
+
+| Variable | Example | Default |
+|---|---|---|
+| `BRIEFING_PROVIDER` | `nvidia` | `anthropic` |
+| `BRIEFING_MODEL` | `z-ai/glm-5.3` | per provider |
+| `BRIEFING_FALLBACK` | `anthropic` | none |
+
+Add `NVIDIA_API_KEY` as a repository *secret*. Keep `BRIEFING_FALLBACK=anthropic`:
+the free tier has no SLA, and the fallback is only called on a day the first
+choice cannot produce a briefing that validates, so it costs nothing otherwise.
+
+Exact model ids come from `https://integrate.api.nvidia.com/v1/models`. A 404
+on a real id usually means the model needs "Public API Endpoints" enabled on
+your NVIDIA organisation, which is requested on the NVIDIA developer forum.
+
 ## Images
 
 Three kinds, and the distinction is deliberate.

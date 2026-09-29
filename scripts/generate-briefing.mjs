@@ -18,21 +18,27 @@
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import Anthropic from '@anthropic-ai/sdk';
-
 import { log, summary } from './lib/log.mjs';
 import { fetchAllFeeds } from './lib/sources.mjs';
 import { selectCandidates } from './lib/filter.mjs';
 import { enrichAll } from './lib/enrich.mjs';
 import { SYSTEM_PROMPT, buildUserPrompt, buildRetryPrompt } from './lib/prompt.mjs';
 import { validateBriefing, wordCount } from './lib/validate.mjs';
+import { createProvider, explainApiError, DEFAULT_MODELS } from './lib/llm.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT_DIR = path.join(ROOT, 'src', 'content', 'briefings');
 
-// Sonnet: the daily driver for this job. Cost note in PRD §5.5.
-const MODEL = process.env.BRIEFING_MODEL ?? 'claude-sonnet-4-5-20250929';
-const MAX_TOKENS = 8000;
+/*
+ * Who writes the briefing. BRIEFING_PROVIDER is "nvidia" (the free
+ * build.nvidia.com catalogue) or "anthropic" (Claude). BRIEFING_FALLBACK names
+ * a second provider, used only when the first cannot produce a briefing that
+ * validates, so a free tier with no SLA cannot cost a day of the archive.
+ */
+const PROVIDER = process.env.BRIEFING_PROVIDER ?? 'anthropic';
+const FALLBACK = process.env.BRIEFING_FALLBACK ?? '';
+const MODEL = process.env.BRIEFING_MODEL ?? DEFAULT_MODELS[PROVIDER] ?? DEFAULT_MODELS.anthropic;
+const MAX_TOKENS = Number(process.env.BRIEFING_MAX_TOKENS ?? 8000);
 const TARGET_STORIES = '3 to 5';
 
 const argv = process.argv.slice(2);
@@ -100,44 +106,6 @@ function parseModelJson(raw) {
   if (start === -1 || end === -1 || end < start) throw new Error('no JSON object in response');
 
   return JSON.parse(text.slice(start, end + 1));
-}
-
-/** Make the common auth failures self-explanatory in the Actions log. */
-function explainApiError(err) {
-  const msg = String(err?.message ?? err);
-  if (msg.includes('anthropic-workspace-id')) {
-    return (
-      'The API key is identity-linked, so it needs a workspace id. Either add an ' +
-      'ANTHROPIC_WORKSPACE_ID repo secret (Console > Settings > Workspaces, copy the id), ' +
-      'or replace the key with a workspace-scoped one, which needs no extra header.'
-    );
-  }
-  if (msg.includes('401') || /authentication/i.test(msg)) {
-    return 'ANTHROPIC_API_KEY was rejected. Check the repo secret is set and has not been revoked.';
-  }
-  if (msg.includes('429')) return 'Rate limited by the API. The next scheduled run will retry.';
-  if (msg.includes('credit') || msg.includes('billing')) {
-    return 'The Anthropic account is out of credit. Top up at console.anthropic.com.';
-  }
-  return null;
-}
-
-async function callModel(client, messages) {
-  const res = await client.messages.create({
-    model: MODEL,
-    max_tokens: MAX_TOKENS,
-    system: SYSTEM_PROMPT,
-    messages,
-    // Prefill forces the response to open as JSON, which removes the single
-    // most common failure mode (a chatty preamble before the object).
-  });
-
-  const text = res.content
-    .filter((c) => c.type === 'text')
-    .map((c) => c.text)
-    .join('');
-
-  return { text, usage: res.usage, stopReason: res.stop_reason };
 }
 
 async function main() {
@@ -214,24 +182,6 @@ async function main() {
   }
 
   // ---- 4. generate -----------------------------------------------------
-  if (!process.env.ANTHROPIC_API_KEY) {
-    log.error('ANTHROPIC_API_KEY is not set. Aborting without commit.');
-    return 1;
-  }
-
-  log.step(`generating with ${MODEL}`);
-
-  // An identity-linked Console key (one scoped to a user rather than a
-  // workspace) is rejected without an anthropic-workspace-id header. Set
-  // ANTHROPIC_WORKSPACE_ID alongside the key if yours is that kind; a plain
-  // workspace key needs nothing extra.
-  const workspaceId = process.env.ANTHROPIC_WORKSPACE_ID;
-  const client = new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY,
-    ...(workspaceId ? { defaultHeaders: { 'anthropic-workspace-id': workspaceId } } : {}),
-  });
-  if (workspaceId) log.info(`using workspace ${workspaceId}`);
-
   const userPrompt = buildUserPrompt({
     date: DATE,
     candidates: enriched,
@@ -243,62 +193,104 @@ async function main() {
   const allowedUrls = enriched.map((c) => c.url);
   const allowedTags = tagsFile.tags.map((t) => t.slug);
 
-  const messages = [
-    { role: 'user', content: userPrompt },
-    { role: 'assistant', content: '{' },
-  ];
-
   let briefing = null;
   let errors = [];
-  let totalUsage = { input_tokens: 0, output_tokens: 0 };
+  let usedModel = MODEL;
+  const totalUsage = { input_tokens: 0, output_tokens: 0 };
 
-  for (let attempt = 1; attempt <= 2; attempt++) {
-    const { text, usage, stopReason } = await callModel(client, messages);
-    totalUsage.input_tokens += usage?.input_tokens ?? 0;
-    totalUsage.output_tokens += usage?.output_tokens ?? 0;
+  /*
+   * One provider, two attempts. The first is held to the strict rules; the
+   * second gets the failures fed back and slightly looser limits, so a day is
+   * never lost over a detail the model can fix when told what it was.
+   */
+  async function attemptWith(provider, model) {
+    const turns = [{ role: 'user', content: userPrompt }];
 
-    log.info(`attempt ${attempt}`, {
-      in: usage?.input_tokens,
-      out: usage?.output_tokens,
-      stop: stopReason,
-    });
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      const { text, usage, stopReason } = await provider.complete({
+        system: SYSTEM_PROMPT,
+        turns,
+      });
+      totalUsage.input_tokens += usage?.input_tokens ?? 0;
+      totalUsage.output_tokens += usage?.output_tokens ?? 0;
 
-    if (stopReason === 'max_tokens') {
-      errors = [`response hit the ${MAX_TOKENS} token cap and was truncated`];
-      log.warn(errors[0]);
-    } else {
-      try {
-        // The assistant turn was prefilled with "{", so add it back.
-        const parsed = parseModelJson(text.trimStart().startsWith('{') ? text : `{${text}`);
-        errors = validateBriefing(parsed, {
-          allowedUrls,
-          allowedTags,
-          date: DATE,
-          strict: attempt === 1,
-        });
-        if (!errors.length) {
-          briefing = parsed;
-          break;
-        }
-        log.warn(`validation failed (${errors.length})`);
-        for (const err of errors) log.warn(`  · ${err}`);
-      } catch (err) {
-        errors = [`could not parse JSON: ${String(err.message ?? err)}`];
+      log.info(`attempt ${attempt}`, {
+        in: usage?.input_tokens,
+        out: usage?.output_tokens,
+        stop: stopReason,
+      });
+
+      if (stopReason === 'length') {
+        errors = [`response hit the ${MAX_TOKENS} token cap and was truncated`];
         log.warn(errors[0]);
+      } else {
+        try {
+          const parsed = parseModelJson(text);
+          errors = validateBriefing(parsed, {
+            allowedUrls,
+            allowedTags,
+            date: DATE,
+            strict: attempt === 1,
+          });
+          if (!errors.length) {
+            usedModel = model;
+            return parsed;
+          }
+          log.warn(`validation failed (${errors.length})`);
+          for (const err of errors) log.warn(`  · ${err}`);
+        } catch (err) {
+          errors = [`could not parse JSON: ${String(err.message ?? err)}`];
+          log.warn(errors[0]);
+        }
+      }
+
+      if (attempt === 1) {
+        log.info('retrying once with the validation errors fed back');
+        turns.push(
+          { role: 'assistant', content: text },
+          { role: 'user', content: buildRetryPrompt(errors) },
+        );
       }
     }
-
-    if (attempt === 1) {
-      log.info('retrying once with the validation errors fed back');
-      messages.push(
-        { role: 'assistant', content: `{${text}` },
-        { role: 'user', content: buildRetryPrompt(errors) },
-        { role: 'assistant', content: '{' },
-      );
-    }
+    return null;
   }
 
-  const cost = estimateCost(totalUsage);
+  /*
+   * Providers in order of preference. The fallback exists because the free
+   * NVIDIA tier has no SLA: it is a fine way to write a newspaper and a poor
+   * way to guarantee one. It only costs money on the days the first choice
+   * cannot deliver.
+   */
+  const chain = [
+    { name: PROVIDER, model: MODEL },
+    ...(FALLBACK && FALLBACK !== PROVIDER
+      ? [{ name: FALLBACK, model: process.env.BRIEFING_FALLBACK_MODEL ?? DEFAULT_MODELS[FALLBACK] }]
+      : []),
+  ];
+
+  for (const [i, link] of chain.entries()) {
+    let provider;
+    try {
+      provider = createProvider(link.name, { model: link.model, maxTokens: MAX_TOKENS });
+    } catch (err) {
+      log.warn(`${link.name}: ${String(err.message ?? err)}`);
+      continue;
+    }
+
+    log.step(`generating with ${link.name} / ${link.model}${i > 0 ? ' (fallback)' : ''}`);
+    try {
+      briefing = await attemptWith(provider, link.model);
+    } catch (err) {
+      const hint = explainApiError(err);
+      log.warn(`${link.name} failed: ${String(err.message ?? err).slice(0, 200)}`);
+      if (hint) log.warn(hint);
+      errors = [`${link.name}: ${String(err.message ?? err).slice(0, 200)}`];
+    }
+    if (briefing) break;
+    if (i < chain.length - 1) log.warn(`falling back to ${chain[i + 1].name}`);
+  }
+
+  const cost = estimateCost(totalUsage, usedModel);
   log.info('token usage', {
     input: totalUsage.input_tokens,
     output: totalUsage.output_tokens,
@@ -320,7 +312,7 @@ async function main() {
 
   // ---- 5. write --------------------------------------------------------
   briefing.generatedAt = new Date().toISOString();
-  briefing.model = MODEL;
+  briefing.model = usedModel;
   briefing.sourceCount = enriched.length;
 
   const wc = wordCount(briefing);
@@ -365,8 +357,13 @@ async function main() {
   return 0;
 }
 
-/** Rough Sonnet pricing, for the per-run cost line in the Actions log. */
-function estimateCost({ input_tokens = 0, output_tokens = 0 }) {
+/**
+ * Rough per-run cost for the Actions log. The build.nvidia.com catalogue is
+ * free at the tier this runs on, so a NVIDIA run reports zero rather than
+ * quietly showing Anthropic's prices for tokens nobody was billed for.
+ */
+function estimateCost({ input_tokens = 0, output_tokens = 0 }, model = MODEL) {
+  if (!/^claude/.test(model)) return '0.0000';
   return ((input_tokens / 1e6) * 3 + (output_tokens / 1e6) * 15).toFixed(4);
 }
 

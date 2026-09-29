@@ -20,3 +20,7 @@ public/og/*.png
 
 # graphify knowledge-graph output and caches, local scratch
 graphify-out/
+
+# Bake-off outputs: generated model comparisons, local only
+bake-off/
+candidates-*.json

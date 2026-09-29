@@ -20,7 +20,8 @@
     "og": "node scripts/generate-og.mjs",
     "audit": "node scripts/audit-build.mjs",
     "check:layout": "node scripts/check-layout.mjs",
-    "test": "node scripts/test-validator.mjs"
+    "test": "node scripts/test-validator.mjs",
+    "bake-off": "node scripts/bake-off.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",

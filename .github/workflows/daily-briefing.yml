@@ -40,7 +40,9 @@ jobs:
   generate:
     name: Generate and commit
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Reasoning models on the free NVIDIA tier queue under load, and a
+    # fallback may then run a second provider. 20 minutes was not enough room.
+    timeout-minutes: 40
 
     steps:
       - uses: actions/checkout@v4
@@ -55,6 +57,21 @@ jobs:
 
       - name: Generate briefing
         env:
+          # Who writes it. Set these as repository *variables* (Settings >
+          # Secrets and variables > Actions > Variables), not secrets, so the
+          # model can be changed without touching code:
+          #
+          #   BRIEFING_PROVIDER   nvidia | anthropic         (default anthropic)
+          #   BRIEFING_MODEL      e.g. z-ai/glm-5.3          (default per provider)
+          #   BRIEFING_FALLBACK   anthropic | nvidia | blank (default blank)
+          #
+          # The fallback is only called when the first choice cannot produce a
+          # briefing that validates, so on a good day it costs nothing.
+          BRIEFING_PROVIDER: ${{ vars.BRIEFING_PROVIDER }}
+          BRIEFING_MODEL: ${{ vars.BRIEFING_MODEL }}
+          BRIEFING_FALLBACK: ${{ vars.BRIEFING_FALLBACK }}
+          BRIEFING_FALLBACK_MODEL: ${{ vars.BRIEFING_FALLBACK_MODEL }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Only needed if the key is identity-linked rather than
           # workspace-scoped. Harmless when unset.
