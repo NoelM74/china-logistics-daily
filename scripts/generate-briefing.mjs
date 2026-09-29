@@ -35,10 +35,13 @@ const CONTENT_DIR = path.join(ROOT, 'src', 'content', 'briefings');
  * a second provider, used only when the first cannot produce a briefing that
  * validates, so a free tier with no SLA cannot cost a day of the archive.
  */
-const PROVIDER = process.env.BRIEFING_PROVIDER ?? 'anthropic';
-const FALLBACK = process.env.BRIEFING_FALLBACK ?? '';
-const MODEL = process.env.BRIEFING_MODEL ?? DEFAULT_MODELS[PROVIDER] ?? DEFAULT_MODELS.anthropic;
-const MAX_TOKENS = Number(process.env.BRIEFING_MAX_TOKENS ?? 8000);
+// `||`, not `??`, throughout: an unset GitHub repository variable reaches the
+// job as an empty string, which `??` lets straight through.
+const env = (k) => process.env[k]?.trim() || undefined;
+const PROVIDER = (env('BRIEFING_PROVIDER') || 'anthropic').toLowerCase();
+const FALLBACK = (env('BRIEFING_FALLBACK') || '').toLowerCase();
+const MODEL = env('BRIEFING_MODEL') || DEFAULT_MODELS[PROVIDER] || DEFAULT_MODELS.anthropic;
+const MAX_TOKENS = Number(env('BRIEFING_MAX_TOKENS')) || 8000;
 const TARGET_STORIES = '3 to 5';
 
 const argv = process.argv.slice(2);
@@ -264,7 +267,7 @@ async function main() {
   const chain = [
     { name: PROVIDER, model: MODEL },
     ...(FALLBACK && FALLBACK !== PROVIDER
-      ? [{ name: FALLBACK, model: process.env.BRIEFING_FALLBACK_MODEL ?? DEFAULT_MODELS[FALLBACK] }]
+      ? [{ name: FALLBACK, model: env('BRIEFING_FALLBACK_MODEL') || DEFAULT_MODELS[FALLBACK] }]
       : []),
   ];
 

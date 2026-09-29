@@ -24,7 +24,7 @@
  */
 import Anthropic from '@anthropic-ai/sdk';
 
-const NVIDIA_BASE = process.env.NVIDIA_BASE_URL ?? 'https://integrate.api.nvidia.com/v1';
+const NVIDIA_BASE = process.env.NVIDIA_BASE_URL?.trim() || 'https://integrate.api.nvidia.com/v1';
 
 /** Default model per provider, overridable with BRIEFING_MODEL. */
 export const DEFAULT_MODELS = {
@@ -122,7 +122,7 @@ class NvidiaProvider {
       }),
       // A reasoning model on a busy free tier is slow. Generous on purpose: a
       // late briefing beats no briefing.
-      signal: AbortSignal.timeout(Number(process.env.NVIDIA_TIMEOUT_MS ?? 600_000)),
+      signal: AbortSignal.timeout(Number(process.env.NVIDIA_TIMEOUT_MS) || 600_000),
     });
 
     if (!res.ok) {
