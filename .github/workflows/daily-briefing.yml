@@ -2,14 +2,29 @@ name: Daily briefing
 
 on:
   schedule:
-    # 05:30 UTC = 06:30 Irish time in winter, 07:30 in summer. The pipeline
-    # takes a couple of minutes and Cloudflare Pages builds in about one, so
-    # the briefing is live comfortably before 07:00 either way.
-    - cron: '30 5 * * *'
+    # Target: live by 08:00 Shanghai time, which is 00:00 UTC all year round
+    # (China has no daylight saving).
+    #
+    # GitHub starts scheduled runs late under load. The old 05:30 UTC slot
+    # was starting at 10:00-11:50, up to six hours behind. One slot cannot be
+    # relied on, so there are three, and the generator is idempotent: the
+    # first run to produce the day's edition publishes it and the later ones
+    # find the file and do nothing. A later slot is also a free second chance
+    # if an earlier one fails validation.
+    #
+    # Odd minutes on purpose: the top of the hour is the most congested time
+    # on GitHub's scheduler.
+    #
+    #   16:17 UTC = 00:17 Shanghai   first attempt, the date has just rolled
+    #   18:43 UTC = 02:43 Shanghai   backup
+    #   21:29 UTC = 05:29 Shanghai   last chance, and the only slot that alarms
+    - cron: '17 16 * * *'
+    - cron: '43 18 * * *'
+    - cron: '29 21 * * *'
   workflow_dispatch:
     inputs:
       date:
-        description: 'Date to generate (YYYY-MM-DD). Blank = today in Europe/Dublin.'
+        description: 'Date to generate (YYYY-MM-DD). Blank = today in Asia/Shanghai.'
         required: false
         type: string
       force:
@@ -160,6 +175,10 @@ jobs:
           VER: ${{ needs.verify.result }}
           TEST_ALARM: ${{ inputs.test_alarm }}
           GH_TOKEN: ${{ github.token }}
+          # A failed early slot is not worth an issue while a later slot can
+          # still recover the day. Job failures only count on the last slot;
+          # staleness counts on every run.
+          FINAL_SLOT: ${{ github.event.schedule == '29 21 * * *' || inputs.test_alarm }}
         run: |
           set -uo pipefail
           : > problems.md
@@ -178,16 +197,20 @@ jobs:
             fi
           fi
 
-          if [ "$GEN" != "success" ]; then
-            echo "- The **generate** job finished as \`$GEN\`." >> problems.md
-          fi
-          # verify is skipped on a dry run, which is not a failure.
-          if [ "$VER" != "success" ] && [ "$VER" != "skipped" ]; then
-            echo "- The **build and audit** job finished as \`$VER\`." >> problems.md
+          if [ "$FINAL_SLOT" = "true" ]; then
+            if [ "$GEN" != "success" ]; then
+              echo "- The **generate** job finished as \`$GEN\` on the last scheduled slot, so no later run will recover today." >> problems.md
+            fi
+            # verify is skipped on a dry run, which is not a failure.
+            if [ "$VER" != "success" ] && [ "$VER" != "skipped" ]; then
+              echo "- The **build and audit** job finished as \`$VER\`." >> problems.md
+            fi
+          else
+            echo "early slot: job results ($GEN / $VER) are not alarmed, a later slot can retry"
           fi
 
           NEWEST=$(ls src/content/briefings/*.json | xargs -n1 basename | sed 's/\.json$//' | sort | tail -1)
-          TODAY=$(TZ=Europe/Dublin date +%F)
+          TODAY=$(TZ=Asia/Shanghai date +%F)
           AGE=$(( ( $(date -u -d "$TODAY" +%s) - $(date -u -d "$NEWEST" +%s) ) / 86400 ))
           echo "newest=$NEWEST" >> "$GITHUB_OUTPUT"
           echo "newest briefing: $NEWEST | today: $TODAY | age: ${AGE}d"

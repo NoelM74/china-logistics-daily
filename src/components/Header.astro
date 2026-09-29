@@ -31,7 +31,7 @@ const isCurrent = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
     </a>
 
     <p class="dateline hidden shrink-0 text-right sm:block">
-      {latestDate ? formatDate(latestDate) : `Every morning, ${SITE.publishHour} Irish time`}
+      {latestDate ? formatDate(latestDate) : `Every morning, ${SITE.publishHour} ${SITE.publishZoneLabel}`}
     </p>
   </div>
 

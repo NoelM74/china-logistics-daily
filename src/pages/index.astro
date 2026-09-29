@@ -40,7 +40,7 @@ const previous = briefings.slice(1, 7);
     {/* What is this and why trust it — inside the first screen (PRD §9). */}
     <section class="reveal">
       <p class="dateline">
-        Published every morning at {SITE.publishHour} Irish time &middot; By {SITE.author.name},
+        Published every morning at {SITE.publishHour} {SITE.publishZoneLabel} &middot; By {SITE.author.name},
         18 years in China
       </p>
       <h1 class="mt-3 max-w-[20ch] text-[2.3rem] leading-[1.04] sm:text-[3.1rem] lg:text-[3.6rem]">
@@ -144,7 +144,7 @@ const previous = briefings.slice(1, 7);
         <section class="mt-14 border-2 border-ink bg-paper-raised p-8">
           <h2 class="text-[1.5rem]">The first briefing goes out shortly.</h2>
           <p class="measure mt-3 text-ink-muted">
-            The pipeline runs every morning at {SITE.publishHour} Irish time. Nothing has been
+            The pipeline runs every morning, ready by {SITE.publishHour} {SITE.publishZoneLabel}. Nothing has been
             published yet.
           </p>
         </section>

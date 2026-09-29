@@ -279,9 +279,23 @@ writes a job summary.
 
 ## Timezone
 
-Everything user-facing is Europe/Dublin. The `date` field is today in Dublin, and
-`publishedISO()` stamps 07:00 Dublin time with the correct DST offset. The cron
-is UTC because GitHub Actions only speaks UTC.
+The edition is dated and published on China time, `Asia/Shanghai`, and is live
+by **08:00 Shanghai**, which is 00:00 UTC all year (China has no daylight
+saving) and midnight or 1am in Ireland. `SITE.timeZone` and `SITE.publishHour`
+in `src/data/site.ts` are the single source for every date, stamp and line of
+copy that mentions the time.
+
+**Three schedule slots, not one.** GitHub starts scheduled runs late under load;
+the old single slot was running up to six hours behind. The workflow fires at
+16:17, 18:43 and 21:29 UTC (00:17, 02:43 and 05:29 Shanghai). The generator is
+idempotent, so the first to produce the day's edition publishes it and the rest
+find the file and exit. A later slot is also a free retry if an earlier one
+fails validation, and only the last slot raises the failure alarm.
+
+**Why the date filter uses the site zone.** Every slot runs before UTC midnight,
+when it is already the next day in Shanghai. `allBriefings()` hides future-dated
+files, and comparing against UTC would hide each morning's edition as
+"tomorrow" until the following day's build.
 
 ## Typography and colour
 

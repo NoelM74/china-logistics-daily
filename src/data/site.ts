@@ -6,11 +6,15 @@ export const SITE = {
   url: 'https://chinalogisticsdaily.com',
   tagline: 'The daily China logistics briefing for people who actually ship',
   description:
-    'A daily briefing on China logistics, freight, tariffs and ecommerce fulfilment, written for sellers who ship from China. Published every morning, 07:00 Irish time.',
+    'A daily briefing on China logistics, freight, tariffs and ecommerce fulfilment, written for sellers who ship from China. Published every morning at 08:00 Shanghai time.',
   locale: 'en_IE',
   lang: 'en-GB',
-  timeZone: 'Europe/Dublin',
-  publishHour: '07:00',
+  // The edition is dated and published on China time: that is where the
+  // operation is, and where the day's news starts. Shanghai has no daylight
+  // saving, so 08:00 there is always 00:00 UTC.
+  timeZone: 'Asia/Shanghai',
+  publishHour: '08:00',
+  publishZoneLabel: 'Shanghai time',
   parent: {
     name: 'China Fulfillment',
     url: 'https://www.china-fulfillment.com/',
@@ -104,20 +108,31 @@ export function formatDateShort(date: string): string {
   }).format(new Date(`${date}T12:00:00Z`));
 }
 
+/** Today's date in the site's time zone, as YYYY-MM-DD. */
+export function todayInSiteZone(now = new Date()): string {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: SITE.timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(now);
+}
+
 /**
- * Briefings are dated, not timestamped. We publish at 07:00 Europe/Dublin, so
- * stamp that as the ISO publish time rather than pretending it was midnight.
- * Dublin is UTC+1 from late March to late October, UTC otherwise.
+ * Briefings are dated, not timestamped. Stamp the advertised publish hour in
+ * the site's zone as the ISO time rather than pretending it was midnight.
+ * The offset comes from Intl, so this stays right if the zone ever changes.
  */
 export function publishedISO(date: string): string {
-  const at7 = new Date(`${date}T07:00:00Z`);
+  const [h, m] = SITE.publishHour.split(':');
+  const probe = new Date(`${date}T12:00:00Z`);
   const name =
     new Intl.DateTimeFormat('en-GB', { timeZone: SITE.timeZone, timeZoneName: 'longOffset' })
-      .formatToParts(at7)
+      .formatToParts(probe)
       .find((p) => p.type === 'timeZoneName')?.value ?? 'GMT';
-  // Intl gives "GMT+01:00" in summer, bare "GMT" in winter.
+  // Intl gives "GMT+08:00", or a bare "GMT" for a zero offset.
   const offset = name === 'GMT' ? '+00:00' : name.replace('GMT', '');
-  return `${date}T07:00:00${offset}`;
+  return `${date}T${h}:${m}:00${offset}`;
 }
 
 /** Split generator prose into paragraphs. Tolerates \n\n, \r\n\r\n or a single \n. */

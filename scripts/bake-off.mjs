@@ -58,7 +58,9 @@ const SHORTLIST = [
   'nvidia/nemotron-3-ultra-550b-a55b',
 ];
 
-const DATE = opt('date') ?? new Date().toISOString().slice(0, 10);
+const DATE =
+  opt('date') ??
+  new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 const RUNS = Number(opt('runs') ?? 1);
 const MAX_TOKENS = Number(opt('max-tokens') ?? 8000);
 const MODELS = (opt('models')?.split(',').map((m) => m.trim()).filter(Boolean) ?? SHORTLIST).map(

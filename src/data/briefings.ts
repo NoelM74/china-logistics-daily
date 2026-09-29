@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { typesetDeep } from './typography';
+import { todayInSiteZone } from './site';
 
 export type Briefing = CollectionEntry<'briefings'>;
 
@@ -15,7 +16,10 @@ const VERBATIM = ['sourceUrl', 'date', 'model'] as const;
  * day. Comparison is on the date string because both sides are YYYY-MM-DD.
  */
 export async function allBriefings(): Promise<Briefing[]> {
-  const today = new Date().toISOString().slice(0, 10);
+  // The edition's own calendar, not UTC. Shanghai is eight hours ahead, so a
+  // UTC comparison would hide each morning's briefing as "tomorrow" until the
+  // next build.
+  const today = todayInSiteZone();
   const items = await getCollection('briefings', ({ data }) => data.date <= today);
   return items
     .map((item) => ({ ...item, data: typesetDeep(item.data, VERBATIM) }))

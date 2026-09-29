@@ -129,7 +129,7 @@ async function main() {
   const jobs = [
     {
       name: 'default',
-      kicker: 'Published every morning, 07:00 Irish time',
+      kicker: 'Published every morning, 08:00 Shanghai time',
       headline: 'The China logistics briefing for people who actually ship.',
       footnote: 'Noel Murphy · chinalogisticsdaily.com',
     },

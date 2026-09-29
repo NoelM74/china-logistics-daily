@@ -25,7 +25,7 @@ const faq = [
   },
   {
     question: 'What time is the briefing published?',
-    answer: `Every day at ${SITE.publishHour} Irish time, seven days a week. Dates on the site use the Europe/Dublin timezone.`,
+    answer: `Every day by ${SITE.publishHour} ${SITE.publishZoneLabel}, seven days a week, which is midnight or 1am in Ireland, so it is waiting when you wake. Dates on the site follow the China calendar (Asia/Shanghai).`,
   },
 ];
 ---
@@ -152,8 +152,8 @@ const faq = [
             having to work out which bits were facts.
           </p>
           <p>
-            The briefing is assembled with the help of automation, which is how it goes out at
-            07:00 seven days a week. The editorial rules, the sources, the tone and the
+            The briefing is assembled with the help of automation, which is how it goes out by
+            08:00 Shanghai time, seven days a week. The editorial rules, the sources, the tone and the
             judgement calls about what matters are mine, and a briefing that fails our checks
             does not publish. The alternative was publishing three times a week when I had the
             time, which is a worse product.

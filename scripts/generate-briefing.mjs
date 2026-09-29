@@ -52,17 +52,21 @@ const DRY_RUN = flag('dry-run');
 const NO_LLM = flag('no-llm');
 const FORCE = flag('force');
 
-/** Today in Europe/Dublin — the audience's timezone (PRD §11). */
-function todayInDublin() {
+/**
+ * Today in Asia/Shanghai, which is the edition's calendar. Runs start from
+ * 16:00 UTC, when it is already the next morning in China, so the date must
+ * come from there rather than from the runner's clock.
+ */
+function todayInEditionZone() {
   return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Europe/Dublin',
+    timeZone: 'Asia/Shanghai',
     year: 'numeric',
     month: '2-digit',
     day: '2-digit',
   }).format(new Date());
 }
 
-const DATE = opt('date') ?? todayInDublin();
+const DATE = opt('date') ?? todayInEditionZone();
 
 async function readJson(file) {
   return JSON.parse(await readFile(file, 'utf8'));

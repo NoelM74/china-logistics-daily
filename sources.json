@@ -79,12 +79,6 @@
       "weight": 2
     },
     {
-      "name": "Air Cargo News",
-      "url": "https://www.aircargonews.net/feed/",
-      "topic": "logistics",
-      "weight": 2
-    },
-    {
       "name": "STAT Times",
       "url": "https://www.stattimes.com/feed",
       "topic": "logistics",
@@ -145,12 +139,6 @@
       "weight": 1
     },
     {
-      "name": "China Daily Business",
-      "url": "https://www.chinadaily.com.cn/rss/bizchina_rss.xml",
-      "topic": "china",
-      "weight": 2
-    },
-    {
       "name": "Dimerco (Asia freight)",
       "url": "https://www.dimerco.com/feed/",
       "topic": "logistics",
@@ -168,6 +156,18 @@
       "topic": "china",
       "weight": 1,
       "lang": "zh"
+    },
+    {
+      "name": "Payload Asia",
+      "url": "https://www.payloadasia.com/feed/",
+      "topic": "logistics",
+      "weight": 2
+    },
+    {
+      "name": "CargoForwarder Global",
+      "url": "https://www.cargoforwarder.eu/feed/",
+      "topic": "logistics",
+      "weight": 2
     }
   ],
   "relevanceKeywords": {

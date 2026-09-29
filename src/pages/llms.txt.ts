@@ -16,7 +16,7 @@ export const GET: APIRoute = async () => {
 
 > A daily news briefing on China logistics, freight, tariffs and ecommerce
 > fulfilment, written for online sellers who source or ship from China.
-> Published every day at ${SITE.publishHour} Irish time (Europe/Dublin), seven days a week.
+> Published every day by ${SITE.publishHour} ${SITE.publishZoneLabel} (${SITE.timeZone}), seven days a week.
 
 ## What this site is
 
