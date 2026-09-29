@@ -40,8 +40,11 @@ const US = [
   [/\bfulfillment\b/i, 'fulfilment'],
   [/\borganiz(?:e|ed|es|ing|ation)\b/i, 'organise'],
   [/\boptimiz(?:e|ed|es|ing|ation)\b/i, 'optimise'],
-  [/\bcenter(?:s|ed)?\b/i, 'centre'],
-  [/\blabor\b/i, 'labour'],
+  // Lowercase only, matching scripts/lib/validate.mjs: capitalised, these are
+  // usually American proper nouns (Department of Labor, World Trade Center)
+  // where the American spelling is correct.
+  [/\bcenter(?:s|ed)?\b/, 'centre'],
+  [/\blabor\b/, 'labour'],
 ];
 
 /** Entities inflate attribute length; measure what a user would see. */
