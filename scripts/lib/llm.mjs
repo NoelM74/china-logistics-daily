@@ -29,7 +29,11 @@ const NVIDIA_BASE = process.env.NVIDIA_BASE_URL?.trim() || 'https://integrate.ap
 /** Default model per provider, overridable with BRIEFING_MODEL. */
 export const DEFAULT_MODELS = {
   anthropic: 'claude-sonnet-4-5-20250929',
-  nvidia: 'z-ai/glm-5.3',
+  // Chosen by bake-off on 30 September 2026: the only free model to reach a
+  // publishable briefing, on attempt 2, with no slop, no US spellings and no
+  // invented sources. GLM 5.3, GLM 5.3 Flash and DeepSeek V4.1 Flash returned
+  // empty answers, spending the token budget reasoning.
+  nvidia: 'moonshotai/kimi-k3',
 };
 
 /**

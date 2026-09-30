@@ -151,6 +151,20 @@ NVIDIA_API_KEY=nvapi-... npm run bake-off
 NVIDIA_API_KEY=nvapi-... npm run bake-off -- --models=z-ai/glm-5.3,moonshotai/kimi-k3 --runs=3
 ```
 
+**Current choice: Kimi K3, with Claude as fallback.** Bake-off, 30 September
+2026, identical input, the production three-attempt loop:
+
+| Model | Publishable | Slop | US spelling | Invented URLs |
+|---|---|---|---|---|
+| `moonshotai/kimi-k3` | attempt 2 | 0 | 0 | 0 |
+| Claude Sonnet 4.5 (benchmark) | attempt 3 | 0 | 0 | 0 |
+| `nvidia/nemotron-3-ultra-550b-a55b` | attempt 3 | 1 | 0 | 0 |
+| `z-ai/glm-5.3`, `z-ai/glm-5.3-flash`, `deepseek-ai/deepseek-v4.1-flash` | never | | | |
+
+The last three returned empty answers after 7 to 11 minutes each, almost
+certainly spending the whole 8,000-token budget on reasoning. A larger
+`BRIEFING_MAX_TOKENS` may rescue them; they have not been re-tested.
+
 **Switching** is repository variables, not code (Settings > Secrets and variables
 > Actions > Variables):
 
