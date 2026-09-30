@@ -1,0 +1,77 @@
+name: Model bake-off
+
+# Runs scripts/bake-off.mjs in Actions, where NVIDIA_API_KEY already lives as a
+# secret, so the key never has to be pasted into a terminal. Nothing is
+# committed: every model's full briefing is uploaded as a downloadable
+# artifact, and the comparison table lands in the run summary.
+#
+# Actions > Model bake-off > Run workflow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: 'Comma-separated NVIDIA model ids. Blank = the shortlist in scripts/bake-off.mjs.'
+        required: false
+        type: string
+      runs:
+        description: 'Runs per model (more runs = a fairer read on consistency)'
+        required: false
+        type: string
+        default: '1'
+      include_claude:
+        description: 'Score Claude too, as the benchmark'
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  bake-off:
+    runs-on: ubuntu-latest
+    # Several reasoning models in sequence on a free tier that queues.
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run the bake-off
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          MODELS: ${{ inputs.models }}
+          RUNS: ${{ inputs.runs }}
+          INCLUDE_CLAUDE: ${{ inputs.include_claude }}
+        run: |
+          ARGS="--runs=${RUNS:-1}"
+          if [ -n "$MODELS" ]; then ARGS="$ARGS --models=$MODELS"; fi
+          if [ "$INCLUDE_CLAUDE" = "true" ]; then ARGS="$ARGS --include-claude"; fi
+          echo "node scripts/bake-off.mjs $ARGS"
+          node scripts/bake-off.mjs $ARGS | tee bake-off-report.txt
+          {
+            echo '### Model bake-off'
+            echo
+            echo '```'
+            sed -n '/^  model /,$p' bake-off-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload every model's briefing
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bake-off-${{ github.run_id }}
+          path: |
+            bake-off/
+            bake-off-report.txt
+          retention-days: 30
