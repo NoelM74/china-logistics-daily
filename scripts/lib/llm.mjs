@@ -102,13 +102,21 @@ class NvidiaProvider {
     this.apiKey = apiKey;
   }
 
+  /*
+   * Streamed, and that is not optional. Node's fetch gives up on any response
+   * whose headers take longer than 300 seconds, and a reasoning model that
+   * thinks before it answers sends nothing at all until it has finished. GLM
+   * 5.3, DeepSeek V4.1 Flash and GLM 5.3 Flash all died at exactly 300s in the
+   * first bake-off for that reason, long before our own timeout. Streaming
+   * returns headers at once and then keeps bytes moving, reasoning included.
+   */
   async complete({ system, turns }) {
     const res = await fetch(`${NVIDIA_BASE}/chat/completions`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${this.apiKey}`,
         'Content-Type': 'application/json',
-        Accept: 'application/json',
+        Accept: 'text/event-stream',
       },
       body: JSON.stringify({
         model: this.model,
@@ -119,10 +127,12 @@ class NvidiaProvider {
         // Models that ignore it still get caught by the brace extraction in
         // parseModelJson.
         response_format: { type: 'json_object' },
+        stream: true,
+        stream_options: { include_usage: true },
       }),
       // A reasoning model on a busy free tier is slow. Generous on purpose: a
       // late briefing beats no briefing.
-      signal: AbortSignal.timeout(Number(process.env.NVIDIA_TIMEOUT_MS) || 600_000),
+      signal: AbortSignal.timeout(Number(process.env.NVIDIA_TIMEOUT_MS) || 1_200_000),
     });
 
     if (!res.ok) {
@@ -130,19 +140,44 @@ class NvidiaProvider {
       throw new Error(`NVIDIA ${res.status} ${res.statusText}: ${detail}`);
     }
 
-    const json = await res.json();
-    const msg = json.choices?.[0]?.message ?? {};
-    // reasoning_content is a separate field on some models and must never be
-    // concatenated with the answer.
-    const raw = typeof msg.content === 'string' ? msg.content : '';
+    let content = '';
+    let finish = 'stop';
+    let usage = {};
+
+    const decoder = new TextDecoder();
+    let buffer = '';
+    for await (const chunk of res.body) {
+      buffer += decoder.decode(chunk, { stream: true });
+      let nl;
+      while ((nl = buffer.indexOf('\n')) !== -1) {
+        const line = buffer.slice(0, nl).trim();
+        buffer = buffer.slice(nl + 1);
+        if (!line.startsWith('data:')) continue;
+        const data = line.slice(5).trim();
+        if (!data || data === '[DONE]') continue;
+
+        let evt;
+        try {
+          evt = JSON.parse(data);
+        } catch {
+          continue; // a keep-alive or a split line; the next one will parse
+        }
+        const choice = evt.choices?.[0];
+        // delta.reasoning_content is the model thinking aloud. It is never
+        // part of the answer, so it is read past rather than collected.
+        if (typeof choice?.delta?.content === 'string') content += choice.delta.content;
+        if (choice?.finish_reason) finish = choice.finish_reason;
+        if (evt.usage) usage = evt.usage;
+      }
+    }
 
     return {
-      text: stripFence(stripReasoning(raw)),
+      text: stripFence(stripReasoning(content)),
       usage: {
-        input_tokens: json.usage?.prompt_tokens ?? 0,
-        output_tokens: json.usage?.completion_tokens ?? 0,
+        input_tokens: usage.prompt_tokens ?? 0,
+        output_tokens: usage.completion_tokens ?? 0,
       },
-      stopReason: json.choices?.[0]?.finish_reason ?? 'stop',
+      stopReason: finish,
     };
   }
 }

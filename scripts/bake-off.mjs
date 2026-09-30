@@ -29,7 +29,7 @@ import { log } from './lib/log.mjs';
 import { fetchAllFeeds } from './lib/sources.mjs';
 import { selectCandidates } from './lib/filter.mjs';
 import { enrichAll } from './lib/enrich.mjs';
-import { SYSTEM_PROMPT, buildUserPrompt } from './lib/prompt.mjs';
+import { SYSTEM_PROMPT, buildUserPrompt, buildRetryPrompt } from './lib/prompt.mjs';
 import { validateBriefing, wordCount } from './lib/validate.mjs';
 import { createProvider, explainApiError } from './lib/llm.mjs';
 
@@ -122,9 +122,23 @@ function categorise(errors) {
   };
 }
 
+/*
+ * Scored the way production runs, not on a single shot: up to three attempts,
+ * the first held to the strict rules, each retry fed the previous failures.
+ * No model passes attempt one cleanly, Claude included, so a one-shot test
+ * measures nothing useful. What matters is whether a model reaches a
+ * publishable briefing inside the loop, how many attempts it needs, and
+ * whether it ever invents a source or slips into slop along the way.
+ */
+const MAX_ATTEMPTS = 3;
+
+/** "z-ai/glm-5.3" -> "z-ai_glm-5.3", safe as a file name. */
+const fileSlug = (model) => model.split('/').join('_');
+
 async function score(entry, candidates, tagsFile, userPrompt, run) {
   const label = `${entry.model}${RUNS > 1 ? ` #${run}` : ''}`;
   const t0 = Date.now();
+  const secs = () => Math.round((Date.now() - t0) / 1000);
 
   let provider;
   try {
@@ -133,61 +147,82 @@ async function score(entry, candidates, tagsFile, userPrompt, run) {
     return { label, ok: false, note: String(err.message ?? err) };
   }
 
-  let res;
-  try {
-    res = await provider.complete({
-      system: SYSTEM_PROMPT,
-      turns: [{ role: 'user', content: userPrompt }],
-    });
-  } catch (err) {
-    const hint = explainApiError(err);
-    return {
-      label,
-      ok: false,
-      seconds: Math.round((Date.now() - t0) / 1000),
-      note: hint ?? String(err.message ?? err).slice(0, 160),
-    };
+  const turns = [{ role: 'user', content: userPrompt }];
+  const seen = { voice: 0, spelling: 0, sources: 0 };
+  let firstErrors = null;
+  let errors = [];
+  let parsed = null;
+  let passedAt = null;
+  let attempts = 0;
+
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    attempts = attempt;
+    let res;
+    try {
+      res = await provider.complete({ system: SYSTEM_PROMPT, turns });
+    } catch (err) {
+      const hint = explainApiError(err);
+      const note = hint ?? String(err.cause?.code ?? err.message ?? err).slice(0, 160);
+      if (attempt === 1) return { label, ok: false, seconds: secs(), note };
+      errors = [`attempt ${attempt} errored: ${note}`];
+      break;
+    }
+
+    if (res.stopReason === 'length') {
+      errors = [`response hit the ${MAX_TOKENS} token cap and was truncated`];
+    } else {
+      try {
+        const a = res.text.indexOf('{');
+        const b = res.text.lastIndexOf('}');
+        if (a === -1 || b === -1) throw new Error('no JSON object in the response');
+        parsed = JSON.parse(res.text.slice(a, b + 1));
+        errors = validateBriefing(parsed, {
+          allowedUrls: candidates.map((c) => c.url),
+          allowedTags: tagsFile.tags.map((t) => t.slug),
+          date: parsed.date ?? DATE,
+          strict: attempt === 1,
+        });
+      } catch (err) {
+        await writeFile(path.join(OUT_DIR, `${fileSlug(entry.model)}-raw-${attempt}.txt`), res.text, 'utf8');
+        errors = [`could not parse JSON: ${String(err.message ?? err)}`];
+      }
+    }
+
+    const c = categorise(errors);
+    seen.voice += c.voice;
+    seen.spelling += c.spelling;
+    seen.sources += c.sources;
+    if (attempt === 1) firstErrors = errors;
+    log.info(`attempt ${attempt}: ${errors.length ? `${errors.length} errors` : 'passes'} (${secs()}s)`);
+    for (const e of errors.slice(0, 5)) log.warn(`  · ${e}`);
+
+    if (!errors.length) {
+      passedAt = attempt;
+      break;
+    }
+    turns.push({ role: 'assistant', content: res.text }, { role: 'user', content: buildRetryPrompt(errors) });
   }
 
-  const seconds = Math.round((Date.now() - t0) / 1000);
-  const common = { label, seconds, tokens: res.usage, stop: res.stopReason };
-
-  let parsed;
-  try {
-    const start = res.text.indexOf('{');
-    const end = res.text.lastIndexOf('}');
-    if (start === -1 || end === -1) throw new Error('no JSON object in the response');
-    parsed = JSON.parse(res.text.slice(start, end + 1));
-  } catch (err) {
-    await writeFile(
-      path.join(OUT_DIR, `${entry.model.replace(/\//g, '_')}-raw.txt`),
-      res.text,
-      'utf8',
-    );
-    return { ...common, ok: false, note: `unparseable: ${String(err.message ?? err)}` };
+  let file = null;
+  if (parsed) {
+    file = path.join(OUT_DIR, `${fileSlug(entry.model)}${RUNS > 1 ? `-${run}` : ''}.json`);
+    await writeFile(file, `${JSON.stringify(parsed, null, 2)}
+`, 'utf8');
   }
-
-  // Strict, exactly as the first attempt of a real run would be judged.
-  const errors = validateBriefing(parsed, {
-    allowedUrls: candidates.map((c) => c.url),
-    allowedTags: tagsFile.tags.map((t) => t.slug),
-    date: parsed.date ?? DATE,
-    strict: true,
-  });
-
-  const file = path.join(OUT_DIR, `${entry.model.replace(/\//g, '_')}${RUNS > 1 ? `-${run}` : ''}.json`);
-  await writeFile(file, `${JSON.stringify(parsed, null, 2)}\n`, 'utf8');
 
   return {
-    ...common,
-    ok: errors.length === 0,
+    label,
+    ok: passedAt !== null,
+    passedAt,
+    attempts,
+    seconds: secs(),
+    firstErrors: firstErrors ?? [],
     errors,
-    categories: categorise(errors),
-    words: wordCount(parsed),
-    stories: parsed.stories?.length ?? 0,
-    title: parsed.title ?? '(none)',
-    sample: parsed.stories?.[0]?.hotTake ?? '',
-    file: path.relative(ROOT, file),
+    seen,
+    words: parsed ? wordCount(parsed) : 0,
+    stories: parsed?.stories?.length ?? 0,
+    sample: parsed?.stories?.[0]?.hotTake ?? '',
+    file: file ? path.relative(ROOT, file) : null,
   };
 }
 
@@ -212,40 +247,36 @@ async function main() {
       const r = await score(entry, candidates, tagsFile, userPrompt, run);
       results.push(r);
 
-      if (!r.ok && r.note) log.warn(r.note);
-      else {
-        log.info(`${r.seconds}s · ${r.words} words · ${r.stories} stories · ${r.errors.length} errors`);
-        if (r.errors.length) for (const e of r.errors.slice(0, 6)) log.warn(`  · ${e}`);
-      }
+      if (r.note) log.warn(r.note);
+      else log.info(r.ok ? `published on attempt ${r.passedAt} after ${r.seconds}s` : `no publishable briefing after ${r.attempts} attempts`);
     }
   }
 
   // ---- table -----------------------------------------------------------
-  const pad = (s, n) => String(s).padEnd(n);
+  const pad = (x, n) => String(x).padEnd(n);
   console.log('\n');
-  console.log(
-    `  ${pad('model', 34)}${pad('pass', 6)}${pad('errs', 6)}${pad('voice', 7)}${pad('spell', 7)}${pad('src', 5)}${pad('words', 7)}${pad('secs', 6)}`,
-  );
-  console.log(`  ${'-'.repeat(78)}`);
+  console.log(`  ${pad('model', 34)}${pad('result', 14)}${pad('1st', 5)}${pad('voice', 7)}${pad('spell', 7)}${pad('src', 5)}${pad('words', 7)}${pad('secs', 6)}`);
+  console.log(`  ${'-'.repeat(84)}`);
   for (const r of results) {
-    if (r.note && !r.errors) {
-      console.log(`  ${pad(r.label, 34)}${pad('—', 6)}${r.note.slice(0, 40)}`);
+    if (r.note) {
+      console.log(`  ${pad(r.label, 34)}${pad('no answer', 14)}${r.note.slice(0, 40)}`);
       continue;
     }
-    const c = r.categories;
+    const result = r.ok ? `yes, try ${r.passedAt}` : `no (${r.attempts} tries)`;
     console.log(
-      `  ${pad(r.label, 34)}${pad(r.ok ? 'yes' : 'no', 6)}${pad(r.errors.length, 6)}` +
-        `${pad(c.voice, 7)}${pad(c.spelling, 7)}${pad(c.sources, 5)}${pad(r.words, 7)}${pad(r.seconds, 6)}`,
+      `  ${pad(r.label, 34)}${pad(result, 14)}${pad(r.firstErrors.length, 5)}` +
+        `${pad(r.seen.voice, 7)}${pad(r.seen.spelling, 7)}${pad(r.seen.sources, 5)}${pad(r.words, 7)}${pad(r.seconds, 6)}`,
     );
   }
 
-  console.log('\n  voice = banned phrases and slop   spell = US spellings   src = invented or altered source URLs\n');
+  console.log('\n  result = publishable within the same 3-attempt loop production uses   1st = errors on the strict first attempt');
+  console.log('  voice / spell / src = slop, US spellings and invented source URLs, summed over every attempt. src should be 0.\n');
   console.log('  Passing is the floor, not the verdict. Read the hot takes before you choose:\n');
   for (const r of results) {
     if (!r.sample) continue;
     console.log(`  ${r.label}`);
     console.log(`    "${r.sample.slice(0, 190)}${r.sample.length > 190 ? '…' : ''}"`);
-    console.log(`    ${r.file}\n`);
+    if (r.file) console.log(`    ${r.file}\n`);
   }
 
   return 0;
