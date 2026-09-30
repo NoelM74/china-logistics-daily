@@ -23,7 +23,7 @@ import { fetchAllFeeds } from './lib/sources.mjs';
 import { selectCandidates } from './lib/filter.mjs';
 import { enrichAll } from './lib/enrich.mjs';
 import { SYSTEM_PROMPT, buildUserPrompt, buildRetryPrompt } from './lib/prompt.mjs';
-import { validateBriefing, wordCount } from './lib/validate.mjs';
+import { validateBriefing, wordCount, normaliseBriefing } from './lib/validate.mjs';
 import { createProvider, explainApiError, DEFAULT_MODELS } from './lib/llm.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -238,7 +238,7 @@ async function main() {
         log.warn(errors[0]);
       } else {
         try {
-          const parsed = parseModelJson(text);
+          const parsed = normaliseBriefing(parseModelJson(text));
           errors = validateBriefing(parsed, {
             allowedUrls,
             allowedTags,
@@ -254,6 +254,9 @@ async function main() {
         } catch (err) {
           errors = [`could not parse JSON: ${String(err.message ?? err)}`];
           log.warn(errors[0]);
+          // Say what came back. Kimi once answered a retry with 32 tokens and
+          // the log gave no way to tell what they were.
+          log.warn(`  response began: ${JSON.stringify(String(text).slice(0, 240))}`);
         }
       }
 

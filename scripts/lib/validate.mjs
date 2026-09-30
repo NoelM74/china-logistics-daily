@@ -105,6 +105,33 @@ function proseOf(b) {
     .replace(/[\w.-]+\.(?:com|net|org|io|cn|ie|co\.uk)\b/gi, ' ');
 }
 
+/**
+ * Mechanical fixes applied before validation, for limits with one safe,
+ * deterministic answer.
+ *
+ * Only the meta description qualifies. The site already trims it to 155
+ * characters at a word boundary when it renders the page (clampDescription in
+ * src/data/site.ts), so a long one never reached Google anyway. Failing a
+ * whole briefing over it was pure waste: on 30 September Kimi K3 lost the day
+ * to a 183-character description on an attempt that was otherwise clean. The
+ * same trim happens here now, so the stored JSON matches what the page shows.
+ *
+ * Titles are deliberately not trimmed: a truncated headline reads as broken,
+ * so an over-long title still goes back to the model.
+ */
+export function normaliseBriefing(b, maxMeta = 155) {
+  if (!b || typeof b.metaDescription !== 'string') return b;
+  const clean = b.metaDescription.replace(/\s+/g, ' ').trim();
+  if (clean.length <= maxMeta) {
+    b.metaDescription = clean;
+    return b;
+  }
+  const cut = clean.slice(0, maxMeta - 1);
+  const at = cut.lastIndexOf(' ');
+  b.metaDescription = `${(at > maxMeta * 0.6 ? cut.slice(0, at) : cut).replace(/[,;:.\s]+$/, '')}…`;
+  return b;
+}
+
 export function wordCount(b) {
   return words(proseOf(b));
 }

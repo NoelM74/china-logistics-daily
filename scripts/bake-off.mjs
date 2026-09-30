@@ -30,7 +30,7 @@ import { fetchAllFeeds } from './lib/sources.mjs';
 import { selectCandidates } from './lib/filter.mjs';
 import { enrichAll } from './lib/enrich.mjs';
 import { SYSTEM_PROMPT, buildUserPrompt, buildRetryPrompt } from './lib/prompt.mjs';
-import { validateBriefing, wordCount } from './lib/validate.mjs';
+import { validateBriefing, wordCount, normaliseBriefing } from './lib/validate.mjs';
 import { createProvider, explainApiError } from './lib/llm.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -175,7 +175,7 @@ async function score(entry, candidates, tagsFile, userPrompt, run) {
         const a = res.text.indexOf('{');
         const b = res.text.lastIndexOf('}');
         if (a === -1 || b === -1) throw new Error('no JSON object in the response');
-        parsed = JSON.parse(res.text.slice(a, b + 1));
+        parsed = normaliseBriefing(JSON.parse(res.text.slice(a, b + 1)));
         errors = validateBriefing(parsed, {
           allowedUrls: candidates.map((c) => c.url),
           allowedTags: tagsFile.tags.map((t) => t.slug),
