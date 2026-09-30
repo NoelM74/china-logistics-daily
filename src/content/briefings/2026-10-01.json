@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-01",
+  "title": "China freight: US truce lifts rates, Hormuz reshapes lanes",
+  "metaDescription": "US-China truce extended, trans-Pacific spot rates hit $8,400 per FEU, Hormuz closure nears eight months, and hi-tech air cargo overtakes Chinese…",
+  "bottomLine": "The US-China trade truce now runs past 10 November and trans-Pacific spot rates hit a 2026 high of $8,400 per FEU to the West Coast, so book your Q4 space before Golden Week ends rather than after. The Hormuz closure is approaching its eighth month and looks set to permanently strip transhipment traffic from Jebel Ali and Khalifa. In the air, hi-tech freight at 3m tonnes has overtaken Chinese ecommerce as the main growth engine, which means more competition for the capacity you rely on.",
+  "stories": [
+    {
+      "headline": "Truce extended to year-end as trans-Pacific spot rates hit $8,400 per FEU",
+      "tldr": "Washington and Beijing extended their trade truce past 10 November, and Asia-US West Coast spot rates reached $8,400 per FEU, a new high for 2026.",
+      "whatHappened": "President Trump and President Xi met in Washington last week and extended the existing US-China trade truce, which had been due to expire on 10 November. The two sides agreed to cut tariffs on about $30 billion of counterpart imports to most-favoured-nation levels, subject to legal procedures. The US list covers nearly 80 product entries, with toys the biggest category by value. China's list runs to more than 1,600 entries, concentrated in agricultural products and commodities. Two further leader-level meetings are planned before year-end.\n\nThe extension could also postpone planned US port-call fees on China-linked vessels. The US Trade Representative had not formally announced a deferral as of this week, but Freightos said the broader deescalation makes a delay more likely. Treasury Secretary Scott Bessent's comments suggest the short extension reflects unresolved Chinese commitments to buy US farm goods.\n\nTrans-Pacific spot rates climbed again this past week. Asia to US West Coast reached $8,400 per FEU, a new annual high. East Coast rates held at about $9,600 per FEU.",
+      "whyItMatters": "If you ship toys or seasonal goods into the US, the tariff relief list is worth checking line by line against your HTS codes, because toys are the biggest category by value and the cut is to MFN levels. The relief is modest against more than $400 billion in annual trade, but on a high-volume low-margin SKU a few points of duty is real money.\n\nThe bigger cost signal is the rate itself. $8,400 per FEU to the West Coast is the year's high, and the two-month truce gives importers policy certainty that tends to pull demand forward. If you were waiting for rates to soften after Golden Week, you are now betting against a market with truce-driven confidence behind it.\n\nThe port-fee question matters to your carrier choice. Fees on Chinese-built or Chinese-operated tonnage calling at US ports are not formally deferred, only likely to be. If they land, carriers pass them to you. Ask your forwarder which of your booked services run Chinese-operated tonnage.",
+      "hotTake": "I would treat this truce as a booking trigger, not a reason to relax. Two months of certainty with rates at annual highs means everyone with Q4 stock moves at once, and space gets tight before it gets cheap. The tariff relief on toys smells like election politics and could vanish as fast as it appeared, so bank it while it exists. And do not assume the port fees are dead. Likely deferred is not deferred.",
+      "actions": [
+        "Check your US-bound SKUs against the roughly 80 tariff relief entries and reprice landed cost where they qualify",
+        "Book your post-Golden Week trans-Pacific space this week rather than waiting for a rate dip",
+        "Ask your forwarder which of your services use Chinese-built or Chinese-operated vessels and what port fees would add"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/ocean-rates-highest-in-a-year-amid-us-china-trade-truce",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "tariffs-duties",
+        "customs-us",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Hormuz closure nears eight months, Gulf transhipment traffic may not return",
+      "tldr": "The Hormuz closure is approaching its eighth month and Jebel Ali and Khalifa are predicted to permanently lose relay transhipment traffic.",
+      "whatHappened": "The Strait of Hormuz has been closed since the outbreak of the US-Israel-Iran conflict, and the closure is now approaching its eighth month. Before the conflict, Jebel Ali and Khalifa, the two largest container facilities in the Gulf, were a favoured waypoint for relay transhipment, moving boxes between Asia-Europe vessels and ships on north-south trades.\n\nSoaring insurance premiums and the length of the closure have pushed carriers to restructure those networks around the Gulf ports. The Loadstar reports predictions that the two UAE hubs will permanently lose that transhipment traffic even if the strait reopens, because the relay patterns have been rebuilt elsewhere.",
+      "whyItMatters": "If you sell into the Gulf, Iraq or East Africa, your cargo has probably already been rerouted through alternative hubs, and this week confirms those routings are hardening into permanence. Permanent network changes mean the transit times and surcharges you have been treating as temporary are your new baseline. Budget your 2027 landed costs on current routings, not on a reopening.\n\nFor Asia-Europe shippers the knock-on is capacity. Services reverting to Suez transits are injecting capacity on the main east-west lane, which is one reason carriers are struggling to hold rate levels there. That cuts in your favour on rate negotiations for Europe-bound stock even while the trans-Pacific runs hot.",
+      "hotTake": "Eight months is not a disruption, it is a redesign. Carriers do not unwind network changes they have already paid for, so I would stop pricing Gulf-bound stock on the assumption that Jebel Ali comes back as your hub. The silver lining is Suez capacity returning to Asia-Europe. Push your forwarder on Europe rates now, because carriers need the volume.",
+      "actions": [
+        "Requote your Gulf and Middle East routings on current hubs and treat them as the permanent plan",
+        "Use the Suez capacity returning to Asia-Europe as leverage in your next Europe rate negotiation"
+      ],
+      "sourceUrl": "https://theloadstar.com/hormuz-closure-a-fatal-blow-for-dubai-and-abu-dhabi-transhipment-volumes",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Hi-tech air freight hits 3m tonnes, overtakes Chinese ecommerce as growth engine",
+      "tldr": "Hi-tech air trade reached 3m tonnes in the first seven months of 2026, up 22% year on year, ahead of Chinese ecommerce at 2.8m tonnes.",
+      "whatHappened": "Data-centre investment is driving air cargo growth, according to consultancy Aevean, with hi-tech now the main engine of the market. Aevean data shows hi-tech air trade reached 3m tonnes in the first seven months of 2026, compared with 2.8m tonnes for Chinese ecommerce over the same period.\n\nHi-tech volumes were up 22% year on year, while the wider global air cargo market grew 5.8%. Aevean says the data-centre boom is putting new pressure on the industry's capacity balance, widening imbalances between lanes.",
+      "whyItMatters": "This is a capacity story for you. Server and data-centre kit moves on the same freighters out of Chinese gateways that carry your parcels, and it is growing at 22% against your 5.8% market. When a hyperscaler books a block of lift out of Shenzhen or Hong Kong, the space left for ecommerce tightens and your spot air rate rises.\n\nThe timing is poor. Q4 is when you most need air as the escape valve for late stock and FBA replenishment, and this is the quarter when hi-tech shippers with deeper pockets compete hardest for the same pallets. If your plan is to fly your way out of a sea freight delay in November, expect to pay for the privilege.",
+      "hotTake": "Ecommerce spent years as the customer airlines prioritised out of China. That era is ending. Data-centre freight pays better and books earlier, and you will feel it in your Q4 air quotes. My advice: treat air as a planned line item with pre-booked space this peak, not a panic button, because the panic button is about to get expensive.",
+      "actions": [
+        "Pre-book Q4 air capacity out of your Chinese gateway now rather than relying on spot lift in November",
+        "Move any Q4 stock that can tolerate sea transit off your air plan to cut exposure to rising spot rates"
+      ],
+      "sourceUrl": "https://theloadstar.com/data-centre-boom-drives-air-cargo-growth-and-widens-imbalances",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "Carriers push Asia-Europe rate hikes into a holiday slump and returning Suez capacity",
+      "tldr": "Liners are trying to halt a three-month Asia-Europe rate slide, but China's holiday slowdown and capacity returning via Suez transits work against them.",
+      "whatHappened": "Container lines are rolling out Asia-Europe rate increases in an attempt to stop a three-month slide on the lane, the Journal of Commerce reports. The effort runs into two headwinds: China's holiday export slowdown around Golden Week, and significant capacity being injected as more services revert to Suez transits.\n\nSeatrade Maritime reported the same week that container spot rates to the US East and West coasts eased as expected in the approach to Golden Week, and flagged increasing congestion and accelerated returns to Suez routings as complicating factors ahead.",
+      "whyItMatters": "If Europe is your market, this is the one bright spot in your Q4. Carriers are announcing hikes, but announced hikes into falling demand and rising capacity tend to stick only partially. Your forwarder has more room to negotiate on Asia-Europe right now than at any point in the past three months.\n\nDo not confuse announced rates with paid rates. Book Europe-bound stock in the next fortnight, while the holiday lull suppresses demand, and push back on any GRI your forwarder passes through without a fight. The congestion flag from Seatrade is worth watching though, because port delays eat the money you save on rate.",
+      "hotTake": "Carrier GRIs announced into Golden Week are theatre. They know the demand is not there for two weeks and the Suez capacity is coming back on top. I would quote the hike back at my forwarder and ask for last month's rate. The real risk on this lane is congestion, not price, so spend your energy on buffer time rather than rate fear.",
+      "actions": [
+        "Reject or negotiate down any Asia-Europe GRI your forwarder passes through during the holiday lull",
+        "Build extra buffer into Europe-bound ETAs to cover the congestion Seatrade flags on returning Suez services"
+      ],
+      "sourceUrl": "https://joc.com/article/carriers-roll-out-asia-europe-rate-hikes-despite-seasonal-cargo-slump-6295918",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "ports-congestion",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US-China truce bought two months of certainty and rates responded by hitting a 2026 high. Certainty is not cheap.",
+    "Toys are the biggest category in the new US tariff relief list. If you sell them, check your HTS codes this week.",
+    "Eight months of Hormuz closure means Gulf transhipment is not coming back. Stop pricing for a reopening.",
+    "Hi-tech freight just overtook Chinese ecommerce in the air. Your Q4 air quote is competing with a data centre.",
+    "Carriers are announcing Asia-Europe hikes into a holiday slump. Announced is not collected.",
+    "The port fees on China-linked ships are not deferred, only likely deferred. Ask your forwarder whose tonnage you are on.",
+    "Suez capacity returning to Asia-Europe is your negotiation leverage for Q4 Europe rates.",
+    "Air freight out of China is no longer an ecommerce story. Plan Q4 air as a budget line, not a panic button.",
+    "A $30 billion tariff cut sounds big until you put it next to $400 billion in annual trade."
+  ],
+  "faq": [
+    {
+      "question": "Should I book trans-Pacific freight before or after Golden Week 2026?",
+      "answer": "Before. Asia-US West Coast spot rates hit $8,400 per FEU in late September 2026, a new high for the year, and the extended trade truce gives importers confidence that pulls demand forward. Waiting for a post-holiday dip means betting against a market with momentum. Book now and treat any later softening as a bonus."
+    },
+    {
+      "question": "Does the new US-China tariff relief apply to my products?",
+      "answer": "Possibly, if you sell into the US in one of roughly 80 covered product entries, with toys the biggest category by value. Both sides are cutting tariffs on about $30 billion of imports to most-favoured-nation levels, subject to legal procedures. Check your HTS codes against the published list before repricing anything."
+    },
+    {
+      "question": "Will the Strait of Hormuz reopening lower my Middle East shipping costs?",
+      "answer": "Do not count on it. The closure is approaching its eighth month and carriers have rebuilt relay networks around Jebel Ali and Khalifa. Observers predict those ports permanently lose transhipment traffic even if the strait reopens. Budget your Gulf landed costs on current routings."
+    },
+    {
+      "question": "Why are air freight rates out of China rising in Q4 2026?",
+      "answer": "Data-centre equipment is taking the space. Hi-tech air trade reached 3m tonnes in the first seven months of 2026, up 22% year on year, overtaking Chinese ecommerce at 2.8m tonnes. That freight books early and pays well, so less capacity remains for ecommerce in peak season. Pre-book Q4 air space now."
+    },
+    {
+      "question": "Are Asia-Europe freight rates going up or down right now?",
+      "answer": "Carriers are announcing increases, but the market points down. Rates have slid for three months, Golden Week slows exports, and capacity is returning as services revert to Suez transits. Announced hikes into weak demand rarely stick in full. Negotiate any GRI, and watch congestion on returning Suez services as the bigger risk."
+    }
+  ],
+  "generatedAt": "2026-09-30T20:56:47.537Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 20
+}
