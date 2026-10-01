@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-02",
+  "title": "China shipping: Suez return, port delays, new surcharges",
+  "metaDescription": "Carriers eye a Suez return on Asia-Europe lanes, Shanghai berth reliability hits 12%, Maersk adds a South Africa surcharge and COSCO opens a third Brazil…",
+  "bottomLine": "Almost all global carriers will trial Suez transits on Asia-Europe sailings in October, with the Premier Alliance's One Continuity first through on 19 October. Shanghai's on-time berthing fell to 12% in August and Asian schedule reliability sits at 32%, so whatever route your box takes, pad your lead times. Maersk is adding $250 to $500 per container to South Africa and Mauritius from 15 October.",
+  "stories": [
+    {
+      "headline": "Carriers trial Suez return on Asia-Europe from mid-October",
+      "tldr": "The Premier Alliance will send the 8,100 teu One Continuity through Suez on 19 October, and almost all carriers plan tentative Red Sea transits this month.",
+      "whatHappened": "Revised pro forma schedules show the Premier Alliance routing one vessel back through the Red Sea and Suez on Asia to North Europe sailings. Japanese carrier ONE published the schedule of the 8,100 teu One Continuity, departing Laem Chabang on 19 October after being reassigned to the route.\n\nThe Loadstar reports October will see almost all global ocean carriers make a tentative return to Suez transits on Asia-Europe services.",
+      "whyItMatters": "If you ship China to Europe, a genuine Suez return cuts transit by roughly two weeks against the Cape routing and releases capacity back into the market. That means downward pressure on your spot rates into Q4, but only after the trials hold. Schedules in the first weeks of any return tend to be messy, with vessels arriving off pro forma as rotations reset.\n\nDo not rewrite your landed cost model on day one. Treat this as a signal to renegotiate contract rates for Q1 2027 rather than a reason to chase short-term spot savings this month.",
+      "hotTake": "I have watched carriers announce Suez comebacks before and pull them at the first security incident. One vessel is a trial balloon, not a network. I would price December shipments on the Cape routing and pocket the upside if Suez sticks.",
+      "actions": [
+        "Ask your forwarder which of your booked Asia-Europe sailings are scheduled via Suez and which via the Cape, in writing.",
+        "Hold off renegotiating annual contracts for two weeks so you can see whether the trials hold.",
+        "Add buffer to European delivery promises for late October while rotations reset."
+      ],
+      "sourceUrl": "https://theloadstar.com/premier-alliance-prepares-for-asia-n-europe-services-return-to-suez",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Only 12% of container ships berthed on time at Shanghai in August",
+      "tldr": "Sea-Intelligence puts Shanghai on-time berthing at 12% in August, with container schedule reliability across Asian ports down to 32% as congestion worsened.",
+      "whatHappened": "Analysts Sea-Intelligence report that only 12% of container ships berthed on time at Shanghai in August 2026. Shanghai is the world's busiest container port and the main gateway for East China ecommerce exports, so the figure covers a large share of China-origin volume.\n\nContainer schedule reliability at Asian ports overall dropped to 32% in the same month as congestion worsened across the region. The figures were published on 1 October and confirm that berth delays at Chinese load ports deepened through the summer peak rather than easing after it.",
+      "whyItMatters": "If your goods leave through Shanghai, an 88% chance your vessel berths late is the operating reality, not a bad month. That flows straight into rolled bookings, missed FBA inbound windows and demurrage that never appears in the quoted freight rate. Sellers shipping Q4 replenishment out of East China carry the most exposure right now.\n\nThe 32% regional figure tells you this is not a Shanghai-only problem. Switching to Ningbo or Shenzhen buys you little. The fix is time, not port choice.",
+      "hotTake": "Everyone haggles over $50 on the FEU rate and ignores the two-week schedule slip that costs them ten times that in stockouts. At 12% on-time performance in Shanghai, your buffer stock is your real freight strategy. I would rather pay more for cargo already on the water than save money on a booking that rolls twice.",
+      "actions": [
+        "Add seven to ten days of buffer to every China-origin lead time you quote customers this quarter.",
+        "Book FBA inbound appointments with slack, and flag roll-risk shipments to your 3PL in advance.",
+        "Track your forwarder's rollover rate per booking and raise it in your next rate review."
+      ],
+      "sourceUrl": "https://seatrade-maritime.com/ports-logistics/only-12-of-container-ships-berthed-on-time-at-shanghai-in-august",
+      "sourceName": "Seatrade Maritime",
+      "tags": [
+        "ports-congestion",
+        "sea-freight",
+        "peak-season",
+        "amazon-fba"
+      ]
+    },
+    {
+      "headline": "Maersk sets $250 to $500 peak surcharge to South Africa",
+      "tldr": "Maersk will charge $250 per 20-foot and $500 per 40-foot dry container from Far East Asia to South Africa and Mauritius from 15 October.",
+      "whatHappened": "Maersk will revise its Peak Season Surcharge for dry container shipments from Far East Asia to South Africa and Mauritius, applying from 15 October 2026 until further notice. The surcharge is $250 per 20-foot dry container and $500 per 40-foot dry container.\n\nThe origin scope covers China, Hong Kong, Indonesia, Cambodia, Laos, Myanmar, Malaysia, the Philippines, Singapore, Thailand, Taiwan and Vietnam. The surcharge applies to all 20-foot and 40-foot dry containers.",
+      "whyItMatters": "If you sell into South Africa or Mauritius, this adds $500 to a 40-footer with no end date. On a container of mid-value ecommerce goods that is a real margin hit, and other carriers on the lane tend to follow Maersk within weeks. Sellers shipping from any of the twelve listed origins pay it, so rerouting origin within Asia gains you nothing.\n\nCheck your quotes for anything shipping on or after 15 October. A booking confirmed before the date but sailing after it can still catch the surcharge depending on your contract terms.",
+      "hotTake": "Until further notice is the part that matters. These surcharges arrive fast and leave slowly. If South Africa is more than a tenth of your volume, I would price it into your retail now rather than absorb it and hope.",
+      "actions": [
+        "Reprice South Africa and Mauritius orders shipping on or after 15 October to include $250 or $500 per container.",
+        "Ask your forwarder whether rival carriers on the lane have filed matching surcharges.",
+        "Confirm whether any in-transit bookings are exposed under your contract terms."
+      ],
+      "sourceUrl": "https://container-news.com/maersk-revises-far-east-asia-surcharge-to-south-africa-and-mauritius",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "COSCO adds third weekly Far East to East South America service",
+      "tldr": "COSCO starts a third weekly Far East to East Coast South America service from Ningbo around 17 December, adding capacity to Brazil, Argentina and Uruguay.",
+      "whatHappened": "COSCO Shipping Holdings will launch the ESA3 service in December 2026, its third weekly loop between the Far East and the East Coast of South America. The first sailing is scheduled from Ningbo around 17 December. The rotation runs Ningbo, Shanghai, Shekou, Singapore, Santos, Navegantes, Montevideo, Buenos Aires, then back via Navegantes, Santos, Coega, Singapore and Hong Kong to Ningbo.\n\nThe Coega call awaits terminal confirmation in October, and the Hong Kong call will be reviewed in the second cycle. Feeders connect Santos to Salvador and Vitória, and Montevideo to Asunción. COSCO backs the service with 193 trucking routes in Brazil and 47 in Argentina, plus rail from Santos to inland terminals.",
+      "whyItMatters": "If you sell into Brazil or Argentina, more weekly capacity on this lane means better space availability and softer rates into 2027. The inland trucking and rail connections matter as much as the ships. Port-to-door into São Paulo, Minas Gerais, Buenos Aires, Rosario and Córdoba from one carrier simplifies a leg that usually needs a local forwarder.\n\nSouth American ecommerce is growing faster than carrier capacity has been. A third weekly string is the clearest sign yet that COSCO expects that demand to hold.",
+      "hotTake": "Brazil is one of the few lanes where I would accept a longer transit for a single-carrier port-to-door rate. The customs and inland legs there cause more failures than the ocean leg ever does. If COSCO prices this aggressively, smaller forwarders on the lane will feel it first.",
+      "actions": [
+        "Request ESA3 rate indications from your forwarder for Q1 2027 if you ship to Brazil or Argentina.",
+        "Compare COSCO's port-to-door pricing against your current forwarder-plus-trucking split for São Paulo deliveries."
+      ],
+      "sourceUrl": "https://container-news.com/cosco-shipping-launches-new-far-east-ecsa-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "China doubles nearest rivals on UN liner connectivity index",
+      "tldr": "China's Liner Shipping Connectivity Index hit 1,347.6 in September 2026, more than double South Korea at 633.0 and Singapore at 626.7.",
+      "whatHappened": "China's Liner Shipping Connectivity Index reached 1,347.6 in September 2026, according to UNCTAD data reported by FreightWaves. Second-ranked South Korea scored 633.0 and Singapore 626.7. The index measures vessel calls, port capacity, carrier and service availability, largest ship size and the number of countries reached through direct services.\n\nEight Asian economies sit in the world's 15 best-connected. The United States and Malaysia hold fourth and fifth. Qatar recorded the steepest decline, down 65.3%, followed by Bahrain at 60.6% and Iraq at 56%, which UNCTAD links to Persian Gulf hostilities.",
+      "whyItMatters": "For you this is a sourcing moat, not a statistic. More direct services from Chinese ports than anywhere else on earth means more sailings per week, more carrier competition on your lane and more fallback options when a booking rolls. No alternative sourcing country comes close on this measure, and the gap is widening, not closing.\n\nThe Gulf declines matter if you tranship through the region. Connectivity losses of that size mean fewer direct options and longer routings for Middle East-bound cargo.",
+      "hotTake": "Every conversation about moving production out of China runs into this number. Vietnam and India are climbing the table, but a factory move that halves your sailing options and doubles your transhipment risk is a logistics downgrade most sellers never price in.",
+      "actions": [
+        "Factor direct-service frequency into any 2027 sourcing comparison between China and alternative countries.",
+        "Check whether your Middle East-bound shipments route through Gulf hubs and ask your forwarder for alternatives."
+      ],
+      "sourceUrl": "https://freightwaves.com/news/new-un-data-china-widens-lead-in-liner-shipping-connectivity",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Carriers are trialling Suez again, and the smart money prices December on the Cape and pockets the upside.",
+    "One vessel through the Red Sea is a press release. A full alliance rotation is a network. Know the difference before you renegotiate.",
+    "Shanghai berthed 12% of ships on time in August. Your buffer stock is your real freight strategy.",
+    "Everyone haggles over $50 per FEU and ignores the two-week schedule slip that costs ten times more.",
+    "Maersk's South Africa surcharge says until further notice. Surcharges arrive fast and leave slowly.",
+    "COSCO launching a third weekly Brazil service tells you where carriers think ecommerce demand is heading.",
+    "China's liner connectivity is double its nearest rival. Every move-production-out-of-China plan runs into that number.",
+    "A sourcing move that halves your weekly sailings is a logistics downgrade nobody prices in.",
+    "Port congestion, not freight rates, is what breaks Q4 promises to customers.",
+    "Gulf connectivity fell by more than half in Qatar and Bahrain. If your cargo tranships there, you already know why."
+  ],
+  "faq": [
+    {
+      "question": "Are Asia-Europe ships going back through the Suez Canal?",
+      "answer": "Carriers are starting tentative trials. The Premier Alliance has scheduled the 8,100 teu One Continuity through the Red Sea and Suez, departing Laem Chabang on 19 October 2026, and most global carriers plan similar trial transits in October. This is a test, not a full network return. Expect schedule disruption while rotations reset, and do not count on shorter transits for December shipments until the trials hold for several weeks."
+    },
+    {
+      "question": "How reliable is shipping from Shanghai right now?",
+      "answer": "Poorly. Sea-Intelligence data shows only 12% of container ships berthed on time at Shanghai in August 2026, and schedule reliability across Asian ports fell to 32% as congestion worsened. Add seven to ten days of buffer to any lead time you quote, expect rolled bookings, and do not assume switching to another Chinese port solves the problem, because the congestion is regional."
+    },
+    {
+      "question": "What is Maersk's new surcharge to South Africa?",
+      "answer": "Maersk is applying a Peak Season Surcharge to dry containers from Far East Asia to South Africa and Mauritius from 15 October 2026, until further notice. The charge is $250 per 20-foot container and $500 per 40-foot container. It applies to cargo from China, Hong Kong, Taiwan, Vietnam, Thailand, Malaysia, Singapore, Indonesia, the Philippines, Cambodia, Laos and Myanmar. Rival carriers on the lane often follow within weeks."
+    },
+    {
+      "question": "Are there more shipping options from China to Brazil?",
+      "answer": "Yes. COSCO Shipping launches a third weekly Far East to East Coast South America service, called ESA3, from Ningbo around 17 December 2026. It calls Santos, Navegantes, Montevideo and Buenos Aires, with feeders to Salvador, Vitória and Asunción, plus 193 trucking routes in Brazil and 47 in Argentina. More weekly capacity should improve space availability and soften rates on the lane into 2027."
+    },
+    {
+      "question": "Should I move production out of China to cut shipping risk?",
+      "answer": "The connectivity data says think twice. China's UNCTAD liner shipping index hit 1,347.6 in September 2026, more than double South Korea's 633.0. That gap means far more direct sailings, more carrier competition and more fallback options when bookings roll. Alternative countries are improving, but a production move that halves your weekly sailings and adds transhipment is a logistics downgrade most cost models ignore."
+    }
+  ],
+  "generatedAt": "2026-10-01T21:08:36.911Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 20
+}
