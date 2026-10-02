@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-03",
+  "title": "China freight: transpac peak tail, Golden Week rate plateau",
+  "metaDescription": "China Logistics Daily, 3 October 2026: Asia port congestion stretches the transpac peak, spot rates plateau into Golden Week, MSC blanks USEC sailings.",
+  "bottomLine": "Container line executives say September congestion at Asian ports stripped out functional capacity on the trans-Pacific, and the peak season now has a longer tail than anyone planned for. Spot rates from the Far East to the US plateaued as Golden Week began on 1 October, with Xeneta calling the post-Hormuz peak for 2026. If you still have Q4 cargo on the water or unbooked, expect slower sailings and fewer open slots through October.",
+  "stories": [
+    {
+      "headline": "Asia port congestion gutted September transpac capacity, carriers say",
+      "tldr": "Executives at three container lines say Asia port congestion removed significant functional capacity from the trans-Pacific in September, extending the peak season's tail.",
+      "whatHappened": "Executives at three major container lines told the Journal of Commerce that congestion at Asian ports removed significant functional capacity from the trans-Pacific trade in September.\n\nThe result is that the earlier-than-anticipated peak season now has a longer tail. Strong US import demand is carrying volumes into October rather than fading after the usual September crest.",
+      "whyItMatters": "Congestion at origin ports is your problem even when you booked on time. A vessel stuck at berth in Asia is a vessel that does not arrive in Los Angeles or Savannah when your 3PL planned the dock appointment. If you have FBA inbound or retail delivery windows tied to October arrivals, your buffer just got thinner.\n\nThe longer tail cuts both ways. It means space stays tight and rates stay supported later into Q4 than normal, so waiting for a post-Golden Week rate collapse to book your remaining cargo is a gamble. It also means sellers who shipped early are competing for receiving capacity with a wave of late cargo landing at the same time.",
+      "hotTake": "Every year the trade press is surprised the peak lasts longer, and every year it does. My read: congestion is doing the carriers' pricing work for them, and they know it. I would treat any October arrival promise as plus five days and plan receiving around that.",
+      "actions": [
+        "Add five days to every October ETA you have quoted to customers or to Amazon",
+        "Confirm dock appointments and 3PL receiving slots now for anything arriving mid-October",
+        "Book remaining Q4 cargo this week rather than waiting for a rate dip"
+      ],
+      "sourceUrl": "https://joc.com/article/asia-delays-import-strength-extending-trans-pac-peak-season-6298972",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Transpac spot rates plateau as Golden Week begins, Xeneta calls 2026 peak",
+      "tldr": "Far East to US spot rates ticked up on 1 October but Xeneta's Peter Sand says the market has reached its post-Hormuz crisis peak for 2026.",
+      "whatHappened": "The start of China's Golden Week holiday on 1 October coincided with a plateau in the strong pricing that held on transpacific trades through September.\n\nSpot rates from the Far East to the US ticked up again on 1 October, but Xeneta chief analyst Peter Sand said the market has reached its post-Hormuz crisis peak in 2026, with a level of confidence behind the call.",
+      "whyItMatters": "If Sand is right, the rate you pay this week is close to the worst you will pay this year. That matters for how you price Q4 stock and whether you absorb freight into margin or pass it on.\n\nGolden Week also means Chinese factories and many forwarders are dark for days. Anything not booked before the holiday sits. The plateau does not mean capacity is loose, it means demand paused while the country shuts. Expect a short, sharp scramble for space when factories reopen.",
+      "hotTake": "Analysts calling the top of the market on 1 October is a brave move with congestion still chewing up capacity. I think rates ease from here but slowly, because the congestion story above keeps effective supply tight. Do not budget for cheap November freight.",
+      "actions": [
+        "Lock in rates for post-holiday sailings before factories reopen and demand snaps back",
+        "Reprice Q4 listings using this week's spot level as your freight ceiling"
+      ],
+      "sourceUrl": "https://theloadstar.com/transpac-spot-rate-climb-takes-a-holiday-as-golden-week-arrives",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "MSC blanks two Asia-US East Coast sailings around Golden Week",
+      "tldr": "MSC cancelled two Asia-US East Coast sailings, week 40 America GU640W and week 42 Empire GE642E, citing an anticipated demand slowdown.",
+      "whatHappened": "MSC will blank two sailings on its Asia-US East Coast network during and after Golden Week. The carrier attributed the capacity adjustment to an anticipated slowdown in demand.\n\nThe cancelled sailings are week 40 on the America service, voyage GU640W, and week 42 on the Empire service, voyage GE642E. MSC said customers can keep placing bookings as usual and that it is arranging alternative services for affected cargo.",
+      "whyItMatters": "If your cargo was booked on either voyage, your freight is moving to a different sailing whether you like it or not. That shifts your arrival date and every downstream plan built on it.\n\nNote the tension: carriers tell JOC that congestion removed capacity and the peak has a long tail, while MSC blanks sailings citing soft demand. Both can be true. Carriers are trimming scheduled capacity to defend the rates Sand says have peaked. For USEC shippers that means fewer weekly options through October and less room to recover if you miss a cut-off.",
+      "hotTake": "Blanking into a congested, rate-supported market is discipline, not weakness. MSC is protecting yield. I would not route anything urgent to the US East Coast on a single weekly string right now without a confirmed fallback sailing in writing.",
+      "actions": [
+        "Check whether any of your bookings sit on America GU640W or Empire GE642E and get the rebooking confirmed in writing",
+        "Ask your forwarder for the alternative sailing's actual ETA, not the service's nominal transit time"
+      ],
+      "sourceUrl": "https://container-news.com/msc-blanks-two-asia-us-east-coast-sailings",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Maersk loses both partners on Asia-East Coast South America in three months",
+      "tldr": "Zim quit Maersk's ASAS loop in September and Maersk and CMA CGM will end their joint ASAS2/SEAS3 service, last sailing from Shanghai 8 December.",
+      "whatHappened": "Maersk has lost both partners on the Asia-East Coast South America trade in three months. In September, Zim left Maersk's ASAS loop to launch the AS3/ZFS service with Hapag-Lloyd.\n\nMaersk and CMA CGM then said they would end their joint ASAS2/SEAS3 service, with the last sailing leaving Shanghai on 8 December. The Loadstar is advising shippers to check their routings as the alliance map redraws on a trade the alliances never formally covered.",
+      "whyItMatters": "If you sell into Brazil or Argentina, your container may arrive on a different ship, via a different port rotation, than the one you booked. Service terminations mean rolled bookings, transhipment changes and longer transits, and they land right in the middle of peak.\n\nThe 8 December last sailing from Shanghai is your hard date. Anything shipping to East Coast South America after that needs a new routing, and the replacement options are still settling. Buyers in Latin America already pay some of the highest landed costs on your sheet; a service gap makes it worse.",
+      "hotTake": "South America is the trade everyone forgets until the rates triple. Two partner exits in three months tells you the carriers cannot agree on what this lane is worth. If LatAm is more than 10% of your volume, I would be talking to two forwarders about post-December routings now, not in December.",
+      "actions": [
+        "Map every Asia-East Coast South America booking you hold against the affected loops",
+        "Get confirmed routings for any cargo shipping after 8 December from Shanghai"
+      ],
+      "sourceUrl": "https://theloadstar.com/shippers-urged-to-check-routings-as-alliances-redraw-asia-s-america-trade",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Central Asia pitches itself as the air and rail bridge from China to Europe",
+      "tldr": "At the Tashkent cargo summit, 340 delegates pushed Tashkent, Almaty and Navoi as multimodal gateways linking China, Europe and the Middle East.",
+      "whatHappened": "The Central Asia Aviation Cargo Summit in Tashkent drew 340 representatives from airlines, airports, logistics companies, technology providers and regulators on 30 September and 1 October.\n\nSpeakers from Silk Way West Airlines, Saudia Cargo, DHL Global Forwarding, IATA and Almaty International Airport pushed digital cargo standards, terminal automation, customs reform and air-rail-road integration. Tashkent, Almaty and Navoi are competing for regional freight flows, supported by scheduled and charter services, ACMI capacity and e-commerce traffic. Workforce skills were named as a constraint on expansion.",
+      "whyItMatters": "This is a slow-burn story with one practical use for you now: alternative routings. Every tonne of China-Europe capacity that develops through Central Asia is a tonne that does not depend on sea freight round the Cape or on congested Chinese gateways at peak.\n\nFor ecommerce sellers, the relevant piece is e-commerce traffic flowing through these hubs. If you ship high-value, low-weight goods to Europe or the Middle East, a China-Central Asia-Europe air or rail-air leg is becoming a quotable option rather than an exotic one. It will not beat sea on cost, but it can beat a congested October sailing on time.",
+      "hotTake": "I have watched Central Asian hubs pitch themselves for a decade, and this time the e-commerce volumes give them a real reason to exist. I would not route a whole Q4 through Tashkent, but for a premium SKU that misses the boat, it is a legitimate plan B. Ask your forwarder what they can actually book, and watch the price.",
+      "actions": [
+        "Ask your forwarder for a quote on one China-Central Asia-Europe routing for your highest-value SKU",
+        "Compare the door-to-door transit against your current sea leg before dismissing it on price"
+      ],
+      "sourceUrl": "https://aircargoweek.com/central-asia-steps-up-air-cargo-ambitions-as-airlines-and-airports-target-stronger-eurasian-links",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "rail-freight",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Carriers say congestion cut September transpac capacity, then MSC blanked sailings citing weak demand. Both are true, and both keep your rates up.",
+    "Xeneta called the 2026 transpacific rate peak on 1 October. Calling tops is easy; congestion decides whether they are right.",
+    "Golden Week does not pause your supply chain. It pauses China while your containers keep moving, or do not.",
+    "Maersk lost both its Asia-South America partners in three months. If you ship to Brazil, your December routing does not exist yet.",
+    "The peak season has a longer tail this year, which means your late cargo competes with everyone else's early cargo at the receiving dock.",
+    "Central Asia wants to be the China-Europe bridge. For one high-value SKU, it already is.",
+    "Blank sailings during a congested peak are not a demand signal. They are yield management with extra steps.",
+    "Your October ETA is a suggestion. Add five days and tell your customers now, not when the vessel rolls.",
+    "Everyone watches the spot rate. Nobody watches the berth queue in Shanghai that sets it."
+  ],
+  "faq": [
+    {
+      "question": "Will transpacific freight rates drop after Golden Week 2026?",
+      "answer": "Rates plateaued as Golden Week began on 1 October, and Xeneta's chief analyst called the 2026 peak. But port congestion in Asia is still removing effective capacity, and carriers are blanking sailings to defend pricing. Expect rates to ease slowly rather than collapse. Book remaining Q4 cargo promptly instead of waiting for a big dip."
+    },
+    {
+      "question": "What does a blank sailing mean for my shipment?",
+      "answer": "A blank sailing means the carrier cancelled that voyage. Your booking moves to a later or alternative sailing, which pushes your arrival date. If affected, get the new vessel, voyage and ETA confirmed in writing, then adjust dock appointments and customer promises. MSC blanked two Asia-US East Coast sailings, weeks 40 and 42, around Golden Week 2026."
+    },
+    {
+      "question": "How long does Golden Week affect shipping from China?",
+      "answer": "Chinese factories, customs brokers and many forwarders close or run skeleton staff for the holiday starting 1 October. Bookings placed beforehand still move, but nothing new gets arranged. Expect a scramble for space when factories reopen, so confirm post-holiday bookings before the break rather than after."
+    },
+    {
+      "question": "What is happening with shipping from China to Brazil in late 2026?",
+      "answer": "The Asia-East Coast South America alliance structure is being redrawn. Zim left Maersk's ASAS loop in September to partner with Hapag-Lloyd, and Maersk and CMA CGM are ending their joint ASAS2/SEAS3 service, last sailing from Shanghai on 8 December. Cargo booked after that date needs a new routing. Confirm options with your forwarder now."
+    },
+    {
+      "question": "Is there an alternative to sea freight from China to Europe during peak season?",
+      "answer": "Air and multimodal routings through Central Asian hubs such as Tashkent, Almaty and Navoi are expanding, backed by scheduled, charter and ACMI capacity plus e-commerce traffic. They cost more than sea but can beat a congested October sailing on transit time. Worth quoting for high-value, low-weight goods that miss a vessel."
+    }
+  ],
+  "generatedAt": "2026-10-02T20:51:54.385Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 20
+}
