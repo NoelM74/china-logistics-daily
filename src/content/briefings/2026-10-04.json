@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-04",
+  "title": "China freight: Maersk fee change, service cuts",
+  "metaDescription": "Maersk lowers its heavy load threshold for Germany and Poland, ends the ASAS2 loop with CMA CGM, and ONE moves its East Asia HQ out of Hong Kong. What it…",
+  "bottomLine": "From 19 October 2026, Maersk will hit any 20ft box over 25 tonnes into Germany and Poland with a $400 Heavy Load Surcharge, down from 28 tonnes. Maersk and CMA CGM are also ending their ASAS2 Asia to East Coast South America loop after the 8 December Shanghai sailing, and ONE is folding its Hong Kong regional HQ into Singapore from April 2027. Check your heavy 20ft bookings this week.",
+  "stories": [
+    {
+      "headline": "Maersk cuts heavy load threshold to 25 tonnes for Germany and Poland",
+      "tldr": "From 19 October 2026, Maersk charges $400 on any 20ft container over 25 tonnes VGM shipped from Far East Asia to Germany or Poland.",
+      "whatHappened": "Maersk will revise the trigger weight for its Heavy Load Surcharge on shipments from Far East Asia to Germany and Poland. From a Price Calculation Date of 19 October 2026, the $400 surcharge applies to all types of 20-foot equipment with a Verified Gross Mass above 25 metric tonnes.\n\nFor other North European destinations, the trigger stays at more than 28 metric tonnes, effective 30 September 2026, with the same $400 fee. Germany and Poland now sit on a lower threshold than the rest of North Europe.",
+      "whyItMatters": "If you ship dense goods in 20s, tiles, stone, metal parts, bottled product, machinery, this is a direct hit to your landed cost into two of the biggest EU markets. A box at 26 or 27 tonnes that moved clean last month now costs $400 more. On a 20ft with €12,000 of goods, that is meaningful margin.\n\nYou have options. Split heavy cargo across two lighter boxes, shift to 40ft equipment where the weight per container works, or route into another North European port and truck the final leg if your cargo sits between 25 and 28 tonnes. Run the numbers before 19 October, because bookings priced on or after that date carry the fee.\n\nSellers feeding German FBA warehouses with heavy SKUs feel this hardest. Poland matters too if you use it as a fulfilment hub for Central Europe.",
+      "hotTake": "Carriers keep finding weight-based fees because they stick. Shippers grumble, pay, and move on. I would re-engineer any SKU that regularly ships at 25 to 28 tonnes in a 20 before I accepted this surcharge as a fixed cost. The pack-out change pays for itself in three sailings.",
+      "actions": [
+        "Audit every 20ft booking to Germany and Poland with VGM between 25 and 28 tonnes and reprice your landed cost before 19 October 2026.",
+        "Test moving dense SKUs into 40ft equipment or splitting loads across two 20s.",
+        "Ask your forwarder to quote routing via Rotterdam or Antwerp with on-carriage for cargo in the 25 to 28 tonne band."
+      ],
+      "sourceUrl": "https://container-news.com/maersk-lowers-heavy-load-threshold-for-germany-and-poland",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "customs-eu",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Maersk and CMA CGM end ASAS2 loop to East Coast South America",
+      "tldr": "The ASAS2 Asia to East Coast South America service ends after its final Shanghai departure on 8 December 2026; Maersk keeps its own ASAS service running.",
+      "whatHappened": "Maersk and CMA CGM will end their cooperation on the ASAS2 service connecting Asia with the East Coast of South America. The final voyage under the current arrangement departs Shanghai on 8 December 2026, operating as voyage 650W. After that sailing, ASAS2 is discontinued.\n\nMaersk will stay in the trade through its ASAS service, which it says will operate normally as a fully Maersk-operated and controlled product. Customers can keep booking between Asia and the East Coast of South America through the ASAS network without interruption. Maersk said full operational control lets it manage and develop the service independently.",
+      "whyItMatters": "If you sell into Brazil or Argentina, or you route components between China and South American assembly, your carrier menu on this lane just shrank. One less shared loop means one less weekly option, and the remaining capacity sits under a single operator's schedule discipline.\n\nFor most ecommerce sellers this is a secondary lane, but it matters if South America is your growth market. Watch the rate behaviour on ASAS once ASAS2 capacity comes out. A discontinued service removes slots, and a sole-operator service has no partner to discipline its pricing.\n\nIf you have cargo planned on ASAS2 sailings after 8 December, confirm with your forwarder which service picks it up. Do not assume the booking migrates on its own.",
+      "hotTake": "Maersk keeps buying control of its own network, and this is another brick in that wall. Good for schedule reliability, bad for rate competition. If Brazil matters to your 2027 plan, lock space early next year rather than spot-buying a lane with one fewer player.",
+      "actions": [
+        "Confirm with your forwarder how bookings after 8 December 2026 migrate from ASAS2 to ASAS.",
+        "Get a fresh rate quote for Q1 2027 Asia to East Coast South America before capacity tightens."
+      ],
+      "sourceUrl": "https://container-news.com/maersk-and-cma-cgm-to-end-asas2-cooperation",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ecommerce-platforms"
+      ]
+    },
+    {
+      "headline": "ONE moves East Asia HQ from Hong Kong to Singapore in 2027",
+      "tldr": "ONE will merge its Hong Kong East Asia headquarters into a new Singapore Asia-Pacific HQ from 1 April 2027, covering 15 markets under Louis Tang.",
+      "whatHappened": "Ocean Network Express will reorganise its regional headquarters structure in Asia-Pacific and Africa from 1 April 2027. It will establish a new Asia-Pacific Regional Headquarters in Singapore, combining the East Asia function now in Hong Kong with the South Asia function already in Singapore. The new headquarters oversees ONE's business across 15 markets, with Louis Tang as Region Head for Asia-Pacific.\n\nONE will also centralise management of its East, West and Southern African markets at its Dubai Regional Headquarters. London continues to manage Europe, the Mediterranean and North Africa. CEO Till Ole Barrelet said the changes will enable faster decisions and support further investment. ONE said services, customer contracts and daily operations are not immediately affected, and local teams remain the main customer contacts. The restructuring forms part of the ONE 2030 strategy and will be implemented in phases.",
+      "whyItMatters": "Day to day, nothing changes for your bookings this quarter. ONE says contracts and operations are untouched, and there is no reason to doubt that for now.\n\nThe signal sits underneath. Another major carrier is moving regional decision-making out of Hong Kong and into Singapore. If you negotiate contracts or escalate problems through ONE's Hong Kong office, expect your contacts and approval chains to shift through 2027. Rate authority and space allocation decisions will sit in Singapore.\n\nFor sellers with Hong Kong-based logistics partners, this adds to a pattern worth tracking. Hong Kong remains a fine transhipment and air hub, but the commercial gravity of the container lines keeps drifting south.",
+      "hotTake": "Carriers do not move headquarters for the view. Singapore gives them neutrality, talent and proximity to growth lanes, and Hong Kong keeps losing these contests one restructure at a time. Your freight will still move. Your relationship map will not.",
+      "actions": [
+        "Ask your ONE contact who owns your account and escalation path after April 2027.",
+        "Note the phased transition and reconfirm contract contacts when the Singapore HQ stands up."
+      ],
+      "sourceUrl": "https://container-news.com/one-restructures-regional-headquarters-in-asia-pacific-and-africa",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Greek owner Contships orders up to 30 feeder ships in China",
+      "tldr": "Contships has signed a letter of intent with Hubei Guangji Green Energy Shipbuilding for 10 firm 1,300 teu containerships plus options for 20 more.",
+      "whatHappened": "Greek feeder specialist Contships Logistics has launched a potentially 30-ship newbuilding programme in China. Wholly owned CLC Newbuildings signed a letter of intent with Hubei Guangji Green Energy Shipbuilding Group covering 10 firm 1,300 teu containerships plus two sets of 10 options, according to Splash247.\n\nThe Nikolas Pateras-led owner is shifting its fleet renewal drive towards fresh tonnage. The 1,300 teu size class sits in the feeder segment that moves containers between regional ports and the mainline hubs.",
+      "whyItMatters": "You will never book a 1,300 teu feeder directly, but feeders decide how your boxes get from a hub like Singapore or Colombo into smaller regional ports, and how exports from second-tier Chinese ports reach the mainline. A 30-ship order in that segment says owners expect regional container volumes to keep growing.\n\nIt also says something about Chinese yard capacity. A Greek owner placing a programme of this size at an inland Hubei yard tells you the big coastal yards are full or expensive, and owners are pushing deeper into China for slots. If you care about future freight rates, newbuilding momentum at this scale eventually becomes supply, and supply is what pulls rates down.\n\nNothing to act on this week. File it under capacity signals for 2028.",
+      "hotTake": "Owners ordering 30 feeders at a time are betting against a long rate collapse. They may be right for their segment. For you, every firm order placed in 2026 is downward pressure on rates two years out, and that is the best news in an otherwise expensive Q4.",
+      "actions": [
+        "Track feeder newbuilding deliveries when planning 2028 freight budgets.",
+        "Ask your forwarder which Chinese second-tier ports gain feeder coverage as this tonnage delivers."
+      ],
+      "sourceUrl": "https://splash247.com/contships-goes-big-in-china-with-up-to-30-newbuilds",
+      "sourceName": "Splash247",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "manufacturing",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Maersk just made a 26-tonne 20ft into Germany $400 more expensive, and most shippers have not noticed yet.",
+    "Germany and Poland now have a stricter heavy container threshold than the rest of North Europe. Route accordingly.",
+    "One carrier left the Asia to Brazil loop. Sole-operator lanes do not get cheaper.",
+    "Another container line moved its regional HQ out of Hong Kong. The cargo stays, the decision-makers leave.",
+    "A Greek owner just ordered 30 feeder ships at an inland Chinese yard. That tells you the coastal yards are full.",
+    "Today's newbuilding orders are 2028's rate cuts. Q4 pain, long-term relief.",
+    "If your SKU ships at 25 to 28 tonnes in a 20ft, your pack-out is now a pricing decision.",
+    "Hong Kong keeps the ships and loses the headquarters. Sellers should track who actually signs their contracts.",
+    "The $400 surcharge is small until you multiply it by every heavy box you ship into Germany in a year.",
+    "Feeder capacity is the unglamorous part of the network that decides whether your box makes the mainline connection."
+  ],
+  "faq": [
+    {
+      "question": "What is Maersk's new heavy load surcharge for Germany and Poland?",
+      "answer": "From 19 October 2026, Maersk charges $400 on any 20-foot container with a Verified Gross Mass above 25 metric tonnes shipped from Far East Asia to Germany or Poland. The threshold for other North European destinations stays at 28 tonnes. If your cargo sits between 25 and 28 tonnes, consider 40ft equipment, splitting the load, or routing via another North European port with on-carriage."
+    },
+    {
+      "question": "Is the ASAS2 service from China to South America still running?",
+      "answer": "The ASAS2 service, run jointly by Maersk and CMA CGM between Asia and the East Coast of South America, ends after its final Shanghai departure on 8 December 2026. Maersk continues serving the trade through its own ASAS service and says bookings continue without interruption. Confirm with your forwarder how any post-December bookings migrate to the remaining service."
+    },
+    {
+      "question": "Will ONE's headquarters move affect my shipments?",
+      "answer": "No immediate effect. ONE folds its Hong Kong East Asia headquarters into a new Singapore Asia-Pacific HQ from 1 April 2027, and says services, contracts and daily operations are unchanged, with local teams remaining customer contacts. Over time, expect account management and escalation paths to shift to Singapore. Reconfirm your contacts when the transition completes."
+    },
+    {
+      "question": "How can I avoid heavy container surcharges into Europe?",
+      "answer": "Keep 20ft boxes below the carrier's trigger weight, 25 tonnes for Maersk into Germany and Poland, 28 tonnes elsewhere in North Europe. Options include shifting dense cargo into 40ft equipment, splitting loads across two containers, or routing via a port with a higher threshold and trucking the final leg. Reprice your landed cost before the 19 October 2026 effective date."
+    }
+  ],
+  "generatedAt": "2026-10-03T19:17:59.117Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 16
+}
