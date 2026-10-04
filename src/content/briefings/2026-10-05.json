@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-05",
+  "title": "China Freight Rates Peak, Soybean Surge, Singapore Axed",
+  "metaDescription": "Transpacific spot rates hit 2026 post-Hormuz peak but won't collapse. China soybean imports up 4%, northeast Asia service drops Singapore call.",
+  "bottomLine": "Spot rates from China to the US reached their 2026 peak on 1 October and will decline through year-end, but Xeneta forecasts floor prices of $6,000-7,000 to USEC and $4,500-5,500 to USWC, not a collapse. If you locked long-term contracts below those levels, you won the year. If you are riding spot into Q4, budget for those ranges and expect your margin to compress accordingly.",
+  "stories": [
+    {
+      "headline": "Transpacific spot rates peak but floor stays high through year-end",
+      "tldr": "China to US spot rates peaked 1 October at $8,346 USWC and $11,523 USEC, forecast to fall to $4,500-5,500 and $6,000-7,000 by year-end.",
+      "whatHappened": "Spot rates from Far East to US West Coast reached $8,346 per FEU on 1 October 2026, up 1.4% week-on-week and 344% above the pre-Hormuz crisis level of 28 February. Rates to US East Coast hit $11,523 per FEU, up 0.7% and 335% above the February baseline. Xeneta chief analyst Peter Sand said the market reached its post-Hormuz peak in 2026.\n\nPort congestion in Asia eased as typhoon season wound down. Golden Week and national holidays in China lowered exports in the first week of October. Demand is not strong, Sand said, and rates will decline but not collapse.\n\nXeneta forecast spot rates three months forward in the range of $4,500-5,500 per FEU to US West Coast and $6,000-7,000 to US East Coast. Rates to USEC may fall harder than USWC because the spread between the two trades widened to $3,177 per FEU compared to $772 pre-crisis. The spread will narrow as USEC falls from a more elevated starting point.",
+      "whyItMatters": "You are paying four times what you paid in February, and that premium will shrink but not disappear. If you budgeted Q4 landed cost at pre-crisis rates, your margin is gone. If you assumed rates would collapse after peak season, Xeneta just told you they will not.\n\nThe USEC premium over USWC is still $3,177 per FEU. If you route into the East Coast for warehouse proximity, you are paying an extra $1.59 per unit on a 2,000-unit FEU load. Run the landed cost both ways and confirm the last-mile savings justify the ocean premium, because that spread will narrow but USEC will stay the more expensive lane.\n\nIf you locked annual contracts at $2,000-3,000 per FEU earlier this year, you won. If you are riding spot, budget $5,000-6,500 per FEU through December and assume your competitors on contracts are undercutting you by $2-3 per unit. That gap decides whether you can hold price or lose the buy box.",
+      "hotTake": "Xeneta handed you the floor price for Q4. Treat $5,000 per FEU as the new normal and plan accordingly. If your supplier is still quoting FOB and you are eating the freight variance, renegotiate to DDP or accept that your margin lives and dies on a number you do not control. The Hormuz shock is over but the structure it left behind is not going anywhere.",
+      "actions": [
+        "Reforecast Q4 landed cost at $5,000-6,500 per FEU and model the per-unit impact on margin today",
+        "If you are routing USEC, price the alternative USWC lane and confirm the $3,177 spread is justified by inland savings",
+        "Lock Q1 2027 rates now if your forwarder will quote below the Xeneta forecast floor"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/freight-rates-into-us-reach-post-hormuz-crisis-peak-but-no-collapse-is-in-sight",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "customs-us"
+      ]
+    },
+    {
+      "headline": "China soybean imports up 4% in first eight months of 2026",
+      "tldr": "China imported 75.5 million tonnes of soybeans January to August 2026, up 4.0% year-on-year, accounting for 65% of global seaborne imports.",
+      "whatHappened": "China imported 75.5 million tonnes of soybeans in the first eight months of 2026, up 4.0% year-on-year from the same period in 2025, according to vessel tracking data from AXS Marine cited by shipbroker Banchero Costa. China accounted for 65.0% of global seaborne soybean imports in the period.\n\nGlobal soybean loadings reached 122.6 million tonnes in January to August 2026, up 6.4% year-on-year. Brazil exported 95.3 million tonnes, up 6.5%, and the United States exported 19.3 million tonnes, up 30.9%. Argentina's exports fell 43.1% to 3.4 million tonnes.\n\nTop discharge ports in China in 2025 were Rizhao at 9.6 million tonnes, Machong at 7.4 million tonnes, Tianjin at 7.2 million tonnes and Zhangjiagang at 7.0 million tonnes. Panamaxes and Kamsarmaxes carried 93.1% of China's soybean imports in 2025.",
+      "whyItMatters": "Soybean imports are a proxy for Chinese consumption and livestock demand. A 4% year-on-year increase in the first eight months signals stable domestic demand, which flows through to ecommerce because consumer spending on food competes with discretionary purchases.\n\nThe 30.9% surge in US soybean exports to China matters if you source products with soy derivatives or watch trade balances. Higher US agricultural exports to China reduce the bilateral trade deficit and may buy political room for tariff negotiations, though that is speculative.\n\nIf you ship consolidated LCL or share container space, soybean volumes into ports such as Rizhao and Tianjin affect berth congestion and dwell time. Panamax vessels discharge bulk, not containers, but shared berth infrastructure means delays at one terminal ripple across the port.",
+      "hotTake": "Chinese demand for soybeans is steady, which means Chinese consumers are eating. That is the baseline assumption behind every ecommerce forecast, and this data supports it. The 30% jump in US soybean exports is the kind of trade flow that shows up in a tariff negotiation, so watch whether this trend continues into Q4.",
+      "actions": [
+        "If you ship through Rizhao or Tianjin, check berth schedules and confirm your carrier's eta has not slipped",
+        "Track US-China agricultural trade data monthly as an early signal of tariff posture changes"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/dry-bulk-shipping-china-soybean-imports-on-the-rise",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "manufacturing",
+        "sourcing",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Four carriers drop Singapore from northeast Asia to India service",
+      "tldr": "Bengal Tiger, KMTC, Interasia and Wan Hai removed Singapore from their joint northeast Asia to India loop effective immediately.",
+      "whatHappened": "Bengal Tiger Line, KMTC, Interasia Lines and Wan Hai removed Singapore from both directions of their joint northeast Asia to India service, marketed under the CCS, CI5 and FME2 brands. The revised rotation is Qingdao, Busan, Shanghai, Shekou, Port Klang, Chennai, Kattupalli, Port Klang, Pasir Gudang, Kaohsiung, Qingdao, Busan, Shanghai.\n\nThe service retains two calls at Port Klang and continues to serve Pasir Gudang for Malaysian coverage. Six vessels of approximately 4,000 TEU operate the loop.\n\nThe change took effect immediately, according to Container News.",
+      "whyItMatters": "If you consolidate or transship through Singapore for India-bound shipments, this service is no longer an option. You will rebook through Port Klang or Pasir Gudang, which adds a day or two to transit and may change your forwarder's quote because Malaysian port handling fees differ from Singapore.\n\nSingapore's removal signals carriers are optimising port calls to cut costs. Fewer port calls mean faster rotations and lower fuel burn, but less routing flexibility for shippers. If you relied on Singapore as a transshipment hub for India, your forwarder now has fewer direct options and may quote a feeder leg.\n\nThis is a niche service, so the impact is narrow. If you do not ship to India or transship through Singapore, ignore this. If you do, confirm your forwarder has alternative routings and that the new schedule does not push you past your customer's delivery window.",
+      "hotTake": "Carriers are trimming port calls to save money, and Singapore just lost one. That is fine if you are on a major east-west lane, but if you ship to secondary markets or rely on transshipment, expect your routing options to keep shrinking. The industry is consolidating around fewer, bigger hubs, and smaller volumes get squeezed.",
+      "actions": [
+        "If you ship to India via Singapore, contact your forwarder and confirm alternative routings through Port Klang",
+        "Check whether the revised schedule still meets your delivery window or if you need to pull bookings forward"
+      ],
+      "sourceUrl": "https://container-news.com/carriers-remove-singapore-from-northeast-asia-india-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Spot rates from China to the US peaked 1 October but the floor is $5,000-6,500 per FEU through year-end, not the $2,000 you paid in February.",
+    "The USEC premium over USWC is $3,177 per FEU, or $1.59 per unit on a 2,000-unit load, and narrowing but not disappearing.",
+    "Xeneta forecast the Q4 rate floor three months out. If your forwarder will quote below it today, lock that contract before someone else does.",
+    "China imported 4% more soybeans in the first eight months of 2026, a signal that domestic consumption is stable and your customer base is still eating.",
+    "US soybean exports to China jumped 30.9% year-on-year, the kind of trade flow that shows up in tariff negotiations and may buy political room.",
+    "Four carriers dropped Singapore from the northeast Asia to India service, cutting your transshipment options and adding a day or two to the route.",
+    "Carriers are trimming port calls to save fuel and time, which means fewer routing options for shippers on secondary lanes.",
+    "If you locked annual ocean contracts at $2,000-3,000 per FEU earlier this year, you are undercutting spot shippers by $2-3 per unit through Q4.",
+    "Golden Week and typhoon season both eased congestion in Chinese ports, but demand is not strong enough to push rates higher.",
+    "The Hormuz shock is over but the rate structure it left behind is the new normal, so budget and price accordingly.",
+    "Top soybean discharge ports in China are Rizhao, Machong, Tianjin and Zhangjiagang, and bulk volumes there affect berth availability for containers.",
+    "Panamax vessels carry 93% of China's soybean imports, and shared berth infrastructure means bulk delays ripple across the port."
+  ],
+  "faq": [
+    {
+      "question": "What are current ocean freight rates from China to the US?",
+      "answer": "Spot rates from China to US West Coast reached $8,346 per FEU on 1 October 2026, up 344% from February. Rates to US East Coast hit $11,523 per FEU, up 335%. Xeneta forecasts rates will fall to $4,500-5,500 per FEU for USWC and $6,000-7,000 for USEC by year-end."
+    },
+    {
+      "question": "When will ocean freight rates from China go down?",
+      "answer": "Ocean freight rates from China to the US peaked on 1 October 2026 and will decline through year-end. Rates are forecast to fall to $4,500-5,500 per FEU for US West Coast and $6,000-7,000 for US East Coast by December. Easing port congestion and lower Golden Week exports drive the decline."
+    },
+    {
+      "question": "Should I ship to US East Coast or West Coast in Q4 2026?",
+      "answer": "US East Coast spot rates are $11,523 per FEU compared to $8,346 for West Coast as of 1 October, a $3,177 premium or $1.59 per unit on a 2,000-unit load. Ship to East Coast only if last-mile savings exceed the ocean premium. The spread will narrow but USEC remains more expensive."
+    },
+    {
+      "question": "Why are ocean freight rates from China still high?",
+      "answer": "Rates remain 344% above pre-Hormuz crisis levels because the late February 2026 disruption caused sustained capacity tightness. Port congestion eased and Golden Week lowered export volumes, but carriers have not added enough capacity to return rates to pre-crisis levels. Demand is not strong enough to push rates higher."
+    },
+    {
+      "question": "How much are China soybean imports in 2026?",
+      "answer": "China imported 75.5 million tonnes of soybeans January to August 2026, up 4.0% year-on-year, accounting for 65% of global seaborne imports. Top discharge ports were Rizhao, Machong, Tianjin and Zhangjiagang. The increase signals stable domestic consumption and livestock demand."
+    }
+  ],
+  "generatedAt": "2026-10-04T19:46:34.261Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 20
+}
