@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-06",
+  "title": "China rates split: Transpacific holds, Europe falls again",
+  "metaDescription": "Transpacific spot rates slow but stay high. Asia-Europe drops for 12th week. Air cargo hits Q4 with uneven pressure. China rail congestion pushes Korean…",
+  "bottomLine": "The container rate gap between Asia-US and Asia-Europe has reached historic levels, with Transpacific gains slowing to 2% this week after September's sprint while Europe drops for the 12th consecutive week. Air cargo enters Q4 peak with capacity tight on tech lanes and loose everywhere else, meaning your routing choice now determines whether you get space or pay double.",
+  "stories": [
+    {
+      "headline": "Transpacific spot rate gains slow to 2% as Europe drops another week",
+      "tldr": "Asia-US West Coast spot rates rose 1.89% this week, down from 4.82% previously, while Shanghai-Rotterdam fell 2% for the 12th consecutive week.",
+      "whatHappened": "The NYSHEX Freight Index shows Asia-US West Coast increased 1.89% to 7,557.37 in the week to 5 October 2026, down from the 4.82% rise recorded previously. Asia-US East Coast was nearly flat, up 0.03% to 9,695.31 after climbing 5.75% the week before.\n\nAsia-Europe continued its slide. Asia-North Europe fell 3.58% to 3,468.58. Drewry's World Container Index shows Shanghai-Rotterdam down 2% to $3,399 per 40-foot container and Shanghai-Genoa down 3% to $3,702. Asia-Europe spot rates have now declined for 12 consecutive weeks.\n\nDrewry's WCI declined 1% to $4,434 per 40-foot container. The Shanghai Containerized Freight Index eased 0.66% to 3,662.30 points, while the China Containerized Freight Index moved in the opposite direction, increasing 0.3% to 1,923.93 points.",
+      "whyItMatters": "Your lane choice now determines your landed cost more than at any time in the past decade. If you are bringing consumer goods into the US, you are paying $7,835 per 40-foot box from Shanghai to Los Angeles versus $3,399 to Rotterdam, a $4,436 spread. That is 130% more for the US routing.\n\nThe Transpacific slowdown matters for timing. September's 5% weekly jumps are over. Rates are still climbing, but at 2% a week you can afford to wait a fortnight without watching your freight cost double. The arbitrage window for shifting volume to Europe and trucking it into the UK has stayed open for three months now.\n\nIf you shipped in September expecting another GRI this week, you overpaid. Carriers are still trying to push increases through, but booking activity suggests importers are resisting. The question for November is whether Transpacific rates plateau here or resume the climb once post-Golden Week cargo starts moving in volume.",
+      "hotTake": "The rate gap is structural until something breaks the US import volume or Chinese factory output slows. Neither is happening yet. If you have Europe distribution and can handle the VAT, routing through Rotterdam and paying the landbridge cost still beats paying LA spot rates.",
+      "actions": [
+        "Get three-month contract quotes now for Transpacific lanes before carriers test another round of increases in November",
+        "Run the landed cost on a Rotterdam routing if you can clear in the EU and truck into the UK, because the $4,400 spread covers a lot of haulage",
+        "Lock Q1 2027 space allocations this month while spot rates have stopped accelerating, because waiting until December means paying whatever the carrier demands"
+      ],
+      "sourceUrl": "https://container-news.com/transpacific-gains-slow-as-europe-rates-slide",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "customs-eu",
+        "customs-uk"
+      ]
+    },
+    {
+      "headline": "Q4 air cargo capacity tight on tech lanes, loose on everything else",
+      "tldr": "Technology freight is taking freighter capacity ahead of e-commerce, leaving shorter booking windows and fewer options for standard cargo heading into October.",
+      "whatHappened": "CH Robinson's October report finds air cargo pressure developing unevenly as the traditional Q4 peak begins. Technology-related freight remains the strongest demand driver, with servers, semiconductor equipment, data centre components and high-value electronics generating significant Transpacific volume. New consumer-device launches are adding time-sensitive cargo.\n\nGeneral freight is expected to increase more gradually. e-commerce is playing a smaller role this year. Changes in tariff rules for low-value imports reduced some e-commerce flows into the US, while Asia-Pacific-to-Europe volumes remain below last year.\n\nOversized, pharmaceutical, temperature-controlled and project freight requiring specialised or freighter capacity continue to have fewer options than standard cargo that can move on passenger aircraft. Airlines are adjusting deployment toward lanes where booking activity is strongest.",
+      "whyItMatters": "If you ship standard cartons that fit in a passenger belly, you will find space and rates will stay reasonable. If you need freighter capacity for oversize, lithium battery, or temperature-controlled shipments, you are competing with data centre components that pay premium rates and book weeks in advance. That means shorter lead times and higher minimums to secure a slot.\n\nThe de minimis suspension has permanently shifted the cargo mix. Data centre components now represent 1.4 million tonnes of annual air cargo and grew 39% year on year. That volume is taking the front of the queue. Your 200kg shipment of consumer electronics no longer gets the same priority it did in 2024.\n\nIf you planned to rely on last-minute air freight to fill a stockout in November, rethink it. The window for confirming space is narrowing, and the penalty for missing a booking is waiting another week or paying double. This is not a temporary Q4 crunch. The shift toward higher-value cargo is structural.",
+      "hotTake": "The air freight market has split into two classes: priority tech cargo that books early and pays whatever it costs, and everything else fighting for the leftover space. If you are in the second group, your options are to book earlier, pay more, or accept that air freight is no longer a reliable backup plan.",
+      "actions": [
+        "Confirm your November and December air freight bookings now, not the week before you need them, because freighter slots are filling with tech cargo",
+        "Add two days to your quoted transit time for any shipment requiring freighter capacity, because allocations are tighter and missed connections are more common",
+        "Quote ocean plus air for split shipments if lead time matters, because trying to send the entire order by air in Q4 will cost more and deliver later than sending 80% by sea two weeks early"
+      ],
+      "sourceUrl": "https://aircargoweek.com/pressure-on-air-cargo-developing-unevenly-highlights-report",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "sourcing",
+        "de-minimis"
+      ]
+    },
+    {
+      "headline": "China-Russia rail congestion pushes Korean ocean volumes up 8,000 TEU",
+      "tldr": "Growing congestion on the Trans-China and Trans-Siberian railways boosted South Korea-Russia container volumes to 33,000 TEU in August, with carriers considering larger vessels.",
+      "whatHappened": "Congestion along the Trans-China and Trans-Siberian railways linking China and Russia has diverted cargo to ocean routes between South Korea and Russia. In August 2026, more than 33,000 TEU was transported from Busan to Russian far-east ports such as Vladivostok, a slight increase on July. Of this, exports excluding transhipment cargo were 8,000 TEU.\n\nVolumes remained at the same level in September. Shipping lines are now considering deploying larger vessels on the route this month in response to the sustained demand.",
+      "whyItMatters": "If you use the China-Europe rail corridor or feed cargo into it from Korean suppliers, transit times are stretching and capacity is constrained. The congestion is severe enough that shippers are switching to ocean routing despite longer lead times, which tells you the rail delays are measured in weeks, not days.\n\nThis matters most if you source components or finished goods from northeast Asia and rely on the Trans-Siberian route to reach European distribution centres. The Korea-Russia ocean diversion is a symptom of a broader bottleneck, and your China-origin cargo is sitting in the same queue. If your forwarder has been quoting 18 days for the rail transit and you are seeing 25, this is why.\n\nThe congestion is structural, not seasonal. Russian infrastructure has limited capacity for eastbound freight, and Chinese export volumes have not decreased. Expect rail transit times to stay long through Q4 and into 2027, which means you need to add buffer or switch to ocean routing for anything time-sensitive.",
+      "hotTake": "The China-Europe rail corridor was sold as a reliable middle option between air and ocean. It is now slower than promised and more expensive than it should be. If your freight can move by ocean, move it by ocean. If it cannot, add three weeks to your planning window.",
+      "actions": [
+        "Request updated rail transit estimates from your forwarder if you have Q4 shipments booked via the Trans-Siberian route, because quoted times are no longer accurate",
+        "Switch time-sensitive cargo to ocean or air if the rail delay pushes you past your delivery window, because the congestion is not clearing before year-end",
+        "Build four weeks of buffer into any 2027 plan that relies on China-Europe rail, because the bottleneck is infrastructure and it will not improve quickly"
+      ],
+      "sourceUrl": "https://theloadstar.com/south-korea-russia-ocean-volumes-boosted-by-rail-congestion-in-china",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "rail-freight",
+        "sea-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The Transpacific rate premium over Europe just hit $4,400 per box, the widest gap in 14 years, and it is not closing until import volumes drop or Chinese output slows",
+    "Spot rate increases on Shanghai-LA slowed from 5% a week in September to 2% this week, which means the panic buying phase is over but rates are still climbing",
+    "Asia-Europe ocean rates have fallen for 12 consecutive weeks and carriers cannot stop it, so the arbitrage window for routing through Rotterdam is staying open into 2027",
+    "Air freight has split into two markets: tech cargo that books early and pays premium, and everything else fighting for leftover space with shorter lead times",
+    "Data centre components now take 1.4 million tonnes of annual air cargo and grew 39% year on year, which is why your standard shipment no longer gets priority",
+    "The de minimis suspension permanently changed the air cargo mix, and last-minute space for consumer goods is harder to find than it was two years ago",
+    "China-Russia rail congestion is bad enough that shippers are switching to ocean despite longer lead times, which tells you the delays are measured in weeks",
+    "Trans-Siberian rail transit times are running a week longer than quoted, and the bottleneck is infrastructure that will not improve before Q1 2027",
+    "If you planned to use air freight as a backup for Q4 stockouts, rethink it now, because freighter capacity is allocated to tech cargo and booking windows are narrowing",
+    "The $4,400 Transpacific premium still beats paying demurrage in LA, but only if you cannot route through Rotterdam and absorb the landbridge cost"
+  ],
+  "faq": [
+    {
+      "question": "Why are Transpacific container rates so much higher than Europe rates right now?",
+      "answer": "US import demand stayed strong while European volumes softened. Shanghai to Los Angeles now costs $7,835 per 40-foot container versus $3,399 to Rotterdam, a $4,436 gap. That is the widest premium in 14 years. The spread persists because US retailers are still pulling inventory and Chinese factory output has not slowed. Carriers have more pricing power on the Transpacific. Europe rates have dropped for 12 straight weeks as cargo volumes declined."
+    },
+    {
+      "question": "Are Transpacific ocean rates still going up or have they peaked?",
+      "answer": "Rates are still rising but the pace slowed sharply. Asia-US West Coast climbed 1.89% in the week to 5 October 2026, down from 4.82% the previous week. Asia-US East Coast was nearly flat, up 0.03%. The sharp weekly increases seen in September are over. Rates could plateau through October or resume climbing if post-Golden Week cargo volumes surge. Carriers will test another round of general rate increases in November."
+    },
+    {
+      "question": "Is China-Europe rail freight reliable right now for Q4 shipments?",
+      "answer": "No. The Trans-China and Trans-Siberian railways are congested enough that shippers are switching to ocean despite longer lead times. Korea-Russia container volumes jumped to 33,000 TEU in August as cargo diverted from rail. Transit times are running a week longer than quoted. Russian infrastructure has limited capacity. If your forwarder quoted 18 days and you are seeing 25, expect that through Q4 and into 2027. Add three to four weeks of buffer or switch to ocean."
+    },
+    {
+      "question": "Why is air freight capacity so tight for some cargo types and not others?",
+      "answer": "Technology freight is taking priority. Data centre components, servers, semiconductor equipment and AI-related shipments now represent 1.4 million tonnes of annual air cargo, up 39% year on year. These high-value shipments pay premium rates and book weeks in advance, filling freighter capacity before standard cargo gets a slot. If your shipment needs freighter space because it is oversized, temperature-controlled, or contains lithium batteries, you are competing with tech cargo. Standard cartons that fit in passenger aircraft bellies still have reasonable availability."
+    },
+    {
+      "question": "Should I route cargo through Europe and truck it to avoid high US ocean rates?",
+      "answer": "Run the numbers. Shanghai to Rotterdam costs $3,399 per 40-foot container versus $7,835 to Los Angeles, a $4,436 saving. If you can clear customs in the EU, register for IOSS, and handle VAT, the ocean saving covers landbridge haulage. Trucking a container from Rotterdam to a UK distribution centre costs roughly £1,500 to £2,000. You still come out ahead if your supply chain can handle EU entry and you have the working capital for VAT."
+    }
+  ],
+  "generatedAt": "2026-10-05T22:48:37.215Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "sourceCount": 18
+}
