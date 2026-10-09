@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-10",
+  "title": "China freight: transpacific holds, Asia-Europe slides",
+  "metaDescription": "Golden Week ended but transpacific spot rates stay elevated while Asia-Europe rates keep falling. What ecommerce sellers shipping from China should do…",
+  "bottomLine": "Golden Week is over and transpacific spot rates have barely moved, with Asia to US West Coast at $8,322 per FEU and delays of seven to 10 days at Shanghai. Asia-Europe rates keep falling, down 34% from July on Far East to North Europe, which hands you leverage in 2027 contract talks. Book transpacific space now, negotiate Europe hard.",
+  "stories": [
+    {
+      "headline": "Transpacific rates slip 3% but Shanghai backlog keeps floor under them",
+      "tldr": "Asia to US West Coast spot rates fell 3% to $8,322 per FEU this week, but 157 vessels waiting at Shanghai mean the usual post-Golden Week rate relief is not coming.",
+      "whatHappened": "Freightos put Asia to US West Coast spot rates at $8,322 per FEU as of 6 October, down 3% week on week. Asia to US East Coast held level at $9,606 per FEU. Drewry's World Container Index told a similar story, with Shanghai to Los Angeles down 3% at $7,624 per 40ft and Shanghai to New York down 2% at $10,220.\n\nThe reason rates are not falling faster is congestion. Albert Zerega of American Global Logistics said 157 vessels were waiting at berth in Shanghai as of mid-September, with delays running seven to 10 days. Typhoon disruption at Asian gateways has caused port omissions and vessel bunching, and Ascent Global Logistics said recovery can take several weeks. Carriers have also blanked sailings through Golden Week, which supports the rate floor.",
+      "whyItMatters": "If you have stock leaving a Chinese factory in the next three weeks, your problem is not price, it is the berth queue. A seven to 10 day delay at origin eats the buffer you built for Black Friday inbound, and blank sailings mean your booking can roll even after you have a confirmed rate. Sellers shipping into FBA with late November check-in deadlines are the most exposed.\n\nOn cost, do not expect the normal October dip. The usual pattern is a sharp post-peak slide. This year the congestion and blanked capacity are keeping rates near peak levels, so budget your landed cost on current numbers, not on hope.",
+      "hotTake": "I would treat any sailing date out of Shanghai this month as a promise the carrier cannot keep. Build 10 extra days into every lead time you quote your own customers. The sellers who get hurt in Q4 are never the ones who paid too much for freight, they are the ones whose stock arrived on 5 December.",
+      "actions": [
+        "Add seven to 10 days to every Shanghai origin lead time in your Q4 plan",
+        "Confirm bookings two weeks ahead of cargo ready date and ask your forwarder for a no-roll guarantee",
+        "Split any Black Friday-critical stock across two sailings a week apart"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/golden-week-slowdown-may-not-be-enough-to-ease-transpacific-ocean-rates/832512",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Asia-Europe rates keep sliding, handing shippers contract leverage",
+      "tldr": "Far East to North Europe spot rates fell to $3,645 per FEU, down 34% since 1 July, and the Mediterranean has dropped 43% from its July peak.",
+      "whatHappened": "Xeneta reported Far East to North Europe spot rates at $3,645 per FEU as of 7 October, down 2.5% from 30 September and down 34% since 1 July. Asia to Mediterranean rates averaged $4,007 per 40ft, down 5.9% over the week and down 43% since the July peak. Xeneta chief analyst Peter Sand said the trend is still downward and rates have not found the floor.\n\nThe Mediterranean premium over North Europe has compressed to about $362 per FEU, well below the $2,000 gap seen on 1 January 2026. Sand linked the pricing gap to carriers rerouting around Africa away from the Suez Canal, which lengthens Mediterranean journeys more than North Europe ones. Separately, JOC reported that shippers entering 2027 Asia-Europe contract talks want to avoid locking in inflated rates while excess capacity and softening demand hang over the lane.",
+      "whyItMatters": "If you ship to the UK or EU, this is the best cost news you have had all year. A 34% decline since July flows straight into your landed cost per unit, and every week you wait the spot number improves. If your forwarder quoted you a fixed rate in August, you are now overpaying and should ask for a re-rate.\n\nOn contracts, do not sign a 2027 annual at today's level if you can avoid it. Analysts told the JOC webcast that excess capacity and soft demand could push prices lower. Push for a short-term or index-linked deal, or at least a rate review clause in Q1.",
+      "hotTake": "Carriers will talk about blank sailings and discipline all winter, but a 34% slide tells you who holds the cards. I would sign nothing longer than three months on Asia-Europe right now. The floor is somewhere below us and I want to be floating when we hit it.",
+      "actions": [
+        "Ask your forwarder to re-rate any fixed Asia-Europe pricing agreed before September",
+        "Negotiate 2027 contracts as quarterly or index-linked rather than annual fixed",
+        "Compare Mediterranean and North Europe port routings, the spread has narrowed to about $362 per FEU"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/us-west-coast-container-rates-edge-lower",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Intra-Asia rates dip 1% but stay 209% above last year",
+      "tldr": "The Drewry Intra-Asia Container Index fell 1% to $1,503 per 40ft, ending six weeks of rises, but it remains up 209% year on year.",
+      "whatHappened": "The Drewry Intra-Asia Container Index composite declined 1% this week to $1,503 per 40ft, ending six consecutive weeks of increases. Rates had hit a post-Covid high before Golden Week. Despite the dip, the index is up 209% year on year, and rates held largely unchanged through the holiday itself.\n\nThe Loadstar reported that elevated fuel costs, geopolitical disruption and operational constraints continue to support the market.",
+      "whyItMatters": "This hits you if you move components or finished goods between Asian countries, for example China to Vietnam for finishing, or Guangdong suppliers feeding a Shenzhen consolidator via coastal barge. A 209% year-on-year increase means your regional legs now cost more than double what you budgeted if you priced them off 2025 numbers.\n\nIt also matters if you are shifting production within Asia to dodge tariffs. The freight saving you modelled for a Vietnam or Malaysia move shrinks when the intra-Asia leg costs this much. Re-run those sums before you commit.",
+      "hotTake": "A 1% dip off a 209% rise is not a correction, it is a breather. Intra-Asia is the forgotten line item in most landed cost models I see, and this year it is the one that bites. Price it properly or stop pretending you have a margin.",
+      "actions": [
+        "Re-quote any intra-Asia legs in your supply chain against current rates before finalising Q4 costings",
+        "Recheck the freight assumptions in any production move out of China you modelled on 2025 rates"
+      ],
+      "sourceUrl": "https://theloadstar.com/tradelanes-intra-asia-freight-rates-ease-after-post-covid-high",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Nippon Express and JAL launch weekly 747F for AI cargo from LAX",
+      "tldr": "Nippon Express and Japan Airlines started a weekly Boeing 747F circuit from Los Angeles to Narita, Taiwan and Singapore on 3 October, aimed at AI and semiconductor cargo.",
+      "whatHappened": "Nippon Express Holdings and Japan Airlines launched a weekly freighter service connecting North America and Asia, with the first flight departing Los Angeles on 3 October. The circuit routes LAX to Narita, Taiwan and Singapore, using a Boeing 747F with a maximum payload of 100 tonnes. It will run weekly through the rest of 2026.\n\nThe service targets AI and semiconductor cargo, including oversized and heavy shipments such as server racks and data centre equipment. Global semiconductor sales in August were up 8% month on month to $159.7 billion, an 18th consecutive monthly rise, according to World Semiconductor Trade Statistics. A July Xeneta report said AI and semiconductor volumes helped push global air cargo demand up 7% year on year in June.",
+      "whyItMatters": "If you sell ordinary ecommerce goods and fly freight out of China, this is a warning, not an opportunity. AI hardware is high-yield cargo and carriers are adding capacity to serve it, but that demand also competes for the same transpacific air space you use in Q4. When server racks pay better than your cartons of phone cases, your cargo is the one that gets bumped at peak.\n\nThe demand numbers explain why air rates out of China have stayed firm. An 18-month semiconductor sales streak means this pressure does not vanish after Christmas. Plan your peak air budget on tight capacity, not on last year's softness.",
+      "hotTake": "Every freighter announcement dressed up as good news for capacity is also a signal that someone richer than you wants the same aircraft. If you have Q4 air freight out of Hong Kong or Shenzhen, lock it now. The AI trade will outbid you in November and it will not feel bad about it.",
+      "actions": [
+        "Lock Q4 air freight space out of Chinese gateways now rather than buying spot in November",
+        "Quote sea-air or deferred air options for any stock that can take an extra week"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/ai-driven-cargo-bump-sparks-transpacific-air-freight-service/832399",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "manufacturing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Golden Week used to be when transpacific rates fell. This year 157 ships queued at Shanghai kept them near peak.",
+    "The rate you should be negotiating is not the one making headlines. Asia-Europe is down 34% since July.",
+    "A 1% dip on a 209% annual rise is not a correction. Intra-Asia freight is the line item killing your margin.",
+    "Airlines are buying 747s for server racks. Your Q4 air freight just got a richer competitor.",
+    "Carriers blank sailings to hold rates, then blame congestion. Both things are true and you pay for both.",
+    "If your forwarder quoted Asia-Europe in August, you are overpaying today. Ask for a re-rate.",
+    "The Mediterranean premium over North Europe has collapsed from $2,000 to $362 per FEU. Rethink your routing.",
+    "Semiconductor sales have risen for 18 straight months. That is your air freight capacity problem in one number.",
+    "Nobody's Q4 failed because freight cost too much. It failed because stock arrived in December.",
+    "Seven to 10 day delays at Shanghai mean your Black Friday buffer is already gone.",
+    "Sign a 12-month Asia-Europe contract now and you are locking in someone else's floor, not yours."
+  ],
+  "faq": [
+    {
+      "question": "Will transpacific ocean rates fall after Golden Week 2026?",
+      "answer": "Not by much, and not soon. Asia to US West Coast spot rates fell only 3% to $8,322 per FEU in the week after Golden Week, and East Coast held at $9,606. A backlog of 157 vessels at Shanghai, typhoon disruption and blanked sailings are keeping the floor under rates. Expect elevated pricing and seven to 10 day origin delays through October rather than the usual post-peak slide."
+    },
+    {
+      "question": "Should I sign a 2027 Asia-Europe ocean contract now?",
+      "answer": "Hold off if you can. Far East to North Europe spot rates are down 34% since 1 July at $3,645 per FEU, and analysts say excess capacity and softening demand could push prices lower. Locking an annual rate now fixes your cost above where the market is heading. Push for a quarterly, index-linked deal or a contract with a Q1 rate review clause instead."
+    },
+    {
+      "question": "How long are shipping delays at Shanghai right now?",
+      "answer": "Delays are running about seven to 10 days, with 157 vessels waiting at berth as of mid-September. Typhoon disruption at major Asian gateways caused port omissions, vessel bunching and schedule changes, and recovery is expected to take several weeks. Add at least 10 days to any lead time you quote for cargo ex-Shanghai this month, and confirm bookings well ahead of your cargo ready date."
+    },
+    {
+      "question": "Why are air freight rates out of China staying high in 2026?",
+      "answer": "AI and semiconductor cargo is soaking up capacity. Global semiconductor sales hit $159.7 billion in August, up for the 18th consecutive month, and AI-related volumes helped push global air cargo demand up 7% year on year in June. Carriers such as Nippon Express and Japan Airlines are adding freighters for this high-yield cargo, which competes directly with general ecommerce freight for transpacific space in Q4."
+    },
+    {
+      "question": "Is it still cheaper to ship to North Europe than the Mediterranean?",
+      "answer": "Yes, but the gap has narrowed sharply. Asia to Mediterranean spot rates averaged $4,007 per 40ft on 7 October against $3,645 for Far East to North Europe, a spread of about $362 per FEU. That is down from roughly $2,000 in January 2026. If you route southern European orders via North European ports and truck, re-run the maths, because direct Mediterranean services now cost less of a premium."
+    }
+  ],
+  "generatedAt": "2026-10-09T22:54:54.677Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 20
+}
