@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-11",
+  "title": "China briefing: EU hybrid deal, tanker costs, 2027 contracts",
+  "metaDescription": "China agrees to halve hybrid car exports to the EU, tanker rates hit record highs, and Asia-Europe 2027 contract talks open under a cloud of overcapacity.",
+  "bottomLine": "China has agreed to cut hybrid car exports to the EU by more than half over four years, the first time Beijing has moderated exports before a trade fight. Tanker hire now costs more than a SpaceX launch, which will feed into fuel surcharges on every lane. Asia-Europe 2027 contract talks have started with shippers holding the stronger hand.",
+  "stories": [
+    {
+      "headline": "China agrees to halve hybrid car exports to the EU over four years",
+      "tldr": "China and the EU agreed on 9 October 2026 to cut Chinese hybrid car exports to the bloc by more than half over four years.",
+      "whatHappened": "China and the EU reached a deal to reduce exports of plug-in and battery-powered hybrid cars by several million units over the next four years, trade commissioner Maroš Šefčovič said at a press conference in Beijing on 9 October 2026. The talks had run since June, driven by an EU trade deficit of €1.18 billion a day.\n\nŠefčovič said it was the first time China had accepted export moderation without a prior trade investigation under WTO safeguard rules. Sales of Chinese hybrids and battery electric vehicles have risen sharply in Western Europe on low prices, which European carmakers say threaten their business.",
+      "whyItMatters": "If you sell car accessories, parts or anything riding on the European car supply chain, expect volume shifts. A cap on Chinese hybrid exports changes production schedules in China and order flows for components, and that moves factory capacity and pricing for everyone buying from the same regions.\n\nThe bigger signal is precedent. Beijing has now shown it will accept managed export volumes to avoid tariffs. If this model holds, expect the EU to try it on other categories where the deficit bites, and that list includes consumer goods you may ship.",
+      "hotTake": "This is the template for the next five years of EU-China trade, and sellers should treat it that way. Managed volumes instead of tariffs sounds orderly, but it puts a quota wall between you and your market with no warning. If your category runs a big surplus into the EU, start thinking now about which side of a future cap you want to be on.",
+      "actions": [
+        "Model your EU landed cost under a scenario where your category faces volume caps, not just tariffs",
+        "Ask your Chinese suppliers whether they expect quota allocation to affect their export slots in 2027"
+      ],
+      "sourceUrl": "https://supplychainbrain.com/articles/45004-china-will-curb-hybrid-car-sales-in-eu",
+      "sourceName": "Supply Chain Brain",
+      "tags": [
+        "tariffs-duties",
+        "customs-eu",
+        "sourcing",
+        "regulation-china"
+      ]
+    },
+    {
+      "headline": "Tanker hire from the US to China now costs more than a SpaceX launch",
+      "tldr": "Hiring a tanker from the US to China costs about $80 million, more than a $74 million Falcon 9 launch, as a global tanker shortage deepens.",
+      "whatHappened": "Shipbroker Gibson said this week that a US-to-China tanker voyage now costs about $80 million, against $74 million for a standard SpaceX Falcon 9 launch. Brokerage SSY says tanker rates, adjusted for inflation, are the highest since supertankers first sailed in the 1960s, above the 1980s tanker wars.\n\nThe shortage comes from the Iran war rewiring Gulf trade flows. Middle East producers shuttle oil out of Hormuz onto other ships, adding about a week per voyage, while Hormuz shipments recover to about 80% of pre-war levels. The halt in Iranian exports to China has forced Chinese buyers into the mainstream market, adding demand. Vitol chief executive Russell Hardy said there is not enough shipping to go around.",
+      "whyItMatters": "You do not book tankers, but you pay for this. Record crude freight costs feed into bunker prices, and bunker prices feed into the fuel surcharges on your container rate. Carriers pass energy inflation through with a lag, so the surcharge lines on your Q4 and Q1 invoices are where this lands.\n\nIf you ship anything energy-intensive to produce, such as plastics, resin goods or glass, your factory's input costs are exposed too. Expect suppliers to cite energy costs in their next round of quotes.",
+      "hotTake": "Everyone watches the container indices and ignores the tanker market until the fuel surcharge invoice arrives. Rates this extreme do not stay inside the oil trade. I would budget for higher surcharges through the winter and treat any supplier quote that assumes flat energy costs as optimistic.",
+      "actions": [
+        "Build a higher fuel surcharge assumption into your Q4 and Q1 landed cost models",
+        "Ask suppliers to itemise energy-driven input costs in their next quotes so you can see the exposure"
+      ],
+      "sourceUrl": "https://gcaptain.com/global-oil-tanker-shortage-is-getting-worse-by-the-day",
+      "sourceName": "gCaptain",
+      "tags": [
+        "fuel-surcharges",
+        "sea-freight",
+        "manufacturing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Chinese teapot refineries swap Iranian crude for Iraqi and Qatari oil",
+      "tldr": "Chinese independent refineries have bought up to 20 million barrels of Iraqi and Qatari oil for October and November as the US blockade chokes Iranian supply.",
+      "whatHappened": "Reuters reported on Tuesday that Chinese independent refineries had closed deals for October and November for up to 20 million barrels of oil from Iraq and Qatar, replacing sanctioned Iranian crude. Roughly 90% of Iranian oil exports, about 1.4 million barrels a day in 2025, went to China.\n\nThe US blockade of Iranian ports, reimposed in mid-July, has slowed that flow to near zero. Ship tracking sources suggest no tanker carrying Iranian crude has passed the blockade since July. CENTCOM says 270 ships have been redirected and about 24 vessels destroyed.",
+      "whyItMatters": "Chinese factory energy costs are your factory gate price. When refineries swap cheap sanctioned crude for market-priced Iraqi and Qatari barrels, refining margins and input costs shift, and that shows up in the quotes you get from suppliers in Shandong and Guangdong over the next quarter.\n\nIt also tightens mainstream tanker demand further, compounding the freight cost pressure already in the market. Watch your suppliers' energy surcharges and any sudden quote expiries.",
+      "hotTake": "Cheap Iranian crude was a quiet subsidy on Chinese manufacturing, and it is gone for now. Suppliers will not announce this as a price rise, they will just quote higher and cite raw materials. Push for cost breakdowns on your next orders and you will see it.",
+      "actions": [
+        "Request itemised cost breakdowns on your next factory quotes to spot energy-driven increases",
+        "Shorten quote validity windows in your planning and reconfirm prices before committing to Q4 production"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/is-china-learning-to-live-without-iranian-oil",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "manufacturing",
+        "sourcing",
+        "fuel-surcharges",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "Shippers enter Asia-Europe 2027 contract talks with overcapacity on their side",
+      "tldr": "Analysts say excess capacity and softening demand on Asia-Europe give shippers leverage to avoid locking in inflated 2027 contract rates.",
+      "whatHappened": "Shippers are reluctant to commit to 2027 Asia-Europe contract rates while excess capacity and softening demand hang over the lane, analysts told a Journal of Commerce webcast. The fear is locking in inflated rates just as prices fall.\n\nThe talks open as carriers report strong 2026 results. OOCL posted boosted Q3 revenue and volumes on trans-Pacific and Asia-Europe, lifted by peak season demand and elevated rates, putting the carrier on course for another highly profitable year.",
+      "whyItMatters": "If you ship Asia-Europe volumes big enough to contract, this is your window. Carriers are coming off a profitable year but the forward market points down, and every week you wait strengthens your position. Do not sign early at rates built on 2026 peaks.\n\nSmaller sellers feel this through forwarder pricing. If your forwarder tries to lock you into a fixed annual rate now, push for a floating or quarterly review structure instead. The market is moving your way.",
+      "hotTake": "Carriers will spend the next two months manufacturing urgency to get 2027 contracts signed before the spot market undercuts them. Do not oblige. I would sit on spot or short-term deals into Q1 and let the capacity glut do the negotiating for me.",
+      "actions": [
+        "Delay signing any 2027 Asia-Europe contract until spot rates set a clearer floor",
+        "Ask your forwarder for quarterly rate reviews instead of a fixed annual rate"
+      ],
+      "sourceUrl": "https://joc.com/article/uncertainty-clouds-asia-europe-2027-ocean-contract-negotiations-6303824",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "China just agreed to cap its own exports for the first time. Your category could be next.",
+    "A tanker voyage now costs more than a SpaceX launch. Your fuel surcharge notice is coming.",
+    "Cheap Iranian crude was a hidden subsidy on Chinese factory prices. That subsidy just ended.",
+    "Carriers want 2027 contracts signed now because they know where rates are heading. Wait.",
+    "The EU chose quotas over tariffs with China. Managed trade is the new normal.",
+    "Everyone tracks container indices. The tanker market is where your next cost rise is hiding.",
+    "OOCL just had a highly profitable year. Remember that when your 2027 contract talks open.",
+    "If your forwarder pushes a fixed annual rate this month, ask what they know that you do not."
+  ],
+  "faq": [
+    {
+      "question": "What did China and the EU agree on hybrid cars?",
+      "answer": "On 9 October 2026, China and the EU agreed to cut Chinese exports of plug-in and battery-powered hybrid cars to the bloc by more than half over four years, a reduction of several million units. EU trade commissioner Maroš Šefčovič said it was the first time China had accepted export moderation without a prior WTO safeguard investigation. The deal follows talks that began in June over an EU trade deficit of €1.18 billion a day."
+    },
+    {
+      "question": "Will record tanker rates raise my container shipping costs?",
+      "answer": "Indirectly, yes. Tanker rates at record highs push up crude delivered costs, which feed into bunker fuel prices. Container carriers recover bunker costs through fuel surcharges, so the pressure appears on your invoice as surcharge lines rather than the headline rate, usually with a lag of weeks to months. If you budget landed costs, raise your fuel surcharge assumption for Q4 and Q1 and ask suppliers to itemise energy-driven input costs."
+    },
+    {
+      "question": "Should I sign a 2027 Asia-Europe contract now?",
+      "answer": "Analysts advising a Journal of Commerce webcast say shippers should be cautious. Excess capacity and softening demand on Asia-Europe may push rates down, so locking in now risks paying inflated prices built on 2026 peak levels. If you have contractable volume, waiting strengthens your hand. If you buy through a forwarder, ask for floating rates or quarterly reviews rather than a fixed annual rate while the market settles."
+    },
+    {
+      "question": "Why are Chinese factory quotes likely to rise this quarter?",
+      "answer": "Chinese independent refineries have lost access to cheap sanctioned Iranian crude after the US blockade cut flows from about 1.4 million barrels a day to near zero. They are replacing it with market-priced Iraqi and Qatari oil, with up to 20 million barrels booked for October and November. Higher refining and energy costs feed into manufacturing input costs, so suppliers may quote higher and cite raw materials. Ask for itemised cost breakdowns."
+    }
+  ],
+  "generatedAt": "2026-10-10T20:11:17.145Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 17
+}
