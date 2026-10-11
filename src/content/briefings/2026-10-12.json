@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-12",
+  "title": "China shipping: US strike hits Gulf of Oman freight",
+  "metaDescription": "US forces disabled a Chinese-linked freighter near Iran, China's logistics index held in expansion for a fifth month, and Apple signals deeper Guangdong…",
+  "bottomLine": "A US fighter jet disabled the Panama-flagged freighter Ocean Molica in the Gulf of Oman on 10 October for allegedly running the Iran blockade, the fourth merchant ship hit since enforcement resumed in July. If any of your cargo touches Gulf routing or Iranian-linked tonnage, your risk exposure changed this weekend. Closer to home, China's logistics activity index came in at 51.5% for September, a fifth straight month of expansion, so domestic capacity and rates stay firm into peak.",
+  "stories": [
+    {
+      "headline": "US jet disables freighter Ocean Molica in Gulf of Oman over Iran blockade",
+      "tldr": "US forces disabled the Panama-flagged freighter Ocean Molica in the Gulf of Oman on 10 October, the fourth merchant vessel hit since the Iran blockade resumed on 14 July.",
+      "whatHappened": "US Central Command said a fighter jet struck the stern of the M/V Ocean Molica, also known as the Arika Sun, with a precision munition on 10 October. The strike disabled the ship's propulsion. The crew were uninjured. CENTCOM said the vessel had departed an Iranian port and ignored repeated warnings while attempting to run the naval blockade.\n\nCENTCOM resumed the blockade of ships entering or leaving Iranian ports on 14 July. Since then, US forces have disabled four commercial vessels, turned around 135 ships and destroyed 10 tankers linked to the Islamic Revolutionary Guard Corps' shadow network. AIS data from Pole Star Global suggests Ocean Molica had tried to leave the Gulf of Oman at least three times before, and this departure was not detected by commercial AIS services.",
+      "whyItMatters": "Most ecommerce cargo out of China never goes near the Gulf of Oman. But if you ship anything on services that transit the Strait of Hormuz, or if your forwarder has been quietly offering suspiciously cheap capacity on Gulf-adjacent lanes, this is your warning. The US is firing on merchant ships now, not just turning them around. Four disabled vessels in three months is a pattern, not an incident.\n\nThe wider cost is insurance and routing. War risk premiums on Gulf transits will price in a fourth kinetic strike. If you source petrochemical-adjacent goods, plastics or anything moving through Fujairah anchorage, expect your forwarder to start declining certain routings or repricing them this week. Sellers with no Gulf exposure can note this and move on. Sellers with any exposure should treat it as a live routing problem, not a news story.",
+      "hotTake": "This is the sharpest escalation in merchant shipping risk since the Red Sea attacks, and it is getting a fraction of the attention. I would not touch any rate that depends on Gulf transit right now, whatever the discount. The discount exists because someone else has done the maths on the risk.",
+      "actions": [
+        "Ask your forwarder in writing whether any of your current bookings transit the Gulf of Oman or Strait of Hormuz approaches",
+        "Reject any spot rate that routes through Fujairah anchorage without a clear explanation of the saving",
+        "Check your cargo insurance wording for war risk exclusions on Gulf transits"
+      ],
+      "sourceUrl": "https://maritime-executive.com/article/u-s-claims-to-have-hit-chinese-owned-freighter-that-ran-blockade-on-iran",
+      "sourceName": "The Maritime Executive",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China logistics index hits 51.5% in September, fifth month of expansion",
+      "tldr": "China's logistics prosperity index reached 51.5% in September, up 0.6 points on August and the fifth consecutive month in expansion territory.",
+      "whatHappened": "The China Federation of Logistics and Purchasing published the September reading on 11 October. The index rose 0.6 percentage points from August to 51.5%. Both the business volume index and the new orders index rose month on month.\n\nLiu Yuhang, director of the China Logistics Information Centre, attributed the run to consumer stimulus and livelihood policies feeding through into logistics demand. He also noted growth in green and intelligent logistics supply capacity.",
+      "whyItMatters": "A fifth month above 50% means domestic Chinese freight stays busy into Q4. For you that translates into firmer trucking rates to the ports, tighter warehouse space around the big fulfilment hubs, and less room to negotiate on domestic legs. If you were hoping the Golden Week lull would soften domestic logistics costs, the data says otherwise.\n\nThe new orders index rising matters more than the headline. New orders lead volume by four to eight weeks, which points at strong factory-to-port movement through November. That is peak season demand landing on top of already active domestic networks. Book your China-side drayage and warehouse slots earlier than you did last year.",
+      "hotTake": "Everyone watches ocean spot rates and ignores the domestic leg, then wonders why their all-in cost crept up. A 51.5% reading with rising new orders tells me November drayage out of Shenzhen and Yiwu will be tight. Lock your trucking now and argue about ocean rates later.",
+      "actions": [
+        "Book domestic trucking and warehouse capacity for November shipments this week",
+        "Ask your agent for a fixed domestic leg rate through to Chinese New Year rather than floating"
+      ],
+      "sourceUrl": "https://eeo.com.cn/2026/1011/1061169.shtml",
+      "sourceName": "Economic Observer",
+      "tags": [
+        "peak-season",
+        "sourcing",
+        "manufacturing",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "Apple's Cook meets Guangdong governor, pledges wider China presence",
+      "tldr": "Tim Cook told Guangdong's governor on Sunday that Apple will expand in smart manufacturing and sales channels, on his third China visit this year.",
+      "whatHappened": "Apple executive chairman Tim Cook met Meng Fanli, governor of Guangdong, on 11 October. Cook said Apple was willing to expand its presence in the province, including in smart manufacturing and sales channels. The visit follows the launch of the iPhone 18 Pro line-up and the iPhone Duo, Apple's first foldable device.\n\nThis is Cook's third visit to China in 2026. Guangdong remains central to Apple's Chinese manufacturing base.",
+      "whyItMatters": "When Apple's chairman shows up in Guangdong three times in a year and talks about expanding smart manufacturing, that is a signal about where high-end electronics capacity is staying. If you source consumer electronics or accessories from the Pearl River Delta, your supply base is not moving to Vietnam as fast as the headlines suggest. Apple anchoring deeper in Guangdong keeps the component ecosystem and the skilled labour pool in place.\n\nThe flip side is capacity competition. A new iPhone cycle plus a first-generation foldable means Apple's suppliers will soak up line capacity, tooling time and QC attention across the Delta through Q4. Smaller buyers get bumped. If your factory also serves Apple-tier clients, expect your lead times to stretch and your priority to slip.",
+      "hotTake": "The decoupling story keeps dying in Guangdong. Cook does not fly in three times a year to manage decline. If you make electronics in the Delta, your bigger risk this quarter is not tariffs, it is being the smallest account in your factory's order book during an iPhone launch.",
+      "actions": [
+        "Confirm your production slots with Pearl River Delta factories for November and December before Apple-tier orders squeeze capacity",
+        "Ask each factory directly whether they serve Apple supply chain clients and what that means for your Q4 lead time"
+      ],
+      "sourceUrl": "https://scmp.com/tech/tech-trends/article/3370500/apples-tim-cook-kicks-china-visit-amid-mixed-signals-new-iphone-demand",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "sourcing",
+        "manufacturing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Ningbo Ocean plans two 7,000 ceu LNG car carriers in $480m lease",
+      "tldr": "Ningbo Ocean Shipping plans to lease two 7,000 ceu LNG dual-fuel car carriers, with potential rental payments of up to $480m.",
+      "whatHappened": "Ningbo Ocean Shipping disclosed the plan in a Shanghai stock exchange filing. The carrier, or one of its subsidiaries, intends to lease the two vessels from a financial leasing company under a long-term programme. Potential rental payments could reach $480m.\n\nThe ships would be 7,000 ceu LNG dual-fuel pure car and truck carriers. No delivery dates were given in the summary disclosure.",
+      "whyItMatters": "Another Chinese carrier ordering ro-ro tonnage tells you where China sees its export growth: vehicles, and lots of them. For general ecommerce sellers this does not change your container rate this week. But ro-ro capacity matters if you ship anything on wheels, e-bikes, scooters, e-mopeds or bulky wheeled goods, because dedicated car carrier capacity eventually competes with, and sometimes relieves, containerised overflow for those categories.\n\nThe second-order effect is yard and berth space. More PCTC calls at Chinese ports mean more terminal allocation discussions at Ningbo and Shanghai. Watch whether your port pair starts scheduling more ro-ro calls, because terminal priority disputes tend to show up as container berth congestion a quarter later.",
+      "hotTake": "Chinese carriers keep ordering car carriers because they know the vehicle export wave has years to run. If you sell e-bikes or scooters, start asking your forwarder about ro-ro options now, before the rest of your category works out that container rates for wheeled goods are a tax you do not have to pay.",
+      "actions": [
+        "Ask your forwarder whether ro-ro is quotable for your wheeled or bulky SKUs out of Ningbo or Shanghai"
+      ],
+      "sourceUrl": "https://splash247.com/ningbo-ocean-eyes-two-car-carriers-in-480m-leasing-plan",
+      "sourceName": "Splash247",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US fired on a merchant ship in the Gulf of Oman this weekend and most sellers have not checked whether their cargo goes anywhere near it",
+    "Four merchant vessels disabled in three months is a pattern, and your insurance wording probably has not caught up",
+    "China's logistics index just printed a fifth month of expansion, which means your November drayage is already late",
+    "Everyone negotiates the ocean leg and ignores the domestic leg, then wonders where the margin went",
+    "Tim Cook has visited China three times this year, and the decoupling story keeps dying in Guangdong",
+    "Your real Q4 risk in the Pearl River Delta is being the smallest account in the factory during an iPhone launch",
+    "Chinese carriers are ordering car carriers because the vehicle export wave has years to run",
+    "If you sell e-bikes, ro-ro might be the cheapest freight decision you make this year",
+    "New orders rising in China's logistics index today is port congestion six weeks from now",
+    "A $480m lease for two ships tells you exactly where Chinese export growth is heading"
+  ],
+  "faq": [
+    {
+      "question": "Is it safe to ship cargo through the Gulf of Oman right now?",
+      "answer": "Risk has risen sharply. US forces have disabled four commercial vessels in the Gulf of Oman since the Iran blockade resumed on 14 July 2026, including a freighter struck by a fighter jet on 10 October. The crew were unharmed, but the vessel lost propulsion. If your cargo transits the Gulf of Oman or Strait of Hormuz approaches, ask your forwarder to confirm routing in writing and check your cargo insurance for war risk exclusions before your next booking."
+    },
+    {
+      "question": "What does China's logistics index at 51.5% mean for shipping costs?",
+      "answer": "A reading above 50% means the logistics sector is expanding. September 2026 marked the fifth consecutive month of expansion, with both business volume and new orders rising. For sellers, that means firmer domestic trucking rates, tighter warehouse space near major hubs and less negotiating room on China-side legs. Rising new orders suggest strong factory-to-port movement through November, so book domestic capacity earlier than usual."
+    },
+    {
+      "question": "Will Apple expanding in Guangdong affect my factory lead times?",
+      "answer": "Likely, if your factory serves Apple supply chain clients. Apple launched the iPhone 18 Pro line and its first foldable device in 2026, and Tim Cook has pledged to expand smart manufacturing in Guangdong. Big launch cycles pull line capacity, tooling and QC attention toward Apple-tier orders. Smaller buyers often see lead times stretch during Q4. Confirm your production slots for November and December now and ask your factory directly where you sit in their priority list."
+    },
+    {
+      "question": "Should I ship e-bikes or scooters by ro-ro instead of container?",
+      "answer": "It is worth asking. Chinese carriers are investing heavily in car carrier capacity, with Ningbo Ocean planning two 7,000 ceu LNG dual-fuel vessels. Ro-ro can suit wheeled goods like e-bikes, scooters and e-mopeds, sometimes at better economics than containerised shipping, and it avoids some handling damage. Availability depends on your port pair. Ask your forwarder whether ro-ro is quotable out of Ningbo or Shanghai for your specific SKUs."
+    },
+    {
+      "question": "How long will the US blockade of Iranian ports affect freight rates?",
+      "answer": "There is no announced end date. The blockade resumed on 14 July 2026, and enforcement has escalated, with four merchant ships disabled, 135 turned around and 10 tankers destroyed over three months. War risk premiums on Gulf transits will stay elevated while kinetic enforcement continues. Most China-Europe and China-US ecommerce lanes are unaffected directly, but any Gulf-adjacent routing will carry higher insurance and repricing risk for the foreseeable future."
+    }
+  ],
+  "generatedAt": "2026-10-11T20:22:01.138Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 6
+}
