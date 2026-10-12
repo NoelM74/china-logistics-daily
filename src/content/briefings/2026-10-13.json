@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-13",
+  "title": "China shipping: 4% on-time, rates split from reality",
+  "metaDescription": "Far East to Europe reliability hit 4% on-time with 9.9 days average delay. China-US spot rates at $7,717 per FEU. What sellers should do this week.",
+  "bottomLine": "Far East to Europe schedule reliability collapsed to 4% on-time in September with 9.9 days average delay, the worst month since 2021, so date your stock on the delay, not the booking. China to US West Coast spot rates hit $7,717 per FEU, four times last September, and analysts warn spot indices no longer reflect the wider market. Plan arrivals with at least eight days of buffer and keep rate commitments short.",
+  "stories": [
+    {
+      "headline": "Far East to Europe reliability falls to 4% on-time, worst since 2021",
+      "tldr": "Far East to Europe arrivals hit 4% on-time in September with 9.9 days average delay, the worst month since September 2021.",
+      "whatHappened": "Xeneta's September 2026 scorecard shows global on-time performance fell for the fourth consecutive month to 27%, matching February's floor. Average vessel delay reached 6.0 days, up 2.4 days since the start of Q2, driven by typhoons that landed from July through early September.\n\nFar East to Europe dropped to 4% on-time with 9.9 days average delay, its worst month since September 2021's 3%. Far East to North America held at 20% on-time while delay rose to 6.9 days. China to US West Coast spot averaged $7,717 per FEU in early October, over four times September 2025's $1,778. Long-term rates reached $3,649 per FEU on 1 October, up 26% month on month.",
+      "whyItMatters": "If you ship sea freight into Europe, your published transit time is fiction right now. A 4% on-time rate means you should treat every booking as late until proven otherwise, and build the 9.9 day average delay into your FBA inbound windows and promised delivery dates. Sellers running lean stock on Q4 lines are the most exposed, because a rolled container in October does not recover before Christmas cut-offs.\n\nOn the transpacific, the cost side is the problem. Spot at $7,717 per FEU is a different business model to $1,778 a year ago. If your landed cost maths was set in spring, re-run it this week, and check whether your long-term rate, if you have one, now beats spot by a wide margin.",
+      "hotTake": "I have stopped quoting customers the carrier's ETA on Asia-Europe. I quote the ETA plus ten days and let them be pleasantly surprised. On the transpacific, if you can still get a contract rate near $3,600, sign it now, because the 26% month-on-month climb says carriers intend to close that gap.",
+      "actions": [
+        "Add ten days to every Asia-Europe ETA you have promised customers or Amazon for Q4 arrivals.",
+        "Compare your contract rate against the $7,717 spot average and lock volume onto whichever is cheaper this week.",
+        "Pull your best-selling SKUs' reorder points forward to absorb a 6.9 day transpacific delay."
+      ],
+      "sourceUrl": "https://xeneta.com/blog/xeneta-schedule-reliability-scorecard-september-2026",
+      "sourceName": "Xeneta",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Falling Asia-Europe rates hide an unreliable network, Sogese warns",
+      "tldr": "Shanghai to Genoa rates fell 43% since July, but Sogese tells importers to plan on at least eight days of delay, not the on-time rate.",
+      "whatHappened": "Italian container logistics provider Sogese, in its October Europe Container Market Update, advises importers to plan Far East to Italy arrival dates with at least eight days of margin and to keep rate commitments short. Drewry's World Container Index shows Shanghai to Genoa at $3,696 per 40ft on 8 October, 43% below 9 July, and Shanghai to Rotterdam at $3,337, down 32%. Sogese calculates a shipper moving 100 FEU a month to Genoa pays about $277,000 less per month than at July rates.\n\nThe catch is service. Xeneta counted 1.1m TEU held at anchor off Ningbo, Shanghai and Yantian after the typhoons. Sogese warns a booking that looks secure can still be rolled or arrive late, and that the WCI excludes destination terminal handling, demurrage and inland haulage, so landed costs do not fall with the index.",
+      "whyItMatters": "If you ship into Italy or North Europe, this is a rare window where rates are cheap and capacity exists, but your container may still land two weeks behind schedule. The saving is real, $277,000 a month on 100 FEU to Genoa, but only if your stock plan survives the delay. Sellers with Q4 inventory already on the water should recheck arrival dates against Amazon receiving windows now.\n\nAlso watch the extras. Demurrage, detention and terminal charges sit outside the headline rate, and with congestion at destination those clocks are running longer. Your landed cost saving will be smaller than the index fall suggests.",
+      "hotTake": "Cheap and late beats expensive and late, so take the rate. But treat every booking as a lottery ticket on timing and hold buffer stock on your top sellers. Andrea Monti's line is the one to pin on the wall: book on the rate, date your stock on the delay.",
+      "actions": [
+        "Requote your Asia-Europe lanes at current WCI levels and capture the saving before carriers blank sailings bite.",
+        "Add eight days minimum to Far East to Italy arrival plans until on-time performance recovers above 20%.",
+        "Audit demurrage and detention charges on your last three shipments to see your true landed cost."
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/lower-container-rates-are-not-a-return-to-predictable-service-sogese-says",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Sea-Intelligence: spot rates no longer signal the wider box market",
+      "tldr": "Sea-Intelligence finds spot rates on Asia-Europe and transpacific have diverged from broader container market prices since the pandemic.",
+      "whatHappened": "Sea-Intelligence compared monthly average World Container Index rates for Shanghai-Rotterdam and Shanghai-Genoa with Container Trade Statistics data, and found spot rates have become more volatile relative to the wider box shipping market since the pandemic. Overall prices increasingly diverge from the signals spot indices provide.\n\nThe analysis covers both Asia-Europe and transpacific trades. The implication is that the headline spot number sellers watch each week describes a shrinking slice of what the market as a whole is charging.",
+      "whyItMatters": "If you benchmark your freight spend against a spot index, you may be benchmarking against a number that no longer represents what most shippers pay. That cuts both ways. When spot spikes, your forwarder's quote may be better than the index suggests. When spot collapses, as on Asia-Europe now, your contract may not fall with it.\n\nThis matters most for sellers who time bookings off index movements. Use the index as a direction signal, not a price list, and get actual quotes on your lanes before you make a routing or pricing decision this week.",
+      "hotTake": "I stopped treating the WCI as gospel two years ago and this confirms it. The index is a mood ring, not a meter. Get three live quotes on your actual lane and volume before you believe any headline number, mine included.",
+      "actions": [
+        "Request live quotes from two forwarders on your main lane before acting on any index movement.",
+        "Compare your effective all-in rate per FEU against the index quarterly, and renegotiate if the gap widens."
+      ],
+      "sourceUrl": "https://theloadstar.com/shippers-warned-spot-rates-no-pointer-to-wider-box-shipping-market",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Cosco, BYD and SAIC to spend $2.5bn on 21 car-carriers",
+      "tldr": "Cosco Shipping, BYD and SAIC Anji plan to invest around $2.5bn in 21 new 11,000 ceu car-carriers built in Chinese yards.",
+      "whatHappened": "Cosco Shipping Specialized Carriers, carmaker BYD and SAIC Anji Logistics plan to jointly invest around $2.5bn to build 21 car-carriers of 11,000 ceu each in Chinese shipyards, according to The Loadstar. Cosco is ordering up to 11 of the vessels, BYD eight, and SAIC Anji two.\n\nXiamen Shipbuilding and Guangzhou Shipyard International are reportedly Cosco's choices to build its ships. The orders come as Chinese vehicle exports continue to grow and owners push for larger car-carrier capacity.",
+      "whyItMatters": "If you sell vehicles or bulky goods that compete for ro-ro space, this is capacity relief, but not soon. Newbuilds take years to deliver, so near-term car-carrier rates stay tight. The bigger signal is that Chinese exporters are building their own shipping capacity rather than relying on the spot market, which over time gives them a landed cost advantage on wheels-based cargo.\n\nFor general ecommerce sellers, the read-through is container capacity. Chinese export growth keeps pulling tonnage and yard slots toward vehicle trades, and shipyard orderbooks filling with car-carriers is one more constraint on future box ship supply.",
+      "hotTake": "BYD ordering eight of its own ships tells you everything about where Chinese exporters think freight costs are going. They would rather own the ship than rent the market. Sellers of everything else should note the lesson: the people with volume are locking in capacity, and the spot market is what is left for the rest of us.",
+      "actions": [
+        "If you ship vehicles or oversized cargo, ask your forwarder about ro-ro space commitments before Q1 2027.",
+        "Factor continued car-carrier competition for yard capacity into your 2027 freight budget assumptions."
+      ],
+      "sourceUrl": "https://theloadstar.com/china-wants-more-and-bigger-car-carriers-to-meet-export-demand",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "manufacturing"
+      ]
+    },
+    {
+      "headline": "OOCL Q3 revenue up 45.1% as trans-Pacific rates surge",
+      "tldr": "OOCL's Q3 liner revenue rose 45.1% to $3.28bn, with trans-Pacific revenue up 71.8% and average revenue per TEU up 33.1%.",
+      "whatHappened": "OOCL reported third-quarter liner revenue of $3.28bn, up 45.1% year on year, on volumes of 2.12 million TEU, up 9%. Average revenue per TEU rose 33.1%, and the load factor gained 4.2 percentage points against a 3.6% capacity increase, according to parent OOIL's 9 October update.\n\nTrans-Pacific revenue rose 71.8% to $1.44bn on volumes up 13.1% to 595,139 TEU. Asia-Europe volumes grew fastest, up 15.4% to 399,162 TEU, with revenue up 45% to $695.8m. Nine-month revenue reached $7.96bn, up 18.9%.",
+      "whyItMatters": "Carrier results like this tell you who holds the pricing power on your lanes. A 33.1% rise in revenue per TEU on a 9% volume rise means shippers paid the increases, and carriers will protect those yields with blank sailings rather than let rates slide. Expect that behaviour on both transpacific and Asia-Europe into Q4.\n\nFor you, the practical point is negotiating posture. Carriers earning 45% revenue growth do not discount for loyalty in Q4. If you need space in November, book it now at a known rate rather than gambling on a softer spot market.",
+      "hotTake": "A carrier posting 71.8% revenue growth on your lane is not about to hand you a Christmas discount. Book November space this week, take the rate you can get, and spend your energy on the delay risk instead, because that is where Q4 money is actually lost.",
+      "actions": [
+        "Book November transpacific and Asia-Europe space now rather than waiting for spot rates to soften.",
+        "Review your Q4 pricing to confirm current freight costs are passed through, given carriers' 33% per-TEU revenue gains."
+      ],
+      "sourceUrl": "https://freightwaves.com/news/oocl-revenue-up-45-1-on-trans-pacific-surge",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Four percent of Far East to Europe ships arrived on time in September. Your carrier's ETA is a suggestion, not a schedule.",
+    "China to US West Coast spot is $7,717 per FEU, four times last year. Your spring landed cost model is wrong.",
+    "Rates into Europe fell 43% since July and service got worse. Cheap and late is the new normal.",
+    "Book on the rate, date your stock on the delay. The best freight advice of Q4 came from an Italian terminal operator.",
+    "Sea-Intelligence says spot indices no longer reflect the market. If you benchmark off the WCI, you are benchmarking a mood.",
+    "BYD is building eight of its own car-carriers. Exporters with volume are buying ships, and the spot market is what is left for everyone else.",
+    "OOCL's revenue per TEU rose 33% while volumes rose 9%. Carriers will blank sailings before they discount your Q4 space.",
+    "1.1m TEU sat at anchor off Ningbo, Shanghai and Yantian after the typhoons. The congestion bill arrives at destination, not origin.",
+    "The WCI excludes terminal handling, demurrage and inland haulage. Your landed cost did not fall 43% with the index.",
+    "If your Amazon inbound window assumed the published transit time, check it against a 9.9 day average delay before the cut-off."
+  ],
+  "faq": [
+    {
+      "question": "How late are ships from China to Europe right now?",
+      "answer": "Very late. Xeneta's September 2026 scorecard shows Far East to Europe at 4% on-time with a 9.9 day average delay, the worst month since September 2021, after typhoons compounded existing congestion. Plan arrivals with at least eight to ten days of buffer beyond the published schedule."
+    },
+    {
+      "question": "What is the current container rate from China to the US West Coast?",
+      "answer": "Xeneta's spot average for China to US West Coast reached $7,717 per FEU in early October 2026, over four times the $1,778 of September 2025. Long-term contract rates sat at $3,649 per FEU on 1 October but rose 26% month on month, so check whether your contract still beats spot."
+    },
+    {
+      "question": "Should I wait for Asia-Europe freight rates to fall further before booking?",
+      "answer": "Rates already fell steeply, with Shanghai to Rotterdam down 32% since early July on Drewry's index. But carriers use blank sailings to protect utilisation, and Q4 capacity can tighten without warning. For November shipments, booking now at a known rate is safer than gambling on further falls with reliability at 4% on-time."
+    },
+    {
+      "question": "Are spot freight indices a reliable guide to what I will pay?",
+      "answer": "Less than they used to be. Sea-Intelligence found spot rates on Asia-Europe and transpacific trades have diverged from broader market prices, and indices exclude terminal handling, demurrage and inland costs. Treat them as a direction signal and get live quotes on your specific lane and volume before deciding."
+    },
+    {
+      "question": "How much buffer should I add to my FBA inbound shipments from China?",
+      "answer": "For sea freight into Europe, add at least eight to ten days to published transit times, matching the 9.9 day average delay Xeneta recorded in September. For the US, plan around a 6.9 day average delay. Check each shipment's projected arrival against Amazon's receiving windows and peak cut-offs."
+    }
+  ],
+  "generatedAt": "2026-10-12T23:10:28.639Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 20
+}
