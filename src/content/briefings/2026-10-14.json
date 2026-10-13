@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-14",
+  "title": "China Logistics Daily: US rates hold, Europe weak",
+  "metaDescription": "Transpacific rates stay firm on US demand while Asia-Europe weakens, LA posts a record 1.42m TEU September, and typhoon delays keep hitting schedules.",
+  "bottomLine": "The split is now official: Evergreen says transpacific rates will stay supported by US import demand into the new year while Asia-Europe stays weak, and the Port of LA's record 1.42 million TEU September backs that up. If you ship to the US, expect firm rates and book early. If you ship to Europe, you have negotiating room, but typhoon knock-on delays are still degrading schedule reliability on both trades.",
+  "stories": [
+    {
+      "headline": "Evergreen: transpacific rates to stay above Asia-Europe into the new year",
+      "tldr": "Evergreen's general manager says strong US import demand will hold transpacific rates above Asia-Europe levels through the end of 2026.",
+      "whatHappened": "Evergreen general manager Wu Kuang Hui said on Friday that the rate divergence between the two mainline trades has become increasingly pronounced, in his words strong on US routes, weak on Europe routes. He said stronger US economic conditions are supporting import demand while weaker European growth weighs on cargo volumes and freight rates.\n\nWu said he expects the stronger US market to keep supporting transpacific rates through to the new year, according to The Loadstar's report of 13 October 2026.",
+      "whyItMatters": "If your goods go to the US, do not budget for a Q4 rate slide. A carrier with skin in the game is telling you rates hold. That means your landed cost assumptions for November and December arrivals should use current spot levels, not hoped-for discounts.\n\nIf you ship to Europe, the opposite applies. Weak demand gives you room to push carriers and forwarders on rate. But cheap European rates often come bundled with worse reliability, so weigh the saving against your stockout risk before you switch volume.",
+      "hotTake": "Carriers talk their book, and Evergreen benefits from talking up the transpacific. But the LA volume numbers out this week say he is right. I would lock US-bound capacity now and play the spot market on Europe, where the carrier needs your box more than you need his ship.",
+      "actions": [
+        "Lock in US-bound rates or space for November and December sailings this week",
+        "Renegotiate your Asia-Europe rates, citing weak European demand",
+        "Recalculate Q4 landed costs for US SKUs using current rate levels, not summer averages"
+      ],
+      "sourceUrl": "https://theloadstar.com/strong-us-import-demand-will-support-transpacific-rates-till-new-year",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Port of LA moves record 1.42m TEUs in September, warns on tariff planning",
+      "tldr": "Los Angeles handled 1.42 million TEUs in September 2026, its best month ever, with imports up 19% year on year, but its chief says November and December are hard to forecast.",
+      "whatHappened": "The Port of Los Angeles moved 1.42 million TEUs in September, its best single month ever and the highest monthly volume recorded by any port in the Western Hemisphere, Executive Director Gene Seroka said this week. September imports totalled 546,000 loaded TEUs, up 19% year on year and 26% above the five-year average. Exports rose 10% to 126,000 loaded TEUs, and the port handled a record 371,000 empties as carriers repositioned equipment to Asia. July to September was the port's strongest quarter on record at nearly 3 million TEUs.\n\nSeroka attributed the surge to lower tariff levels, resilient consumer demand and cargo shifting away from constrained Panama Canal and Suez routes. He expects about 900,000 TEUs in October, citing typhoon-related schedule disruption in Asia, cargo roll pools before China's national holiday and holiday-season replenishment. He also said Vietnam is now the port's second-largest trading partner behind China, China's share of port business has fallen from 60% to 40%, and tariffs remain the central source of uncertainty, with November and December difficult to forecast.",
+      "whyItMatters": "Record empties heading back to Asia means carriers are short of boxes in the US and reloading for more China exports. That supports the firm transpacific rate outlook and tells you equipment in Chinese origin ports should stay available, which is one less headache for your booking.\n\nThe bigger signal is Seroka's caution. Purchase orders in Asia are solid, but he will not call November and December because importers are making rapid decisions around tariff deadlines. If you are waiting for a clear peak-season signal before committing, you will not get one. Book on your own forecast, not the market's.\n\nThe sourcing shift matters for your lane planning. Vietnam quadrupling through LA over a decade and China's share falling from 60% to 40% means your forwarder's Vietnam and Thailand options are maturing, but Harvard's Willy Shih notes the upstream components still come from China. Diversifying final assembly does not remove your China dependence.",
+      "hotTake": "Everyone will read the record number and conclude the US consumer is bulletproof. I read the 371,000 empties and Seroka refusing to call November. That is a port chief hedging because tariff policy can flip demand in a fortnight. Keep your Q4 inventory lean enough to survive a policy surprise and heavy enough to survive a rate spike. Annoying, but that is the job now.",
+      "actions": [
+        "Confirm your October and November US inbound bookings against the roll pool risk Seroka flagged",
+        "Ask your forwarder for Vietnam and Thailand routing quotes as a benchmark, even if you stay in China",
+        "Stress-test your Q4 plan against a tariff announcement landing mid-November"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/despite-new-record-port-of-la-chief-warns-of-tariff-driven-planning-risk",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "tariffs-duties",
+        "sourcing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Typhoon backlog at Chinese ports now showing up as September berth delays in US and Europe",
+      "tldr": "Xeneta data shows the summer typhoon queues at Chinese ports turned into severe berth arrival delays for North America and Europe shipments in September.",
+      "whatHappened": "The long queues and delays at Chinese ports following this summer's storms translated into increasingly severe berth arrival delays for shippers in North America and Europe in September, according to Xeneta data cited by the Journal of Commerce on 12 October 2026.\n\nCarriers are now working to restore schedule reliability on the affected Asia trades.",
+      "whyItMatters": "If your September shipments arrived late, this is why, and the knock-on is not finished. Vessels out of position in Asia mean rolled bookings and missed ETDs at origin for the next few weeks, exactly when your Q4 stock needs to move.\n\nThis hits hardest if you run lean inventory into FBA or a 3PL with fixed replenishment windows. A five-day berth delay at destination is a stockout if you planned for a two-week buffer. Pad your lead times on current bookings and check where your forwarder has actually booked you, not where they quoted you.",
+      "hotTake": "Reliability, not rate, is the real cost of this peak season. I would rather pay $200 more on a carrier hitting its berth windows than save it on one that rolls my box twice in Ningbo. Ask your forwarder for actual arrival performance by string before you book, most will not volunteer it.",
+      "actions": [
+        "Add buffer days to lead times on all bookings made before early November",
+        "Ask your forwarder for berth arrival performance by carrier string before choosing the cheapest option",
+        "Pull forward any FBA inbound that must land before Black Friday cut-offs"
+      ],
+      "sourceUrl": "https://joc.com/article/ocean-carriers-battle-to-restore-reliability-on-typhoon-hit-asia-trades-6304757",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Maersk and Hapag-Lloyd restart Far East to Middle East loop, skip Jebel Ali",
+      "tldr": "Gemini partners Maersk and Hapag-Lloyd relaunch their Far East-Middle East loop this weekend, adding Gulf capacity but swapping Jebel Ali for Khor Fakkan.",
+      "whatHappened": "Gemini Cooperation partners Maersk and Hapag-Lloyd will relaunch their Far East to Middle East loop at the weekend. Hapag-Lloyd markets it as AGX and Maersk as FM1. The service adds fresh capacity for Gulf importers after nearly eight months of conflict in the region.\n\nThe key change is the Middle East call: Jebel Ali is out, replaced by Khor Fakkan, which sits outside the Strait of Hormuz.",
+      "whyItMatters": "If you sell into the Gulf or route cargo through Dubai, this changes your options this week. New capacity should ease the rate pressure built up over eight months of disruption, but your boxes will land at Khor Fakkan, not Jebel Ali. That shifts your inland haul, your customs broker arrangements and possibly your free time terms.\n\nThe Jebel Ali omission tells you carriers still price Hormuz transit as a real risk. If your supply chain assumes Dubai as a hub, build the Khor Fakkan alternative into your routing now rather than after your first container lands somewhere unexpected.",
+      "hotTake": "Carriers do not drop the region's biggest hub unless the war-risk maths is ugly. Capacity coming back is good news for Gulf rates, but treat Khor Fakkan as the new normal for a while and renegotiate your UAE delivery terms accordingly.",
+      "actions": [
+        "Ask your forwarder for Gulf rates on the relaunched AGX/FM1 loop before renewing existing bookings",
+        "Confirm whether your UAE consignees can take delivery ex Khor Fakkan and at what inland cost"
+      ],
+      "sourceUrl": "https://theloadstar.com/gemini-to-relaunch-asia-middle-east-loop-but-drops-jebel-ali-call",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The transpacific and Asia-Europe trades are now two different markets. Price them that way.",
+    "LA moved 1.42 million TEUs in a month and its chief still will not call November. That should tell you something.",
+    "371,000 empty containers left LA for Asia in September. Carriers are betting the export wave continues.",
+    "China is 40% of LA's business, down from 60%. But the components inside Vietnam's goods still come from China.",
+    "Your September delay was not bad luck. Summer typhoons at Chinese ports are still working through the system.",
+    "The cheapest carrier string is often the one that rolls your box twice. Ask for berth performance before you book.",
+    "Maersk and Hapag-Lloyd will serve the Gulf again, just not through Jebel Ali. Read what that says about Hormuz risk.",
+    "Record port volumes and a port chief warning about planning risk in the same week. Both things are true.",
+    "Optimising for options instead of lowest cost is the sourcing story of 2026.",
+    "Peak season 2026: rates are the least of your problems. Reliability is the cost nobody budgeted for."
+  ],
+  "faq": [
+    {
+      "question": "Will transpacific freight rates drop before the end of 2026?",
+      "answer": "Probably not, based on carrier commentary this week. Evergreen's general manager said strong US import demand should support transpacific rates through to the new year, and the Port of LA's record 1.42 million TEU September, with imports up 19% year on year, supports that view. Budget using current rate levels for November and December arrivals rather than assuming a seasonal slide."
+    },
+    {
+      "question": "Why is my shipment from China arriving late in October 2026?",
+      "answer": "Summer typhoons caused long queues at Chinese ports, and Xeneta data shows those delays turned into severe berth arrival delays in North America and Europe during September. Vessels remain out of position, which means rolled bookings and missed departures at origin. Add buffer days to lead times on bookings made before early November and ask your forwarder for actual carrier arrival performance."
+    },
+    {
+      "question": "Is it worth shifting sourcing from China to Vietnam right now?",
+      "answer": "Vietnam is now the Port of LA's second-largest trading partner and its volume through the port has quadrupled over a decade, so the logistics infrastructure is mature. But Harvard's Willy Shih notes Vietnam still relies heavily on Chinese components, so moving final assembly does not remove upstream China dependence. Treat it as an option to price, not a full exit."
+    },
+    {
+      "question": "Are there new shipping options from China to the Gulf?",
+      "answer": "Yes. Maersk and Hapag-Lloyd relaunched their Far East to Middle East loop this weekend, marketed as FM1 and AGX, adding capacity after nearly eight months of regional conflict. The service calls at Khor Fakkan instead of Jebel Ali, so check whether your consignee can take delivery there and what the inland haul costs before booking."
+    },
+    {
+      "question": "How should I plan Q4 inventory with tariff uncertainty?",
+      "answer": "Port of LA chief Gene Seroka says purchase orders in Asia remain solid but November and December are difficult to forecast because importers are reacting to tariff deadlines. Book freight against your own sales forecast rather than waiting for a market signal, keep enough stock to survive a rate spike, and keep commitments flexible enough to survive a policy change."
+    }
+  ],
+  "generatedAt": "2026-10-13T21:24:05.465Z",
+  "model": "moonshotai/kimi-k3",
+  "sourceCount": 19
+}
