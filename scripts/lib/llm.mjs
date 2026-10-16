@@ -43,8 +43,11 @@ export const DEFAULT_MODELS = {
   // October. Nemotron 3 Ultra was the other free model to reach a publishable
   // briefing then (attempt 3, no invented sources), and as NVIDIA's own model
   // it is the least likely to be pulled from NVIDIA's catalogue. Super is the
-  // smaller sibling, as a second chance. BRIEFING_MODEL overrides this list.
-  nvidia: 'nvidia/nemotron-3-ultra-550b-a55b,nvidia/nemotron-3-super-120b-a12b',
+  // smaller sibling. Re-tested 16 October with reasoning off: Ultra 504s at
+  // NVIDIA's gateway, Super invented sources. Gemma 4 passed on attempt 2
+  // with no slop and no invented sources; DeepSeek V4.1 Flash writes but long.
+  // BRIEFING_MODEL overrides this list.
+  nvidia: 'google/gemma-4-31b-it,deepseek-ai/deepseek-v4.1-flash',
 };
 
 /**
