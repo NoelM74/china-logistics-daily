@@ -40,7 +40,7 @@ const CONTENT_DIR = path.join(ROOT, 'src', 'content', 'briefings');
 const env = (k) => process.env[k]?.trim() || undefined;
 const PROVIDER = (env('BRIEFING_PROVIDER') || 'anthropic').toLowerCase();
 const FALLBACK = (env('BRIEFING_FALLBACK') || '').toLowerCase();
-const MODEL = env('BRIEFING_MODEL') || DEFAULT_MODELS[PROVIDER] || DEFAULT_MODELS.anthropic;
+const MODEL = env('BRIEFING_MODEL') || DEFAULT_MODELS[PROVIDER] || DEFAULT_MODELS.anthropic; // may be a comma list
 const MAX_TOKENS = Number(env('BRIEFING_MAX_TOKENS')) || 8000;
 const TARGET_STORIES = '3 to 5';
 
@@ -277,8 +277,32 @@ async function main() {
    * way to guarantee one. It only costs money on the days the first choice
    * cannot deliver.
    */
+  /*
+   * BRIEFING_MODEL may be a comma-separated list, tried in order. The free
+   * NVIDIA catalogue withdraws models with little warning (Kimi K3 went in
+   * October, GLM 5.3 soon after), so one model id is one point of failure.
+   * Models no longer in the catalogue are skipped before any call is made.
+   */
+  const models = MODEL.split(',').map((m) => m.trim()).filter(Boolean);
+  let live = null;
+  if (PROVIDER === 'nvidia') {
+    try {
+      const res = await fetch('https://integrate.api.nvidia.com/v1/models', {
+        signal: AbortSignal.timeout(30_000),
+      });
+      live = new Set((await res.json()).data.map((m) => m.id));
+    } catch (err) {
+      log.warn(`could not read the NVIDIA catalogue, trying every model: ${String(err.message ?? err)}`);
+    }
+  }
+  const primary = models.filter((m) => {
+    if (!live || live.has(m)) return true;
+    log.warn(`${m} is no longer in the NVIDIA catalogue, skipping it`);
+    return false;
+  });
+
   const chain = [
-    { name: PROVIDER, model: MODEL },
+    ...primary.map((model) => ({ name: PROVIDER, model })),
     ...(FALLBACK && FALLBACK !== PROVIDER
       ? [{ name: FALLBACK, model: env('BRIEFING_FALLBACK_MODEL') || DEFAULT_MODELS[FALLBACK] }]
       : []),
@@ -303,7 +327,7 @@ async function main() {
       errors = [`${link.name}: ${String(err.message ?? err).slice(0, 200)}`];
     }
     if (briefing) break;
-    if (i < chain.length - 1) log.warn(`falling back to ${chain[i + 1].name}`);
+    if (i < chain.length - 1) log.warn(`falling back to ${chain[i + 1].name} / ${chain[i + 1].model}`);
   }
 
   const cost = estimateCost(totalUsage, usedModel);

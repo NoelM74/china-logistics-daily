@@ -1,0 +1,103 @@
+name: Model watch
+
+# The free NVIDIA catalogue withdraws models with little warning: Kimi K3 went
+# in October 2026 and GLM 5.3 soon after, and the first anyone knew was a
+# failed edition. This checks every morning, before the edition slots, that
+# each model in BRIEFING_MODEL is still listed AND still answers. If one is
+# gone, it opens an issue naming the replacements that are on the list now.
+#
+# 15:00 UTC = 23:00 Shanghai, an hour before the first edition slot.
+
+on:
+  schedule:
+    - cron: '7 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check the configured models
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          MODELS: ${{ vars.BRIEFING_MODEL }}
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -uo pipefail
+          curl -s --max-time 30 https://integrate.api.nvidia.com/v1/models -o catalogue.json
+          jq -r '.data[].id' catalogue.json | sort > live.txt
+          echo "catalogue: $(wc -l < live.txt) models"
+
+          : > problems.md
+          ok=0
+          IFS=',' read -ra LIST <<< "${MODELS:-}"
+          for m in "${LIST[@]}"; do
+            m=$(echo "$m" | xargs)
+            [ -z "$m" ] && continue
+            if ! grep -qxF "$m" live.txt; then
+              echo "- \`$m\` is **no longer listed** by NVIDIA." >> problems.md
+              continue
+            fi
+            # Listed is not enough: Kimi K2.6 was listed and returned 404.
+            code=$(curl -s -o reply.json -w '%{http_code}' --max-time 180 \
+              https://integrate.api.nvidia.com/v1/chat/completions \
+              -H "Authorization: Bearer $NVIDIA_API_KEY" -H 'Content-Type: application/json' \
+              -d "{\"model\":\"$m\",\"max_tokens\":200,\"messages\":[{\"role\":\"user\",\"content\":\"Reply with the single word: ready\"}]}")
+            text=$(jq -r '.choices[0].message.content // ""' reply.json 2>/dev/null)
+            if [ "$code" = "200" ] && [ -n "$text" ]; then
+              echo "ok      $m"
+              ok=$((ok+1))
+            else
+              echo "- \`$m\` is listed but **does not answer** (HTTP $code)." >> problems.md
+              echo "FAILED  $m (HTTP $code)"
+            fi
+          done
+
+          {
+            echo "### Model watch"
+            echo
+            echo "Configured: \`${MODELS:-unset}\` — $ok working"
+            echo
+            cat problems.md
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ ! -s problems.md ]; then
+            echo "all configured models are fine"
+            exit 0
+          fi
+
+          {
+            echo "A model the daily briefing relies on has gone. **$ok** of the configured models still work."
+            echo
+            cat problems.md
+            echo
+            if [ "$ok" = "0" ]; then
+              echo "**No configured model works. The next edition will fail.**"
+              echo
+            fi
+            echo "Larger chat models on the NVIDIA list today, to test with the Model bake-off workflow:"
+            echo
+            grep -iE 'nemotron-3|nemotron-4-340|mistral-large|gemma-4|step-|palmyra-creative|deepseek-v|glm-|kimi-|qwen|llama-4|gpt-oss' live.txt \
+              | grep -viE 'embed|safety|reward|parse|nano|vl-|omni' | sed 's/^/- `/; s/$/`/'
+            echo
+            echo "Change the model: Settings > Secrets and variables > Actions > Variables > BRIEFING_MODEL"
+            echo
+            echo "Run: $RUN_URL"
+          } > body.md
+
+          gh label create model-watch --repo "$REPO" --color D93F0B \
+            --description "A briefing model was withdrawn from NVIDIA" 2>/dev/null || true
+          open=$(gh issue list --repo "$REPO" --label model-watch --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --repo "$REPO" --body-file body.md
+          else
+            gh issue create --repo "$REPO" --title "A briefing model was withdrawn from NVIDIA" \
+              --label model-watch --body-file body.md
+          fi
