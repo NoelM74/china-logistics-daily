@@ -19,6 +19,11 @@ on:
         required: false
         type: string
         default: '1'
+      max_tokens:
+        description: 'Token budget per answer. Reasoning models need room to think AND answer.'
+        required: false
+        type: string
+        default: '8000'
       include_claude:
         description: 'Score Claude too, as the benchmark'
         required: false
@@ -52,8 +57,9 @@ jobs:
           MODELS: ${{ inputs.models }}
           RUNS: ${{ inputs.runs }}
           INCLUDE_CLAUDE: ${{ inputs.include_claude }}
+          MAX_TOKENS: ${{ inputs.max_tokens }}
         run: |
-          ARGS="--runs=${RUNS:-1}"
+          ARGS="--runs=${RUNS:-1} --max-tokens=${MAX_TOKENS:-8000}"
           if [ -n "$MODELS" ]; then ARGS="$ARGS --models=$MODELS"; fi
           if [ "$INCLUDE_CLAUDE" = "true" ]; then ARGS="$ARGS --include-claude"; fi
           echo "node scripts/bake-off.mjs $ARGS"
