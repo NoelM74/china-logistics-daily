@@ -58,7 +58,7 @@ jobs:
     # Reasoning models on the free NVIDIA tier queue under load, and a
     # fallback may then run a second provider: three capped NVIDIA attempts
     # plus three Claude attempts must fit with room to spare.
-    timeout-minutes: 60
+    timeout-minutes: 100
 
     steps:
       - uses: actions/checkout@v4
@@ -88,10 +88,10 @@ jobs:
           BRIEFING_FALLBACK: ${{ vars.BRIEFING_FALLBACK }}
           BRIEFING_FALLBACK_MODEL: ${{ vars.BRIEFING_FALLBACK_MODEL }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-          # Per-call ceiling for the free tier. Kimi K3 answers in about four
-          # minutes; eight leaves room, and capping it means three stalled
-          # attempts cannot eat the whole job before the fallback gets a turn.
-          NVIDIA_TIMEOUT_MS: '480000'
+          # Per-call ceiling for the free tier: 20 minutes, because a reasoning
+          # model writing 32,000 tokens on a queued free tier is slow, and a
+          # cap still stops one stalled call eating the whole job.
+          NVIDIA_TIMEOUT_MS: '1200000'
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Only needed if the key is identity-linked rather than
           # workspace-scoped. Harmless when unset.

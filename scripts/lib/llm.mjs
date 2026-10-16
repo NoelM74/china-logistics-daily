@@ -23,6 +23,16 @@
  * fine way to write a newspaper and a poor way to guarantee one.
  */
 import Anthropic from '@anthropic-ai/sdk';
+import { Agent, fetch as undiciFetch } from 'undici';
+
+/*
+ * Node's built-in fetch drops any response whose headers take more than 300
+ * seconds. NVIDIA's free tier sends no headers while a request is queued or a
+ * model is still reasoning, so Nemotron 3 Ultra was cut off at exactly 300s,
+ * twice, even with streaming on. This agent has no headers or body timeout;
+ * the AbortSignal on each call is the only clock.
+ */
+const patientAgent = new Agent({ headersTimeout: 0, bodyTimeout: 0, connectTimeout: 30_000 });
 
 const NVIDIA_BASE = process.env.NVIDIA_BASE_URL?.trim() || 'https://integrate.api.nvidia.com/v1';
 
@@ -116,7 +126,8 @@ class NvidiaProvider {
    * returns headers at once and then keeps bytes moving, reasoning included.
    */
   async complete({ system, turns }) {
-    const res = await fetch(`${NVIDIA_BASE}/chat/completions`, {
+    const res = await undiciFetch(`${NVIDIA_BASE}/chat/completions`, {
+      dispatcher: patientAgent,
       method: 'POST',
       headers: {
         Authorization: `Bearer ${this.apiKey}`,

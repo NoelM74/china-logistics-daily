@@ -311,7 +311,13 @@ async function main() {
   for (const [i, link] of chain.entries()) {
     let provider;
     try {
-      provider = createProvider(link.name, { model: link.model, maxTokens: MAX_TOKENS });
+      // NVIDIA's models reason before answering, and the reasoning counts
+      // against the budget: Nemotron 3 Super hit 8,000 tokens on every attempt
+      // without writing a word. 32,000 leaves room for both. Claude keeps the
+      // smaller budget, because the SDK refuses large non-streamed requests.
+      const budget =
+        link.name === 'nvidia' ? Number(env('NVIDIA_MAX_TOKENS')) || 32000 : MAX_TOKENS;
+      provider = createProvider(link.name, { model: link.model, maxTokens: budget });
     } catch (err) {
       log.warn(`${link.name}: ${String(err.message ?? err)}`);
       continue;
