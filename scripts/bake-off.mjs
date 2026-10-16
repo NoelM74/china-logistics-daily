@@ -193,7 +193,7 @@ async function score(entry, candidates, tagsFile, userPrompt, run) {
     seen.spelling += c.spelling;
     seen.sources += c.sources;
     if (attempt === 1) firstErrors = errors;
-    log.info(`attempt ${attempt}: ${errors.length ? `${errors.length} errors` : 'passes'} (${secs()}s)`);
+    log.info(`attempt ${attempt}: ${errors.length ? `${errors.length} errors` : 'passes'} (${secs()}s, answer ${res?.diagnostics?.answerChars ?? '?'} chars, reasoning ${res?.diagnostics?.reasoningChars ?? '?'} chars, stop ${res?.stopReason})`);
     for (const e of errors.slice(0, 5)) log.warn(`  · ${e}`);
 
     if (!errors.length) {

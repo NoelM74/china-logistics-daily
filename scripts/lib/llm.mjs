@@ -145,6 +145,15 @@ class NvidiaProvider {
         response_format: { type: 'json_object' },
         stream: true,
         stream_options: { include_usage: true },
+        // Reasoning off unless NVIDIA_THINKING=on. A briefing is writing to a
+        // spec, not a puzzle, and reasoning is what broke every NVIDIA model
+        // in October: Nemotron 3 Super spent 32,000 tokens thinking on each
+        // of three attempts and wrote nothing. Both spellings are sent
+        // because the templates disagree; a template ignores keys it does
+        // not use.
+        ...(process.env.NVIDIA_THINKING?.trim() === 'on'
+          ? {}
+          : { chat_template_kwargs: { enable_thinking: false, thinking: false } }),
       }),
       // A reasoning model on a busy free tier is slow. Generous on purpose: a
       // late briefing beats no briefing.
@@ -157,6 +166,7 @@ class NvidiaProvider {
     }
 
     let content = '';
+    let reasoningChars = 0;
     let finish = 'stop';
     let usage = {};
 
@@ -182,6 +192,7 @@ class NvidiaProvider {
         // delta.reasoning_content is the model thinking aloud. It is never
         // part of the answer, so it is read past rather than collected.
         if (typeof choice?.delta?.content === 'string') content += choice.delta.content;
+        if (typeof choice?.delta?.reasoning_content === 'string') reasoningChars += choice.delta.reasoning_content.length;
         if (choice?.finish_reason) finish = choice.finish_reason;
         if (evt.usage) usage = evt.usage;
       }
@@ -194,6 +205,8 @@ class NvidiaProvider {
         output_tokens: usage.completion_tokens ?? 0,
       },
       stopReason: finish,
+      // So a failed attempt says whether the model wrote nothing or only thought.
+      diagnostics: { answerChars: content.length, reasoningChars },
     };
   }
 }

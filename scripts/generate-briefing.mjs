@@ -220,7 +220,7 @@ async function main() {
     const turns = [{ role: 'user', content: userPrompt }];
 
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-      const { text, usage, stopReason } = await provider.complete({
+      const { text, usage, stopReason, diagnostics } = await provider.complete({
         system: SYSTEM_PROMPT,
         turns,
       });
@@ -231,6 +231,7 @@ async function main() {
         in: usage?.input_tokens,
         out: usage?.output_tokens,
         stop: stopReason,
+        ...(diagnostics ?? {}),
       });
 
       if (stopReason === 'length') {
