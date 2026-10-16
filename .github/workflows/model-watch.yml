@@ -20,7 +20,7 @@ permissions:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - name: Check the configured models
         env:
@@ -29,6 +29,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        # Not the default bash -e: one slow model must not abort the check.
+        shell: bash {0}
         run: |
           set -uo pipefail
           curl -s --max-time 30 https://integrate.api.nvidia.com/v1/models -o catalogue.json
@@ -46,10 +48,13 @@ jobs:
               continue
             fi
             # Listed is not enough: Kimi K2.6 was listed and returned 404.
-            code=$(curl -s -o reply.json -w '%{http_code}' --max-time 180 \
+            # Reasoning models think first, so allow 5 minutes. A timeout is
+            # reported, never allowed to abort the whole check.
+            : > reply.json
+            code=$(curl -s -o reply.json -w '%{http_code}' --max-time 300 \
               https://integrate.api.nvidia.com/v1/chat/completions \
               -H "Authorization: Bearer $NVIDIA_API_KEY" -H 'Content-Type: application/json' \
-              -d "{\"model\":\"$m\",\"max_tokens\":200,\"messages\":[{\"role\":\"user\",\"content\":\"Reply with the single word: ready\"}]}")
+              -d "{\"model\":\"$m\",\"max_tokens\":2000,\"messages\":[{\"role\":\"user\",\"content\":\"Reply with the single word: ready\"}]}") || code="000, timed out"
             text=$(jq -r '.choices[0].message.content // ""' reply.json 2>/dev/null)
             if [ "$code" = "200" ] && [ -n "$text" ]; then
               echo "ok      $m"
