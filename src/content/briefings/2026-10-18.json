@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-18",
+  "title": "Shanghai Port Records and Dry Bulk Slump",
+  "metaDescription": "Shanghai Port hits record volumes after typhoon chaos, while dry bulk rates hit 3-month lows. Noel Murphy breaks down the impact on your Q4.",
+  "bottomLine": "Shanghai Port handled a record 5.135 million TEU in September, proving the typhoon backlog is gone. Dry bulk rates are crashing, but container shippers should ignore the noise and focus on the Q4 rush.",
+  "stories": [
+    {
+      "headline": "Shanghai Port hits record 5.135 million TEU in September",
+      "tldr": "Shanghai Port handled 5.135 million TEU in September, a 6.2% increase over 2025, clearing backlogs from July typhoons.",
+      "whatHappened": "The Shanghai International Port Group reports a new monthly record of 5.135 million TEU for September. This follows disruptions starting in July caused by three powerful typhoons that created vessel congestion and export backlogs.\n\nTo clear the queue, the port optimised berthing and loading operations and coordinated with shipping lines to merge shipments. The Mingdong Terminal alone handled 30,056 TEUs in a single 24-hour period.\n\nOperations continued through the National Day holiday from 1 October to 3 October. The port handled 1.15 million TEU during that week, which is a 1.3% increase over the previous year.",
+      "whyItMatters": "If you have stock stuck in a factory or waiting for a slot in East China, the 'typhoon excuse' is dead. The port is not just back to normal, it is operating at record speed. You can now trust the dates your forwarder gives you for departures out of Shanghai.\n\nFor those shipping high-volume goods, the fact that the port worked through Golden Week means the usual October lull did not happen. Your goods are moving faster, but your warehouse in the US or UK needs to be ready for a concentrated arrival of containers.\n\nIf you are using the Port of Los Angeles, expect the pressure to stay high. Los Angeles reported its best single month in history in September with over 1 million TEU. The efficiency in Shanghai is simply pushing the bottleneck further down the line to the US West Coast.",
+      "hotTake": "Shanghai is showing that automation beats weather. They cleared a massive backlog while simultaneously hitting a record. Stop worrying about the China side of the lane and start worrying about your US drayage and warehouse receiving capacity.",
+      "actions": [
+        "Confirm your vessel departure dates with your forwarder now that the backlog is cleared",
+        "Alert your US destination warehouse to prepare for a surge of arrivals following the September record"
+      ],
+      "sourceUrl": "https://maritime-executive.com/article/shanghai-moved-a-staggering-5-1m-teu-in-september-recovering-from-typhoons",
+      "sourceName": "The Maritime Executive",
+      "tags": [
+        "ports-congestion",
+        "sea-freight",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Dry bulk freight index hits 3-month low",
+      "tldr": "The Baltic Dry Index fell 1.3% to 2,515 points on 16 October, marking its tenth consecutive daily decline.",
+      "whatHappened": "The Baltic Exchange reported the dry bulk freight index fell to a fresh low since 30 June. The benchmark index dropped about 14% over the week, extending a losing streak to three weeks.\n\nThe Capesize index, used for 150,000-ton cargoes like iron ore, fell 2.2% to 3,249 points, its lowest since early April. The Panamax index fell 1.8% to 2,314 points.\n\nAnalysts attribute the drop to weak iron ore demand and subdued sentiment in the Chinese steel market, alongside high vessel availability.",
+      "whyItMatters": "If you source raw materials, minerals, or heavy industrial components shipped in bulk, your shipping costs are trending down. This is a rare win for your landed cost in a volatile year.\n\nHowever, for the average ecommerce operator shipping containers, this is a distraction. Dry bulk rates do not dictate container spot rates. Do not let a forwarder use the 'falling bulk market' as a reason to suggest container rates will drop before the New Year.\n\nIf you are sourcing steel-based products, the 'subdued sentiment' in the Chinese steel market might give you leverage to push your factory for a lower unit price on your next PO.",
+      "hotTake": "The bulk market is a canary in the coal mine for Chinese industrial demand. Steel is soft, and the ships are empty. This suggests the 'export boom' is driven by consumer goods, not industrial growth.",
+      "actions": [
+        "Use the weak steel market sentiment to negotiate better unit prices with your manufacturers",
+        "Ignore bulk rate drops when negotiating your container contracts"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/baltic-dry-index-at-over-3-month-low",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "manufacturing"
+      ]
+    },
+    {
+      "headline": "Ningbo-Zhoushan tests multi-fuel bunkering",
+      "tldr": "Ningbo-Zhoushan port supplied LNG, methanol, and B24 biofuel to different ships on the same day on 30 September.",
+      "whatHappened": "On 30 September, three bunker vessels delivered 3,300 mt of LNG, 7,500 mt of methanol, and 3,000 mt of B24 biofuel at three different terminals in the Ningbo-Zhoushan port.\n\nThis is the first time the port has supplied three different marine fuels on a single day. Separately, the ammonia bunker vessel Shenghang Yongle delivered 1,000 mt of green ammonia to the bulk carrier Mineral Europa at Zhoushan via ship-to-ship transfer.",
+      "whyItMatters": "You likely do not care about the fuel in the ship, but you should care about the carriers using these fuels. Carriers investing in methanol and ammonia are the ones who will avoid the heaviest EU carbon taxes in the coming years.\n\nIf you are planning long-term contracts for 2027, ask your carriers about their alternative fuel adoption. Ships using these 'green' fuels will have more stable access to European ports as regulations tighten.\n\nThis infrastructure shift in Ningbo shows that the major Chinese hubs are preparing for a world where heavy fuel oil is penalized. It ensures that the lanes you rely on will stay open regardless of fuel regulation changes.",
+      "hotTake": "The fuel transition is happening faster in the ports than in the boardrooms. Ningbo is building the menu, and the carriers who don't adapt will eventually pass the cost of 'dirty' fuel on to you through surcharges.",
+      "actions": [
+        "Ask your primary carrier for their alternative fuel roadmap for the Asia-Europe lane",
+        "Track which carriers are using the Ningbo green fuel hubs to identify the most future-proof partners"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/the-week-in-alt-fuels-building-the-bunker-menu",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Shanghai Port just hit a record 5.1 million TEU and the typhoon excuse is officially dead.",
+    "The Port of Los Angeles is seeing its best month in history while Shanghai clears its backlog.",
+    "Dry bulk rates are crashing but don't let your forwarder confuse that with container rates.",
+    "Ningbo-Zhoushan is now bunkering LNG, methanol, and biofuel on the same day.",
+    "The real Q4 bottleneck has shifted from the China coast to the US West Coast.",
+    "Steel demand in China is softening, giving you a window to negotiate factory prices.",
+    "Green ammonia is now being bunkered in Zhoushan, changing the cost of future shipping.",
+    "Shanghai worked through Golden Week, meaning the October lull never happened.",
+    "Automation at the Mingdong Terminal is moving 30,000 TEUs in 24 hours.",
+    "Your 2027 shipping strategy should include a check on your carrier's fuel type."
+  ],
+  "faq": [
+    {
+      "question": "Is Shanghai port still congested from the typhoons?",
+      "answer": "No. The Shanghai International Port Group reports that operations have fully returned to normal. In September, the port handled a record 5.135 million TEU, which is a 6.2% increase over September 2025. They have cleared the backlogs caused by typhoons in July through optimised berthing and loading operations."
+    },
+    {
+      "question": "Are container shipping rates dropping because the Baltic Dry Index is falling?",
+      "answer": "No. The Baltic Dry Index tracks dry bulk commodities like iron ore and coal, not containerised ecommerce goods. While the index hit a 3-month low on 16 October due to weak Chinese steel demand, container rates are driven by different market forces, specifically Q4 peak season demand and carrier capacity management."
+    },
+    {
+      "question": "Did the Golden Week holiday slow down shipments from China?",
+      "answer": "Not in Shanghai. While many businesses take a break during the National Day holiday (1-3 October), the Shanghai International Port Group maintained operations throughout the week. The port handled 1.15 million TEU during the holiday period, a 1.3% increase over the previous year."
+    }
+  ],
+  "generatedAt": "2026-10-17T18:33:58.219Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 12
+}
