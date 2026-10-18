@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-19",
+  "title": "China Logistics Daily: Cosco Inspections and Ore Boom",
+  "metaDescription": "US lawmakers want more Cosco ship inspections, West African ore will soak up capesize capacity by 2030, and Chinese yards are outsourcing hull blocks.",
+  "bottomLine": "Three US House subcommittee chairs have asked the Coast Guard to inspect more Cosco ships on US services, which is the one item this week that can actually delay your boxes. West Africa's ore boom will absorb the equivalent of 120 extra capesizes by 2030, tightening dry bulk capacity on the routes you use. Chinese yards are outsourcing hull blocks to bridge builders because orderbooks have run past their own capacity.",
+  "stories": [
+    {
+      "headline": "US House subcommittees push Coast Guard to inspect more Cosco ships",
+      "tldr": "Three US House subcommittee chairs want the Coast Guard to scrutinise more Cosco vessels on US services after espionage accusations.",
+      "whatHappened": "The heads of three US House subcommittees have urged the Coast Guard to increase inspections of Cosco ships deployed on US services, according to JOC. The request followed a recent media report that quoted Trump administration officials accusing the China-backed carrier of espionage in US ports. The subcommittee chairs want greater scrutiny of the vessels Cosco uses on its US routes.\n\nThe report does not name the subcommittees, the specific officials quoted, or the ports involved. It also gives no figure for how many additional inspections the Coast Guard would carry out, or on what timeline. Cosco has not responded in the source material.",
+      "whyItMatters": "If you ship FCL on Cosco or OOCL services into Los Angeles, Long Beach, Savannah or New York, this is a direct schedule risk. Extra Coast Guard inspections add port stay time to individual vessels, and a delayed vessel pushes back your container availability, your drayage appointment and your FBA receiving slot. The effect compounds if the vessel is on a string where the next port call cannot absorb the slip.\n\nSellers with tight Q4 restock windows and a hard Amazon appointment date should price the risk now. A one or two day vessel delay can cost you the appointment, and rebooking a receiving slot in peak season is slower than rebooking freight. If your cargo is already on the water on a Cosco string, ask your forwarder for the vessel name and the current ETA, then work backwards from your appointment date rather than from your PO date.",
+      "hotTake": "This is politics moving faster than the Coast Guard can staff it, and the carrier will pass any friction straight to the shipper. I would not pull Cosco off my routing guide over a subcommittee letter, but I would stop putting my tightest Q4 restock on their US strings until I see whether inspections actually increase. Put the urgent SKUs on a non-Cosco string and leave the slow movers where the rate is good.",
+      "actions": [
+        "Ask your forwarder which Cosco or OOCL vessels are carrying your open bookings and get current ETAs in writing",
+        "Move your highest-velocity Q4 SKUs to a non-Cosco string for the next four weeks",
+        "Build two extra days of buffer into any FBA appointment that depends on a Cosco US service"
+      ],
+      "sourceUrl": "https://joc.com/article/house-committees-urge-coast-guard-to-increase-cosco-ship-inspections-6307244",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "ports-congestion",
+        "sea-freight",
+        "customs-us",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "West African ore will soak up capesize capacity through 2030",
+      "tldr": "West African mineral exports will rise 50% to 303 million tonnes by 2030, absorbing the equivalent of 120 more capesizes.",
+      "whatHappened": "UK consultancy Tradeviews forecasts that mineral shipments from West Africa will surge 50% from 2025 levels to 303 million tonnes by the end of the decade, according to Splash247. The report says the region is becoming dry bulk shipping's biggest growth engine, and that the export boom will absorb the equivalent of another 120 capesizes by 2030.\n\nSplash247 does not give the current 2025 tonnage figure, the split by commodity or country, or the assumed capesize utilisation rate behind the 120-vessel estimate. The report is a forecast, not a record of shipped volumes.",
+      "whyItMatters": "Capesize is iron ore and bauxite tonnage, not your container lane, so the direct link is not obvious. The indirect link is what matters. When ore demand pulls capesizes into the Atlantic, it also pulls the larger multipurpose and handysize tonnage that would otherwise carry project cargo, machinery and breakbulk out of China. Rates for those vessels rise, and some sellers who ship oversized or non-containerised goods feel it first.\n\nFor a normal ecommerce seller moving cartons in containers, the effect is second order but real over a multi-year planning horizon. If you are negotiating annual logistics contracts for 2027 and 2028, do not assume dry bulk capacity stays cheap and available. The bigger immediate point is that the global fleet is being allocated to commodities, and container capacity is a separate market with its own blank sailing decisions. Watch the ore story for the capacity signal, not for a rate you can quote this week.",
+      "hotTake": "Forecasts like this get read as a commodity story and filed away by anyone shipping cartons. That is a mistake. The fleet is finite, and every capesize committed to West African ore is a decision about where shipping capital goes. I would use this as an argument in my 2027 contract talks, not as a reason to change this week's booking.",
+      "actions": [
+        "Flag the West Africa ore forecast in your 2027 logistics contract assumptions",
+        "Check whether any of your oversized or breakbulk suppliers ship on multipurpose vessels that compete with dry bulk tonnage",
+        "Ask your forwarder how they are pricing multi-year capacity risk on China to Europe and China to US lanes"
+      ],
+      "sourceUrl": "https://splash247.com/west-africas-ore-boom-meets-chinas-growing-vloc-armada",
+      "sourceName": "Splash247",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "manufacturing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Guangzhou Shipyard outsources hull blocks to a bridge builder",
+      "tldr": "Guangzhou Shipyard International signed a framework agreement with China Railway Shanhaiguan Bridge Group to outsource hull block construction.",
+      "whatHappened": "Guangzhou Shipyard International has turned to China Railway Shanhaiguan Bridge Group, one of China's oldest bridge builders, for outsourced hull block construction, according to Splash247. The CSSC-controlled yard signed a framework agreement with the bridge builder. Splash247 reports that GSI is joining a growing number of shipyards tapping manufacturers outside the traditional maritime supply chain to keep pace with swelling orderbooks.\n\nThe source does not give the value of the agreement, the volume of blocks involved, or delivery dates. It does not name the other yards making similar arrangements.",
+      "whyItMatters": "This is a capacity signal, not a story about bridges. Chinese yards have more ship orders than they can build with their existing block fabrication capacity, so they are recruiting heavy steel manufacturers from outside shipbuilding. That tells you new tonnage is being added to the global fleet at a pace the yards themselves did not plan for, and it tells you the constraint is fabrication capacity, not order demand.\n\nFor you, the consequence is on the medium term. More newbuildings delivered in 2028 and 2029 mean more container and bulk capacity on the water, which pushes rates down and improves schedule reliability on the main China export lanes. That is good news for your 2028 landed cost. It is not good news for your 2027 peak season, because those ships are not delivered yet. Do not let a 2029 capacity story change how you book this quarter.",
+      "hotTake": "A shipyard hiring a bridge builder is the clearest sign yet that the orderbook has outrun the supply chain that is supposed to build it. I think this ends with more capacity than the market needs by 2029, and rates that make today's numbers look generous. I would not sign a long-term rate contract at today's levels on the assumption that capacity stays tight.",
+      "actions": [
+        "Note the newbuild capacity signal for your 2028 freight budget assumptions",
+        "Keep your 2027 peak season bookings on short commitments rather than annual fixed rates",
+        "Ask your forwarder what new container capacity they expect on your main lane in 2028"
+      ],
+      "sourceUrl": "https://splash247.com/gsi-taps-bridge-builder-to-ease-ship-block-bottleneck",
+      "sourceName": "Splash247",
+      "tags": [
+        "manufacturing",
+        "sea-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "A subcommittee letter is not a Coast Guard order, but your forwarder will price it like one anyway",
+    "The Cosco inspection push is a routing guide question, not a geopolitical one: which of your SKUs can afford a two-day delay",
+    "West Africa's ore boom is a 2030 story that belongs in your 2027 contract talks, not your booking screen",
+    "The fleet is finite: every capesize sent to West African ore is capacity that does not carry your project cargo",
+    "A bridge builder fabricating ship hull blocks tells you the constraint on new tonnage is steel fabrication, not order demand",
+    "If Chinese yards are outsourcing hull blocks, the 2029 container capacity glut is already being built",
+    "Peak season planning tip: work backwards from your Amazon appointment date, not your PO date, when a vessel delay is possible",
+    "The carriers absorb political friction and pass it to you as a schedule change, not a rate change",
+    "Do not pull Cosco off your routing guide over a subcommittee letter, but do move your fastest SKUs off it",
+    "Three stories this week all point the same way: capacity is being reallocated, and your lane is not the priority",
+    "Your 2027 freight budget should assume dry bulk and container capacity are competing for the same shipyard steel",
+    "The most consequential number this week is 120 capesizes, and it has nothing to do with your container rate"
+  ],
+  "faq": [
+    {
+      "question": "Will increased Coast Guard inspections of Cosco ships delay my container from China?",
+      "answer": "They can. Extra inspections add port stay time to individual vessels, which pushes back container availability, drayage appointments and FBA receiving slots. The effect depends on whether inspections actually increase and which strings are affected. If your cargo is on a Cosco or OOCL US service, ask your forwarder for the vessel name and current ETA, then check it against your appointment date."
+    },
+    {
+      "question": "Does the West African ore boom affect container shipping rates from China?",
+      "answer": "Not directly. Capesizes carry iron ore and bauxite, not containers. The indirect effect is that ore demand pulls larger multipurpose and handysize tonnage into the Atlantic, which can raise rates for project cargo and breakbulk out of China. For normal container sellers, treat it as a long-term capacity signal for 2027 and 2028 contract planning, not a rate you can quote this week."
+    },
+    {
+      "question": "Why is a Chinese shipyard hiring a bridge builder to make hull blocks?",
+      "answer": "Because Chinese yards have more ship orders than their own block fabrication capacity can handle. Guangzhou Shipyard International signed a framework agreement with China Railway Shanhaiguan Bridge Group, a heavy steel manufacturer outside the traditional maritime supply chain. It means the constraint on new tonnage is fabrication capacity, not order demand. More newbuildings are coming, which points to more container capacity in 2028 and 2029."
+    },
+    {
+      "question": "Should I switch away from Cosco for my Q4 shipments from China?",
+      "answer": "Not entirely, but consider splitting. The subcommittee request is political pressure, not a confirmed operational change, so pulling Cosco off your routing guide completely may be an overreaction. A reasonable approach is to move your highest-velocity Q4 SKUs to a non-Cosco string for the next few weeks and leave slower-moving cargo where the rate is good. Ask your forwarder for current ETAs before deciding."
+    },
+    {
+      "question": "How much buffer should I add to FBA appointments if my vessel might be inspected?",
+      "answer": "Two extra days is a sensible starting point for a vessel on a Cosco US service. A one or two day vessel delay can cost you an Amazon receiving appointment, and rebooking a slot in peak season is slower than rebooking freight. Work backwards from your appointment date rather than your PO date, and confirm the vessel name and ETA with your forwarder in writing."
+    }
+  ],
+  "generatedAt": "2026-10-18T18:48:11.168Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 14
+}
