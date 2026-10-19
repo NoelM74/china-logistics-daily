@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-20",
+  "title": "China Shipping: EU Parcel Fees and Pacific Reliability",
+  "metaDescription": "New EU handling fees hit 1 November. Trans-Pacific reliability drops to 26.8% as capacity tightens. China GDP grows 4.5% on AI exports.",
+  "bottomLine": "EU parcel charges rise by €2 per category on 1 November, making China-to-EU direct shipping more expensive. Trans-Pacific reliability has crashed to 26.8%, meaning you must book early and pad delivery dates.",
+  "stories": [
+    {
+      "headline": "EU adds €2 handling fee per product category from 1 November",
+      "tldr": "EU parcel charges increase by €2 per product category on 1 November, adding to the €3 customs duty for consignments under €150.",
+      "whatHappened": "The EU will introduce an additional €2 handling fee per product category starting 1 November. This fee applies on top of the €3 customs duty introduced in July for qualifying consignments worth €150 or less.\n\nThese charges arrive while airfreight rates remain elevated and freighter capacity between China and Europe is reduced. This combination increases the total cost of moving small parcels from Chinese gateways to European customers.",
+      "whyItMatters": "If you ship mixed parcels, this kills your margin. A single parcel with three different product categories now costs an extra €6 in handling fees alone, plus the base customs duty. You cannot absorb these costs if you sell low-value goods. You must either raise your prices or change how you bundle products to reduce the number of categories.\n\nThis makes the case for holding stock in European warehouses much stronger. Moving from a cross-border model to a local fulfilment model removes these per-parcel category fees and protects you from volatile airfreight rates. It shifts your risk from the border to the warehouse, where you have more control over your unit economics.",
+      "hotTake": "The EU is systematically killing the direct-from-China parcel model. They want you to move your inventory into Europe. If you are still relying on individual dropshipping from Shenzhen to Berlin, your unit economics are about to collapse.",
+      "actions": [
+        "Audit your SKU bundles to minimise the number of product categories per parcel",
+        "Calculate the cost of moving Q4 stock to a European fulfilment centre",
+        "Update your checkout pricing to reflect the 1 November fee increase"
+      ],
+      "sourceUrl": "https://theloadstar.com/new-eu-parcel-charges-add-pressure-for-rethink-on-cross-border-fulfilment",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "customs-eu",
+        "tariffs-duties",
+        "air-freight",
+        "de-minimis"
+      ]
+    },
+    {
+      "headline": "Trans-Pacific reliability drops to 26.8% as bookings tighten",
+      "tldr": "Asia-North America on-time performance fell to 26.8%, with carriers reducing planned capacity despite stable demand.",
+      "whatHappened": "WiseTech Global reports that Asia-North America on-time performance fell to 26.9% in September from 33.9% in August. The latest weekly reading is 26.8%. Delays of eight days or more are now the most common outcome for shipments on this lane.\n\nWiseTech attributes this to disruption at Asian ports and the impact of China's Golden Week holiday. Carrier capacity is forecast to tighten toward the end of the outlook period. This is driven by reduced planned carrier capacity rather than an increase in demand.",
+      "whyItMatters": "You cannot trust the dates on your booking confirmation. If a carrier promises a 27-day transit, you should plan for at least 35 days to be safe. Because carriers are intentionally reducing capacity, you will find it harder to secure space on your preferred sailings. This is not a demand spike; it is a supply squeeze created by the carriers themselves.\n\nIf you have stock for a specific US promotion or a hard FBA inbound window, you are at high risk. One port delay in China now cascades into a two-week delay at the US discharge port. This ruins your inventory planning and can lead to costly out-of-stock scenarios during the peak season.",
+      "hotTake": "Carriers are playing a dangerous game by cutting capacity while reliability is already in the gutter. They are trying to force rates up, but they are just breaking the supply chain. Book your allocations now or you will be paying spot rates for a ship that is ten days late.",
+      "actions": [
+        "Book all shipments against contracted allocations immediately",
+        "Add 10 days of buffer to all US customer delivery promises",
+        "Compare the reliability data of your top 10 carriers to shift volume to the most stable ones"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/trans-pacific-facing-new-booking-risks-as-reliability-sinks",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China GDP grows 4.5% in Q3 driven by AI exports",
+      "tldr": "China's GDP grew 4.5% year-over-year in Q3, beating forecasts due to strong demand for AI and electronics exports.",
+      "whatHappened": "China reported GDP growth of 4.5% between July and September, exceeding the forecast of 4.3%. Industrial production rose 5.5% in September, thanks to strong export demand for electronics and AI-related equipment. The country is on track to exceed the 2025 record trade surplus of $1.19 trillion.\n\nInternal investment remains weak. Fixed-asset investments fell 7.2% in the first nine months of 2026, with property investments dropping 20.6%. Local governments also pulled in 28.6% less funding from leasing land to developers.",
+      "whyItMatters": "If you source electronics or AI hardware, expect your factories to be busier and less flexible. The 5.5% bump in industrial production means capacity is being eaten up by the AI boom. You may see factories prioritise these high-growth AI orders over smaller ecommerce batches, which could lead to longer lead times for non-AI components.\n\nThe contrast between export strength and domestic property collapse means factories are desperate for overseas orders. You have leverage in price negotiations because the domestic market is failing, but you have less leverage on production priority if your goods are not part of the AI trend. You must secure your production slots early to avoid being bumped by larger AI clients.",
+      "hotTake": "The AI boom is masking a domestic disaster. While the GDP numbers look good, the 20.6% dip in property investment is a ticking bomb. Use the export strength to move your goods, but keep a very close eye on your factory's financial health.",
+      "actions": [
+        "Lock in production slots for Q1 2027 now to avoid being bumped by AI orders",
+        "Use the domestic economic weakness to negotiate better terms with non-electronics suppliers"
+      ],
+      "sourceUrl": "https://supplychainbrain.com/articles/45044-exports-fuel-45-boost-to-chinas-gdp-in-q3",
+      "sourceName": "Supply Chain Brain",
+      "tags": [
+        "sourcing",
+        "manufacturing",
+        "regulation-china"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The EU is charging €2 per product category from 1 November. Your bundling strategy is now a cost centre.",
+    "Trans-Pacific reliability is at 26.8%. Stop trusting the carrier's estimated arrival date.",
+    "China's GDP grew 4.5% but property investment fell 20.6%. The economy is splitting in two.",
+    "AI exports are driving Chinese industrial production. Your small electronics order is competing with the AI boom.",
+    "Carriers are cutting capacity on the Pacific to drive rates, not because demand is too high.",
+    "Direct-from-China shipping to the EU is becoming a luxury. Local fulfilment is the only way to scale.",
+    "A 27-day scheduled transit on the Pacific is a myth. Plan for 35 days or fail your customers.",
+    "The EU customs duty of €3 was just the start. The new handling fees make mixed parcels expensive.",
+    "Industrial production in China rose 5.5% in September. Factory slots are filling up fast.",
+    "The trade surplus is heading for a new record, but local governments are broke."
+  ],
+  "faq": [
+    {
+      "question": "What are the new EU parcel charges starting 1 November 2026?",
+      "answer": "From 1 November 2026, the EU will introduce a €2 handling fee for every product category within a parcel. This is in addition to the €3 customs duty already in place for qualifying consignments worth €150 or less."
+    },
+    {
+      "question": "Is shipping from China to the US reliable right now?",
+      "answer": "No. On-time performance for Asia-North America shipments fell to 26.8% in October 2026. Delays of eight days or more are the most common outcome due to port disruptions and reduced carrier capacity."
+    },
+    {
+      "question": "How is the Chinese economy affecting manufacturing lead times?",
+      "answer": "Strong demand for AI-related equipment and electronics drove a 5.5% increase in industrial production in September 2026. This means factories in these sectors are operating at high capacity, which may lead to longer lead times for smaller orders."
+    }
+  ],
+  "generatedAt": "2026-10-19T21:11:19.460Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 17
+}
