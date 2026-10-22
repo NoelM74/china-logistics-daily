@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-23",
+  "title": "China Shipping: Port Congestion and New Lanes",
+  "metaDescription": "Intra-Asia rates dip as ports clear, but Super Typhoon Champi threatens delays. New China-Iceland air and China-Indonesia sea links open.",
+  "bottomLine": "Intra-Asia spot rates fell 3% to $1,453 per 40ft on 15 October as port bottlenecks eased. This relief is fragile as Super Typhoon Champi threatens to restart delays across eastern China ports this weekend.",
+  "stories": [
+    {
+      "headline": "Intra-Asia rates dip but Typhoon Champi threatens rebound",
+      "tldr": "Intra-Asia container rates fell 3% to $1,453 per 40ft on 15 October as port congestion eased.",
+      "whatHappened": "Drewry’s Intra-Asia Container Index fell 3% to an average of $1,453 per 40ft on 15 October. Vessel waiting times declined at Shanghai and other ports for destinations including Busan, Ho Chi Minh City, and Jawaharlal Nehru Port.\n\nMaersk reported that waiting times along the east China coast showed a week-on-week decline. However, Super Typhoon Champi is moving toward the seas east of Taiwan and eastern China. The Hong Kong Observatory reported maximum sustained winds of 240 kilometres per hour on 21 October.\n\nShippers expect the typhoon to hit the Chinese coast between 24 and 25 October. Market participants report current delays of four days at Shanghai and Ningbo and warn that disruptions could last one to two weeks.",
+      "whyItMatters": "If you ship high-velocity goods to Southeast Asia or India, you saw a brief window of cheaper freight and better reliability. That window is closing. If you have stock sitting in Shanghai or Ningbo right now, you are facing a four-day delay before the storm even hits.\n\nOnce Champi arrives, carriers will likely omit port calls to keep schedules. This creates a space shortage, especially on lanes from North Asia to Australia. You will see rates climb again as capacity tightens and vessels are diverted. This will hit your landed cost and your delivery promises for Q4.",
+      "hotTake": "Do not trust the 15 October rate dip. It was a Golden Week hangover, not a trend. I expect rates to spike again by 26 October once the typhoon damage is clear. Book your November space now before the 'storm surcharge' logic kicks in.",
+      "actions": [
+        "Move urgent shipments out of Shanghai and Ningbo before 24 October",
+        "Check with your forwarder for blank sailings on North Asia to Australia lanes",
+        "Buffer your delivery dates by 14 days for any cargo currently on the east China coast"
+      ],
+      "sourceUrl": "https://theloadstar.com/intra-asia-rates-soften-as-congestion-at-major-ports-begins-to-ease",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Air China launches Beijing to Iceland cargo service",
+      "tldr": "Air China starts a three-times-weekly passenger and cargo service between Beijing and Keflavík via Copenhagen on 26 October 2026.",
+      "whatHappened": "Air China will begin a new service from Beijing to Keflavík via Copenhagen on 26 October 2026. The carrier will use Airbus A330-300 aircraft, which carry both passengers and cargo, operating three times per week.\n\nKales Iceland, a joint venture between TVG-Zimsen and Kales Group B.V., will provide commercial and operational support. The company acts as a General Sales and Service Agent to connect airlines with freight forwarders and importers in Iceland.",
+      "whyItMatters": "If you sell into the Nordic market, you have a new scheduled freight connection that bypasses some of the usual hubs. This is a direct win for sellers of high-value, time-sensitive goods who previously struggled with fragmented routing into Iceland.\n\nIt also opens a reverse lane for Icelandic exporters, such as fresh seafood, to reach China. If you source specialized raw materials from the North Atlantic, your lead times just dropped. You can now move stock faster than competitors who rely on multi-stop courier shipments or slow LCL.",
+      "hotTake": "Iceland is a tiny market, but it is a high-spend one. Most sellers ignore it because the logistics are a mess. Using a direct Air China link is the fastest way to beat competitors who are still relying on slow LCL or multi-stop courier shipments.",
+      "actions": [
+        "Quote air freight for Iceland-bound stock starting 26 October",
+        "Contact your forwarder to check belly capacity on the A330-300 Beijing-Keflavík route"
+      ],
+      "sourceUrl": "https://aircargoweek.com/icelandic-cargo-connectivity-complemented-by-kales-iceland-air-china-appointment",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "MSC opens direct sea link from China to Indonesia",
+      "tldr": "MSC launched the Jasmine service connecting Shanghai, Ningbo, and Shekou directly to Singapore, Surabaya, and Semarang.",
+      "whatHappened": "MSC launched a standalone service called Jasmine. It provides direct connections between the Chinese ports of Shanghai, Ningbo, and Shekou and the ports of Singapore, Surabaya, and Semarang.\n\nThe MSC Wind II, operating voyage HF645A, will inaugurate the service. The vessel is scheduled to arrive in Shanghai on 4 November.",
+      "whyItMatters": "If you are scaling your ecommerce presence in Indonesia, you no longer have to rely on complex transhipments for every shipment. Direct calls to Surabaya and Semarang reduce the risk of cargo being stranded in Singapore or Jakarta.\n\nReducing the number of touches on a container reduces the chance of damage and shortens the transit time. This is critical for sellers managing lean inventories in the Indonesian market. It lowers your risk of stockouts during the peak season and simplifies your customs planning for these specific ports.",
+      "hotTake": "Indonesia is the next big growth play for China-sourced goods. MSC is betting on this by adding standalone capacity. I would shift my Indonesia-bound volume to this service to avoid the congestion typically found in the larger hub-and-spoke networks.",
+      "actions": [
+        "Request quotes for the Jasmine service for shipments leaving Shanghai after 4 November",
+        "Review your routing to Surabaya and Semarang to see if this direct link cuts transit time"
+      ],
+      "sourceUrl": "https://container-news.com/msc-launches-jasmine-service-linking-china-and-indonesia",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China dominates shipbuilding but faces delivery bottleneck",
+      "tldr": "Chinese shipyards hold 64% of the global order book, with containership orders alone reaching an 81% share.",
+      "whatHappened": "The global shipyard order book reached 203.2 million compensated gross tonnage (CGT) as of 1 September 2026. Chinese shipyards secured 74% of all CGT contracted over the past 12 months and now control 64% of the global order book.\n\nChinese yards hold over 72% of the order book in six main categories, including containerships and tankers. However, scheduled deliveries are set to climb to 44 million CGT in 2028, nearly double the 22.7 million CGT delivered in 2025. This creates a production gap that may delay vessel availability.",
+      "whyItMatters": "You might not own a ship, but you care about capacity. When shipyards cannot meet delivery schedules, the global fleet grows slower than planned. This keeps spot rates higher for longer because the expected influx of new tonnage is delayed.\n\nIf you rely on tight margins and low sea-freight costs, this shipbuilding bottleneck means you cannot expect a dramatic crash in rates. The supply of ships is not keeping pace with the order book, which protects carrier pricing power throughout 2027 and 2028.",
+      "hotTake": "Everyone talks about the 'ordering boom' as a sign of growth. I see it as a future capacity crunch. If Chinese yards cannot scale production to meet that 2028 peak, we will see a secondary spike in rates because the ships simply won't exist.",
+      "actions": [
+        "Plan for sustained higher sea-freight rates into 2027",
+        "Diversify your carrier mix to avoid reliance on a single fleet's capacity"
+      ],
+      "sourceUrl": "https://gcaptain.com/china-tightens-grip-on-global-shipbuilding-as-order-book-hits-near-record-high",
+      "sourceName": "gCaptain",
+      "tags": [
+        "sea-freight",
+        "manufacturing",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Stop celebrating the 3% dip in Intra-Asia rates; Super Typhoon Champi is about to wipe out those gains.",
+    "Air China is now flying cargo to Iceland three times a week. The Nordic market just got smaller.",
+    "Direct shipping to Surabaya and Semarang is now a reality via MSC's new Jasmine service.",
+    "Port congestion in Shanghai is already at four days. If your stock is there, you are already late.",
+    "The gap between Chinese shipbuilding capacity and the order book is reaching a breaking point.",
+    "Foreign direct investment in China fell 4.3% in the first nine months of 2026, but high-tech investment jumped 33.8%.",
+    "Carrier port omissions in North Asia are tightening space for Australia-bound freight.",
+    "The 2028 delivery peak for Chinese ships will be double the 2025 output. Expect shipyard bottlenecks.",
+    "Undersea cable security in the Bashi Channel is becoming a geopolitical flashpoint for data flows.",
+    "Methanol-capable ships are on order, but fuel costs will decide if they ever actually use the fuel."
+  ],
+  "faq": [
+    {
+      "question": "Are shipping rates from China to Southeast Asia falling?",
+      "answer": "Intra-Asia rates fell 3% to $1,453 per 40ft on 15 October. However, this is temporary. Super Typhoon Champi is threatening eastern China ports, which usually leads to port omissions and a rise in spot rates."
+    },
+    {
+      "question": "How is the typhoon affecting Shanghai and Ningbo ports?",
+      "answer": "As of 22 October, congestion is causing delays of about four days at Shanghai and Ningbo. With Super Typhoon Champi expected to hit 24-25 October, disruptions could last one to two weeks."
+    },
+    {
+      "question": "Is there a new way to ship air freight from China to Iceland?",
+      "answer": "Yes. Starting 26 October 2026, Air China is operating a new service between Beijing and Keflavík via Copenhagen three times per week using Airbus A330-300 aircraft."
+    }
+  ],
+  "generatedAt": "2026-10-22T20:19:06.516Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 19
+}
