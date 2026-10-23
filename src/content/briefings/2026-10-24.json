@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-24",
+  "title": "China Ocean Rates Rise as Carriers Cut Capacity",
+  "metaDescription": "Carrier blank sailings push Asia-Europe rates up. US port fee suspension extended to January 2027. AI demand spikes air cargo volumes.",
+  "bottomLine": "Ocean spot rates are climbing again as carriers blank sailings to inflate prices, particularly on Asia-Europe lanes. You have a reprieve on US port fees for Chinese vessels until 9 January 2027.",
+  "stories": [
+    {
+      "headline": "Carriers blank sailings to push Asia-Europe and US rates up",
+      "tldr": "Shanghai to Rotterdam rates rose 3% to $3,632 per 40ft container as carriers increase blank sailings.",
+      "whatHappened": "Drewry’s World Container Index shows spot freight rates rising across Asia-Europe, transpacific, and transatlantic trades. Shanghai to Rotterdam rates increased 3% to $3,632 per 40ft container, while Shanghai to Genoa rose 5% to $4,152.\n\nOn the trans-Pacific, Shanghai to Los Angeles rates rose 2% to $8,007 per 40ft container and Shanghai to New York rose 1% to $10,166. Carriers reduced trans-Pacific blank sailings from six this week to two for next week.\n\nAsia-Europe faces tighter capacity. Carriers announced eight blank sailings for next week, up from two this week. This comes while vessel waiting times at Shanghai improved from 97 hours in Week 38 to 38 hours in Week 42.",
+      "whyItMatters": "You are seeing the end of the post-peak decline. If you waited for rates to bottom out before booking your late Q4 or early Q1 stock, you missed the window. The carriers are now manually tightening supply to force rates back up.\n\nFor those shipping to Europe, the jump in blank sailings means your space is less guaranteed. You will face tighter allocations and higher spot prices if you do not have a fixed contract. Your landed cost per unit is ticking up just as you enter the heaviest sales period of the year.\n\nUS-bound shippers have it slightly better with fewer cancellations, but the strong import demand is keeping the floor high. You cannot expect a price drop in the next fortnight.",
+      "hotTake": "Carriers are playing a game of chicken with your Q4 margins. They see the demand and are cutting capacity to see how much you will pay. I would book any remaining January shipments now before the Asia-Europe blankings cascade.",
+      "actions": [
+        "Lock in spot rates for November shipments immediately",
+        "Check your Europe allocations for December to ensure space is secured",
+        "Budget for a 3% to 5% increase in ocean freight for January arrivals"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "US proposes extending China ship port fee pause to January 2027",
+      "tldr": "The US government proposes extending the suspension of port fees on China-linked vessels until 9 January 2027.",
+      "whatHappened": "The USTR outlined a proposal in a Federal Register notice to extend the suspension of port fees targeting Chinese-owned, operated, and built vessels. The current pause expires on 9 November 2026.\n\nThe proposed extension would keep these fees suspended from 10 November 2026 through 9 January 2027. This also covers duties on ship-to-shore cranes and cargo-handling equipment.\n\nThis move comes as Washington and Beijing negotiate over China's dominance in global shipbuilding. Some US lawmakers and maritime labour groups have urged the administration to reinstate the fees to support American shipbuilding.",
+      "whyItMatters": "These fees are a hidden cost that carriers pass directly to you. If the suspension ended in November, you would see a sudden spike in your surcharges for any vessel calling at a US port that is Chinese-built or operated.\n\nBecause the proposal pushes the deadline to January, you have a predictable cost base for the rest of the peak season. You do not need to worry about a sudden Section 301 port fee surcharge hitting your November or December invoices.\n\nHowever, the window is short. If the extension is not renewed in January, your first shipments of 2027 could be hit with significant new costs.",
+      "hotTake": "This is a political pawn. The Trump administration is using these fees as a bargaining chip for shipbuilding concessions. Do not treat this as a permanent win; treat it as a stay of execution.",
+      "actions": [
+        "Confirm with your freight forwarder that no 'emergency' port fees are being added to November bookings",
+        "Model a cost increase for February 2027 shipments in case the suspension ends"
+      ],
+      "sourceUrl": "https://gcaptain.com/ustr-proposes-extending-china-ship-port-fee-suspension-through-january-2027",
+      "sourceName": "gCaptain",
+      "tags": [
+        "customs-us",
+        "tariffs-duties",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "AI hardware demand spikes trans-Pacific air cargo volumes",
+      "tldr": "Hyperscalers driving demand for AI infrastructure are filling trans-Pacific freighters ahead of November shopping promotions.",
+      "whatHappened": "Demand for AI infrastructure from hyperscalers is propelling the air cargo peak season. This volume is concentrated particularly on trans-Pacific routes, where the need for specialized hardware is highest.\n\nGeneral high-tech products and restocking for November online shopping promotions are also contributing to the high volume of freighters. This combination of industrial AI equipment and consumer electronics is filling available aircraft capacity across the Pacific.",
+      "whyItMatters": "You are competing for air space with the biggest tech companies in the world. When hyperscalers move AI hardware, they take up massive amounts of volume and weight, leaving less room for your ecommerce parcels.\n\nIf you rely on air freight for fast restocking or high-value drops, expect higher rates and tighter capacity. The 'AI tax' is now a real factor in your air freight quotes.\n\nThis is not just a general peak season trend. It is a specific demand for heavy infrastructure that crowds out smaller shipments.",
+      "hotTake": "Air freight is becoming a two-tier market. The big tech players get the priority, and the ecommerce sellers get the leftovers. If you have not secured your air capacity for November, you will pay a premium.",
+      "actions": [
+        "Shift non-urgent air shipments to sea-air or faster ocean options",
+        "Book air capacity for November promotions at least 14 days in advance"
+      ],
+      "sourceUrl": "https://joc.com/article/demand-for-ai-infrastructure-propels-air-cargo-peak-season-6310715",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Carriers are blanking sailings to force rates up while you are trying to protect Q4 margins.",
+    "The AI boom is not just about software; it is physically crowding your goods out of air freighters.",
+    "US port fees for Chinese ships are paused until January, but the clock is ticking.",
+    "Shanghai port congestion is easing, but that is actually making it easier for carriers to cut capacity.",
+    "Asia-Europe ocean rates are climbing again after three months of decline.",
+    "Your January landed costs depend on whether the US and China can agree on shipbuilding.",
+    "Hyperscalers are the new biggest competitors for your air freight space.",
+    "Don't mistake easing port congestion for lower freight rates.",
+    "The trans-Pacific air lane is currently a battleground between AI hardware and ecommerce stock.",
+    "Blank sailings are the carriers' favourite tool to stop a price war."
+  ],
+  "faq": [
+    {
+      "question": "Why are ocean freight rates rising if port congestion is easing?",
+      "answer": "Carriers use blank sailings to artificially reduce the number of ships on a route. When congestion eases, ships return to service faster, which would normally lower prices. To prevent this, carriers cancel scheduled sailings to tighten available space and force spot rates higher."
+    },
+    {
+      "question": "What are the US port fees for Chinese vessels?",
+      "answer": "These are fees resulting from Section 301 investigations into China's shipbuilding subsidies. They target vessels that are Chinese-owned, operated, or built. The US government has proposed extending the current suspension of these fees until 9 January 2027."
+    },
+    {
+      "question": "How is AI affecting air freight costs for ecommerce?",
+      "answer": "Hyperscalers moving AI infrastructure hardware consume massive amounts of aircraft volume and weight on trans-Pacific routes. This increased demand for heavy industrial equipment crowds out ecommerce parcels and pushes up spot rates during the peak season."
+    }
+  ],
+  "generatedAt": "2026-10-23T20:02:18.407Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
