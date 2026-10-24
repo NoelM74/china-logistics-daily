@@ -38,6 +38,7 @@ jobs:
           echo "catalogue: $(wc -l < live.txt) models"
 
           : > problems.md
+          : > slow.md
           ok=0
           IFS=',' read -ra LIST <<< "${MODELS:-}"
           for m in "${LIST[@]}"; do
@@ -54,11 +55,18 @@ jobs:
             code=$(curl -s -o reply.json -w '%{http_code}' --max-time 300 \
               https://integrate.api.nvidia.com/v1/chat/completions \
               -H "Authorization: Bearer $NVIDIA_API_KEY" -H 'Content-Type: application/json' \
-              -d "{\"model\":\"$m\",\"max_tokens\":2000,\"messages\":[{\"role\":\"user\",\"content\":\"Reply with the single word: ready\"}]}") || code="000, timed out"
+              -d "{\"model\":\"$m\",\"max_tokens\":2000,\"messages\":[{\"role\":\"user\",\"content\":\"Reply with the single word: ready\"}]}") || code=000
             text=$(jq -r '.choices[0].message.content // ""' reply.json 2>/dev/null)
             if [ "$code" = "200" ] && [ -n "$text" ]; then
               echo "ok      $m"
               ok=$((ok+1))
+            elif [ "$code" = "000" ]; then
+              # No answer inside 5 minutes is slow, not gone. DeepSeek V4.1 Flash
+              # takes about that long to write a briefing, so a hard 5-minute
+              # limit raised a false alarm every day from 17 October. It is
+              # still listed and the server still accepted the call.
+              echo "- \`$m\` is listed but **slow**: no reply in 5 minutes. Not an alarm." >> slow.md
+              echo "SLOW    $m"
             else
               echo "- \`$m\` is listed but **does not answer** (HTTP $code)." >> problems.md
               echo "FAILED  $m (HTTP $code)"
@@ -68,13 +76,22 @@ jobs:
           {
             echo "### Model watch"
             echo
-            echo "Configured: \`${MODELS:-unset}\` — $ok working"
+            echo "Configured: \`${MODELS:-unset}\` — $ok answering"
             echo
-            cat problems.md
+            cat problems.md slow.md
           } >> "$GITHUB_STEP_SUMMARY"
+
+          gh label create model-watch --repo "$REPO" --color D93F0B \
+            --description "A briefing model was withdrawn from NVIDIA" 2>/dev/null || true
+          open=$(gh issue list --repo "$REPO" --label model-watch --state open --limit 1 --json number --jq '.[0].number // empty')
 
           if [ ! -s problems.md ]; then
             echo "all configured models are fine"
+            # Stand down: an alarm that never closes teaches people to ignore it.
+            if [ -n "$open" ]; then
+              gh issue close "$open" --repo "$REPO" \
+                --comment "Recovered. Every configured model is listed and none returned an error. Run: $RUN_URL"
+            fi
             exit 0
           fi
 
@@ -97,11 +114,20 @@ jobs:
             echo "Run: $RUN_URL"
           } > body.md
 
-          gh label create model-watch --repo "$REPO" --color D93F0B \
-            --description "A briefing model was withdrawn from NVIDIA" 2>/dev/null || true
-          open=$(gh issue list --repo "$REPO" --label model-watch --state open --limit 1 --json number --jq '.[0].number // empty')
           if [ -n "$open" ]; then
-            gh issue comment "$open" --repo "$REPO" --body-file body.md
+            # Comment only when the problem is new. The same line repeated every
+            # morning is noise, and the issue already says it.
+            seen=$(gh issue view "$open" --repo "$REPO" --json body,comments --jq '[.body, (.comments[].body)] | join("\n")')
+            new=0
+            while IFS= read -r line; do
+              [ -z "$line" ] && continue
+              printf '%s' "$seen" | grep -qF -- "$line" || new=1
+            done < problems.md
+            if [ "$new" = "1" ]; then
+              gh issue comment "$open" --repo "$REPO" --body-file body.md
+            else
+              echo "alarm #$open already reports this, no new comment"
+            fi
           else
             gh issue create --repo "$REPO" --title "A briefing model was withdrawn from NVIDIA" \
               --label model-watch --body-file body.md
