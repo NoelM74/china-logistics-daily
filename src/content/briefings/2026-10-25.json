@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-25",
+  "title": "China Shipping: Typhoon Champi and Suez Returns",
+  "metaDescription": "Typhoon Champi hits eastern China ports while MSC and Zim return to the Suez route. Spot rates rise on Asia-Europe lanes.",
+  "bottomLine": "Typhoon Champi is grounding flights and disrupting ports in Shanghai, Fujian, and Zhejiang today. Meanwhile, MSC and Zim are moving Asia-USEC services back to the Suez route, shortening transit times for US East Coast inbound.",
+  "stories": [
+    {
+      "headline": "Typhoon Champi disrupts Shanghai and Eastern China ports",
+      "tldr": "Typhoon Champi grounded over 100 flights and forced tens of thousands of evacuations across Shanghai, Fujian, and Zhejiang provinces on 24 October 2026.",
+      "whatHappened": "Typhoon Champi hit China's eastern coast on 24 October 2026. Authorities grounded over a hundred flights across the region. China Eastern Airlines cancelled 39 domestic flights to and from Shanghai's two main airports.\n\nFlights to and from the cities of Fuzhou and Wenzhou were also affected. Authorities relocated tens of thousands of people as the storm weakened and moved towards Japan.",
+      "whyItMatters": "If you have goods sitting in warehouses in Shanghai, Fujian, or Zhejiang, expect a 48 to 72 hour slide in your schedule. Grounded flights mean your express parcels are piling up in hubs. \n\nFor those using air freight for Q4 replenishment, this creates an immediate bottleneck. When the airports reopen, you will fight for space on the first few available flights, which usually spikes short-term spot rates.",
+      "hotTake": "Weather delays in October are a nightmare because they eat into your final holiday delivery window. Do not trust the carrier's 'estimated' recovery date. Add three days to whatever they tell you.",
+      "actions": [
+        "Check the status of your air freight bookings out of Shanghai, Fuzhou, and Wenzhou",
+        "Alert your US and EU warehouses to a 3 day delay in inbound arrivals"
+      ],
+      "sourceUrl": "https://scmp.com/news/china/politics/article/3372015/thousands-evacuated-and-flights-grounded-typhoon-champi-hits-eastern-china",
+      "sourceName": "SCMP China Economy",
+      "tags": [
+        "ports-congestion",
+        "air-freight",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "MSC and Zim move Asia-USEC services back to Suez",
+      "tldr": "MSC and Zim are returning joint Asia-USEC services to the shorter Suez route, ending the diversion around southern Africa.",
+      "whatHappened": "MSC and Zim have returned to the Suez route for their joint Asia-USEC service. This change is part of an ongoing and gradual return of Far East services using the shorter Suez route. \n\nPreviously, these services had been routing around southern Africa to avoid regional instability. The return to the Suez canal restores the traditional shorter path between Asia and the US East Coast.",
+      "whyItMatters": "You get your time back. Routing around the Cape of Good Hope adds weeks to your transit. This shift reduces the lead time for goods moving from China to the US East Coast.\n\nIf you are managing tight FBA inbound windows, this makes your arrival dates more predictable. It also reduces the risk of your stock arriving after the peak holiday window has closed.",
+      "hotTake": "The return to Suez is a relief, but do not assume the volatility is over. Carriers will flip back to Africa the moment the risk profile changes. Book your space, but keep a buffer.",
+      "actions": [
+        "Update your lead time calculations for US East Coast shipments",
+        "Re-verify your FBA inbound appointment dates based on the shorter transit"
+      ],
+      "sourceUrl": "https://joc.com/article/msc-zim-return-to-suez-route-for-joint-asia-usec-service-6310767",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Asia-Europe spot rates rise as carriers blank sailings",
+      "tldr": "Shanghai to Rotterdam spot rates rose 3% to $3,632 per 40ft in the week to 23 October 2026.",
+      "whatHappened": "Spot freight rates rose this week across all three of the largest east-west trades, including Asia-Europe, transpacific, and transatlantic. According to Drewry’s World Container Index, the Shanghai-Rotterdam leg increased 3% week on week to end at $3,632 per 40ft.\n\nThis increase comes after three months of post-peak season declines. Carriers are opting for more blanked sailings specifically to bolster these freight rates.",
+      "whyItMatters": "You are seeing the end of the post-peak dip. If you were waiting for rates to bottom out before booking your next batch of containers, you waited too long.\n\nBlank sailings mean less capacity. For the operator, this means a higher risk of your containers being rolled at the port. You may see your costs per unit rise slightly on the Asia-Europe lane.",
+      "hotTake": "Carriers are manipulating capacity to stop the price slide. I expect these rates to climb another 5% to 10% before the end of the year. Lock in your contracts now.",
+      "actions": [
+        "Book your November shipments immediately to avoid rolled cargo",
+        "Budget for a 3% to 5% increase in sea freight costs for Europe lanes"
+      ],
+      "sourceUrl": "https://theloadstar.com/carriers-opt-for-more-blanked-sailings-to-bolster-freight-rates",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Sierra Leone and China launch joint shipping venture",
+      "tldr": "Sierra Leone and China's Zhejiang Xiehai Group formed SLOSCo to build a fleet of 50 vessels for Asia-Africa trade.",
+      "whatHappened": "President Julius Maada Bio launched the Sierra Leone Ocean Shipping Company (SLOSCo), a joint venture with China’s Zhejiang Xiehai Group. Zhejiang Xiehai holds a 70% majority stake, while the Sierra Leone National Shipping Agency (SLNSA) holds 30%.\n\nSLOSCo plans to build a fleet of 50 vessels, targeting 30 in the first phase. The company will use an existing direct shipping route between Taizhou Port in China and the Queen Elizabeth II Quay in Freetown, launched in December 2025.",
+      "whyItMatters": "If you source from China and sell into West African markets, this creates a more structured lane. The venture includes plans to invest in cargo haulage trucks to reduce congestion at the Port of Freetown.\n\nWhile this is a long-term play, the focus on reducing reliance on international carriers suggests a shift toward more direct, Chinese-managed logistics for the region. This could eventually lower costs and improve reliability for those shipping to Freetown.",
+      "hotTake": "This is a classic Chinese infrastructure play. By owning the ships and the trucks, they control the entire chain. If you are moving goods to West Africa, watch this lane for better reliability than the general carriers.",
+      "actions": [
+        "Monitor the Taizhou Port to Freetown route for potential rate improvements",
+        "Review your West African distribution partners for updated haulage options"
+      ],
+      "sourceUrl": "https://maritime-executive.com/article/sierra-leone-launches-national-shipping-carrier-with-chinese-support",
+      "sourceName": "The Maritime Executive",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Container ship orderbook hits post-2009 peak",
+      "tldr": "The container shipping orderbook reached 46.5% of the active fleet, with Chinese shipyards booking 88% of total capacity.",
+      "whatHappened": "The container shipping orderbook has swelled to 16.2m teu, representing 46.5% of the active fleet. This is a post-2009 peak as carriers race for ultra-large tonnage.\n\nChinese shipyards have booked a record 4.94m teu this year, accounting for 88% of all capacity ordered according to Linerlytica. Maersk and CMA CGM are among the carriers driving this growth in the orderbook-to-fleet ratio.",
+      "whyItMatters": "This is a massive wave of capacity coming. In the short term, it does nothing for your current Q4 rates. In the long term, this suggests a future where capacity far outweighs demand, which should crash spot rates.\n\nHowever, for the operator, the race for 'giant vessels' means more concentration of cargo into fewer, larger ships. This increases the impact of a single port closure or a single vessel delay on your entire inventory flow.",
+      "hotTake": "Carriers are overbuilding. They are chasing scale and efficiency, but they are ignoring the cyclical nature of the market. We are heading for a capacity glut that will make the 2010s look stable.",
+      "actions": [
+        "Avoid long-term fixed-rate contracts that exceed 12 months",
+        "Diversify your carrier mix to avoid being tied to one 'giant vessel' service"
+      ],
+      "sourceUrl": "https://theloadstar.com/boxship-orderbook-bulges-as-race-for-giant-vessels-heats-up",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "manufacturing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Typhoon Champi is a reminder that October weather can kill your Q4 margins",
+    "The return to the Suez route for Asia-USEC is the biggest lead-time win of the month",
+    "Stop waiting for sea freight rates to drop; the Asia-Europe bottom is in",
+    "Blank sailings are the carrier's favourite tool to keep your costs high",
+    "Air freight bottlenecks in Shanghai always follow a typhoon",
+    "Your FBA arrival window just got shorter thanks to the Suez return",
+    "A 3% jump in Shanghai-Rotterdam rates is the first signal of a new trend",
+    "Weather disruptions in Zhejiang and Fujian will ripple through the supply chain for a week",
+    "Predictability is more valuable than a cheap spot rate during typhoon season",
+    "The Cape of Good Hope detour is ending for some, but the risk remains"
+  ],
+  "faq": [
+    {
+      "question": "How is Typhoon Champi affecting shipments from China?",
+      "answer": "Typhoon Champi has grounded over 100 flights and disrupted operations in Shanghai, Fujian, and Zhejiang. Expect delays in air freight departures and potential port congestion in eastern China. Sellers should anticipate a 48 to 72 hour delay in cargo movement from these regions."
+    },
+    {
+      "question": "Are shipping rates from China to Europe going up again?",
+      "answer": "Yes. Spot rates for the Shanghai-Rotterdam route rose 3% to $3,632 per 40ft in the week ending 23 October 2026. Carriers are using blanked sailings to reduce capacity and bolster these rates after a three-month decline."
+    },
+    {
+      "question": "Will shipments to the US East Coast be faster now?",
+      "answer": "Potentially. MSC and Zim have returned joint Asia-USEC services to the Suez route. This avoids the long detour around southern Africa, significantly shortening the transit time for goods moving from the Far East to the US East Coast."
+    }
+  ],
+  "generatedAt": "2026-10-24T21:17:10.390Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 14
+}
