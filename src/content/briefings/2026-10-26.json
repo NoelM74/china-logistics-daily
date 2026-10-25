@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "title": "China Export Controls and EV Factory Shifts",
+  "metaDescription": "China tightens export rules on drones and tech while BYD and Chery move production to Europe and Canada to bypass trade barriers.",
+  "bottomLine": "China's Ministry of Commerce is tightening export oversight on drones and advanced tech. Meanwhile, major EV makers are moving production to Europe and Canada to dodge tariffs.",
+  "stories": [
+    {
+      "headline": "China tightens export rules for drones and advanced tech",
+      "tldr": "China's Ministry of Commerce introduced new export control measures in October 2026 for unmanned aerial vehicles and selected advanced technologies.",
+      "whatHappened": "China's Ministry of Commerce (MOFCOM) issued announcements in October 2026 regarding new export control measures. These rules cover selected advanced technologies and unmanned aerial vehicles (UAVs) specifically.\n\nThe measures introduce additional compliance requirements for exporters and international logistics providers. These changes affect export authorizations, customs documentation, and technology transfers. Some requirements have already taken effect as the government seeks tighter oversight of sensitive tech leaving the country.",
+      "whyItMatters": "If you sell drones or high-tech components, your paperwork just got harder. Customs officers will scrutinise your documentation more closely. This adds dwell time at the port and increases the risk of shipments being detained by officials who are now under orders to be more rigorous.\n\nYou cannot rely on your old shipping templates. A missing authorisation or a wrong code on your customs declaration will now trigger a hold. For those using third-party logistics providers, you must verify they understand these October 2026 requirements before they file your entries, or you will face unexpected delays and storage fees.",
+      "hotTake": "Beijing is weaponising the paperwork. They do not need to ban the goods if they can just bury you in compliance forms. I would audit every drone SKU in your catalogue today.",
+      "actions": [
+        "Audit your drone and tech SKUs against the latest MOFCOM export lists",
+        "Request a written confirmation from your freight forwarder that they can handle the new UAV documentation"
+      ],
+      "sourceUrl": "https://container-news.com/china-tightens-export-oversight-with-new-technology-and-drone-controls",
+      "sourceName": "Container News",
+      "tags": [
+        "regulation-china",
+        "customs-us",
+        "customs-eu",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "BYD builds European factories to bypass EV tariffs",
+      "tldr": "BYD will build new factories in Europe to protect market share from rising trade barriers and tariff increases.",
+      "whatHappened": "Liu Xueliang, vice-president at BYD, stated the company will build new factories in Europe. The Shenzhen-based carmaker faces rising trade barriers overseas and a pullback in fiscal support within China. This move is designed to secure a larger market share in a region that is critical for their growth.\n\nLiu stated that BYD will not let tariff increases affect the choice of local consumers in the European regional market. The company is actively expanding its presence to ensure that the cost of their electric vehicles remains competitive despite the fiscal pressures.",
+      "whyItMatters": "This is a blueprint for any high-value seller facing EU tariffs. BYD is moving the point of origin to the destination market to keep the landed cost stable. When you shift production, you stop paying the import duty on the finished unit, which is often the biggest cost driver in your P&L.\n\nIf you are sourcing heavy goods with high tariffs, you need to look at this move. Shipping finished goods from Shenzhen is becoming too expensive. Moving assembly or final production to Europe removes the tariff hit and shortens your lead time to the customer, reducing your reliance on volatile sea-freight schedules.",
+      "hotTake": "BYD knows the era of cheap shipping and low tariffs is dead. They are trading higher labour costs in Europe for lower duties. It is a smart play for survival.",
+      "actions": [
+        "Calculate the cost difference between paying EU tariffs and assembling goods locally",
+        "Identify European partners for final assembly if your unit value is high"
+      ],
+      "sourceUrl": "https://scmp.com/business/china-evs/article/3372001/byd-build-new-factories-europe-combat-strict-trade-barriers-targeting-chinese-evs",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "tariffs-duties",
+        "manufacturing",
+        "sourcing",
+        "customs-eu"
+      ]
+    },
+    {
+      "headline": "Chery explores Canada production to circle US market",
+      "tldr": "Chery Automobile is considering local manufacturing in Canada to enter the North American market despite US technology restrictions.",
+      "whatHappened": "Executive Vice President Guibing Zhang stated Chery is considering local manufacturing in Canada. The company plans to launch sales in Canada next year and is assessing idle capacity at existing plants or working with partners. Zhang noted that Canada is a market worth having a factory for, even without access to the American market.\n\nCanada has a deal with Beijing allowing annual low-tariff imports of 49,000 new-energy vehicles, a quota that rises each year. Minister of Industry Melanie Joly requires local supply chains, Canadian labour standards, and secure software for manufacturing. President Donald Trump suggested in September that he may allow Chinese automakers to build in the US if they employ local workers.",
+      "whyItMatters": "Canada is becoming the back door for China. If you cannot get goods into the US due to Section 301 or other tariffs, Canada is the new staging ground for North American distribution. It allows you to build a brand and a logistics network on the doorstep of the US while waiting for political shifts.\n\nHowever, the US government is watching. If you ship to Canada and then try to move those goods across the border, you will hit a wall. US officials have stated that Chinese cars from Canada will not cross the border to the US. You must treat Canada as a standalone market, not a transit point for US-bound stock.",
+      "hotTake": "Chery is playing a long game. They are betting that local production in Canada makes them a 'domestic' player in the eyes of North American buyers. I would not bet on the US border opening up any time soon.",
+      "actions": [
+        "Review your Canadian import quotas if you sell new-energy products",
+        "Check if your US-bound goods can be legally routed through Canada without triggering origin penalties"
+      ],
+      "sourceUrl": "https://supplychainbrain.com/articles/45079-chery-eyes-canada-production-as-chinese-carmakers-circle-us",
+      "sourceName": "Supply Chain Brain",
+      "tags": [
+        "customs-us",
+        "manufacturing",
+        "sourcing",
+        "tariffs-duties"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "China is using paperwork as a trade barrier for drones",
+    "BYD is moving factories to Europe because tariffs are killing margins",
+    "Canada is the new back door for Chinese manufacturing",
+    "Stop shipping finished goods if your tariffs are over 20%",
+    "Customs documentation for UAVs just got a lot harder",
+    "Local assembly in Europe is the only way to survive EU trade barriers",
+    "The US border is closed to Chinese EVs even if they are made in Canada",
+    "Check your drone SKUs before the next shipment leaves Shenzhen",
+    "Manufacturing is shifting from China to the destination market",
+    "Tariff dodges are moving from warehouses to factories"
+  ],
+  "faq": [
+    {
+      "question": "What are the new China export rules for drones?",
+      "answer": "In October 2026, China's Ministry of Commerce introduced tighter export controls on unmanned aerial vehicles (UAVs) and advanced technologies. These rules require more rigorous compliance, additional export authorizations, and stricter customs documentation for exporters and logistics providers."
+    },
+    {
+      "question": "Can I ship Chinese-made EVs from Canada into the US?",
+      "answer": "No. While Canada has a low-tariff import quota for Chinese new-energy vehicles, US officials have explicitly stated that Chinese cars produced or imported into Canada will not be allowed to cross the border into the US."
+    },
+    {
+      "question": "How are Chinese companies avoiding EU tariffs?",
+      "answer": "Companies like BYD are building factories directly within Europe. By shifting production to the local market, they avoid the high tariffs placed on finished goods imported from China and maintain their market share."
+    }
+  ],
+  "generatedAt": "2026-10-25T21:18:46.140Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 7
+}
