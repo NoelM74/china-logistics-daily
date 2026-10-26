@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-27",
+  "title": "China Logistics Briefing: US Port Fee Delay, EU Parcel Levy",
+  "metaDescription": "US port fees on Chinese ships stay suspended to 9 January, the EU adds a €2 parcel levy from Sunday, and Asia-Europe rates rise while trans-Pacific rates…",
+  "bottomLine": "The US has proposed extending the suspension of port fees on China-linked vessels to 9 January 2027, with comments due 30 October, so nothing changes for your US routings this week. The EU's €2 handling fee on non-EU parcels starts Sunday, days before Black Friday, on top of the existing €3 small-parcel fee. Asia to North Europe spot rates rose 6.8% to $3,698 per FEU while trans-Pacific rates plateaued.",
+  "stories": [
+    {
+      "headline": "US port fee suspension on Chinese ships proposed to run to 9 January",
+      "tldr": "The USTR proposes extending the suspension of port fees on China-linked vessels to 9 January 2027, with comments due 30 October.",
+      "whatHappened": "The US Trade Representative proposed extending the suspension of port fees on Chinese-linked ships for an additional two months, through 9 January 2027, according to a Federal Register public inspection document scheduled for publication on 26 October. The current suspension was set to expire on 9 November 2026.\n\nThe suspended fees include $50 per net ton per voyage for Chinese-owned or operated vessels and $18 per net ton or $120 per container discharged for Chinese-built vessels. The initial proposal would have charged up to $1.5 million per entrance of Chinese-built vessels.\n\nThe USTR is seeking comments on the proposed two-month extension, with a deadline of 30 October. The National Coal Council has recommended making the suspension permanent, according to a July 2026 report on US coal exports.",
+      "whyItMatters": "If you ship to the US on Chinese-built or Chinese-operated vessels, your landed cost does not change before 9 January. That gives you a clear window to book Q1 2027 sailings without pricing in the fee. But the comment deadline of 30 October is five days away, and the suspension is temporary.\n\nThe fee structure matters most for high-volume, low-value goods where per-container charges eat margin. A 40ft container discharged in the US would face $120 under the suspended schedule, manageable on electronics but painful on low-margin homeware.\n\nThe bigger risk is vessel availability. The National Coal Council warned the fees would reduce vessel availability and raise transport costs. If the fee returns in January, some carriers may reroute or reduce US-bound capacity, which affects your transit times more than your line-item costs.",
+      "hotTake": "The US has now delayed these fees twice. Each delay pushes the decision closer to Chinese New Year, which is the worst possible time to introduce a new cost on US-bound freight. I would book Q1 sailings now while the suspension holds and avoid signing any contract that lets a carrier pass through a fee that does not exist yet.",
+      "actions": [
+        "Book Q1 2027 US-bound sailings before 9 January while the fee suspension holds",
+        "File a comment with the USTR before 30 October if the fee would hit your product category",
+        "Ask your freight forwarder for a contract clause that excludes pass-through of suspended fees"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/ustr-proposes-extending-port-fee-suspension-on-china-linked-ships-to-january",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight",
+        "regulation-china"
+      ]
+    },
+    {
+      "headline": "EU adds €2 handling fee on non-EU parcels from Sunday",
+      "tldr": "The EU starts charging a €2 handling fee per item type on non-EU parcels from Sunday, on top of the existing €3 small-parcel fee.",
+      "whatHappened": "The European Union will introduce a €2 handling fee on packages from outside the 27-nation bloc from Sunday, according to SCMP Business. The levy applies on top of the EU's existing €3 fee on small parcels.\n\nThe fee applies to each type of item in a package sent directly to consumers from outside the EU, regardless of the parcel's value. A package containing 10 T-shirts would face the fee on the T-shirt category, not per unit.\n\nThe new levy comes weeks before the Black Friday, Cyber Monday and Christmas shopping season. It targets the influx of low-value parcels from China into the EU.",
+      "whyItMatters": "If you sell direct-to-consumer into the EU from China, your per-parcel cost rises by €2 from Sunday. On a €15 item, that is a 13% cost increase before you account for the existing €3 fee. The combined €5 in fees changes the economics of low-value direct shipping.\n\nThe fee applies per item type, not per parcel. If you ship mixed SKUs in one parcel, you pay €2 for each distinct item type. A parcel with a T-shirt, a phone case and a pair of socks faces €6 in handling fees plus the €3 small-parcel fee.\n\nThis hits Temu and Shein-style models hardest, but it also affects any independent seller running a direct-from-China DTC operation into Europe. If your average order value is below €30, you need to reprice or consolidate shipments into bulk customs entries.",
+      "hotTake": "The EU has been signalling this for months, so nobody should be surprised. What matters now is whether you have repriced. If you are still selling €12 phone cases direct from Shenzhen to Germany, you are losing money on every order from Sunday. I would move to a European 3PL for your top 20 SKUs.",
+      "actions": [
+        "Recalculate your EU landed cost per parcel including the €2 and €3 fees before Sunday",
+        "Move your top 20 SKUs into a European 3PL and ship bulk customs entries",
+        "Reprice or pause any EU direct-to-consumer SKU with an average order value below €30"
+      ],
+      "sourceUrl": "https://scmp.com/news/world/europe/article/3372219/new-levy-non-eu-parcels-kicks-sunday-bid-curb-influx-china",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "customs-eu",
+        "de-minimis",
+        "ecommerce-platforms",
+        "tariffs-duties"
+      ]
+    },
+    {
+      "headline": "Asia-Europe rates rise 6.8% while trans-Pacific rates plateau",
+      "tldr": "Asia to North Europe spot rates rose 6.8% to $3,698 per FEU while trans-Pacific rates were flat, with Xeneta saying the US trades have peaked.",
+      "whatHappened": "Asia to North Europe spot rates rose 6.8% in the week to 23 October to $3,698 per FEU, while rates to the Mediterranean climbed 5.8% to $4,442, according to Xeneta. Trans-Pacific rates were largely unchanged: Asia to US West Coast edged up 0.2% to $8,311 per FEU, and Asia to US East Coast rose 0.2% to $11,525 per FEU.\n\nXeneta chief analyst Peter Sand said the trans-Pacific plateau confirms the US trades have peaked and he expects them to soften through the remainder of 2026. West Coast rates were up 18.9% from 1 July and 342% from 28 February, which Xeneta uses as its pre-Hormuz crisis benchmark.\n\nThe European increases reversed steady declines since July, even as container shipping services return to the Red Sea. Sand called this a conundrum because released capacity should ease rates. Volumes from Asia to Europe rose 12.2% in the first seven months of 2026.",
+      "whyItMatters": "Your US restock is cheaper than it was in February but flat week-on-week. If you are shipping to the US West Coast, $8,311 per FEU is your benchmark. If you have not booked Q4 US inbound yet, Xeneta expects softening through the rest of 2026, so waiting a week or two could save you money. Do not wait past mid-November, because carriers will start blanking sailings around Christmas.\n\nYour Europe restock just got more expensive. North Europe rates at $3,698 per FEU are 33.2% below 1 July levels but up 6.8% in a week. If you are restocking for European Q1, book now before the Red Sea capacity return pushes rates in either direction.\n\nThe divergence matters for your lane choice. If you are shipping to both the US and Europe, the US is the softer market. If you can shift volume between lanes, push more into the US and hold Europe bookings until you see whether the 6.8% rise holds.",
+      "hotTake": "Sand is right that the trans-Pacific has peaked, but I would not wait for a collapse. Rates are still 342% above the pre-Hormuz benchmark on the West Coast, and carriers have shown they will blank sailings to defend rates. If Red Sea capacity keeps returning and Europe rates keep rising, demand is genuinely strong, and you should book European Q1 freight now.",
+      "actions": [
+        "Book Europe-bound Q1 freight now before the 6.8% rise becomes the new floor",
+        "Hold US-bound bookings for one more week to catch the expected softening",
+        "Shift volume from Europe to US lanes if your product can sell in both markets"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Typhoon congestion cancels out Golden Week blank sailings",
+      "tldr": "Typhoon-driven port congestion in Asia caused double sailings that cancelled out carriers' Golden Week blanking strategy, keeping capacity at record highs.",
+      "whatHappened": "Deployed capacity on the transpacific and Asia-Europe trades during this year's Golden Week holiday was the highest on record, according to analysis from Sea-Intelligence. Port congestion in Asia, caused by a succession of typhoons, led to vessel bunching at loading ports.\n\nThe bunching resulted in a series of double sailings, which cancelled out carriers' blanking strategy during the holiday period when they typically skip voyages due to lower demand. The Loadstar reported the analysis on 26 October.",
+      "whyItMatters": "If you ship from China to the US or Europe, the capacity you expected carriers to remove during Golden Week never left. That means more vessels competing for the same cargo, which should keep rates in check on the transpacific. It also means your transit times may be less predictable, because double sailings create bunching at destination ports too.\n\nVessel bunching at loading ports means your cargo may sit at the terminal longer than planned before it loads. If you are running a tight Q4 schedule, build in an extra three to five days of buffer at the Chinese load port. Typhoon season in Asia runs through November.\n\nThe record capacity also means carriers have less room to blank their way to higher rates. If you are booking transpacific freight, you have more leverage than usual.",
+      "hotTake": "Carriers hate this outcome. They plan blank sailings to tighten capacity and hold rates, and typhoons blew up the plan. The record capacity is a gift to shippers on the transpacific, and I would use it to negotiate. If you have a Q4 contract up for renewal, push for a lower rate and cite the double sailings.",
+      "actions": [
+        "Add three to five days of buffer at your Chinese load port for Q4 sailings",
+        "Renegotiate Q4 transpacific contracts citing record deployed capacity",
+        "Ask your forwarder which specific sailings were affected by double-sailing bunching"
+      ],
+      "sourceUrl": "https://theloadstar.com/congestion-induced-double-sailings-cancel-out-golden-week-blanks",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "amazon-fba"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US has delayed port fees on Chinese ships twice now. Each delay pushes the decision closer to Chinese New Year, the worst time to add a new cost to US-bound freight.",
+    "The EU's €2 parcel fee starts Sunday and applies per item type, not per parcel. A mixed-SKU parcel faces multiple fees before shipping.",
+    "Asia to Europe rates rose 6.8% in one week while trans-Pacific rates were flat. If you ship to both, the US is the softer market right now.",
+    "Typhoon congestion caused double sailings that cancelled out Golden Week blanks. Carriers lost their capacity lever, and shippers gained negotiating room.",
+    "If your EU average order value is below €30, the €2 plus €3 fees mean you are losing money on every direct-from-China order from Sunday.",
+    "Xeneta says the trans-Pacific has peaked. That does not mean rates will collapse, because carriers will blank sailings to defend them.",
+    "The USTR comment deadline is 30 October. If the port fee would hit your product, five days is all you have to say so.",
+    "Record Golden Week capacity means your cargo may sit longer at the Chinese load port. Build buffer into your Q4 schedule before typhoon season ends.",
+    "The National Coal Council wants the port fee suspension permanent. US coal exporters and ecommerce sellers share an interest in keeping Chinese-built ships cheap to use.",
+    "North Europe rates are still 33.2% below July levels, but up 6.8% in a week. The dip is over, and Q1 bookings should happen now.",
+    "Chinese-built vessels face $120 per container discharged under the suspended fee schedule. On low-margin homeware, that is the difference between profit and loss.",
+    "Red Sea capacity is returning, but Europe rates are rising anyway. Demand is strong enough to absorb the extra ships, so waiting for a rate dip is a gamble."
+  ],
+  "faq": [
+    {
+      "question": "Do US port fees on Chinese ships apply right now?",
+      "answer": "No. The US Trade Representative has suspended the port fees on China-linked vessels through 9 November 2026 and has proposed extending the suspension to 9 January 2027. The fees, which include $50 per net ton for Chinese-owned vessels and $18 per net ton or $120 per container for Chinese-built vessels, are not being collected during the suspension."
+    },
+    {
+      "question": "How much is the new EU parcel fee and when does it start?",
+      "answer": "The EU will charge a €2 handling fee on packages from outside the bloc starting Sunday. It applies per item type in a package, regardless of parcel value, on top of the existing €3 fee on small parcels. A mixed parcel with three item types faces €6 in handling fees plus €3."
+    },
+    {
+      "question": "Are Asia to Europe container rates going up or down?",
+      "answer": "They went up 6.8% in the week to 23 October to $3,698 per FEU for North Europe, and 5.8% to $4,442 for the Mediterranean. The increases reversed steady declines since July, even as container shipping services return to the Red Sea. Rates remain 33.2% below 1 July levels for North Europe."
+    },
+    {
+      "question": "Why are transpacific rates flat while Europe rates are rising?",
+      "answer": "Xeneta says the US trades have peaked and expects them to soften through the rest of 2026, with Asia to US West Coast rates at $8,311 per FEU and East Coast at $11,525 per FEU. Europe rates are rising because demand is strong enough to absorb capacity returning to the Red Sea."
+    },
+    {
+      "question": "What caused record capacity during Golden Week 2026?",
+      "answer": "Typhoon-driven port congestion in Asia caused vessel bunching at loading ports, which led to double sailings that cancelled out carriers' Golden Week blanking strategy. Deployed capacity on the transpacific and Asia-Europe trades was the highest on record, according to Sea-Intelligence. The extra capacity should keep transpacific rates in check."
+    }
+  ],
+  "generatedAt": "2026-10-26T21:12:59.510Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 20
+}
