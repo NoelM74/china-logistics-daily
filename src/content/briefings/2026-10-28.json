@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-28",
+  "title": "China Shipping: US Vessel Fees and South Africa PSS",
+  "metaDescription": "US Trade Representative proposes extending pause on China-linked vessel fees. Hapag-Lloyd adds PSS for South Africa shipments from 3 November.",
+  "bottomLine": "The USTR proposes extending the pause on China-linked vessel fees until 9 January 2027, preventing an immediate cost spike. Meanwhile, Hapag-Lloyd is adding a Peak Season Surcharge for Asia to South Africa lanes starting 3 November.",
+  "stories": [
+    {
+      "headline": "USTR proposes extending pause on China-linked vessel fees to January",
+      "tldr": "The USTR proposes extending the suspension of Section 301 fees on China-linked vessels until 9 January 2027.",
+      "whatHappened": "The USTR filed to extend the deadline for fees on Chinese-built ships and ships operated by Chinese companies. These fees were originally imposed in October 2025 as a remedy for China's shipbuilding subsidies. The suspension was currently set to lift on 9 November.\n\nThe proposed extension to 9 January 2027 allows for further trade negotiations. The fees previously ranged from $18 per ton to $120 per container. The USTR is collecting public comments on this proposal until 30 October.",
+      "whyItMatters": "If you move high-volume cargo on Chinese-operated vessels or ships built in Chinese yards, you just dodged a massive cost increase for another two months. These fees hit the bottom line of the carrier, and carriers always pass that cost to you via surcharges or GRI.\n\nYou need to check if your current contracts protect you from these specific Section 301 vessel fees. If you are shipping on a spot basis, your landed cost per unit will likely jump in January if the USTR does not find a permanent deal with Beijing.",
+      "hotTake": "The USTR is blinking because the US ports of Los Angeles and Long Beach are seeing record volumes. They cannot afford to choke the flow of goods right before the holiday peak. Do not trust this extension to become a permanent waiver; use the window to diversify your carrier mix.",
+      "actions": [
+        "Audit your current carrier fleet to identify ships built in China",
+        "Request a written statement from your forwarder on how they will apply Section 301 vessel fees in January"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/ustr-weighs-extending-pause-on-china-linked-vessel-fees-to-january/872763",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "customs-us",
+        "sea-freight",
+        "tariffs-duties"
+      ]
+    },
+    {
+      "headline": "Hapag-Lloyd adds Peak Season Surcharge for South Africa lanes",
+      "tldr": "Hapag-Lloyd will apply a Peak Season Surcharge to cargo from Asia and Oceania to South Africa starting 3 November 2026.",
+      "whatHappened": "Hapag-Lloyd announced an update to its Peak Season Surcharge (PSS) for shipments originating in China, South Korea, Japan, Southeast Asia and Oceania. The surcharge applies to cargo loaded on board from 3 November 2026.\n\nThe fee remains in effect until further notice. It specifically targets the trade lane moving from Asia and Oceania toward South Africa.",
+      "whyItMatters": "If you source from China and sell into the South African market, your shipping costs are going up this week. This is a classic Q4 move by carriers to capture more margin during the holiday rush.\n\nYou have a few days to get cargo on board before the 3 November cutoff. If you have stock sitting in a warehouse in Shenzhen or Ningbo, move it now to avoid the PSS.",
+      "hotTake": "South Africa is a growing market for Chinese ecommerce, and carriers know you have few alternatives. This is a predatory surcharge. If you have the volume, push your forwarder to find a secondary carrier that is not hiking rates this week.",
+      "actions": [
+        "Push all pending South Africa shipments to load before 3 November",
+        "Update your landed cost calculations for Q4 South Africa inventory"
+      ],
+      "sourceUrl": "https://container-news.com/hapag-lloyd-updates-pss-from-asia-and-oceania-to-south-africa",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Air cargo demand rises 4.4% as Chinese exhibitors eye Europe",
+      "tldr": "Global air cargo demand rose 4.4% year-on-year in August 2026, according to IATA data.",
+      "whatHappened": "IATA reported a 4.4% year-on-year increase in global demand measured in cargo tonne-kilometers for August 2026. This demand is driving expansion at industry events, with air cargo Europe 2027 expanding to occupy two halls in Munich, covering 22,000 square meters.\n\nMore than 240 companies have confirmed participation for the April 2027 event, including a rising number of exhibitors from China. Returning players include Cathay Cargo and Delta Cargo.",
+      "whyItMatters": "Rising demand in August suggests the air freight market is tightening earlier than usual for the Q4 peak. If you rely on air freight to replenish fast-moving SKUs, expect rates to climb and space to vanish faster than last year.\n\nThe increase in Chinese exhibitors at European trade fairs shows that Chinese logistics providers are aggressively expanding their footprint in Europe. You can use this to your advantage by finding new, direct Chinese air-freight partners who are looking to break into the European market.",
+      "hotTake": "The 4.4% rise is a warning. Most sellers wait until November to panic about air freight capacity, but the data shows the pressure started in August. Book your emergency air slots for December now or you will pay 3x the rate.",
+      "actions": [
+        "Secure air freight capacity for December replenishment now",
+        "Identify new Chinese air-cargo providers expanding into Europe to bypass traditional forwarder markups"
+      ],
+      "sourceUrl": "https://aircargoweek.com/international-air-freight-industry-sets-its-sights-on-air-cargo-europe-2027",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "ASEAN routing diversification remains a paper exercise for 92%",
+      "tldr": "Research shows 92% of logistics leaders have only partially implemented diversified routing across China and Southeast Asia networks.",
+      "whatHappened": "New research indicates that while trade between China and ASEAN exceeded $1.05 trillion last year, logistics systems are not keeping pace. 87% of decision-makers increased multimodal route use, but 92% say diversification is only partially implemented.\n\nOnly 0-2% of respondents reached the highest level of routing implementation or end-to-end visibility. 69% of leaders report that chokepoints have significantly affected their operations over the last 24 months.",
+      "whyItMatters": "If you are moving production from China into Southeast Asia to avoid tariffs, you are likely walking into a visibility trap. A route that looks resilient on a map often fails because the handovers between trucking companies, customs brokers, and ports are not integrated.\n\nMany operators are reacting to crises by increasing safety stock by 50% or using last-minute air freight. This means you are paying a premium to live with an unpredictable network rather than actually building a flexible one.",
+      "hotTake": "Everyone talks about 'China Plus One' but nobody is fixing the actual handovers. Moving a factory to Vietnam does nothing if your data vanishes at the border. Stop trusting your forwarder's 'alternative route' slide deck and start auditing the actual handover points.",
+      "actions": [
+        "Map every single handover point for your Southeast Asia lanes",
+        "Audit your safety stock levels to see if you are over-compensating for poor visibility"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/no-perfect-route-building-supply-chain-resilience-across-china-and-southeast-asia",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sourcing",
+        "sea-freight",
+        "manufacturing",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The USTR is pausing vessel fees again, but that is just a stay of execution for your landed costs.",
+    "Hapag-Lloyd is hiking South Africa rates on 3 November, proving the Q4 squeeze is hitting every lane.",
+    "IATA data shows air cargo demand rose 4.4% in August, meaning the December space crunch is already here.",
+    "Stop ignoring the ships your cargo is on; if they are Chinese-built, your US import costs are at risk in January.",
+    "Diversified routing in Southeast Asia is a myth for most operators, with 92% only partially implementing it.",
+    "Chinese shipbuilders now control 81.8% of global new orders, making US vessel fees a systemic risk.",
+    "The gap between 'resilience on paper' and actual capacity is where most ecommerce sellers lose their Q4 margin.",
+    "Air freight is the only escape valve for supply chain chokepoints, but it is becoming an expensive one.",
+    "Carrier PSS updates are not 'market adjustments', they are opportunistic grabs during peak season.",
+    "The shift to multimodal routes in ASEAN is happening, but the data handovers are still a black hole."
+  ],
+  "faq": [
+    {
+      "question": "What are the US Section 301 fees on Chinese ships?",
+      "answer": "These are fees imposed by the U.S. Trade Representative on ships built in China or operated by Chinese companies calling at U.S. ports. The fees range from $18 per ton to $120 per container. They aim to counter Chinese shipbuilding subsidies. While currently suspended, the USTR is proposing to keep this pause in place until 9 January 2027."
+    },
+    {
+      "question": "Will Hapag-Lloyd charge more for shipping to South Africa?",
+      "answer": "Yes. Hapag-Lloyd is implementing a Peak Season Surcharge (PSS) for cargo loaded on board from 3 November 2026. This applies to shipments originating in China, South Korea, Japan, Southeast Asia and Oceania destined for South Africa. This is a temporary surcharge that remains in effect until further notice."
+    },
+    {
+      "question": "Is air freight demand increasing out of China?",
+      "answer": "Yes. IATA reported that global air cargo demand rose 4.4% year-on-year in August 2026. This trend indicates tightening capacity and potential rate increases as the industry enters the peak holiday shipping season."
+    }
+  ],
+  "generatedAt": "2026-10-27T22:43:33.580Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 18
+}
