@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-29",
+  "title": "China Logistics Daily: CNY 2027, trailer tariffs",
+  "metaDescription": "Lunar New Year 2027 starts 11 days earlier, US hits Chinese trailers with 260% tariffs, and CMA CGM adds $900 per TEU to West Africa.",
+  "bottomLine": "Lunar New Year 2027 starts on 6 February, 11 days earlier than this year, and Seko is telling shippers to confirm ocean bookings at least four weeks before shipment. If your Q1 stock is not booked by the second week of December you are bidding for whatever space is left. Separately, the US now charges about 260% on Chinese van-type trailers, effective 28 October.",
+  "stories": [
+    {
+      "headline": "Lunar New Year 2027 lands 6 February, book ocean freight by early December",
+      "tldr": "Lunar New Year 2027 starts 6 February, 11 days earlier than 2026, and Seko wants ocean bookings confirmed at least four weeks before shipment.",
+      "whatHappened": "Seko Logistics is telling shippers who source from China to bring purchase orders forward and confirm ocean bookings at least four weeks ahead of shipment. The trigger is Lunar New Year 2027, which starts on 6 February, 11 days earlier than the 2026 holiday.\n\nPaul Lockwood, Seko's managing director for the UK and Ireland, told The Loadstar the compressed window between the December peak and factory closures leaves less room to move cargo before production stops. Factories in Guangdong, Zhejiang and Fujian typically shut for one to three weeks, and the last realistic sailings leave Chinese ports in the first half of January.",
+      "whyItMatters": "You have roughly two weeks less runway than last year. If you sell anything with a Q1 replenishment cycle, your factory needs purchase orders before mid-December and your forwarder needs booking confirmations before the Christmas slowdown hits European and US receiving operations.\n\nCarriers blank sailings in the two weeks before the holiday and again for two to three weeks after. That cuts effective capacity on China to North Europe and China to US West Coast lanes at exactly the moment everyone is trying to load, so spot rates on those lanes will move. For FBA sellers the clock is tighter still: Amazon receiving appointments in the UK and Germany back up in January, and a container landing on 20 January may not be checked in until February.",
+      "hotTake": "Every year I watch sellers treat Lunar New Year as a January problem. It is a November problem. The factories close for the holiday, but the booking desks close earlier, and the trucking capacity out of the industrial parks disappears before that. If you are still negotiating price in the first week of December you have already lost. Pay the rate, lock the space, and treat the extra few hundred dollars per container as insurance against a February with nothing on the shelf.",
+      "actions": [
+        "Confirm your Q1 purchase orders with your factory this week and get written production dates before the holiday closure.",
+        "Book ocean freight for any January sailing now, and ask your forwarder for the last pre-holiday cut-off on your lane.",
+        "Move your FBA inbound plan forward by two weeks and check Amazon receiving capacity for January."
+      ],
+      "sourceUrl": "https://theloadstar.com/early-lunar-new-year-means-shippers-need-to-plan-ahead-says-seko",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "peak-season",
+        "sea-freight",
+        "sourcing",
+        "amazon-fba"
+      ]
+    },
+    {
+      "headline": "US imposes 260% tariffs on Chinese van-type trailers from 28 October",
+      "tldr": "The US Commerce Department is charging about 260% on certain Chinese van-type trailers, effective 28 October, for at least five years.",
+      "whatHappened": "The US Commerce Department is imposing tariffs of about 260% on certain Chinese trailers after determining that imports harm domestic production. The International Trade Commission concluded that van-type trailers were being dumped into the US at prices domestic manufacturers cannot match. The measures, effective 28 October, include anti-dumping and countervailing duties and last at least five years.\n\nThe American Trailer Manufacturers Coalition, which petitioned for the ruling, estimates that 40% of van-type trailers in the US were produced in China, Mexico or Canada. A separate probe into Mexican and Canadian trailer imports is expected to conclude in early 2027. Stoughton Trailers CEO Bob Wahlin said the company plans to add 500 to 700 workers over the next six months, alongside a planned $26 million capital investment in Wisconsin.",
+      "whyItMatters": "If you import van-type trailers or any product classified under the same tariff lines, your landed cost just tripled. A trailer that cost $5,000 before duty now costs roughly $18,000 to land, which kills the margin on any resale model and on trailer-mounted equipment, mobile storage units, or anything customs classifies in the same basket.\n\nThe bigger risk is classification. US customs officers will look hard at anything resembling a van-type trailer, including trailer chassis and container-chassis combinations. If your product sits near that line, get a binding ruling before you ship. A misclassification finding after the fact means retroactive duty plus penalties. This sits alongside the tariff truce Washington and Beijing agreed to hold until January, but the trailer duties are a separate action and are not part of that pause.",
+      "hotTake": "The 260% number is designed to make the import stop, and it will. What nobody in Washington is talking about is the second-order effect on US road freight capacity. Trailers are how goods move inland from the ports, and if domestic manufacturers cannot fill the gap quickly you get a shortage of equipment at exactly the moment import volumes are trying to recover. Stoughton adding 700 workers over six months is not going to solve that. If you ship to the US and rely on trailer capacity inland, expect tighter equipment availability and higher drayage rates into 2027.",
+      "actions": [
+        "Check the tariff classification on every product you import into the US that could fall under van-type trailer lines, and request a binding ruling if unsure.",
+        "Recalculate landed cost on any trailer-adjacent product and decide whether the US market is still viable at 260% duty.",
+        "Ask your US customs broker to confirm whether your shipments are caught by the 28 October effective date or the earlier preliminary ruling."
+      ],
+      "sourceUrl": "https://supplychainbrain.com/articles/45103-us-hits-chinese-trailers-with-tariffs-to-aid-domestic-producers",
+      "sourceName": "Supply Chain Brain",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sourcing",
+        "manufacturing"
+      ]
+    },
+    {
+      "headline": "CMA CGM adds $900 per TEU peak season surcharge on China to West Africa",
+      "tldr": "CMA CGM is charging up to $900 per TEU on China to West Africa from 1 November, with surcharges also hitting East and Southern Africa.",
+      "whatHappened": "CMA CGM has announced a series of Peak Season Surcharge updates covering shipments from Asia to several African destinations. Charges reach US$900 per TEU on selected routes from China to West Africa. The revised surcharges take effect on 1 November 2026 and cover shipments to West, East and Southern Africa, alongside Madagascar.\n\nThe surcharges apply on top of the base ocean freight rate. CMA CGM has not published the full table of rates by destination in the summary available, but the West Africa figure is the headline number and the highest on the list.",
+      "whyItMatters": "If you sell into Nigeria, Ghana, Kenya, South Africa or Madagascar, your freight cost per unit just went up by up to $900 per TEU, which on a 20-foot container of consumer goods is a meaningful hit to margin. For low-value, high-volume products the surcharge alone can wipe out the profit on the shipment.\n\nThe surcharge is per TEU, not per container, so a 40-foot high cube pays roughly double. If you consolidate mixed SKUs into 40-foot boxes to save on per-unit freight, run the numbers again: the surcharge may flip the economics in favour of two 20-foot containers or a different routing. The 1 November effective date gives you almost no notice, so any booking not already confirmed and rated will be repriced.",
+      "hotTake": "Africa is where carriers go to make up margin when the main lanes are competitive, and this surcharge is a reminder that secondary lanes have no rate discipline. If you are building an Africa business from China, you cannot plan on stable freight. Build a 15% freight contingency into every landed cost model for African destinations, and reprice your retail every quarter. The sellers who get burned are the ones who quote a landed cost in January and still honour it in November.",
+      "actions": [
+        "Get every open Africa booking rated and confirmed before 1 November to avoid the new surcharge.",
+        "Recalculate landed cost on your Africa SKUs and decide whether to absorb the $900 per TEU or pass it through to retail.",
+        "Ask your forwarder for alternative routings via transhipment hubs that may avoid the direct surcharge."
+      ],
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-new-asia-africa-surcharges-for-november",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Lunar New Year 2027 is 11 days earlier than 2026, which means your Q1 booking deadline moved from late December to early December and most sellers have not noticed.",
+    "The US trailer tariff is 260%, but the real risk is classification: if your product sits near the van-type trailer line, get a binding ruling before you ship.",
+    "CMA CGM's $900 per TEU surcharge on China to West Africa is a reminder that secondary lanes have no rate discipline and no notice period.",
+    "Seko says book ocean freight four weeks before shipment for Lunar New Year, but the factories close earlier than the shipping cut-off, so your real deadline is the purchase order date.",
+    "If you are importing trailers or trailer-adjacent equipment into the US, the 28 October effective date means shipments already on the water may be caught.",
+    "Africa-bound sellers should build a 15% freight contingency into every landed cost model, because surcharges on those lanes arrive with less than a week's notice.",
+    "Amazon FBA receiving in the UK and Germany backs up in January, so a container landing on 20 January may not be checked in until February.",
+    "Carriers blank sailings in the two weeks before Lunar New Year and two to three weeks after, which cuts effective capacity exactly when everyone is trying to load.",
+    "If you are still negotiating freight rates in the first week of December for a January sailing, you are not negotiating, you are bidding for whatever space is left.",
+    "The 260% trailer duty is a separate action from the US-China tariff truce, so do not assume the January pause protects your shipment."
+  ],
+  "faq": [
+    {
+      "question": "When is Lunar New Year 2027 and how does it affect my shipping schedule?",
+      "answer": "Lunar New Year 2027 starts on 6 February, 11 days earlier than in 2026. Chinese factories typically close for one to three weeks around the holiday, and the last realistic sailings leave Chinese ports in the first half of January. Book ocean freight at least four weeks before shipment and confirm purchase orders with your factory by mid-December."
+    },
+    {
+      "question": "What are the new US tariffs on Chinese trailers?",
+      "answer": "The US Commerce Department is imposing tariffs of about 260% on certain Chinese van-type trailers, effective 28 October 2026. The measures include anti-dumping and countervailing duties and last at least five years. The American Trailer Manufacturers Coalition estimates 40% of van-type trailers in the US were produced in China, Mexico or Canada."
+    },
+    {
+      "question": "How much is CMA CGM's new peak season surcharge from China to West Africa?",
+      "answer": "CMA CGM is charging up to US$900 per TEU on selected routes from China to West Africa, effective 1 November 2026. The surcharges also cover East and Southern Africa, alongside Madagascar. The charge applies on top of base ocean freight and is per TEU, so a 40-foot container pays roughly double."
+    },
+    {
+      "question": "What should I do if I import products that might be classified as van-type trailers?",
+      "answer": "Check the tariff classification on every product that could fall under van-type trailer lines and request a binding ruling from US Customs before you ship. A misclassification finding after the fact means retroactive duty plus penalties. The 28 October effective date means shipments already on the water may be caught, so confirm with your customs broker."
+    }
+  ],
+  "generatedAt": "2026-10-28T21:18:32.734Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 20
+}
