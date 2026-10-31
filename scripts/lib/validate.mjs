@@ -162,6 +162,18 @@ export function validateBriefing(briefing, { allowedUrls, allowedTags, date, str
   if (b.metaDescription && b.metaDescription.length > MAX_META)
     e.push(`metaDescription is ${b.metaDescription.length} chars, max ${MAX_META}`);
 
+  /*
+   * The title is the search result. Claude wrote "China typhoons push delays to
+   * October, rates near COVID"; Gemma wrote "China Shipping: X and Y" every day,
+   * which reads as one page repeated. First attempt only, so the retry can fix
+   * it and a day is never lost over a headline.
+   */
+  if (strict && b.title && /^china\s+(shipping|freight|logistics)(\s+(briefing|daily))?\s*:/i.test(b.title)) {
+    e.push(
+      `title "${b.title}" is a formula. Lead with the most consequential specific fact, in sentence case, with no "China Shipping:" style prefix and no list of topic nouns.`,
+    );
+  }
+
   if (!Array.isArray(b.stories) || b.stories.length < MIN_STORIES) {
     e.push(`only ${b.stories?.length ?? 0} stories, minimum ${MIN_STORIES}`);
     return e; // nothing further is meaningful
@@ -209,10 +221,19 @@ export function validateBriefing(briefing, { allowedUrls, allowedTags, date, str
 
     if (typeof s?.tldr === 'string' && words(s.tldr) > 32)
       e.push(`${at}: tldr is ${words(s.tldr)} words, max about 25`);
-    if (typeof s?.whatHappened === 'string' && words(s.whatHappened) < 45)
-      e.push(`${at}: whatHappened is too thin (${words(s.whatHappened)} words)`);
-    if (typeof s?.whyItMatters === 'string' && words(s.whyItMatters) < 45)
-      e.push(`${at}: whyItMatters is too thin (${words(s.whyItMatters)} words)`);
+    /*
+     * Higher floors on the strict first attempt. Gemma 4 wrote "Why it matters
+     * to you" at 95 words against Claude's 157, and FAQ answers at 36 words
+     * against 68: the sections that make this briefing worth more than a
+     * rewrite of the source. The retry is told the numbers and gets the old,
+     * lower floors, so a thin day is pushed up once, never lost.
+     */
+    const minWhat = strict ? 65 : 45;
+    const minWhy = strict ? 100 : 45;
+    if (typeof s?.whatHappened === 'string' && words(s.whatHappened) < minWhat)
+      e.push(`${at}: whatHappened is too thin (${words(s.whatHappened)} words, minimum ${minWhat})`);
+    if (typeof s?.whyItMatters === 'string' && words(s.whyItMatters) < minWhy)
+      e.push(`${at}: whyItMatters is too thin (${words(s.whyItMatters)} words, minimum ${minWhy})`);
   });
 
   // ---- briefing-level sections ----------------------------------------
@@ -228,6 +249,10 @@ export function validateBriefing(briefing, { allowedUrls, allowedTags, date, str
     b.faq.forEach((f, i) => {
       if (!f?.question?.trim() || !f?.answer?.trim()) e.push(`faq ${i + 1}: missing question or answer`);
       else if (words(f.answer) > 95) e.push(`faq ${i + 1}: answer is ${words(f.answer)} words, max 80`);
+      // Strict attempt only. validate-content.mjs checks the published archive
+      // with strict off, and history must never fail the daily run.
+      else if (strict && words(f.answer) < 45)
+        e.push(`faq ${i + 1}: answer is ${words(f.answer)} words, minimum 45`);
     });
   }
 

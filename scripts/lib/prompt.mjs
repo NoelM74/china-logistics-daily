@@ -93,25 +93,25 @@ ${tagList}
 WRITE EACH STORY
 - headline: your own words, never the source's. Under 90 characters. Concrete.
 - tldr: one sentence, 25 words maximum, that stands on its own with no context. Written to be quoted verbatim by someone who has not read the rest. Include the specific number or change if there is one.
-- whatHappened: 2 or 3 short paragraphs of fact, separated by a blank line. Numbers, dates, named parties. Traceable to the source, all of it.
-- whyItMatters: 2 or 3 short paragraphs addressed to "you". What this does to your landed cost, your lead time, your FBA inbound, your lane choice, your cash. Be specific about which kind of seller it hits and how hard. This section is why the site exists, so make it the best part.
-- hotTake: 2 to 4 sentences of opinion in your own voice. Take a position. Say what you would do. Being wrong in public is fine, being bland is not.
+- whatHappened: 2 or 3 short paragraphs of fact, separated by a blank line. Numbers, dates, named parties. Traceable to the source, all of it. Aim for 70 to 110 words.
+- whyItMatters: 2 or 3 short paragraphs addressed to "you". What this does to your landed cost, your lead time, your FBA inbound, your lane choice, your cash. Be specific about which kind of seller it hits and how hard. This section is why the site exists, so make it the best part. Aim for 120 to 180 words, and name the kind of seller and the number it changes.
+- hotTake: 2 to 4 sentences of opinion in your own voice. Take a position. Say what you would do. Being wrong in public is fine, being bland is not. Aim for 45 to 70 words.
 - actions: 1 to 3 concrete things to do, each starting with a verb. "Pull your Q4 forecast forward two weeks and rebook", not "consider reviewing your timelines".
 - sourceUrl and sourceName: copied exactly from the candidate you used.
 - tags: 3 to 6 slugs from the list above.
 
 THEN THE BRIEFING-LEVEL SECTIONS
-- title: SEO title for the whole briefing. Hard limit of 60 characters including spaces, and the build fails at 61, so count them. Contains "China" and the main topic of the day. Not a headline you already used.
+- title: SEO title for the whole briefing. Hard limit of 60 characters including spaces, and the build fails at 61, so count them. Contains "China". Write it as one specific claim in sentence case that leads with the most consequential fact of the day, the way a news desk would. Never use a prefix such as "China Shipping:", "China Freight:" or "China Logistics Briefing:", and never a list of topic nouns. Good: "Typhoon delays push Shanghai berthing to 10 days". Bad: "China Shipping: Typhoon Champi and US Port Pressure". Not a headline you already used.
 - metaDescription: hard limit of 155 characters including spaces. Describes the briefing, reads like a person wrote it.
 - bottomLine: 2 or 3 sentences summarising the day for someone who reads nothing else. Front-loaded with the single most consequential fact.
 - contentHooks: 8 to 12 one-line angles a reader could turn into their own LinkedIn post, video or newsletter. Each one a complete thought with a point of view, not a topic label. "Everyone is watching tariff rates and ignoring the demurrage clock" beats "Tariff update".
-- faq: 3 to 5 questions phrased the way a seller would type them into Google, each answered in 80 words or fewer. Answers must stand alone with no reference to the stories above, because they get extracted and read on their own.
+- faq: 3 to 5 questions phrased the way a seller would type them into Google, each answered in 50 to 80 words: the direct answer first, then the number, the condition and what to do about it. Answers must stand alone with no reference to the stories above, because they get extracted and read on their own.
 
 SOURCE SPREAD
 Use at most two stories from the same publisher. A briefing that is four stories from one outlet is a weaker read and a weaker citation. If the day genuinely offers nothing else, say so in the bottom line rather than padding with a thin story.
 
 LENGTH
-1,200 to 2,000 words across the whole briefing, and treat 2,000 as a ceiling rather than a target. Depth belongs in whyItMatters. whatHappened should be the shortest account that carries the facts, and every FAQ answer must be 80 words or fewer.
+1,200 to 2,000 words across the whole briefing, and treat 2,000 as a ceiling rather than a target. Depth belongs in whyItMatters (120 to 180 words each). whatHappened is 70 to 110 words, and every FAQ answer is 50 to 80 words. Do not go under these floors to save length: a thin briefing fails the checks and ranks worse.
 
 Return this exact JSON shape and nothing else:
 {
@@ -147,7 +147,7 @@ Produce the corrected briefing. Same rules, same JSON shape, no preamble, no mar
 
 While fixing, do not break a rule that already passed. In particular, when cutting length:
 - Cut from the FAQ answers and from repetition first. Every FAQ answer must be 80 words or fewer.
-- Keep every whatHappened and every whyItMatters at 55 words or more. Drop a whole weak story rather than starving several.
+- Keep every whatHappened at 65 words or more, every whyItMatters at 100 words or more, and every FAQ answer between 45 and 80 words. Drop a whole weak story rather than starving several.
 - Keep 3 to 6 tags on every story, a title of 60 characters or fewer, and a metaDescription of 155 characters or fewer.
 - If you drop a story, make sure no more than 2 of the remaining stories share a publisher.`;
 }

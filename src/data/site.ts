@@ -15,11 +15,14 @@ export const SITE = {
   timeZone: 'Asia/Shanghai',
   publishHour: '08:00',
   publishZoneLabel: 'Shanghai time',
+  // Parcel From China is the freight, consolidation and storage service of
+  // PFC Royal Logistics Group, and where this site sends its readers.
   parent: {
-    name: 'China Fulfillment',
-    url: 'https://www.china-fulfillment.com/',
-    contact: 'https://www.china-fulfillment.com/contact-us.html',
-    about: 'https://www.china-fulfillment.com/about-us.html',
+    name: 'Parcel From China',
+    url: 'https://www.parcelfromchina.com/',
+    contact: 'https://www.parcelfromchina.com/contact',
+    quote: 'https://www.parcelfromchina.com/quote',
+    about: 'https://www.parcelfromchina.com/about',
   },
   sister: { name: 'Ériu Sourcing', url: 'https://eriusourcing.com/' },
   author: {
@@ -27,9 +30,9 @@ export const SITE = {
     // The name he trades under in China. Goes into Person.alternateName so the
     // two forms resolve to one entity.
     alternateName: 'Noel Murphy 墨菲',
-    role: 'Founder, China Fulfillment',
+    role: 'Co-founder, Parcel From China',
     // Kept short because it is embedded in Person schema on every page.
-    bio: '18 years operating supply chains in China. Runs fulfilment out of Shenzhen and Zhengzhou for ecommerce brands shipping worldwide.',
+    bio: '18 years operating supply chains in China. Co-founded Parcel From China in Shenzhen in 2010, which ships freight, combined orders and stock to 190+ countries.',
     url: 'https://chinalogisticsdaily.com/about/',
     // Canonical www host rather than the cn. regional mirror: same profile,
     // but this is the form Google matches on for sameAs, and the audience is
@@ -62,12 +65,12 @@ export function getTag(slug: string): Tag | undefined {
 
 /** Nav links out to the money site. Order matters — first two get header space. */
 export const SERVICE_LINKS = [
-  { label: 'D2C fulfilment', url: 'https://www.china-fulfillment.com/ecommerce-fulfillment.html' },
-  { label: 'FBA prep & consolidation', url: 'https://www.china-fulfillment.com/amazon-fba-consolidation.html' },
-  { label: 'Freight forwarding', url: 'https://www.china-fulfillment.com/international-freight-forwarding-china.html' },
-  { label: 'Tariffs & DDP', url: 'https://www.china-fulfillment.com/tariff-management-china.html' },
-  { label: 'QC & inspection', url: 'https://www.china-fulfillment.com/quality-control-fba-prep-china.html' },
-  { label: 'Supplier management', url: 'https://www.china-fulfillment.com/supplier-management-china.html' },
+  { label: 'Express shipping', url: 'https://www.parcelfromchina.com/services/express' },
+  { label: 'Air freight', url: 'https://www.parcelfromchina.com/services/air-freight' },
+  { label: 'Sea freight', url: 'https://www.parcelfromchina.com/services/sea-freight' },
+  { label: 'DDP shipping', url: 'https://www.parcelfromchina.com/services/ddp-shipping' },
+  { label: 'Consolidation', url: 'https://www.parcelfromchina.com/services/consolidation' },
+  { label: 'Storage and warehousing', url: 'https://www.parcelfromchina.com/services/warehousing' },
 ] as const;
 
 /**
@@ -144,7 +147,7 @@ export function paragraphs(text: string): string[] {
 }
 
 /**
- * Assign each story a china-fulfillment.com CTA derived from its own tags.
+ * Assign each story a parcelfromchina.com CTA derived from its own tags.
  *
  * The model never writes a URL for us — it picks tags from the controlled list
  * and we map those to real service pages. That is the whole hallucination

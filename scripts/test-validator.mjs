@@ -221,9 +221,35 @@ for (const [name, mutate, expect] of CASES) {
   }
 }
 
+/*
+ * Strict-attempt rules. Each case is checked two ways: the thin or formulaic
+ * version must raise the error on the strict first attempt, and the same text
+ * must NOT raise it on a retry (strict: false), so a day is pushed up once
+ * and never lost over a headline or a word count.
+ */
+const filler = (n) => Array.from({ length: n }, (_, i) => `word${i}`).join(' ');
+const STRICT_CASES = [
+  ['why-it-matters under 100 words fails only the strict attempt', (b) => { b.stories[0].whyItMatters = filler(80); }, /whyItMatters is too thin \(80 words, minimum 100\)/],
+  ['FAQ answer under 45 words fails only the strict attempt', (b) => { b.faq[0].answer = filler(30); }, /faq 1: answer is 30 words, minimum 45/],
+  ['formula title "China Shipping: ..." fails only the strict attempt', (b) => { b.title = 'China Shipping: Typhoon and US Port Pressure'; }, /is a formula/],
+];
+for (const [name, mutate, re] of STRICT_CASES) {
+  const b = clone();
+  mutate(b);
+  const strictHit = validateBriefing(b, { ...opts, strict: true }).some((e) => re.test(e));
+  const retryHit = validateBriefing(b, { ...opts, strict: false }).some((e) => re.test(e));
+  if (strictHit && !retryHit) {
+    console.log(`✓ ${name}`);
+  } else {
+    failed++;
+    console.log(`✗ ${name} (strict raised: ${strictHit}, retry raised: ${retryHit})`);
+  }
+}
+const TOTAL = CASES.length + STRICT_CASES.length;
+
 console.log('');
 if (failed) {
-  console.error(`${failed} of ${CASES.length} guard tests failed.`);
+  console.error(`${failed} of ${TOTAL} guard tests failed.`);
   process.exit(1);
 }
-console.log(`All ${CASES.length} guard tests pass. A malformed generation cannot publish.`);
+console.log(`All ${TOTAL} guard tests pass. A malformed generation cannot publish.`);

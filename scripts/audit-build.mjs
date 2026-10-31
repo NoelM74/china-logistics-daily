@@ -153,7 +153,7 @@ for (const file of htmlFiles) {
     const url = attrs.match(/href="([^"]*)"/)?.[1] ?? '';
     // Our own estate, including the author's LinkedIn: these are the sameAs
     // entity signals from PRD §9 and are followed deliberately.
-    if (/china-fulfillment\.com|eriusourcing\.com|linkedin\.com/.test(url)) continue;
+    if (/parcelfromchina\.com|china-fulfillment\.com|eriusourcing\.com|linkedin\.com/.test(url)) continue;
     if (!/rel="[^"]*nofollow/.test(attrs)) fail(name, `external link not nofollowed: ${url}`);
   }
 
@@ -221,10 +221,10 @@ for (const file of htmlFiles) {
 for (const file of htmlFiles.filter((f) => rel(f).startsWith('briefing/'))) {
   const html = await readFile(file, 'utf8');
   const services = new Set(
-    [...html.matchAll(/href="(https:\/\/www\.china-fulfillment\.com\/[^"]+)"/g)].map((m) => m[1]),
+    [...html.matchAll(/href="(https:\/\/www\.parcelfromchina\.com\/[^"]+)"/g)].map((m) => m[1]),
   );
   if (services.size < 3) {
-    fail(rel(file), `${services.size} distinct china-fulfillment.com links, need at least 3`);
+    fail(rel(file), `${services.size} distinct parcelfromchina.com links, need at least 3`);
   }
   const others = new Set(
     [...html.matchAll(/href="\/briefing\/(\d{4}-\d{2}-\d{2})\//g)].map((m) => m[1]),

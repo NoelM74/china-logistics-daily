@@ -31,6 +31,8 @@ so the validators are the editor. Repo: NoelM74/china-logistics-daily.
 ## Site conventions
 - UK English. No em dashes in copy. Typographic quotes are applied at load time (`src/data/typography.ts`).
 - Every internal link goes through `href()` so it ends in a trailing slash.
+- CTAs go to parcelfromchina.com (the group's freight site), mapped per tag in `tags.json`. Only link to pages in
+  its sitemap, https://www.parcelfromchina.com/sitemap.xml. Do not guess URLs.
 - Type: Satoshi for headings and body, Boska for the masthead wordmark only. Boska in headlines was unreadable on phones.
 - Illustrations (`public/topics/`) go on topic hubs and the homepage, never on a briefing story.
 - The domain is set once in `SITE.url`. `robots.txt` and `llms.txt` are generated from it.

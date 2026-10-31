@@ -26,8 +26,8 @@ story has a one-sentence summary, a factual account with a link to the original
 source, an explanation of the consequence for sellers, an opinion section, and
 concrete recommended actions.
 
-Published by ${SITE.parent.name}, a third-party logistics company with warehouse
-operations in Shenzhen and Zhengzhou, China. Written by ${SITE.author.name}
+Published by ${SITE.parent.name}, a freight, consolidation and storage company
+based in Shenzhen, China, and part of PFC Royal Logistics Group. Written by ${SITE.author.name}
 (${SITE.author.alternateName}), who has 18 years of experience operating supply
 chains in China. LinkedIn: ${SITE.author.linkedin}
 
@@ -76,9 +76,9 @@ ${
 
 ## About the publisher
 
-${SITE.parent.name} provides ecommerce fulfilment, Amazon FBA prep and consolidation,
-freight forwarding, customs and tariff management, quality control and supplier
-management for brands shipping out of China.
+${SITE.parent.name} has shipped from Shenzhen since 2010: express, special line, postal
+packets, air freight and sea freight to 190+ countries, plus consolidation, storage,
+DDP shipping and customs clearance.
 
 - Company site: ${SITE.parent.url}
 - Sourcing arm: ${SITE.sister.url}

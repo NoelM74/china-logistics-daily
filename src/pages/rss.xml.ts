@@ -55,7 +55,7 @@ ${[...new Set(b.data.stories.flatMap((s) => s.tags))]
     <description>${esc(SITE.description)}</description>
     <language>en-gb</language>
     <lastBuildDate>${new Date(updated).toUTCString()}</lastBuildDate>
-    <managingEditor>noreply@china-fulfillment.com (${esc(SITE.author.name)})</managingEditor>
+    <managingEditor>noreply@chinalogisticsdaily.com (${esc(SITE.author.name)})</managingEditor>
     <ttl>360</ttl>
 ${items}
   </channel>

@@ -52,7 +52,7 @@ const image = ogImage ? absolute(ogImage) : absolute('/og/default.png');
 
 // ---- Entity graph -------------------------------------------------------
 // One @graph, stable @ids, cross-referenced. This is what lets Google and the
-// AI crawlers resolve "Noel Murphy" and "China Fulfillment" to the same
+// AI crawlers resolve "Noel Murphy" and "Parcel From China" to the same
 // entities across every page instead of treating each page as an island.
 const ORG_ID = `${SITE.url}/#organization`;
 const PARENT_ID = `${SITE.parent.url}#organization`;
@@ -61,7 +61,7 @@ const SITE_ID = `${SITE.url}/#website`;
 
 /*
  * On its own domain the paper is its own publisher, not an alias of the
- * fulfilment company. NewsMediaOrganization with a parentOrganization edge
+ * shipping company. NewsMediaOrganization with a parentOrganization edge
  * states the relationship accurately and keeps the commercial tie legible to
  * an engine instead of collapsing two entities into one.
  */
@@ -89,7 +89,7 @@ const parentOrganization = {
   name: SITE.parent.name,
   url: SITE.parent.url,
   description:
-    'Third-party logistics and ecommerce fulfilment from Shenzhen and Zhengzhou, China.',
+    'Freight, consolidation and storage from Shenzhen, China. One of the services of PFC Royal Logistics Group.',
   sameAs: [SITE.sister.url],
 };
 

@@ -11,7 +11,7 @@ const faq = [
   {
     question: 'Who writes China Logistics Daily?',
     answer:
-      'Noel Murphy, who has spent 18 years working in supply chains in China and runs China Fulfillment, a third-party logistics operation with warehouses in Shenzhen and Zhengzhou. The briefing is written from inside that operation rather than from a media desk.',
+      'Noel Murphy, who has spent 18 years working in supply chains in China and co-founded Parcel From China, a shipping and storage company in Shenzhen. The briefing is written from inside that operation rather than from a media desk.',
   },
   {
     question: 'How is the briefing put together?',
@@ -21,7 +21,7 @@ const faq = [
   {
     question: 'Is this free, and what is the catch?',
     answer:
-      'It is free and there is no paywall. The catch, such as it is: we run a fulfilment company, and if a story affects your stock we would like to be the ones who move it. We think that makes the analysis better rather than worse, because we are describing problems we deal with ourselves.',
+      'It is free and there is no paywall. The catch, such as it is: we run a shipping company, and if a story affects your freight we would like to be the ones who move it. We think that makes the analysis better rather than worse, because we are describing problems we deal with ourselves.',
   },
   {
     question: 'What time is the briefing published?',
@@ -32,7 +32,7 @@ const faq = [
 
 <BaseLayout
   title="About | Who writes China Logistics Daily"
-  description="Noel Murphy has spent 18 years in China supply chains and runs China Fulfillment, with warehouses in Shenzhen and Zhengzhou. This is why he writes a daily briefing."
+  description="Noel Murphy has spent 18 years in China supply chains and co-founded Parcel From China in Shenzhen. This is why he writes a daily briefing."
   path="/about"
   latestDate={latest?.data.date}
   faq={faq}
@@ -102,7 +102,7 @@ const faq = [
                 LinkedIn
               </a>
             </li>
-            <li><a href={SITE.parent.url} class="list-link">china-fulfillment.com</a></li>
+            <li><a href={SITE.parent.url} class="list-link">parcelfromchina.com</a></li>
             <li><a href={SITE.sister.url} class="list-link">eriusourcing.com</a></li>
             <li><a href={SITE.parent.contact} class="list-link">Get in touch</a></li>
           </ul>
@@ -116,11 +116,11 @@ const faq = [
             is sitting at a port instead of on a ship.
           </p>
           <p>
-            China Fulfillment is the company that came out of that. We run our own warehouse
-            operations in Shenzhen and Zhengzhou, and we handle fulfilment, FBA prep,
-            consolidation, freight and customs for ecommerce brands shipping worldwide. It is
-            Irish-owned, which mostly means you can ring us and get a person who will give you
-            a straight answer.
+            Parcel From China is the company that came out of that. Ouyang Ke and I opened a
+            small operation in Longhua, Shenzhen in 2010. We receive goods from your
+            suppliers, store them, combine them and ship them by express, post, air or sea to
+            190+ countries. You can ring us and get a person who will give you a straight
+            answer.
           </p>
 
           <h2 class="mt-10 text-[1.5rem]">Why a daily briefing</h2>
@@ -175,7 +175,7 @@ const faq = [
 
       <section aria-labelledby="what-h" class="mt-16">
         <div class="rule-accent mb-5 border-t-2" />
-        <h2 id="what-h" class="text-[1.5rem]">What China Fulfillment actually does</h2>
+        <h2 id="what-h" class="text-[1.5rem]">What Parcel From China actually does</h2>
         <ul class="mt-5 grid gap-x-10 gap-y-0 sm:grid-cols-2">
           {
             SERVICE_LINKS.map((s) => (
@@ -207,7 +207,7 @@ const faq = [
       </section>
 
       <div class="mt-12 flex flex-wrap gap-3">
-        <a href={SITE.parent.contact} class="btn btn-primary">Talk to us about your freight</a>
+        <a href={SITE.parent.quote} class="btn btn-primary">Get a quote for your freight</a>
         <a href={href('/')} class="btn btn-ghost">Read today’s briefing</a>
       </div>
     </article>
