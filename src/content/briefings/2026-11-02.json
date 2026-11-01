@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-02",
+  "title": "US port fee reprieve on Chinese ships runs to 9 January",
+  "metaDescription": "US port fees on Chinese-linked ships stay paused until 9 January, Beijing patrols east of Taiwan, and Shenzhen sellers cut Black Friday restocks.",
+  "bottomLine": "US port fees on Chinese-built and Chinese-operated ships stay suspended until 9 January 2027, so your landed cost per container on US lanes does not move this quarter. The bigger squeeze is on the water: Beijing's coastguard patrols east of Taiwan are forcing carriers to keep watch, and Shenzhen sellers are already cutting Black Friday restock volumes.",
+  "stories": [
+    {
+      "headline": "US port fee suspension extended to 9 January 2027",
+      "tldr": "The US Trade Representative proposed on 23 October extending the suspension of port fees on Chinese-owned, Chinese-operated and Chinese-built vessels until 9 January 2027.",
+      "whatHappened": "The US Trade Representative proposed on 23 October extending the suspension of port fees on Chinese-owned, Chinese-operated and Chinese-built vessels until 9 January 2027. The pause has been in place since November, according to Container News, which reports Washington is trading leverage for time on shipbuilding policy while Beijing keeps its own levers live.\n\nThe proposal keeps fee-free treatment running past Chinese New Year planning. No new fee schedule, no change to what a carrier bills you for calling at a US port. The Loadstar's News in Brief podcast covered the proposed delay alongside schedule reliability data, with Xeneta chief analyst Peter Sand discussing carrier alliance performance.",
+      "whyItMatters": "If you ship on a Chinese-built or Chinese-operated vessel into Los Angeles, Long Beach, Savannah or Newark, your per-container cost does not change on 1 January. That is the point of the extension. You were probably quoted a landed cost with a port fee line in it for Q1. That line stays at zero, which means any forwarder who has already baked a fee into your January quote is either guessing or padding.\n\nThe extension runs to 9 January 2027, after Chinese New Year factory closures and after your Q4 air freight bills land. It does not cover Q1 ocean contracts starting in February. Do not sign a 12-month fixed rate that assumes the pause holds. Ask your forwarder to quote with the fee at zero and with the fee reinstated.\n\nSellers running 40ft high cubes on the transpacific at 200 to 400 units a quarter should treat this as a stay of execution. The fee comes back or it does not. Know what it costs you if it does.",
+      "hotTake": "Washington extended this because it wants shipbuilding leverage, not because it wants to help you. Two months of certainty is worth having, and I would take it. But I would not sign a February ocean contract that prices the fee at zero. Ask for both numbers in writing and pick the forwarder who gives you both without hesitating.",
+      "actions": [
+        "Ask your forwarder to reissue January and February quotes with the port fee at zero and with it reinstated",
+        "Check whether your Q1 ocean contract has a port fee clause that auto-reinstates on 10 January"
+      ],
+      "sourceUrl": "https://container-news.com/explainer-washington-trades-leverage-for-time",
+      "sourceName": "Container News",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "Beijing patrols east of Taiwan, Taipei sends ships to watch",
+      "tldr": "China's Coast Guard ran a patrol east of Taiwan on Saturday and sent another ship near the Pratas Islands, prompting Taiwan to send its own vessels to monitor.",
+      "whatHappened": "China's Coast Guard sent a formation led by the vessel Hushi to carry out law enforcement patrols east of Taiwan on Saturday, according to spokesman Jiang Lue, who said the group has been strengthening control over the relevant waters since October. Taiwan's Coast Guard said two Chinese ships were involved and that it sent its own forces to monitor, calling the radio communications to ships at sea an expansion of power that violates international law.\n\nChina also sent another Coast Guard ship close to the Taiwan-controlled Pratas Islands, which lie between southern Taiwan and Hong Kong and more than 400 km from Taiwan. Taiwan says it has expelled Chinese Coast Guard vessels from Pratas waters 13 times this year.",
+      "whyItMatters": "If your containers route through the Taiwan Strait or call at Kaohsiung, Keelung or Taipei, your schedule risk just went up. Carriers will not publish a blockade premium, but they will reroute, and rerouting adds transit days that nobody credits back to you. A Shanghai to Sydney rotation that clips past Taiwan can pick up two to four days of slack without a single blank sailing being announced.\n\nThe Pratas activity matters more than the east coast patrol for commercial shipping. Pratas sits at the top of the South China Sea, between southern Taiwan and Hong Kong, and vessels transiting that corridor are the ones being hailed on radio. If you ship from Yantian or Shekou to European or US west coast ports via the South China Sea, your carrier is watching this.\n\nThis hits sellers with tight FBA inbound windows hardest. If you have a restock booked to arrive at a US fulfilment centre in the first week of December, build four days of buffer into the promise date now.",
+      "hotTake": "The patrols are political, but the schedule risk is real and it lands on your delivery promise, not on a communique. I would add buffer days to every December inbound and stop promising customers a date I cannot control. If your 3PL in Shenzhen is still quoting standard transit times to the US west coast, ask what they are seeing on the water this week.",
+      "actions": [
+        "Add three to four days of buffer to every December FBA inbound promise date on Taiwan-transit routings",
+        "Ask your carrier or forwarder whether any booked sailings have changed rotation since 25 October"
+      ],
+      "sourceUrl": "https://gcaptain.com/taiwan-says-china-harassing-shipping-with-east-coast-patrol",
+      "sourceName": "gCaptain",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Shenzhen sellers cut Black Friday restock volumes by 60%",
+      "tldr": "Shenzhen cross-border seller Qi Jiajia cut a planned overseas warehouse shipment of home decor by 60% and pushed later restocks to after Black Friday.",
+      "whatHappened": "With Black Friday falling on 27 November, Shenzhen cross-border seller Qi Jiajia is reworking the shipping schedule agreed with his freight forwarder, according to Economic Observer. A batch of small home decor items originally booked into an overseas warehouse in early October was cut by 60%, and part of the follow-on shipment plan has been pushed to after Black Friday, to be sent in batches on demand.\n\nThe report describes a peak season restock that has become a rebuild of the fulfilment model. The same outlet reports London has listed a new steel hedging contract, giving overseas steel traders a dollar-denominated, cash-settled tool to hedge hot-rolled coil swings on Chinese steel export orders.",
+      "whyItMatters": "Qi Jiajia's move is the one you should copy if you are holding inventory in a US or European overseas warehouse that is not moving. Cutting a restock by 60% and pushing the balance past Black Friday is a cash decision, not a demand decision. You keep the cash, you keep the warehouse slot for the units that actually sell, and you stop paying storage on decor that will be out of season by January.\n\nIf you sell home decor, small furniture, seasonal gifting or anything with a November demand spike, your overseas warehouse is either full of the right SKUs or full of the wrong ones. The sellers who get hurt this Black Friday are the ones who shipped a full container in September on a forecast they made in June. The sellers who come out clean ship in batches on actual sell-through.\n\nThe steel hedging contract matters if you buy steel-based goods: furniture frames, tools, garden items, e-bike components. A dollar-denominated hedge on hot-rolled coil lets your Chinese supplier quote a more stable price, and a stable price is a better landed cost. Ask your supplier whether they are using it.",
+      "hotTake": "Cutting a restock by 60% takes nerve, and Qi Jiajia is right to do it. I would rather run a lean Black Friday and air freight a top-up in the first week of December than sit on a container of decor I cannot sell in January. The sellers who win this quarter treat the overseas warehouse as a cost centre, not a safety blanket.",
+      "actions": [
+        "Pull your overseas warehouse inventory report and cut any SKU with less than 30 days of cover from your next restock",
+        "Ask your steel-based goods supplier whether they can quote against the new London hot-rolled coil contract"
+      ],
+      "sourceUrl": "https://eeo.com.cn/2026/1101/1081867.shtml",
+      "sourceName": "Economic Observer",
+      "tags": [
+        "peak-season",
+        "amazon-fba",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "ONE drops Maersk Qilin slots on the Shanghai to Australia lane",
+      "tldr": "Ocean Network Express has stopped chartering slots on Maersk's Qilin service, which it had marketed as the Australia Express since joining in July 2026.",
+      "whatHappened": "Ocean Network Express has stopped chartering slots on Maersk's Qilin service, according to DynaLiners, as reported by Container News. ONE joined the Shanghai to Australia connection in July 2026 and marketed it as the Australia Express, or AUX.\n\nThe Qilin rotation is Shanghai, Hong Kong, Sydney, Melbourne, Shanghai. Maersk continues to operate the service between China and Australia. ONE has not said why it left, and no replacement service has been announced. The change removes a slot option for shippers who had been booking ONE capacity on it.",
+      "whyItMatters": "If you sell into Australia and you have been booking ONE slots on the AUX, your capacity option just closed. You are now either booking Maersk directly on Qilin or finding another string into Sydney and Melbourne. Check your November and December bookings this week, because a slot charter ending usually means the remaining operator takes back the space and reprices it.\n\nAustralia is a small lane with few direct China calls, so removing one slot option tightens it. Sellers shipping furniture, outdoor goods, pet products and apparel into Sydney or Melbourne should expect less room on pre-Christmas sailings and less willingness to negotiate on rate.\n\nIf you are a smaller seller moving less than a container a month, this matters more than it does to a big importer. You were probably relying on ONE's slot access to get a competitive rate. Book early for December and January, and ask your forwarder whether they still have allocation on Qilin or whether they are routing you through Singapore.",
+      "hotTake": "Slot charters come and go, and ONE leaving Qilin is a small story with a real consequence for anyone selling into Australia. I would not chase a cheaper rate on that lane right now. I would lock space on the sailings I need and pay for it, because the alternative is a December air freight bill that eats the whole margin.",
+      "actions": [
+        "Confirm your November and December Australia bookings are still held with your forwarder",
+        "Ask whether your forwarder is routing Australia cargo on Qilin or via a Singapore transhipment"
+      ],
+      "sourceUrl": "https://container-news.com/one-ends-slot-charter-on-maersks-qilin-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US port fee pause runs to 9 January, after Chinese New Year, so your Q1 contract negotiation just got a two-month window you should use",
+    "Any forwarder who has already quoted you a January port fee is either guessing or padding, and you can find out which by asking for the number in writing",
+    "Beijing's coastguard patrols east of Taiwan are a schedule risk, not a headline risk, and the buffer days come out of your delivery promise",
+    "Pratas Island matters more to your South China Sea routing than the east coast patrol does, because that is where the radio hails are happening",
+    "A Shenzhen seller cut his Black Friday restock by 60% and pushed the balance past the event, which is the smartest inventory move I have seen this quarter",
+    "If your overseas warehouse is full of September forecast and empty of November sell-through, you are about to pay storage on the wrong SKUs",
+    "ONE leaving Maersk's Qilin service is a small lane story with a big consequence for anyone selling into Sydney or Melbourne before Christmas",
+    "The new London hot-rolled coil contract only matters if you buy steel-based goods, but if you do, ask your supplier whether they are hedging",
+    "Carrier alliance strategy is driving schedule reliability more than port congestion is, and Xeneta's data is the place to look before you rebook",
+    "A two-month extension of a suspension is not a policy change, it is a negotiating position, and you should price your Q1 contracts as if it ends",
+    "The sellers who win Black Friday this year treat the overseas warehouse as a cost centre, not a safety blanket",
+    "Air freight out of Hong Kong and Taipei is the pressure valve if your ocean routing through the Taiwan corridor slips, and it is already getting tight"
+  ],
+  "faq": [
+    {
+      "question": "Are US port fees on Chinese ships still suspended?",
+      "answer": "Yes. The US Trade Representative proposed on 23 October extending the suspension of port fees on Chinese-owned, Chinese-operated and Chinese-built vessels until 9 January 2027. The pause has been in place since November. If you ship into a US port on one of those vessels, your per-container cost does not change before that date. Ask your forwarder to quote January and February with the fee at zero and with it reinstated."
+    },
+    {
+      "question": "Will the Taiwan coastguard patrols delay my container from Shanghai or Yantian?",
+      "answer": "They can add transit days without a blank sailing being announced. China's Coast Guard ran a patrol east of Taiwan on Saturday and sent another ship near the Pratas Islands, and Taiwan sent its own vessels to monitor. Carriers will reroute around risk, and a reroute on a South China Sea corridor can add two to four days. Add three to four days of buffer to any December FBA inbound promise."
+    },
+    {
+      "question": "Should I cut my Black Friday restock volume?",
+      "answer": "Cut any SKU with less than 30 days of cover. A Shenzhen seller cut a planned overseas warehouse shipment of home decor by 60% and pushed later restocks to after Black Friday, shipping in batches on demand. That keeps cash free and stops you paying storage on seasonal goods that will not sell in January. If you are holding a full container of September forecast, you are already carrying the wrong inventory."
+    },
+    {
+      "question": "Did Ocean Network Express leave the China to Australia lane?",
+      "answer": "ONE stopped chartering slots on Maersk's Qilin service, which it had marketed as the Australia Express since joining in July 2026. Maersk continues to operate Qilin on the Shanghai, Hong Kong, Sydney, Melbourne, Shanghai rotation. If you were booking ONE slots on that service, your capacity option has closed. Confirm your November and December Australia bookings and ask whether your forwarder still has allocation on Qilin."
+    },
+    {
+      "question": "What is the new London steel hedging contract and does it affect my sourcing?",
+      "answer": "London has listed a dollar-denominated, cash-settled steel hedging contract that lets overseas traders hedge hot-rolled coil price swings on Chinese steel export orders. It matters if you buy steel-based goods such as furniture frames, tools, garden items or e-bike components. A supplier who hedges can quote a more stable price, which gives you a more predictable landed cost. Ask your supplier whether they are using it before you sign a Q1 purchase order."
+    }
+  ],
+  "generatedAt": "2026-11-01T20:51:29.665Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 14
+}
