@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-04",
+  "title": "Asia-Europe ships return to Suez as FedEx boosts US capacity",
+  "metaDescription": "Major liners resume Suez transits for Asia-Europe lanes while FedEx adds 567,000kg of weekly capacity to the US to support year-end peak demand.",
+  "bottomLine": "Mainline operators are returning to the Suez Canal for Asia-Europe services, which will stabilise transit times. FedEx has added 567,000kg of weekly capacity to the US to help sellers hit year-end deadlines.",
+  "stories": [
+    {
+      "headline": "Mainline carriers resume Suez Canal transits for Asia-Europe",
+      "tldr": "Evergreen and other major liners are restarting Suez Canal crossings for Asia-North Europe and Asia-Mediterranean services this month.",
+      "whatHappened": "Mainline operators are returning to Suez Canal transits for Asia-Europe and Asia-Mediterranean lanes. Evergreen will join Ocean Alliance partners in resuming these crossings this week. The carrier is sending the Ever Eon and Ever Edit, both 16,556 teu vessels, on eastbound Suez transits. Yang Ming and HMM will join Premier Alliance partners to restart Suez crossings next month. This move signals a broad return to the canal for the major shipping alliances.",
+      "whyItMatters": "You have likely spent months dealing with the unpredictability of routing around the Cape of Good Hope. For the UK and EU seller, this shift means your lead times should start to shrink. If you are still quoting 45 to 60 days for sea freight from Ningbo or Shanghai to Rotterdam, those numbers are about to change. \n\nYou need to check your current bookings. If your forwarder is still routing you the long way, your goods are taking a detour that costs you time and potentially increases your fuel surcharges. This move by Evergreen and the Premier Alliance reduces the systemic pressure on vessel availability. You can stop panic-ordering six weeks of extra safety stock for January if your lane is moving back to the Suez.",
+      "hotTake": "The detour around Africa was a tax on every single unit you sold. I expect spot rates to soften slightly as capacity returns to the Mediterranean. If you have stock on the water now, do not let your forwarder hide behind 'disruptions' to justify Cape-routing surcharges next month.",
+      "actions": [
+        "Ask your forwarder for the specific vessel name and routing for all November bookings",
+        "Update your arrival forecasts for EU warehouses to reflect shorter Suez transit times"
+      ],
+      "sourceUrl": "https://theloadstar.com/major-liners-set-to-resume-all-asia-europe-services-through-suez",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "FedEx adds 567,000kg weekly capacity to US lanes",
+      "tldr": "FedEx expanded its trans-Pacific network by 567,000kg weekly, adding new connections to Memphis and Dallas-Fort Worth.",
+      "whatHappened": "FedEx added 567,000kg of weekly capacity between Asia Pacific and the United States. The new five-times-weekly Boeing 777F service connects the Guangzhou hub and sub-regional hubs in Shanghai and Osaka to Memphis via Anchorage. The network also adds a new five-times-weekly connection to Dallas-Fort Worth via Anchorage. This capacity is available to businesses in Hong Kong and Southeast Asia via Clark and Shanghai to support rising customer demand.",
+      "whyItMatters": "You are currently in the window where air freight capacity vanishes and prices spike for the December rush. If you are a high-ticket electronics or AI hardware seller, this 567,000kg injection is a lifeline. The new Dallas-Fort Worth gateway is particularly useful if you use 3PLs in the US South rather than just the West Coast or Memphis. \n\nFor the premium e-commerce operator, this reduces the risk of 'peak season' outages. If you have been told that air capacity is full for the next three weeks, you now have a concrete reason to push your broker for space. This capacity targets the AI and advanced manufacturing sectors, meaning it is designed for heavy, high-value pallets, not just small parcels.",
+      "hotTake": "FedEx is betting on the AI hardware boom to fill these planes. If you are shipping GPU-related gear or high-end sensors, this is your window. Do not wait for the 'last minute' in November or you will pay 3x the rate regardless of the extra capacity.",
+      "actions": [
+        "Request quotes for the new Dallas-Fort Worth gateway if your US warehouse is in the South",
+        "Shift urgent Q4 replenishment from sea to this new air capacity before December 1"
+      ],
+      "sourceUrl": "https://logisticsmanager.com/fedex-trans-pacific-network-hits-567000kg-weekly-capacity",
+      "sourceName": "Logistics Manager",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "customs-us"
+      ]
+    },
+    {
+      "headline": "Central China Longhao Airlines starts Zhengzhou to UK flights",
+      "tldr": "Central China Longhao Airlines launched twice-weekly Boeing 747-400 freighter flights from Zhengzhou to East Midlands Airport on 2 November.",
+      "whatHappened": "Central China Longhao Airlines began operations at East Midlands Airport on 2 November 2026. The airline is operating twice-weekly flights using Boeing 747-400 freighters from Zhengzhou Xinzheng International Airport. East Midlands Airport reported a 6.3% increase in cargo volumes, totalling 36,000 tonnes, compared to last September. The airport aims to increase total exports and imports from 400,000 tonnes to 500,000 tonnes by 2030.",
+      "whyItMatters": "If you source from Henan province or use Zhengzhou as your primary air hub, you now have a direct path into the UK heartland. You no longer have to rely solely on the saturated hubs in Southern China. This reduces the inland trucking cost and time from your factory to the runway. \n\nFor the UK e-commerce operator, East Midlands is a strategic entry point that avoids the congestion of Heathrow or Gatwick. By using a direct Zhengzhou connection, you cut out the middleman hubs. If you are moving 10 to 20 tonnes of stock per week, this route can shave days off your door-to-door time and potentially lower your air freight cost per kilo due to the increased competition at East Midlands.",
+      "hotTake": "Zhengzhou is becoming a legitimate alternative to Shenzhen for air exports. I see more sellers moving their consolidation to Central China to avoid the South China bottlenecks. If your factory is in the north, stop trucking everything south.",
+      "actions": [
+        "Compare air freight quotes from Zhengzhou to East Midlands against your current Shenzhen-to-UK rates",
+        "Check if your forwarder can consolidate shipments in Zhengzhou for this specific flight"
+      ],
+      "sourceUrl": "https://aircargoweek.com/central-china-longhao-airlines-begins-operations-at-east-midlands-airport",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "customs-uk",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The Suez Canal is back for Asia-Europe lanes, and your lead times are about to drop.",
+    "FedEx just added 567,000kg of weekly capacity to the US, but only if you can pay the peak rate.",
+    "Zhengzhou is challenging Shenzhen as the primary air gateway for UK-bound e-commerce.",
+    "Suez transits are returning, meaning the Cape of Good Hope 'tax' is finally ending.",
+    "The new FedEx Dallas-Fort Worth gateway is a massive win for US Southern 3PLs.",
+    "Air freight capacity is expanding just as the December panic sets in.",
+    "If you are shipping to the UK, East Midlands is now a viable alternative to the major hubs.",
+    "Stop trucking your Central China goods to the south; use the new Zhengzhou to UK flights."
+  ],
+  "faq": [
+    {
+      "question": "Are ships going back through the Suez Canal from China to Europe?",
+      "answer": "Yes. Mainline operators including Evergreen, Yang Ming, and HMM are resuming Suez Canal transits for Asia-North Europe and Asia-Mediterranean services. Evergreen is starting this week with vessels like the Ever Eon. You should see transit times decrease compared to the Cape of Good Hope routing, though you must verify the specific routing with your forwarder for each booking."
+    },
+    {
+      "question": "Is there more air freight capacity available for US shipments in November?",
+      "answer": "Yes. FedEx has added 567,000kg of weekly capacity between Asia Pacific and the US. This includes new five-times-weekly Boeing 777F services from Guangzhou, Shanghai, and Osaka to Memphis and Dallas-Fort Worth. This is a critical addition for high-value goods and AI infrastructure, though you should expect to pay peak season rates."
+    },
+    {
+      "question": "Can I ship air freight directly from Central China to the UK?",
+      "answer": "Yes. Central China Longhao Airlines began twice-weekly Boeing 747-400 freighter flights from Zhengzhou Xinzheng International Airport to East Midlands Airport on 2 November 2026. This provides a direct connection for sellers sourcing from Henan province, potentially reducing inland trucking costs and avoiding the congestion of Southern China hubs."
+    }
+  ],
+  "generatedAt": "2026-11-03T21:54:24.516Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
