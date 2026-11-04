@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-05",
+  "title": "US carriers seek $3,000 November rate hikes",
+  "metaDescription": "Carriers push for $3,000 FEU hikes on Asia-US lanes while a watchmen's strike looms at LA and Long Beach ports.",
+  "bottomLine": "Carriers are pushing for rate hikes of up to $3,000 per FEU for November on Asia-US lanes despite a fading peak season. You also face potential port disruptions at LA and Long Beach due to a watchmen's labour dispute.",
+  "stories": [
+    {
+      "headline": "Carriers push for $3,000 November rate hikes on Asia-US lanes",
+      "tldr": "Ocean carriers are seeking rate increases of $2,000 to $3,000 per FEU for November shipments from Asia to the US.",
+      "whatHappened": "Ocean carriers want rate hikes of $2,000 to $3,000 per FEU for November. Current Asia-US East Coast rates sit at $9,900 per FEU, down 6% from last week. West Coast rates are holding near $8,300 per FEU. \n\nFreight forwarders doubt these increases will hold. They cite more consistent vessel schedules and better space availability. Meanwhile, Zim has launched a third China-US West Coast express service to handle a surge in freight volumes as spot rates remain near 2026 highs.",
+      "whyItMatters": "If you are a high-volume seller shipping 40ft containers, a $3,000 jump per FEU destroys your margin on low-value goods. You cannot pass this cost to customers mid-Q4. If you have stock in a factory now, you must decide if you lock in a rate today or gamble that forwarders are right and the hike fails.\n\nFor those using US West Coast ports, the cost of failure is higher. You are paying peak rates while facing a volatile schedule. If you ship high-value electronics or seasonal decor, the cost of a missed window outweighs the risk of paying a slight premium now to guarantee space. You need to calculate your break-even point for these November shipments immediately.",
+      "hotTake": "Carriers are trying to squeeze one last drop of profit out of a peak season that is already dead. Do not pay the $3,000 hike. Space is returning and the demand is cooling. Hold your line with your forwarder and wait for the market to settle in mid-November.",
+      "actions": [
+        "Reject the $3,000 November GRI and negotiate based on current space availability",
+        "Shift urgent Q4 stock to air freight if the ocean rate hike exceeds your product margin",
+        "Audit your current bookings to ensure you have guaranteed space before any potential port disruptions"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/asia-us-container-rates-hold-as-carriers-seek-3000-november-rate-hikes",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Labour dispute threatens 85% of Long Beach cargo flow",
+      "tldr": "A potential watchmen's strike at LA and Long Beach ports could disrupt 85% of Long Beach and 33% of LA cargo.",
+      "whatHappened": "The Pacific Maritime Association and ILWU Local 26 extended their agreement until 4 p.m. Pacific Time on 4 November 2026. Negotiations are continuing under federal mediation, but a walkout remains possible. \n\nLocal 26 represents 250 security workers. While the group is small, the impact is wide. Affected facilities handle 85% of Long Beach cargo and 33% of Los Angeles cargo. Other ILWU members may honour picket lines, which would stop vessel, yard, and gate operations.",
+      "whyItMatters": "You might think 250 workers cannot stop a port, but in the US, picket lines are a contagion. If the general longshoremen honour the watchmen's strike, your containers stop moving. This hits every seller with stock currently on the water to the US West Coast.\n\nIf you have a critical FBA inbound shipment arriving this week, you are in the danger zone. A gate closure means your haulier cannot pick up the box, and your lead time slips by weeks. For sellers of time-sensitive seasonal goods, this is a nightmare scenario. You need to know exactly which terminal your cargo is hitting and if that terminal is among the 85% of Long Beach facilities affected.",
+      "hotTake": "The US West Coast is too fragile for this. One small union can freeze billions in trade. If you have the budget, start diversifying your entries to the East Coast or Canada to avoid this systemic risk.",
+      "actions": [
+        "Identify the specific terminal for your incoming shipments to assess strike exposure",
+        "Prepare a contingency plan for diverted cargo or alternative trucking routes",
+        "Alert your US 3PL that shipments may be delayed at the gate"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/asia-us-container-rates-hold-as-carriers-seek-3000-november-rate-hikes",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "ports-congestion",
+        "customs-us",
+        "sea-freight"
+      ]
+    },
+    {
+      "headline": "US trade officials urged to scrap China-linked vessel fees",
+      "tldr": "Trade groups want the US to permanently suspend Section 301 fees on China-built ships that cost up to $120 per container.",
+      "whatHappened": "Over 250 stakeholders, including the National Retail Federation and World Shipping Council, wrote to USTR Jamieson Greer on 30 October. They want a permanent suspension of Section 301 fees on China-built or China-linked vessels.\n\nThe fees, which range from $18 per ton to $120 per container, were paused for a year. The current suspension ends 9 November 2026. The USTR has proposed extending the pause until 9 January 2027. The fees aim to encourage US shipbuilding by offering exemptions to owners who order US-built ships.",
+      "whyItMatters": "This is a hidden cost that carriers will pass directly to you. If these fees return on 9 November, your per-container cost rises by up to $120. For a seller moving 100 containers a month, that is an extra $12,000 in unplanned expenses.\n\nYou have no control over which ship a carrier puts your box on. If the carrier uses a China-built vessel, you pay the price. This adds another layer of uncertainty to your landed cost calculations for the winter. Most sellers ignore vessel-origin fees until they appear on the final invoice, but you should be budgeting for this risk now.",
+      "hotTake": "The US government is trying to build ships by taxing the ones we already use. It is a failed strategy. Expect the suspension to be extended to January, but do not bet your margins on it.",
+      "actions": [
+        "Add a $120 per container contingency line to your November and December cost sheets",
+        "Ask your freight forwarder if they will absorb Section 301 vessel fees or pass them through",
+        "Monitor the USTR announcement on 9 November"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/ustr-urged-to-permanently-suspend-china-linked-ship-fees/873618",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Carriers are asking for $3,000 hikes while the peak season is ending. Don't pay it.",
+    "250 security workers can freeze 85% of Long Beach cargo. US port fragility is real.",
+    "Section 301 vessel fees could add $120 per container starting 9 November.",
+    "The Transpacific trade is now five times more profitable than China-Europe for carriers.",
+    "DP World is opening a new China-Africa weekly service in late November.",
+    "China's trade surplus hit a record $938.1 billion, putting pressure on the yuan.",
+    "EU-China ocean volumes are up 26% despite trade policy uncertainty.",
+    "The US West Coast is a gamble right now between rate hikes and labour strikes.",
+    "Sellers are ignoring vessel-origin fees that could hit their November invoices.",
+    "Air cargo from Asia to North America grew 9% in July, the fastest lane globally."
+  ],
+  "faq": [
+    {
+      "question": "Will ocean freight rates from China to the US rise in November 2026?",
+      "answer": "Carriers seek increases of $2,000 to $3,000 per FEU for November. However, forwarders report improving space and consistent schedules, suggesting these hikes may not stick. Current West Coast rates are around $8,300 per FEU and East Coast rates are approximately $9,900 per FEU. You should negotiate with your forwarder rather than accepting the general rate increase immediately."
+    },
+    {
+      "question": "Is there a strike at the US West Coast ports?",
+      "answer": "There is a potential strike by ILWU Local 26 watchmen at Los Angeles and Long Beach. An agreement extension lasted until 4 November 2026, but negotiations are ongoing. A walkout could disrupt 85% of Long Beach cargo and 33% of Los Angeles cargo. If other union members honour the picket lines, vessel and gate operations could stop. Check your terminal location immediately."
+    },
+    {
+      "question": "What are Section 301 fees on China-linked vessels?",
+      "answer": "These are fees from $18 per ton to $120 per container applied to ships built in China. They were paused, but the suspension expires 9 November 2026. While the USTR may extend the pause to 9 January 2027, the fees could return. These costs are typically passed from the carrier to the shipper, increasing your total landed cost per container."
+    }
+  ],
+  "generatedAt": "2026-11-04T22:02:57.563Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
