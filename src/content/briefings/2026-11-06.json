@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-06",
+  "title": "Lunar New Year dates pull Asia-Europe ocean demand forward",
+  "metaDescription": "Lunar New Year on 6 February 2027 drives December ocean demand. Taiwan air cargo clogs on AI gear. New Zhengzhou to UK flights launch.",
+  "bottomLine": "Lunar New Year begins 6 February 2027, forcing you to lock in Asia-Europe ocean bookings by December. Taiwan air gateways are currently choking on AI equipment, creating severe delays for semiconductor and tech shipments.",
+  "stories": [
+    {
+      "headline": "Early Lunar New Year pushes Asia-Europe ocean demand into December",
+      "tldr": "Lunar New Year begins 6 February 2027, prompting exporters to book ocean freight earlier to avoid peak rates.",
+      "whatHappened": "China's Lunar New Year starts on 6 February 2027. This date is 11 days earlier than the previous year. Forwarders and analysts report that this shift will force exporters to secure their bookings sooner than usual.\n\nThis early holiday window is expected to drive up ocean demand on Asia-Europe lanes throughout December 2026. Market participants expect this surge in volume to push freight rates higher as the deadline for pre-holiday shipments moves forward.",
+      "whyItMatters": "You cannot wait until late December to book your January arrivals. If you ship high-volume goods to Europe, your window for securing space is closing faster than last year. A 11-day shift in the holiday calendar creates a massive bottleneck in the final weeks of 2026. You will face higher spot rates and a lack of equipment if you miss the December booking window.\n\nFor the FBA seller or the wholesale importer, this means your landed cost for the Q1 2027 cycle will rise if you do not act now. You risk your stock arriving in February when factories are closed and the ports are empty, or worse, your goods staying in a Shanghai warehouse because you missed the cut-off. You must coordinate with your factory now to ensure goods are ready for a December departure.",
+      "hotTake": "The 11-day shift is a trap for lazy operators. Most people will realise this in mid-December and panic-book, which allows carriers to gouge rates. I would lock in my December volume now. Do not gamble on spot rates in the final three weeks of the year.",
+      "actions": [
+        "Move your December ocean booking deadline forward by two weeks",
+        "Confirm factory completion dates for all January shipments by 15 November"
+      ],
+      "sourceUrl": "https://joc.com/article/early-lunar-new-year-set-to-drive-up-december-ocean-demand-on-asia-europe-6318478",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "AI equipment creates cargo bottlenecks at Taiwan Taoyuan Airport",
+      "tldr": "Uncollected AI and semiconductor imports are clogging warehouses at Taiwan Taoyuan Airport, causing aircraft unloading delays.",
+      "whatHappened": "Cargo warehouses at Taiwan Taoyuan Airport are currently overwhelmed by uncollected imports. This surge in equipment for the AI and semiconductor sectors has tied up dollies and slowed the unloading of aircraft, according to local forwarders.\n\nSeko Logistics reports that this pressure is affecting China Airlines, EVA Air, and Starlux. China Airlines has already cancelled selected freighter services, including flights bound for the US, due to the congestion. One forwarder noted the situation reminds them of the Covid days.",
+      "whyItMatters": "If you source high-value electronics or AI-related components through Taiwan, your lead times are now unpredictable. The shortage of dollies means your goods sit on the tarmac or in a clogged warehouse, adding days to your transit. This is not a customs delay; it is a physical capacity failure at the gateway.\n\nFor the tech seller, this means your 'express' air freight is no longer express. If you have critical components moving through Taoyuan, you should expect delays and potential flight cancellations. This congestion ripples back to your production schedule in China if you rely on Taiwan-made parts to finish your assembly. You are competing for space against the world's largest AI firms, and you will lose that fight every time.",
+      "hotTake": "This is a classic capacity crunch. When the AI gold rush hits the physical infrastructure, the small operator gets crushed. If you can route your air freight through alternative hubs or shift to a different carrier, do it today.",
+      "actions": [
+        "Check the current status of any shipments transiting through Taiwan Taoyuan",
+        "Diversify air freight routing away from Taoyuan for urgent tech components"
+      ],
+      "sourceUrl": "https://theloadstar.com/reminds-me-of-covid-ai-equipment-chokes-taiwans-air-cargo-gateway",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "ports-congestion",
+        "manufacturing"
+      ]
+    },
+    {
+      "headline": "Central China Longhao Airlines opens Zhengzhou to UK route",
+      "tldr": "Central China Longhao Airlines now operates twice-weekly freighter flights from Zhengzhou to East Midlands Airport.",
+      "whatHappened": "Central China Longhao Airlines has launched a twice-weekly Boeing 747-400 freighter service from Zhengzhou International Airport to East Midlands Airport in the UK. The airline is state-owned and based in Henan Province.\n\nEast Midlands Airport is positioning itself as a primary UK gateway for B2C e-commerce. The airport already hosts hubs for DHL Express, UPS, and FedEx. YunExpress recently opened a cargo terminal there to handle freight arriving on Central Airlines flights.",
+      "whyItMatters": "If you run a high-volume e-commerce business and use a 3PL in the UK, you now have a direct air artery from Zhengzhou. This bypasses some of the congestion seen at larger UK hubs and leverages the infrastructure of YunExpress and SF Express, who are already active at East Midlands.\n\nFor the seller using a fulfilment centre in the English Midlands, this route reduces the domestic haulage leg. You can move goods from central China to the UK heartland more efficiently. If you are currently paying high premiums for air freight into London or Manchester, quoting this Zhengzhou to East Midlands lane could drop your transit time and potentially your cost per kilo.",
+      "hotTake": "Zhengzhou is becoming the air cargo capital of central China. Using East Midlands as your entry point is a smart move to avoid the chaos of Heathrow. I would push my forwarder to quote this specific lane for my next air batch.",
+      "actions": [
+        "Request quotes for the Zhengzhou to East Midlands air lane",
+        "Review your UK 3PL's proximity to East Midlands Airport to optimise last-mile haulage"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/east-midlands-airport-welcomes-another-chinese-cargo-airline",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "air-freight",
+        "customs-uk",
+        "ecommerce-platforms"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Lunar New Year 2027 is 11 days early and your ocean bookings are already late.",
+    "The AI boom is physically breaking Taiwan's air cargo gateways.",
+    "Zhengzhou to East Midlands is the new power lane for UK e-commerce.",
+    "Stop waiting for spot rates in December or you will miss the Lunar New Year cut-off.",
+    "Taiwan's airport congestion is the new 'Covid-era' bottleneck for tech sellers.",
+    "State-owned airlines are expanding the Zhengzhou hub to bypass UK port congestion.",
+    "Your Q1 2027 landed cost depends on a booking you make in December 2026.",
+    "AI equipment is stealing the dolly capacity from your air freight shipments."
+  ],
+  "faq": [
+    {
+      "question": "When is the Lunar New Year shipping deadline for 2027?",
+      "answer": "Lunar New Year begins on 6 February 2027. You should aim to have all ocean freight booked and departed by mid-December 2026. Because the holiday is 11 days earlier than last year, demand will peak sooner, and rates will rise in December. Secure your space by 1 December to avoid the rush."
+    },
+    {
+      "question": "Why are my air shipments through Taiwan delayed?",
+      "answer": "Taiwan Taoyuan Airport is experiencing severe congestion due to a surge in AI and semiconductor equipment imports. This has created a shortage of dollies and clogged warehouses, leading to slower aircraft unloading and some flight cancellations by carriers like China Airlines. Expect delays of several days for tech-related cargo."
+    },
+    {
+      "question": "What is the best air route for e-commerce goods into the UK?",
+      "answer": "The route from Zhengzhou International Airport to East Midlands Airport is currently a strong option. With new twice-weekly flights from Central China Longhao Airlines and existing terminals from YunExpress and SF Express, it offers a less congested alternative to London hubs for B2C e-commerce shipments."
+    }
+  ],
+  "generatedAt": "2026-11-05T22:07:51.843Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
