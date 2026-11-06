@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-07",
+  "title": "US holds blacklist rule as Shenzhen trade talks resume",
+  "metaDescription": "Washington extends the 50 per cent affiliate rule suspension to 10 January, Shanghai-Rotterdam spot falls 2% and Asia-North America is flagged high risk…",
+  "bottomLine": "The US has extended its suspension of the 50 per cent affiliate rule to 10 January, the same day the trade truce expires, so Chinese exporters and their overseas subsidiaries get two more months without the extra BIS scrutiny. Spot rates are soft, with Shanghai-Rotterdam down 2% to $3,615 per 40ft, but WiseTech Global rates Asia-North America as high risk for weeks 45-48 on tightening capacity and booking difficulty. Book your November and early December sailings now rather than chasing a lower rate later.",
+  "stories": [
+    {
+      "headline": "US holds off 50% affiliate blacklist rule until 10 January",
+      "tldr": "The US extended the suspension of its 50 per cent affiliate rule to 10 January, the same day the US-China trade truce expires.",
+      "whatHappened": "The US Bureau of Industry and Security issued a final rule on Thursday extending the suspension of its 50 per cent affiliate rule until 10 January, according to SCMP Business. The rule, which helped inflame tensions with Beijing last year, would subject overseas subsidiaries of Chinese companies to greater scrutiny. The extension lands ahead of a new round of bilateral trade talks in Shenzhen. The current US-China trade truce is also set to expire on 10 January.\n\nBIS formalised the extension through a final rule rather than letting it lapse, which keeps the status quo for Chinese-owned entities with overseas operations through the end of the year.",
+      "whyItMatters": "You get two more months of the current compliance regime if you are shipping through a Chinese-owned entity with a subsidiary in a third country, or if your supplier sits inside a corporate group that does. That matters most for sellers whose factory, trading company and export entity sit in different jurisdictions, because the affiliate rule was designed to catch exactly that structure. The paperwork you file today stays valid through the peak booking window.\n\nThe 10 January date is the one to circle. It is the same day the trade truce expires, so if talks in Shenzhen go badly you face both changes at once, with no gap to adjust your declarations or your supplier contracts. Sellers with Q1 purchase orders placed on current terms should build a review point into the first week of January, not the last.",
+      "hotTake": "Two suspensions running means the rule is now a bargaining chip, and you should price it that way. I would not restructure a supplier group over a deadline that has already moved twice. I would, however, make sure my customs broker knows which entity is the exporter of record before 10 January, because that is the detail that decides whether any of this touches you.",
+      "actions": [
+        "Confirm with your broker which legal entity is the exporter of record on your next booking",
+        "Diarise 10 January as a joint truce and affiliate rule deadline and review supplier contracts before it"
+      ],
+      "sourceUrl": "https://scmp.com/economy/policy/article/3373520/ahead-shenzhen-trade-talks-us-holds-blacklist-rule-angered-beijing",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "regulation-china",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Shanghai-Rotterdam spot slips 2% as capacity pressure eases",
+      "tldr": "Drewry's World Container Index put Shanghai-Rotterdam at $3,615 per 40ft, down 2% week on week, while Shanghai-Genoa held flat at $4,166.",
+      "whatHappened": "Drewry's World Container Index recorded a 2% week-on-week drop on its Shanghai-Rotterdam leg, ending at $3,615 per 40ft, The Loadstar reported. The Shanghai-Genoa leg was flat at $4,166 per 40ft. The Loadstar described a calmer spot market this week, with slight declines on both the transpacific and Asia-Europe trades as capacity constraints eased and demand stayed seasonally subdued.\n\nThe flat Genoa reading alongside the Rotterdam decline pointed to new FAK rates taking effect on the Asia-Europe trade. The Loadstar flagged a fragile Middle East situation as the main threat to the calmer picture.",
+      "whyItMatters": "If you ship Asia to Europe, the rate you are being quoted this week is softer than the one you signed in October, and that gap is worth chasing before you commit peak volume. A 2% move on Rotterdam sounds small until you apply it to a 40ft container, and the flat Genoa number tells you the carriers are holding the Mediterranean line while discounting the north. Ask for a fresh FAK quote rather than renewing last month's.\n\nThe seasonally subdued demand is the part to watch. It means carriers have room to cut, and it also means they have room to blank sailings if bookings stay weak. Sellers running lean inventory get the better rate but the worse schedule risk. If you are shipping promotional stock for late Q4, take the rate now and accept the schedule, because the next move on capacity is more likely to be a blanking than an increase.",
+      "hotTake": "I would take the Rotterdam rate this week and not wait for a further decline. The Middle East is the one variable nobody can price, and a 2% saving is not worth carrying the risk of a capacity cut landing on your sailing. Book, then watch.",
+      "actions": [
+        "Request a fresh FAK quote on Shanghai-Rotterdam before renewing any October rate",
+        "Lock November sailings now rather than holding out for a further spot decline"
+      ],
+      "sourceUrl": "https://theloadstar.com/calmer-waters-for-container-spot-rates-but-fragile-middle-east-a-threat",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Transpacific flagged highest risk for weeks 45 to 48",
+      "tldr": "WiseTech Global rates Asia-North America and Asia-Europe high risk for weeks 45-48, with transpacific capacity tightening and bookings harder to secure.",
+      "whatHappened": "WiseTech Global's November Ocean Freight Risk Outlook, covering weeks 45 to 48, rates the Asia-North America and Asia-Europe trades as high risk overall, with Europe-North America at medium risk, according to The Loadstar. The Asia-North America tradelane faces the highest ocean freight disruption risk over the coming weeks.\n\nThe outlook cites reduced carrier capacity and growing difficulty securing bookings as the threats to shipment reliability. On the transpacific, planned carrier capacity is expected to tighten further over the period covered by the report.",
+      "whyItMatters": "This is the one that should change your week if you ship to the US. High risk on Asia-North America in weeks 45 to 48 means the sailings you want in mid to late November are the ones most likely to be rolled, and the carriers are already tightening planned capacity. Sellers with Amazon FBA inbound deadlines in the first half of December are exposed, because a rolled booking pushes receiving into the week Amazon is least forgiving.\n\nCarrier selection is the lever the report names, and it is the right one. Two carriers on the same lane can have very different roll rates when capacity tightens, and the cheaper quote is often the one with the weaker allocation. If your goods have a hard in-stock date, pay for the carrier with the allocation and the schedule reliability, not the one shaving $100 off the rate.",
+      "hotTake": "The rate is the wrong number to optimise this month. Roll risk is the number. I would rather pay a premium on a carrier that holds its allocation than save on one that leaves my container on the quay. Check your forwarder's roll rate on your specific lane before you book, not their headline price.",
+      "actions": [
+        "Ask your forwarder for roll rates on your specific transpacific service before booking",
+        "Move any FBA inbound with a December deadline onto the earliest sailing you can secure"
+      ],
+      "sourceUrl": "https://theloadstar.com/carrier-selection-matters-when-it-comes-to-getting-your-goods-on-time",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion",
+        "amazon-fba"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US has now suspended its 50 per cent affiliate rule twice, which tells you it is a negotiating position rather than a policy",
+    "10 January is the date that matters more than any rate this quarter, because the truce and the blacklist rule expire the same day",
+    "Shanghai-Rotterdam at $3,615 looks like good news until you remember carriers blank sailings when bookings stay weak",
+    "A flat Shanghai-Genoa against a falling Shanghai-Rotterdam is carriers telling you where they will defend rate",
+    "WiseTech naming carrier selection as the fix for transpacific risk is an admission that the cheap quote is the risky one",
+    "If your FBA inbound has a December deadline, weeks 45 to 48 is when your booking gets rolled, not when it ships",
+    "Ask your forwarder for their roll rate on your lane, not their rate, and see which question they answer first",
+    "Sellers optimising spot rate this month are optimising the wrong number while allocation quietly tightens"
+  ],
+  "faq": [
+    {
+      "question": "What is the US 50 per cent affiliate rule and does it affect my shipments from China?",
+      "answer": "It is a BIS measure that would subject overseas subsidiaries of Chinese companies to greater scrutiny, and the US has suspended it again until 10 January. It affects you if your supplier or exporter of record is a Chinese-owned entity with a subsidiary in a third country. Check with your customs broker which legal entity appears as exporter of record, and review that structure before January.",
+      "wordCount": 68
+    },
+    {
+      "question": "Are container spot rates from China falling right now?",
+      "answer": "Yes, on the main Asia-Europe leg. Drewry put Shanghai-Rotterdam at $3,615 per 40ft, down 2% week on week, while Shanghai-Genoa was flat at $4,166. The transpacific also saw slight declines. Soft rates do not mean easy bookings, though. Carriers can blank sailings when demand stays subdued, so take the rate you are quoted now rather than waiting.",
+      "wordCount": 64
+    },
+    {
+      "question": "Why is Asia to North America shipping flagged as high risk in November?",
+      "answer": "WiseTech Global's November outlook rates Asia-North America as high risk for weeks 45 to 48, citing reduced carrier capacity and growing difficulty securing bookings. The risk is roll, not rate. If you have an Amazon FBA inbound deadline in early December, book the earliest sailing you can and choose the carrier with the stronger allocation on your service.",
+      "wordCount": 62
+    },
+    {
+      "question": "What date should I watch for US-China trade changes?",
+      "answer": "10 January. The current US-China trade truce expires that day, and the suspension of the 50 per cent affiliate rule runs to the same date. Two changes can land together with no gap to adjust. If you have Q1 purchase orders placed on current terms, build a review point into the first week of January and confirm your exporter of record before then.",
+      "wordCount": 65
+    }
+  ],
+  "generatedAt": "2026-11-06T21:40:38.080Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 20
+}
