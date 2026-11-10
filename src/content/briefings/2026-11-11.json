@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-11",
+  "title": "Shenzhen air cargo bans threaten peak season flows",
+  "metaDescription": "Shenzhen air cargo restrictions and Yantian port accidents create a bottleneck for Q4 shipments. US-China trade truce extends to January 2027.",
+  "bottomLine": "Shenzhen is suspending belly cargo next week for the APEC summit, which will push air freight volume into neighbouring airports and spike rates. Meanwhile, a Maersk ship knocked down a crane at Yantian, adding to the port congestion already hitting the region.",
+  "stories": [
+    {
+      "headline": "Shenzhen belly cargo ban triggers air freight squeeze",
+      "tldr": "International belly-cargo operations at Shenzhen suspend next week for the APEC summit, diverting peak shipments to other gateways.",
+      "whatHappened": "Shenzhen will suspend international belly-cargo operations next week during the APEC Economic Leaders' Meeting. Authorities also reduced freighter slots. Forwarders warn this will divert peak-season shipments to neighbouring airports. This restriction hits mainland China's third-largest cargo airport. At the same time, Taiwan is facing cargo congestion that is expected to delay freighter operations throughout the fourth quarter of 2026, adding further pressure to regional air capacity.",
+      "whyItMatters": "If you rely on passenger flights for small, high-value parcels or urgent samples, your current routing is dead for next week. You will see your forwarder move bookings to Hong Kong or Guangzhou. These gateways are already under peak-season pressure, so expect immediate space shortages and higher spot rates.\n\nFor the high-volume seller, this creates a bottleneck. If you have stock sitting in a Shenzhen warehouse intended for air export, it may dwell longer than planned. You risk missing your Q4 delivery windows if you do not secure freighter space now. The diversion of volume to other airports means the 'cheap' options disappear. You will pay a premium for any guaranteed lift out of the region over the next 14 days.",
+      "hotTake": "The 'summit squeeze' is a predictable annual headache that forwarders always underplay. Do not trust your agent when they say they have 'options'. If you have a critical shipment, book a dedicated freighter today or move the goods to Hong Kong before the ban kicks in.",
+      "actions": [
+        "Move urgent air shipments out of Shenzhen before next week",
+        "Book dedicated freighter capacity instead of relying on belly cargo",
+        "Update your delivery estimates for any goods moving through Taiwan"
+      ],
+      "sourceUrl": "https://theloadstar.com/shenzhen-air-cargo-restrictions-ahead-of-apec-threaten-peak-shipments",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Maersk vessel destroys crane at Yantian port",
+      "tldr": "The Maersk Cincinnati knocked down a ship-to-shore crane at Yantian berth 12 on 9 November 2026.",
+      "whatHappened": "The Maersk Cincinnati, a 15,516 teu vessel measuring 366 metres, struck a ship-to-shore crane while berthing at Yantian port. The incident occurred at approximately noon local time on 9 November 2026. The collision took place at berth 12 of the Shenzhen terminal. The impact brought the crane structure down, as seen in videos shared on Chinese social media. This damage to the ship-to-shore infrastructure occurs during the height of the peak season rush.",
+      "whyItMatters": "Yantian is a primary gateway for US-bound cargo. Losing a ship-to-shore crane at a major berth during the peak season reduces the terminal's overall productivity. While one crane might seem minor, it creates a ripple effect in berthing schedules and container moves.\n\nYou should expect dwell times to increase for containers waiting to be loaded or discharged at this terminal. If your cargo is currently on a vessel calling at Yantian, check your ETA and be ready for a 24 to 48 hour slide in your schedule. For those with stock in the port, this accident adds another layer of friction to an already congested system. It is one more reason why your 'on the water' dates are currently unreliable.",
+      "hotTake": "One crane down in peak season is a disaster for terminal fluidity. Maersk will likely face delays, but every seller using Yantian will feel the backlog. Stop trusting the carrier's automated ETA and start calling your local agent for actual berth status.",
+      "actions": [
+        "Check the current status of any containers calling at Yantian berth 12",
+        "Add two days of buffer to your FBA inbound arrival estimates",
+        "Verify with your forwarder if vessel diversions are planned"
+      ],
+      "sourceUrl": "https://splash247.com/maersk-boxship-knocks-down-crane-at-yantian",
+      "sourceName": "Splash247",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "US and China extend trade truce until January 2027",
+      "tldr": "The US and China extended a pause on trade actions and port fees until 10 January 2027.",
+      "whatHappened": "The US and China agreed to maintain a trade truce until 10 January 2027. This extends a pause on maritime measures and tariffs that was due to expire on 9 November 2026.\n\nChina will continue to suspend special port charges on US-linked ships. The US will maintain reduced tariffs on imports from China, including a 10% rate on fentanyl-related imports, down from 20%. The US also extended 178 Section 301 tariff exclusions for Chinese goods. China will keep a 24% tariff on US goods suspended, though it will still charge a 10% additional levy.",
+      "whyItMatters": "This extension prevents a sudden spike in your landed costs this week. If you are importing goods under a Section 301 exclusion, you have a guaranteed window until 10 January 2027 to get that stock into your warehouse without the higher tariff. \n\nFor the operator, this provides a temporary period of cost stability. You do not need to panic-ship today to beat a tariff deadline that was supposed to happen on 10 November. However, the truce is short. You are now operating on a countdown. If you have large orders planned for February, you must price them based on the assumption that these exclusions and fee suspensions will vanish in January.",
+      "hotTake": "This is a political ceasefire, not a peace treaty. The two-month window is a gift for your cash flow, but it is a trap for your planning. I would pull any January shipments forward into December to avoid the risk of a sudden cliff-edge on 10 January.",
+      "actions": [
+        "Audit your current imports to see which ones rely on the 178 Section 301 exclusions",
+        "Schedule January shipments for December departure to avoid the 10 January deadline",
+        "Recalculate your landed cost for Q1 2027 assuming the truce expires"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/china-extends-suspension-of-us-ship-port-charges-until-january",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The APEC summit in Shenzhen is about to break your air freight chain",
+    "A single crane collapse at Yantian is a warning for all Q4 sea freight",
+    "The US-China trade truce is a countdown, not a solution",
+    "Belly cargo bans in Shenzhen will send spot rates climbing next week",
+    "Stop trusting carrier ETAs when terminals are losing infrastructure",
+    "Section 301 exclusions are safe until January, but don't bet your business on it",
+    "Your Shenzhen air shipments need a new route for the next 14 days",
+    "Yantian congestion is compounding with the peak season surge",
+    "The cost of 'waiting and seeing' on tariffs is a January price shock",
+    "Why the Maersk Cincinnati accident matters for your FBA inbound"
+  ],
+  "faq": [
+    {
+      "question": "What happens to my air shipments from Shenzhen next week?",
+      "answer": "International belly-cargo operations at Shenzhen suspend next week for the APEC summit. You must move your cargo to dedicated freighters or divert shipments to Hong Kong or Guangzhou. Expect tighter space and higher rates at these alternative gateways as volume shifts. Check with your forwarder immediately to secure a booking."
+    },
+    {
+      "question": "Are Section 301 tariff exclusions still active for China goods?",
+      "answer": "Yes, the US has extended 178 current Section 301 tariff exclusions until 10 January 2027. If your products fall under these exclusions, you can continue to import them at the lower rate. Plan to clear all qualifying stock through customs before this date to avoid a sudden cost increase."
+    },
+    {
+      "question": "Will the accident at Yantian port delay my ocean freight?",
+      "answer": "It is likely. A Maersk vessel knocked down a ship-to-shore crane at berth 12 on 9 November 2026. This reduces terminal capacity during the peak season. You should expect potential delays in berthing and container handling. Add 48 hours of buffer to your arrival estimates for any vessel calling at Yantian."
+    }
+  ],
+  "generatedAt": "2026-11-10T21:56:33.279Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
