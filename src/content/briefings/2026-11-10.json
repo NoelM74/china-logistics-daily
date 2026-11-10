@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-10",
+  "title": "China and US extend port fee truce to January 2027",
+  "metaDescription": "China and US extend shipping fee suspensions to 10 January 2027. Cosco reports 81% profit jump as trans-Pacific rates climb.",
+  "bottomLine": "China and the US extended their trade truce and port fee suspensions until 10 January 2027. This removes the immediate tariff cliff for US-bound cargo but follows a massive profit surge for carriers like Cosco driven by high trans-Pacific rates.",
+  "stories": [
+    {
+      "headline": "China and US extend port fee suspension to January 2027",
+      "tldr": "China and the US extended the suspension of reciprocal port fees on shipping interests until 10 January 2027.",
+      "whatHappened": "Chinese officials confirmed on 9 November that they are extending the suspension of special port fees on US-linked vessels. This move follows a similar announcement from the US Trade Representative's Office. The suspension lasts until 10 January 2027.\n\nThis reciprocal action supports trade consultations between the two nations. China also extended export-control waivers for critical minerals and suspended measures against 11 US firms on its unreliable entities list and 16 on its export control list through the same date.",
+      "whyItMatters": "You have a two-month breathing room on your landed costs. If you are a high-volume seller shipping US-built or US-flagged vessels into Chinese ports, or using Chinese-built ships into the US, you avoid the immediate return of Section 301 fees. Many of you rushed orders into an early peak season because you feared these waivers would expire this month. \n\nWhile the fees are gone for now, the uncertainty remains. You are not facing a price hike today, but you are operating on a temporary truce. For those of you with stock currently on the water, your margins are safe until January. If you have shipments scheduled for late December, you do not need to panic-book faster, more expensive lanes to beat a November deadline that no longer exists.",
+      "hotTake": "The 'early peak' was a panic move that helped carriers more than sellers. Now the governments have pushed the goalposts. I would stop the panic-shipping and focus on inventory levels for February. Do not let this truce lull you into thinking the trade war is over. It is just on a short leash.",
+      "actions": [
+        "Review your December shipping schedule and remove any 'panic' premiums paid for speed",
+        "Update your landed cost models to reflect the fee suspension through 10 January 2027"
+      ],
+      "sourceUrl": "https://maritime-executive.com/article/china-follows-us-in-continuing-suspension-of-fees-on-shipping",
+      "sourceName": "The Maritime Executive",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Cosco Q3 profits jump 81% on trans-Pacific rate hikes",
+      "tldr": "Cosco reported a third-quarter profit increase of 80.73% to $2.58 billion, driven by soaring international shipping revenue.",
+      "whatHappened": "Cosco Shipping Holdings reported that third-quarter profit attributable to shareholders rose to approximately $2.58 billion. Operating revenue increased 29.39% year on year to $11.34 billion. The company noted that geopolitical disruptions forced ships onto longer voyages, which supported higher container freight rates.\n\nTrans-Pacific services were the primary driver, with revenue increasing 61.20% in the third quarter. This outpaced cargo volume growth of 12.98%. On Asia-Europe services, revenue rose 25.74% while volumes increased 14.64%. Cosco transported 7.21 million TEUs, up 4.46% from the previous year.",
+      "whyItMatters": "The carriers are making a killing while you struggle with margins. If you ship from China to the US West Coast, you are the reason for that 61.20% revenue jump. Cosco is successfully adjusting capacity on US Southwest and Asia-Europe routes to keep rates high despite only modest volume growth.\n\nFor the ecommerce operator, this means the 'market rate' is being propped up by geopolitical chaos and strategic capacity management, not just demand. You are paying a premium for the 'longer voyages' mentioned in the report. If you are a mid-sized seller, you have zero leverage here. You are absorbing these costs or passing them to customers who are already tired of price hikes. Expect these rates to stay sticky as long as the Middle East remains unstable.",
+      "hotTake": "Cosco's numbers prove that carriers have mastered the art of the 'disruption premium'. They are printing money because they can shift capacity faster than you can shift your sourcing. Stop hoping for a price crash in Q4. It is not coming while the lanes are this volatile.",
+      "actions": [
+        "Audit your Q3 shipping spend against current spot rates to see how much 'disruption premium' you paid",
+        "Diversify your carrier mix to avoid being locked into a single alliance's capacity games"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/cosco-profit-rockets-81-as-ocean-freight-revenue-climbs-in-q3",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China challenges Korea for lead in LNG carrier orders",
+      "tldr": "China secured five of the seven large LNG carriers ordered globally in October, challenging South Korea's market lead.",
+      "whatHappened": "China secured 42.1% of global LNG carrier orders from January through October 2026, totaling 32 vessels. South Korea led with 44 vessels. In October alone, China won five of the seven large LNG carriers ordered worldwide. Hudong-Zhonghua and Jiangnan Shipyard led this expansion.\n\nAcross the broader shipbuilding market, China secured 61.03 million compensated gross tons (CGT), accounting for 76.6% of the total. This is up from a 63.3% share in the same period last year. Korea's share dropped to 14.9%.",
+      "whyItMatters": "This is a long-term play, but it affects your infrastructure costs. As China dominates the production of high-value LNG and specialized carriers, they control the capacity of the global energy supply chain. If you source heavy industrial goods or rely on energy-intensive manufacturing in China, the domestic capacity to build and move these assets reduces your reliance on foreign shipyards.\n\nFor the average ecommerce seller, this signals a massive shift in Chinese industrial capability. They are moving from 'cheap plastic' to 'high-value engineering'. This increases the overall cost of labour in the shipbuilding sector, which eventually trickles down into general port and logistics costs. When the state pushes for 76.6% of global shipbuilding, they are prioritising strategic capacity over the efficiency of the small-parcel export lanes you use.",
+      "hotTake": "China is systematically hollowing out Korean shipbuilding. They are using their status as the largest LNG importer to force exporters to build ships in Chinese yards. It is a classic power play. Expect more 'strategic' shipping priorities to override commercial efficiency in the coming years.",
+      "actions": [
+        "Monitor the shift in high-value manufacturing capacity as a lead indicator for regional labour cost increases"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/china-overtakes-korea-lng-carrier-orders-challenging-koreas-market-lead",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "manufacturing",
+        "sourcing",
+        "sea-freight"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US-China port fee truce is a temporary bandage, not a cure.",
+    "Cosco's 81% profit jump is a warning that carriers love geopolitical chaos.",
+    "Stop panic-shipping for November; the tariff cliff just moved to January.",
+    "China is winning the shipbuilding war, and it starts with LNG carriers.",
+    "Trans-Pacific revenue is growing 5x faster than actual cargo volumes.",
+    "The 'early peak' season was a manufactured panic that padded carrier margins.",
+    "Strategic shipbuilding in China will eventually drive up general logistics costs.",
+    "A two-month trade truce is just enough time to rethink your 2027 sourcing strategy."
+  ],
+  "faq": [
+    {
+      "question": "Are the US-China shipping fees still active in November 2026?",
+      "answer": "No. China and the US have both extended the suspension of reciprocal port fees on shipping interests. These fees remain suspended until 10 January 2027. This includes Section 301 fees on Chinese-built ships calling at US ports and reciprocal fees on US-linked vessels at Chinese ports. You should check with your freight forwarder to ensure these waivers are applied to your current invoices."
+    },
+    {
+      "question": "Why are trans-Pacific shipping rates increasing despite stable volumes?",
+      "answer": "Rates are rising due to geopolitical disruptions that force ships to take longer voyages, reducing effective capacity. Cosco reported that trans-Pacific revenue grew 61.20% in Q3 2026, while cargo volumes only grew 12.98%. This gap shows that carriers are charging a premium for the increased risk and distance, rather than responding to a surge in consumer demand."
+    },
+    {
+      "question": "When do the current US-China trade truce measures expire?",
+      "answer": "The current extensions for port fee suspensions, export-control waivers for critical minerals, and sanctions suspensions for certain US firms expire on 10 January 2027. This window was created to allow for further trade consultations and the APEC leaders' summit. You should plan for potential cost increases or regulatory changes immediately following this date."
+    }
+  ],
+  "generatedAt": "2026-11-10T03:46:42.305Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
