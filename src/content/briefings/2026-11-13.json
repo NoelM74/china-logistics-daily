@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-13",
+  "title": "Global vessel on-time arrivals drop to 24%",
+  "metaDescription": "Global schedule reliability hits a 2022 low while US import surges cool and MSC raises Far East to Med rates.",
+  "bottomLine": "Global vessel on-time arrivals fell to 24% in October, the lowest since July 2022. US import volumes are cooling after a peak that saw September process 2.37 million TEUs.",
+  "stories": [
+    {
+      "headline": "Global schedule reliability hits 2022 low",
+      "tldr": "Global on-time vessel arrivals fell to 24% in October, with Far East to Europe arrivals at just 7%.",
+      "whatHappened": "Global on-time arrivals declined for a fifth straight month to 24% in October, 3 percentage points below September. This is the lowest monthly average since July 2022. Average delays increased by 0.4 days to 6.4 days across all arrivals.\n\nFar East to Europe arrivals improved slightly to 7% on-time, while Far East to North America held flat at 19%. The Middle East reached a historic low of 12% on-time, the worst since January 2020. Gemini alliance lead on Asian trades has disappeared, with 7% on-time for Far East to Europe versus 23% for non-alliance services.",
+      "whyItMatters": "You cannot trust your carrier's ETA right now. If you are a high-volume seller with tight FBA inbound windows or a seasonal product launch, a 6.4 day average global delay is a baseline, not a worst-case scenario. On the Far East to Europe lane, where only 7% of ships arrive on time, you are effectively gambling with your inventory levels.\n\nThis volatility hits sellers who lean on just-in-time inventory. If you have stock arriving for the December rush, you must build in a minimum 10 day buffer for Asia-dependent trades. Relying on the Gemini alliance for reliability is no longer a safe bet on these lanes. You will face stockouts if you schedule your warehouse labour or marketing spend based on the original booking date.",
+      "hotTake": "Carrier reliability is in a death spiral. I have seen this before, and it usually means the networks are fundamentally broken. Stop trusting the digital dashboards and start calling your forwarders for the actual ship position. I would move 20% of my critical Q4 stock to air freight if it is not already on the water.",
+      "actions": [
+        "Add 10 days to your lead time calculations for all Far East shipments",
+        "Verify actual vessel positions via AIS rather than carrier portals",
+        "Diversify carrier alliances for your Europe-bound cargo"
+      ],
+      "sourceUrl": "https://xeneta.com/blog/xeneta-schedule-reliability-scorecard-october-2026",
+      "sourceName": "Xeneta",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "US import surge cools as Democratic sweep adds uncertainty",
+      "tldr": "US port imports are projected to fall 14% in November to 2.05 million TEUs after a prolonged peak season.",
+      "whatHappened": "US ports processed 2.37 million TEUs of loaded imports in September, up 12.6% from last year. The National Retail Federation projects October arrivals at 2.26 million TEUs and November at 2.05 million TEUs. Full year imports are forecast at 26 million TEUs, a 2% increase from 2025.\n\nThis follows a Democratic sweep of both houses of Congress in the US midterm elections. Freightos notes that while the Trump administration faces pressure to ease energy prices, a difficult legislative environment may push the president toward executive action on trade. US and China have extended the suspension of reciprocal port fees until January 10, 2027.",
+      "whyItMatters": "The frontloading phase is over. If you are an operator who waited for the September peak to subside before shipping, you are seeing the volume drop, but the policy risk is rising. The Democratic control of Congress starting in January complicates trade negotiations and creates a volatile environment for tariffs.\n\nFor sellers with stock on the water, the extension of the port fee suspension until 10 January 2027 is a temporary win. It prevents a sudden spike in landed costs for Chinese-built or owned vessels. However, if you are planning 2027 sourcing, you must account for the possibility that these punitive charges return in mid-January. This affects anyone using large Chinese-linked carriers or vessels that could trigger these million-dollar fees.",
+      "hotTake": "The market frontloaded everything in Q2 and Q3 because they feared the midterms. Now we have a divided government and a president who likes executive orders. I expect a sharp spike in volatility come January. Get your 2027 Q1 stock into the US before the end of December.",
+      "actions": [
+        "Clear all pending Q4 shipments before the 10 January port fee deadline",
+        "Review your 2027 budget for potential tariff increases driven by executive action",
+        "Confirm with your carrier that your vessel is not subject to the suspended port fees"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/us-midterm-shift-adds-trade-uncertainty-as-trans-pacific-ocean-freight-rates-stay-elevated",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "customs-us",
+        "tariffs-duties",
+        "sea-freight",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "MSC raises December rates for Med and Black Sea",
+      "tldr": "MSC is increasing Freight All Kinds rates from Far East to Mediterranean and Black Sea effective 1 December 2026.",
+      "whatHappened": "MSC has announced higher Freight All Kinds (FAK) rates for shipments from the Far East to the Mediterranean, North Africa, and the Black Sea. These new tariffs take effect on 1 December 2026. While MSC is maintaining its existing rates to Northern Europe, the new tariffs for the Med and Black Sea will remain in effect until further notice, but no later than 14 December 2026. This targeted increase occurs as carriers manage capacity and demand during the final phase of the fourth quarter.",
+      "whyItMatters": "If you ship to Southern Europe or North Africa, your landed cost is going up on 1 December. This is a targeted increase that ignores Northern Europe, suggesting the carrier sees specific demand or capacity constraints in the Med. \n\nFor sellers operating in these regions, this shrinks your margin on the final push of the holiday season. Because these rates are only guaranteed until 14 December, you are facing a window of extreme pricing instability. You cannot quote your customers fixed prices for January deliveries if you are still booking these lanes. You must absorb these costs or pass them on immediately to avoid taking a hit on your December profit and loss statement.",
+      "hotTake": "MSC is testing the water. They are raising rates on the Med while holding the North to see who is desperate enough to pay. If you have the space, book now. Do not wait for the 1 December effective date or you will be paying a premium for the same slow service.",
+      "actions": [
+        "Book all Far East to Med shipments before 1 December",
+        "Update your landed cost models for Southern Europe and North Africa",
+        "Compare MSC quotes with other carriers to see if this is a market-wide move"
+      ],
+      "sourceUrl": "https://container-news.com/msc-raises-december-fak-rates-to-mediterranean-and-black-sea",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Global vessel on-time arrivals are at 24%, making your carrier's ETA a suggestion, not a fact.",
+    "Far East to Europe reliability is at 7%. You are basically flipping a coin on your inventory.",
+    "US imports are cooling, but the political shift in Congress means trade volatility is just starting.",
+    "The 10 January deadline for US-China port fees is the only date that matters for your landed cost right now.",
+    "MSC is hiking Med rates on 1 December. If you ship to Southern Europe, your margins just shrank.",
+    "The Gemini alliance's reliability lead has vanished on Asian trades. Stop paying for a name.",
+    "September was the third-busiest month in US port history. The frontloading craze is finally ending.",
+    "Average global vessel delays are now 6.4 days. Build a 10-day buffer or prepare for stockouts.",
+    "Democratic control of the US Congress complicates China negotiations. Executive action is the new risk.",
+    "Shipping to the Black Sea or Med? Your freight costs are rising while Northern Europe stays flat."
+  ],
+  "faq": [
+    {
+      "question": "What is the current reliability for ships coming from China to Europe?",
+      "answer": "Reliability is extremely low. In October 2026, on-time arrivals for the Far East to Europe lane were only 7%. Average delays across all global arrivals are 6.4 days. You should add at least 10 days to any estimated arrival date provided by your carrier to avoid warehouse or marketing scheduling failures."
+    },
+    {
+      "question": "When do the US and China port fee suspensions end?",
+      "answer": "The suspension of reciprocal port fees ends on 9 January 2027 for the US and 10 January 2027 for China. These fees can cost millions of dollars per vessel visit, such as $2.5 million for a 50,000-net ton ship. Ensure your cargo clears port before these dates to avoid potential cost spikes."
+    },
+    {
+      "question": "Are US import volumes from China still increasing?",
+      "answer": "The surge is cooling. September processed 2.37 million TEUs, but November projections are 2.05 million TEUs, a 14% drop from the peak. While full-year 2026 imports are forecast to be up 2% over 2025, the intense frontloading seen in Q2 and Q3 has finally subsided for most operators."
+    },
+    {
+      "question": "Are ocean freight rates increasing for the Mediterranean in December?",
+      "answer": "Yes. MSC is raising Freight All Kinds (FAK) rates for shipments from the Far East to the Mediterranean, North Africa, and the Black Sea effective 1 December 2026. These rates are currently scheduled to remain in effect until at least 14 December 2026. Check your quotes for these specific lanes immediately."
+    }
+  ],
+  "generatedAt": "2026-11-12T23:55:34.569Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
