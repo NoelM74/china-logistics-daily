@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-12",
+  "title": "US holds China ship fees until 10 January",
+  "metaDescription": "Washington extends the China ship port fee freeze to 10 January, CMA CGM adds $1,600 peak surcharges, and transpacific spot rates stay double last year.",
+  "bottomLine": "Washington has frozen its China ship port fees until 10 January, so nothing changes on your US routing this week. CMA CGM's new peak season surcharges land mid to late November on Asia to Mediterranean, North Africa and Mauritius, and transpacific spot rates are still more than double last year at $8,245 per FEU to the US West Coast. Book before the CMA CGM implementation dates and treat January as the next real deadline.",
+  "stories": [
+    {
+      "headline": "US freezes China ship port fees until 10 January 2027",
+      "tldr": "USTR extended the suspension of China-linked port fees and crane tariffs to 10 January 2027, keeping millions in per-vessel charges off the table.",
+      "whatHappened": "The Office of the United States Trade Representative published a notice in the Federal Register on 10 November extending the suspension of port fees on Chinese-built and Chinese-operated vessels through 11:59pm Eastern Time on 9 January 2027. The extension took effect on 9 November, when an earlier one-year suspension agreed by Donald Trump and Xi Jinping was due to lapse. The pause also covers additional duties on Chinese ship-to-shore cranes and other cargo-handling equipment. USTR said the circumstances behind the original suspension still apply and that talks with Beijing continue. China extended its own suspension of reciprocal port fees on US-linked vessels to 10 January.",
+      "whyItMatters": "If you ship into the US on a Chinese-built or Chinese-operated vessel, nothing changes this week. A 50,000 net ton ship would have owed $2.5 million per call under the suspended measures, and carriers would have passed some of that to you as a surcharge on your freight invoice. That bill is deferred, not cancelled. The new expiry date is 9 January, which sits inside your Chinese New Year booking window, so the fee could return at the exact moment you are locking February capacity. Sellers moving high-volume, low-margin goods on Chinese tonnage carry the most exposure. Ask your forwarder which of your sailings run on Chinese-built vessels before you sign anything past January.",
+      "hotTake": "Two months buys you one booking cycle, not a season. I would price January contracts at the suspended rate and keep a separate line in the budget for the fee coming back. If your forwarder cannot tell you which of your strings are Chinese-built, that is the conversation to have this week, not in the first week of January.",
+      "actions": [
+        "Ask your forwarder to flag which of your US-bound sailings use Chinese-built or Chinese-operated tonnage",
+        "Price January contracts without the fee but hold a contingency line for the 10 January restart"
+      ],
+      "sourceUrl": "https://gcaptain.com/u-s-formalizes-two-month-extension-of-china-ship-port-fee-suspension",
+      "sourceName": "gCaptain",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sea-freight",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "CMA CGM adds $1,600 peak surcharge on Asia-Med from mid-November",
+      "tldr": "CMA CGM will charge up to $1,600 per 40-foot container on Asia to Mediterranean routes from mid to late November, plus separate surcharges on Mauritius.",
+      "whatHappened": "CMA CGM announced new Peak Season Surcharges on container shipments from Asia to the Mediterranean, North Africa and Mauritius, with implementation dates in mid to late November 2026. The French carrier will introduce charges of up to $1,600 per 40-foot container on Asia to Mediterranean routes. Separate surcharges apply to shipments from China, with the announcement covering the Mauritius trade as well. The carrier gave no reason beyond the peak season designation.",
+      "whyItMatters": "This is a carrier adding cost to your invoice with roughly two weeks notice, and it hits a lane most sellers treat as a secondary market. If you ship homeware, apparel or consumer electronics into Italy, Spain, Greece or North Africa, $1,600 per 40-foot container is real money on a low-value, high-volume SKU. On a container holding 1,000 units at $12 landed, that surcharge adds $1.60 per unit before you have paid a cent of duty or VAT. Sellers filling Mediterranean distribution centres for a Q1 promotion should decide now whether to pull volume forward before the implementation date or absorb the increase. Mauritius sellers face a separate charge on top.",
+      "hotTake": "Peak season surcharges in mid-November are a capacity signal, not a seasonal one. The Mediterranean is not peak in November. CMA CGM is telling you it thinks it can get the money, and the only answer that works is moving volume before the date or moving it to another carrier for one cycle.",
+      "actions": [
+        "Confirm the exact implementation date with your forwarder and pull any flexible Mediterranean volume forward",
+        "Recalculate landed cost per unit on affected SKUs before you commit to Q1 retail pricing"
+      ],
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-new-surcharges-for-mediterranean-and-mauritius-trades",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season",
+        "tariffs-duties"
+      ]
+    },
+    {
+      "headline": "Transpacific spot rates ease 1% but stay double last year",
+      "tldr": "Asia to US West Coast spot rates fell 1% to $8,245 per FEU on 10 November, still more than double the $2,958 recorded a year earlier.",
+      "whatHappened": "Transpacific spot rates fell 1% week on week from Asia to the US West Coast to $8,245 per forty-foot equivalent unit as of 10 November, according to the Freightos Baltic Index. Asia to US East Coast rates dropped 2% to $9,708 per FEU. Both remain more than double their November 2025 levels of $2,958 and $3,513 per FEU. Freightos attributed the easing to slowing demand as peak season winds down. The Global Port Tracker projects October US imports at 2.26 million TEUs, with November at 2.05 million and December at 2.03 million.",
+      "whyItMatters": "A 1% weekly fall is noise. The number that matters is the year-on-year gap: you are paying roughly $5,300 more per FEU to the West Coast than you were twelve months ago. On a container of 800 units, that is $6.60 per unit of extra freight cost baked into your margin. Retailers have shipped most holiday merchandise, so rates should keep drifting down into December, but the Global Port Tracker still forecasts 2.05 million TEUs in November. If you have January or February restocking to book, waiting three weeks could save you a few hundred dollars per container. If you are shipping now, you are paying peak pricing for a peak that is ending.",
+      "hotTake": "Everyone is watching the weekly percentage and missing the year-on-year multiple. Rates are double last year and that is the number your P&L sees. I would book January restock in the first week of December and stop trying to catch the bottom, because the bottom is not where last year's rates were.",
+      "actions": [
+        "Delay non-urgent January restock bookings into early December when rates should drift lower",
+        "Rebuild landed cost per unit using $8,245 per FEU, not last year's rates"
+      ],
+      "sourceUrl": "https://supplychaindive.com/news/transpacific-ocean-rates-ease-slightly-as-peak-winds-down/874262",
+      "sourceName": "Supply Chain Dive",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion",
+        "tariffs-duties"
+      ]
+    },
+    {
+      "headline": "Evergreen returns to Suez with eight ad hoc transits",
+      "tldr": "Evergreen will run eight ad hoc Suez and Bab-el-Mandeb transits on Far East to Europe services plus four Red Sea sailings, raising congestion fears at Red Sea ports.",
+      "whatHappened": "Evergreen is planning eight ad hoc Suez Canal and Bab-el-Mandeb Strait transits for its Far East to Europe services, according to Alphaliner, alongside four sailings aimed at the Red Sea market. The Taiwanese carrier's 16,556 teu Ever Eon made its first Suez transit last weekend, sailing from Rotterdam to Singapore on the Ocean Alliance's China Europe Shuttle service. Three more eastbound CES transits are planned this year. The moves follow a broader return of major carriers to Asia-Europe routings through the Red Sea.",
+      "whyItMatters": "A Suez routing cuts roughly ten days off an Asia to Europe transit compared with the Cape of Good Hope, and that is the whole prize. If you ship into Rotterdam, Hamburg or Felixstowe, a shorter transit means faster replenishment and less cash tied up in inventory on the water. The risk is the other side of the same trade: more carriers through the canal means more vessels arriving at Red Sea ports at once, and those ports have not run at this volume since the diversions started. Congestion there pushes back your berth window and your onward connection. Watch your carrier's rotation notices before you book a Suez routing for a date-critical shipment.",
+      "hotTake": "The ten days you save through Suez are worth real money, but only if the box actually moves. I would book Suez for replenishment cargo and keep the Cape routing for anything with a hard in-store date until the Red Sea ports prove they can handle the volume.",
+      "actions": [
+        "Check your carrier's rotation notices before booking Suez routings on date-critical shipments",
+        "Split replenishment cargo onto Suez and keep hard-deadline shipments on Cape routings"
+      ],
+      "sourceUrl": "https://theloadstar.com/return-to-suez-transits-raises-congestion-fears-at-red-sea-ports",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The US China ship fee is frozen until 10 January, which is inside your Chinese New Year booking window, so the fee could return on the exact week you lock February capacity.",
+    "A $1,600 peak season surcharge on Asia to Mediterranean in mid-November tells you CMA CGM sees capacity tightness where the calendar says there should be none.",
+    "Transpacific rates fell 1% this week and nobody is talking about the fact that they are still double what you paid a year ago.",
+    "If your forwarder cannot name which of your US-bound sailings run on Chinese-built tonnage, you cannot model your January freight cost.",
+    "Evergreen's return to Suez saves ten days per transit, and the congestion risk at Red Sea ports is the price you pay for those ten days.",
+    "The Global Port Tracker still forecasts 2.05 million TEUs into US ports in November, so the peak is winding down, not finished.",
+    "Most sellers treat the Mediterranean as a secondary lane and get caught by surcharges because they do not track carrier notices on it.",
+    "Booking January restock in the first week of December is a better strategy than trying to catch the bottom of a rate curve that is double last year.",
+    "A 50,000 net ton Chinese-built ship would owe $2.5 million per US call if the fee returns, and carriers will pass some of that to your invoice.",
+    "The real deadline for US-bound sellers this quarter is not Black Friday, it is 9 January.",
+    "Suez routings are a replenishment tool, not a deadline tool, until Red Sea ports prove they can handle the returning volume.",
+    "If you are shipping to the Mediterranean this month, you have roughly two weeks to decide whether to pull volume forward or absorb $1,600 per container."
+  ],
+  "faq": [
+    {
+      "question": "Do I have to pay US port fees on Chinese-built ships right now?",
+      "answer": "No. USTR extended the suspension of port fees on Chinese-built and Chinese-operated vessels through 11:59pm Eastern Time on 9 January 2027. The extension took effect on 9 November. Shipping companies will not accrue liability for the maritime transport fees during this window. The pause also covers additional duties on Chinese ship-to-shore cranes and cargo-handling equipment. The fees could resume on 10 January unless Washington and Beijing agree a further extension, so treat January as your next decision point."
+    },
+    {
+      "question": "How much is the CMA CGM peak season surcharge from Asia to the Mediterranean?",
+      "answer": "Up to $1,600 per 40-foot container on Asia to Mediterranean routes, with implementation dates in mid to late November 2026. Separate surcharges apply to shipments from China and to the Mauritius trade. On a container holding 1,000 units, that works out at $1.60 per unit before duty and VAT. Confirm the exact implementation date with your forwarder and decide whether to pull flexible volume forward before it applies."
+    },
+    {
+      "question": "Why are transpacific rates still so high if peak season is ending?",
+      "answer": "Asia to US West Coast spot rates were $8,245 per FEU on 10 November, down 1% week on week but more than double the $2,958 recorded in November 2025. East Coast rates sit at $9,708 per FEU, down 2%. Freightos attributed the weekly easing to slowing demand, but the Global Port Tracker still projects 2.05 million TEUs into US ports in November. Rates are easing from an elevated base, not returning to last year's levels."
+    },
+    {
+      "question": "Is it cheaper to ship from China to Europe via Suez or the Cape of Good Hope?",
+      "answer": "Suez cuts roughly ten days off the transit, which reduces inventory in transit and speeds replenishment. The trade-off is congestion risk at Red Sea ports, which have not handled current volumes since carriers began diverting. Evergreen is planning eight ad hoc Suez transits plus four Red Sea sailings, so more vessels are arriving at once. Book Suez for replenishment cargo and keep hard-deadline shipments on Cape routings until Red Sea port performance stabilises."
+    },
+    {
+      "question": "When should I book January restock from China to the US?",
+      "answer": "Book in the first week of December. Transpacific rates are easing as peak season winds down, and the Global Port Tracker projects November imports at 2.05 million TEUs, down from 2.26 million in October. Waiting three weeks could save a few hundred dollars per container. Do not wait past early December, though, because Chinese New Year factory closures and the 9 January expiry of the US port fee suspension both land in the same booking window."
+    }
+  ],
+  "generatedAt": "2026-11-12T01:08:16.460Z",
+  "model": "deepseek-ai/deepseek-v4.1-flash",
+  "sourceCount": 20
+}
