@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-14",
+  "title": "Maersk adds $1,000 surcharge on Asia to Europe lanes",
+  "metaDescription": "Maersk introduces new Asia-Europe PSS while spot rates dip and the Premier Alliance shifts US port calls to Long Beach.",
+  "bottomLine": "Maersk is adding a $1,000 surcharge per 40ft container on Asia to Europe lanes starting 1 December. This happens while spot rates are dipping and carriers shift US port calls to Long Beach.",
+  "stories": [
+    {
+      "headline": "Maersk adds $1,000 surcharge on Asia to Europe lanes",
+      "tldr": "Maersk introduces a Peak Season Surcharge of $1,000 per 40ft container from Far East Asia to Northern Europe on 1 December 2026.",
+      "whatHappened": "Maersk announced a new Peak Season Surcharge (PSS) for shipments moving from Far East Asia to Northern Europe. The fee takes effect on 1 December 2026. \n\nMaersk set the surcharge at $500 for all 20-foot containers and $1,000 for 40-foot containers. The carrier also revised its surcharge levels for selected routes running from the Indian Subcontinent to North America. These changes come as carriers seek to maintain margins during the final push of the peak season.",
+      "whyItMatters": "If you ship bulky goods to Europe in 40ft containers, your landed cost just jumped by $1,000 per box. This hits mid-sized sellers who rely on Maersk for stable capacity and cannot pivot to smaller LCL shipments. \n\nYou are seeing a contradiction in the market. Spot rates are falling, but the big carriers are stacking surcharges to protect their margins. If you have a contract, check if your agreement allows Maersk to apply PSS on top of your agreed rate. \n\nFor those shipping to the US from the Indian Subcontinent, you need to re-calculate your margins immediately. These revised charges will eat into your Q4 profits if you have already priced your holiday stock. You cannot absorb a thousand dollars per container without affecting your bottom line.",
+      "hotTake": "Maersk is testing your patience. They know you are desperate to get holiday stock into Europe and they are squeezing you for every cent. I would look at alternative carriers immediately. Do not let a 'premium' brand name trick you into paying a thousand dollar tax on your own inventory.",
+      "actions": [
+        "Check your Maersk contract for PSS clauses",
+        "Request quotes from secondary carriers for December Europe lanes",
+        "Update your landed cost sheets for all 40ft shipments to Northern Europe"
+      ],
+      "sourceUrl": "https://container-news.com/maersk-introduces-new-asia-europe-pss-and-revises-north-america-charges",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Shanghai to Rotterdam spot rates drop 3% to $3,504",
+      "tldr": "Shanghai to Rotterdam spot rates fell 3% to $3,504 per 40ft container as demand drops after the peak season.",
+      "whatHappened": "The World Container Index from Drewry shows spot rates on the Shanghai-Rotterdam leg declined 3% week on week to $3,504 per 40ft. \n\nCarrier blank sailings are increasing as demand reduces following the peak season. Meanwhile, pricing on the Shanghai-Genoa route remained flat for three consecutive weeks. Asia-Europe carriers and their customers have started annual contract negotiations in earnest to set the pricing for the next calendar year.",
+      "whyItMatters": "If you are a spot-market seller, you have a window to save money. The 3% dip is small, but the trend is downward. You can push your forwarder for better rates on any shipments leaving China for Europe this month. \n\nHowever, the rise in blank sailings is a trap. Carriers are cutting capacity to stop rates from crashing. If you book too late, you will find no space regardless of the price. \n\nYou should use this dip to lock in your early 2027 shipments. If you wait until January, you will be fighting for space on a reduced schedule. This is the time to negotiate your annual contracts while the carriers are feeling the demand slump.",
+      "hotTake": "Do not be fooled by the 'gentle decline'. Carriers blank sailings to manufacture a floor for prices. I would book my January stock now while the spot market is soft, before the carriers tighten the screws on capacity.",
+      "actions": [
+        "Push your forwarder for a lower spot rate on current Europe shipments",
+        "Book January shipments now to avoid blank sailing space shortages",
+        "Start your 2027 contract negotiations while demand is low"
+      ],
+      "sourceUrl": "https://theloadstar.com/blanked-sailings-on-the-rise-with-container-spot-rates-on-a-gentle-decline",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Premier Alliance moves PS6 service to Long Beach in January",
+      "tldr": "The Premier Alliance will shift its PS6 transpacific service call from Los Angeles to Long Beach starting January 2027.",
+      "whatHappened": "The Premier Alliance is shifting the Southern California port call of its PS6 transpacific service. The service will move from Los Angeles to Long Beach in January 2027. \n\nHMM operates this service as part of an alliance with Ocean Network Express (ONE) and Yang Ming. The PS6 service connects major ports in China and South Korea with the US. This change represents a strategic shift in how the alliance handles its Southern California arrivals.",
+      "whyItMatters": "If you have stock arriving in Southern California in January, your drayage costs might change. Moving from LA to Long Beach can change your haulier's route and your chassis availability. \n\nYou need to alert your US warehouse and your trucking partner. A change in port call often means a change in terminal. If your haulier is set up for LA terminals and not Long Beach, you will face delays or higher 'out of gauge' fees. \n\nFor sellers using FBA, this shift can add a few days to your inbound lead time if the terminal transition is messy. Ensure your appointment windows are flexible for the first two weeks of January.",
+      "hotTake": "Port shifts are always a headache for the operator. The carriers call it 'optimisation', but for you, it is just another chance for a container to sit in a yard for five days. Get your drayage sorted now.",
+      "actions": [
+        "Notify your US haulier about the PS6 shift to Long Beach",
+        "Verify which terminal your containers will land at in January",
+        "Add a three-day buffer to your FBA inbound estimates for January"
+      ],
+      "sourceUrl": "https://container-news.com/premier-alliance-ps6-to-return-to-long-beach-in-january-2027",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "customs-us"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Maersk is charging a $1,000 'tax' on Europe shipments while spot rates are falling.",
+    "Stop trusting 'premium' carriers to save you money during peak season.",
+    "Blank sailings are the carriers' way of stopping a price crash.",
+    "A port shift from LA to Long Beach is a hidden cost for your drayage.",
+    "The gap between spot rates and surcharges is widening for Asia-Europe lanes.",
+    "Your 2027 shipping contracts should be negotiated right now, not in January.",
+    "Don't let a terminal change in Southern California ruin your FBA inbound window.",
+    "Surcharges are the new way carriers protect margins when demand dips."
+  ],
+  "faq": [
+    {
+      "question": "How much is the new Maersk surcharge for Europe?",
+      "answer": "Maersk is charging $1,000 for 40-foot containers and $500 for 20-foot containers on shipments from Far East Asia to Northern Europe. This Peak Season Surcharge (PSS) starts on 1 December 2026. Check your contract to see if this fee is applicable to your rates."
+    },
+    {
+      "question": "What are the current spot rates for Shanghai to Rotterdam?",
+      "answer": "Spot rates for the Shanghai-Rotterdam leg fell 3% in the week to 13 November 2026, reaching $3,504 per 40ft container. This decline is driven by reduced post-peak demand. While rates are lower, carriers are increasing blank sailings to limit capacity."
+    },
+    {
+      "question": "Where will the Premier Alliance PS6 service land in January 2027?",
+      "answer": "The PS6 service will shift its Southern California port call from Los Angeles to Long Beach in January 2027. This service is operated by HMM, ONE, and Yang Ming. Notify your US trucking company and warehouse to avoid drayage delays."
+    }
+  ],
+  "generatedAt": "2026-11-13T22:01:53.463Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
