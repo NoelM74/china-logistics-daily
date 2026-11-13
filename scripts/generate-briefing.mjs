@@ -209,6 +209,8 @@ async function main() {
   let briefing = null;
   let errors = [];
   let usedModel = MODEL;
+  // Best strict-failed draft that still passes the lenient rules. Used only if every model fails.
+  let spare = null;
   const totalUsage = { input_tokens: 0, output_tokens: 0 };
 
   /*
@@ -252,6 +254,10 @@ async function main() {
           }
           log.warn(`validation failed (${errors.length})`);
           for (const err of errors) log.warn(`  · ${err}`);
+          if (!spare && !validateBriefing(parsed, { allowedUrls, allowedTags, date: DATE, strict: false }).length) {
+            spare = { briefing: parsed, model };
+            log.info('draft kept as a spare: it passes the lenient rules');
+          }
         } catch (err) {
           errors = [`could not parse JSON: ${String(err.message ?? err)}`];
           log.warn(errors[0]);
@@ -335,6 +341,13 @@ async function main() {
     }
     if (briefing) break;
     if (i < chain.length - 1) log.warn(`falling back to ${chain[i + 1].name} / ${chain[i + 1].model}`);
+  }
+
+  // A thinner day beats no day. Every model failed, but one draft was publishable.
+  if (!briefing && spare) {
+    log.warn('every model failed the strict rules; publishing the spare draft that passes the lenient rules');
+    briefing = spare.briefing;
+    usedModel = spare.model;
   }
 
   const cost = estimateCost(totalUsage, usedModel);

@@ -122,8 +122,15 @@ jobs:
           git add src/content/briefings
           DATE=$(git diff --cached --name-only | head -1 | xargs -n1 basename | sed 's/\.json$//')
           git commit -m "Briefing ${DATE}"
-          # A push can race the human pushing to main; rebase and retry once.
-          git push || (git pull --rebase --autostash && git push)
+          # A push can race the human pushing to main; rebase and retry.
+          # GitHub itself returns 500 now and then (it cost us 2026-11-13's first slot). Retry with a pause.
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push failed (try $i), retrying"
+            sleep $((i * 10))
+            git pull --rebase --autostash
+          done
+          exit 1
 
   # Runs on every push so a broken build or a failed audit is caught here
   # rather than by Cloudflare Pages.
