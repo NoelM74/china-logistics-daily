@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-15",
+  "title": "Global vessel on-time arrivals drop to 24%",
+  "metaDescription": "Global schedule reliability hits a low of 24% while new China services launch for the Red Sea, Vietnam, and East Africa.",
+  "bottomLine": "Global vessel on-time arrivals fell to 24% in October, the lowest monthly average since July 2022. You must build extra buffers into your Q4 arrivals as Far East to Europe reliability remains near the floor at 7%.",
+  "stories": [
+    {
+      "headline": "Global vessel on-time arrivals hit 24% low",
+      "tldr": "Global schedule reliability fell to 24% in October 2026, with Far East to Europe on-time arrivals at just 7%.",
+      "whatHappened": "Xeneta data from 9 November shows global on-time arrivals declined for a fifth straight month to 24% in October. This is 3 percentage points below September and the lowest average since July 2022. Average delays now stand at +6.4 days across all arrivals.\n\nFar East to Europe reliability is at 7%, with average delays of 9.0 days. Far East to North America is flat at 19% on-time with 6.3 days of delay. The Middle East trade hit a historic low of 12% on-time, the worst since January 2020.",
+      "whyItMatters": "If you have stock on the water for the holiday peak, your ETA is a lie. A 7% on-time rate for Europe means you cannot trust your carrier's portal. You are likely looking at a 9-day slide on your arrival date, which kills your window for FBA inbound or warehouse slotting.\n\nFor sellers moving high-volume goods from China to the US, a 19% reliability rate means 80% of your containers are late. This forces you to carry more safety stock or risk out-of-stock events during your highest-revenue weeks. If you rely on just-in-time inventory for a warehouse in Rotterdam or Long Beach, you are currently gambling with your Q4 revenue. You need to stop planning based on the 'estimated' date and start planning for a 10-day delay as the default.",
+      "hotTake": "The industry is pretending these delays are temporary, but the data shows a permanent slide. Gemini is losing its lead on Asian trades, and the top carriers are converging at a low baseline. I would stop trusting any 'guaranteed' arrival date for the rest of the year. Buffer your inventory by 14 days or move critical SKUs to air.",
+      "actions": [
+        "Add 10 days to every Far East to Europe ETA in your planning sheet",
+        "Shift high-margin, low-weight Q4 replenishment to air freight now",
+        "Notify your 3PL that inbound containers will likely miss their scheduled slots"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "China may curb rare earths if US tightens chip rules",
+      "tldr": "China could restrict rare earth exports if Washington increases semiconductor curbs following the resignation of Nvidia's Jensen Huang.",
+      "whatHappened": "Chinese analysts suggest Beijing may retaliate with tighter rare earth export controls if the US escalates chip curbs. This follows the resignation of Jensen Huang from Nvidia on 14 November 2026 amid reports of multiple extramarital affairs.\n\nAnalysts expect broader US-China trade talks to continue despite this tension. A planned meeting between the leaders of the two countries is scheduled for next week to discuss these issues and broader trade relations.",
+      "whyItMatters": "If you source electronics, EV components, or high-end magnets, your bill of materials is at risk. Rare earths are the invisible input for almost everything in the tech stack. A tightening of exports does not just raise the price of the raw material; it slows down the entire factory line in Guangdong or Zhejiang.\n\nFor the operator, this means your next quote from the factory might include a 'material volatility' clause. If China restricts these exports, your supplier will struggle to get inputs, leading to production delays. You cannot fix a rare earth shortage with a faster ship. If your product depends on these minerals, you are now exposed to a geopolitical trigger that could freeze your production mid-January.",
+      "hotTake": "Rare earths are the ultimate lever for Beijing. If they pull it, the price of your components will spike overnight. I do not trust the 'trade talks' to save your margins. If you have the cash, buy an extra month of component inventory from your supplier now.",
+      "actions": [
+        "Ask your factory if they have a 60-day reserve of rare earth-dependent components",
+        "Identify alternative suppliers outside China for critical electronic parts",
+        "Review your contracts for force majeure clauses related to export controls"
+      ],
+      "sourceUrl": "https://scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "sourcing",
+        "manufacturing",
+        "regulation-china"
+      ]
+    },
+    {
+      "headline": "New shipping routes open for Red Sea, Vietnam and Africa",
+      "tldr": "Summit Shipping, KMTC, and Emirates Shipping are launching new container services connecting China to the Red Sea, Vietnam, and East Africa.",
+      "whatHappened": "Summit Shipping is launching the China Red Sea Service (CRS) with eight 2,000 TEU vessels for weekly calls to three Red Sea ports. KMTC will start its IPH service in December 2026, using two 1,000 TEU vessels to connect South Korea, Vietnam, and China.\n\nAdditionally, Emirates Shipping Line, Evergreen, RCL, and Interasia Lines are launching a Far East to East Africa service. This connection operates under different brands: FAX2 for Emirates, AEF6 for Evergreen, and EA3 for RCL.",
+      "whyItMatters": "More capacity on these specific lanes gives you leverage. If you ship to East Africa or the Red Sea, you now have more carrier options to play against each other for a better spot rate. The KMTC service is particularly useful for sellers using a multi-country sourcing strategy across China and Vietnam.\n\nFor the operator, the KMTC move from slot-chartering to owning the vessels means more stability in space allocation. If you move goods between Vietnam and China before final export, this new service reduces your reliance on third-party arrangements. It gives you a more direct path to move components or finished goods between these hubs without the risk of slots being bumped by the primary carrier.",
+      "hotTake": "New services usually mean a temporary dip in spot rates as carriers fight for volume. If you are shipping to Africa or the Red Sea, now is the time to push your forwarder for a lower rate. Use the KMTC service to optimise your Vietnam-China transit if you are diversifying your factory base.",
+      "actions": [
+        "Request quotes for the new China-Red Sea and East Africa lanes",
+        "Check if KMTC's IPH service reduces your transit time between Vietnam and China",
+        "Compare the FAX2 and AEF6 rates for your Africa-bound shipments"
+      ],
+      "sourceUrl": "https://container-news.com/summit-shipping-announces-new-china-red-sea-container-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Global shipping reliability is at 24% and your ETA is probably wrong",
+    "Far East to Europe reliability is at 7% which is effectively a coin flip",
+    "Rare earth export controls could freeze your electronics production in January",
+    "The resignation of Nvidia's CEO is now a logistics risk for China sellers",
+    "New Red Sea and East Africa lanes are opening and you should use them to drive down rates",
+    "KMTC is moving to its own vessels for Vietnam-China trade which means more stability",
+    "Stop planning your FBA inbound based on carrier portals and start adding 10 days",
+    "Geopolitical tension in the chip sector is a direct threat to your bill of materials",
+    "The Middle East trade is at a historic low for reliability at 12%",
+    "Diversifying sourcing to Vietnam is easier with new direct vessel services"
+  ],
+  "faq": [
+    {
+      "question": "What is the current reliability for ships from China to Europe?",
+      "answer": "The on-time arrival rate for Far East to Europe was 7% in October 2026. This means 93% of vessels arrived late, with average delays of 9.0 days. You should add at least 10 days to any ETA provided by your carrier to avoid stockouts or missed warehouse appointments."
+    },
+    {
+      "question": "Will US chip curbs affect my product sourcing in China?",
+      "answer": "Yes, if your products use rare earths. Analysts suggest China may tighten rare earth export controls if the US increases semiconductor restrictions. This could lead to higher component costs and production delays at your factory. Check with your supplier about their raw material reserves for the next 60 days."
+    },
+    {
+      "question": "Are there new shipping options for East Africa or the Red Sea?",
+      "answer": "Yes. Summit Shipping has launched a weekly China Red Sea Service using eight 2,000 TEU vessels. For East Africa, a new service is operating via Emirates Shipping Line (FAX2), Evergreen (AEF6), and RCL (EA3). You should ask your forwarder for quotes on these specific services to find better rates."
+    }
+  ],
+  "generatedAt": "2026-11-14T20:47:24.712Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 16
+}
