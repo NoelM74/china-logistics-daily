@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-18",
+  "title": "Maersk and Hapag-Lloyd return to Suez by mid-January",
+  "metaDescription": "Gemini carriers restore Suez routes, transpacific air demand surges 13%, and DHL launches a new China-India-Europe freighter service.",
+  "bottomLine": "Maersk and Hapag-Lloyd will restore all Asia-Europe Suez transits by mid-January, which will likely free up vessel capacity globally. Meanwhile, transpacific air cargo demand has risen 13% year on year, driven by AI infrastructure.",
+  "stories": [
+    {
+      "headline": "Gemini carriers restore Suez routes by mid-January",
+      "tldr": "Maersk and Hapag-Lloyd will return all Asia-Europe services to the Suez Canal by mid-January 2027.",
+      "whatHappened": "Maersk and Hapag-Lloyd announced that their Gemini Cooperation AE1, AE2, and AE3 services will return to the trans-Suez route. The transition begins 4 December 2026 with the Mary Maersk departing Ningbo on the AE2 service. The Alette Maersk will start the AE3 rotation from Shanghai on 20 December. The Damietta Express will begin the AE1 sailing from Shanghai on 14 January 2027.\n\nThese services previously diverted around the Cape of Good Hope due to Houthi rebel attacks. The return to the Red Sea routing aims to improve transit times and reduce operating complexity.",
+      "whyItMatters": "If you ship from China to Europe, your lead times are about to drop. Shorter voyages mean your stock reaches warehouses faster, reducing the need for safety stock buffers. You should expect a shift in reliability as carriers move away from the long African detour.\n\nFor those shipping to the US, the impact is indirect but critical. Shorter Asia-Europe loops release vessels back into the global pool. This creates an opportunity for carriers to rebalance capacity. If you are a high-volume seller struggling with space on transpacific lanes, this capacity release could soften the pressure on your bookings and potentially stabilise spot rates as the network optimises.",
+      "hotTake": "Carriers are betting that the Red Sea is safe enough to stop paying the fuel premium for the Cape route. I expect a brief period of chaos as schedules reset. Don't assume your January arrivals will be punctual. Book your February shipments now before the capacity shift creates new bottlenecks.",
+      "actions": [
+        "Update your lead time calculations for Europe to reflect shorter Suez transits",
+        "Monitor transpacific spot rates in January for a capacity-driven dip"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/maersk-and-hapag-lloyd-restore-asia-europe-suez-routes-as-u-s-shippers-watch-capacity-and-costs",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "Transpacific air demand rises 13% on AI hardware",
+      "tldr": "Asia-US air cargo volumes rose 13% year on year, while China-Europe exports fell 13%.",
+      "whatHappened": "Air cargo demand from Asia to the US remains strong, with volumes increasing 13% year on year. This growth is driven by shipments of semiconductors, technology, and AI infrastructure. Specifically, exports from Taiwan to the US rose 37%.\n\nConversely, Asia-Europe traffic is weakening. Chinese exports to Europe decreased by 13% year on year. Volumes from Hong Kong to Europe fell by 32%. Korean Air reports that data-centre expansion has become a primary growth engine, creating compounded capacity pressure on transpacific lanes during the November peak.",
+      "whyItMatters": "If you ship high-value electronics or AI-related hardware to the US, you are fighting for space against massive infrastructure projects. You will see higher rates and tighter capacity on transpacific flights. The demand for AI hardware is not a seasonal spike; it is a structural shift that overlaps with the traditional Q4 peak.\n\nIf you ship to Europe, you have the opposite problem. The 13% drop in Chinese exports and the 32% crash in Hong Kong volumes mean there is more room on the planes. You should push your forwarder for better rates on the Asia-Europe lane. The market is soft, and you can use that to lower your landed cost per unit for your European stock.",
+      "hotTake": "The AI boom is cannibalising air freight capacity. If you aren't shipping GPUs or servers, you're still paying the 'AI tax' through higher general rates. I'd move any non-urgent US-bound stock to sea freight immediately to avoid the November-December air squeeze.",
+      "actions": [
+        "Negotiate lower air freight rates for shipments into Europe",
+        "Shift non-urgent US-bound cargo to sea freight to avoid AI-driven air capacity crunches"
+      ],
+      "sourceUrl": "https://aircargoweek.com/asias-changing-routes-why-the-us-is-winning-while-europe-loses-ground",
+      "sourceName": "Air Cargo Week",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "DHL launches China-India-Europe freighter service",
+      "tldr": "DHL Global Forwarding now operates a twice-weekly Boeing 747 service connecting Hong Kong, Navi Mumbai, and Liège.",
+      "whatHappened": "DHL Global Forwarding launched a dedicated freighter service linking Hong Kong (HKG), Navi Mumbai (NMI), and Liège (LGG). The service uses a Boeing 747 freighter with approximately 100 tonnes of total capacity per flight. It operates twice weekly.\n\nDHL initially targets 25 to 30 tonnes per flight for the India sectors. The company plans to expand this network further with a new service connecting Bengaluru (BLR) to Europe in March 2027. This is the first dedicated flight DHL Global Forwarding has operated serving the Indian market.",
+      "whyItMatters": "If you are diversifying your sourcing away from China and into India, you now have a reliable, high-capacity air bridge. The Hong Kong to Navi Mumbai leg allows you to move components or finished goods between these two hubs without relying on fragmented belly cargo.\n\nFor sellers shipping to Europe, the Liège connection provides a streamlined gateway into the EU. If you use India as a secondary production hub, this service reduces your reliance on traditional transit hubs. You can now move 50 to 60 tonnes per week through this specific lane, which provides a predictable alternative to the volatile China-Europe direct flights.",
+      "hotTake": "DHL is betting heavily on India as the next manufacturing powerhouse. This isn't just about capacity; it's about creating a corridor for the 'China plus one' strategy. If you haven't started auditing Indian suppliers, you're missing the infrastructure window.",
+      "actions": [
+        "Request quotes for the HKG-NMI-LGG route if you source from both China and India",
+        "Plan for the March 2027 Bengaluru expansion if you have South India production"
+      ],
+      "sourceUrl": "https://logisticsmanager.com/dedicated-freighter-service-connects-china-india-and-europe",
+      "sourceName": "Logistics Manager",
+      "tags": [
+        "air-freight",
+        "sourcing",
+        "manufacturing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The AI boom is creating a permanent capacity crunch for transpacific air freight.",
+    "Maersk and Hapag-Lloyd returning to Suez will ripple through global vessel availability.",
+    "Asia-Europe air cargo demand is crashing while US demand surges 13%.",
+    "DHL is building a dedicated air bridge between China and India for a reason.",
+    "Shorter Suez transits in January will change your Q1 inventory planning.",
+    "Taiwan exports to the US are up 37% thanks to the semiconductor rush.",
+    "The 'China plus one' strategy now has a dedicated 747 freighter route via Navi Mumbai.",
+    "Stop paying peak air rates to Europe when volumes are down 13%.",
+    "Vessel capacity for US importers may improve as Asia-Europe loops shorten.",
+    "AI infrastructure is the new 'peak season' for air cargo."
+  ],
+  "faq": [
+    {
+      "question": "When will shipping routes to Europe return to the Suez Canal?",
+      "answer": "Maersk and Hapag-Lloyd are phasing in the return between 4 December 2026 and 14 January 2027. The AE2 service starts 4 December, AE3 starts 20 December, and AE1 starts 14 January. You should expect shorter transit times and improved reliability for Asia-Europe lanes by mid-January 2027 as these services stop detouring around Africa."
+    },
+    {
+      "question": "Why are air freight rates to the US so high right now?",
+      "answer": "Demand for AI infrastructure, semiconductors, and technology shipments is driving a 13% year-on-year increase in transpacific volumes. This structural demand is overlapping with the traditional November peak season. You should expect continued capacity pressure and higher rates for US-bound air cargo throughout the end of the year."
+    },
+    {
+      "question": "Is there a new way to ship cargo between China and India?",
+      "answer": "Yes. DHL Global Forwarding has launched a dedicated Boeing 747 freighter service connecting Hong Kong, Navi Mumbai, and Liège. It operates twice weekly with 100 tonnes of capacity per flight. This provides a reliable option for sellers moving goods between China and India or shipping from either to Europe via Liège."
+    }
+  ],
+  "generatedAt": "2026-11-17T23:33:18.512Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
