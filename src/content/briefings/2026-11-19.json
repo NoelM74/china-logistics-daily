@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-19",
+  "title": "China to US air rates jump 16% as LA port hits record",
+  "metaDescription": "China-North America air rates hit $9.25 per kg while the Port of LA moves 5 million containers in five months, straining US rail networks.",
+  "bottomLine": "China to North America air rates rose 16% to $9.25 per kg this week. Meanwhile, the Port of LA is seeing record volumes that are choking US rail capacity, meaning your goods might land but won't move.",
+  "stories": [
+    {
+      "headline": "China to North America air rates hit $9.25 per kg",
+      "tldr": "China to North America airfreight prices rose 16% last week to $9.25 per kg, exceeding last December's peak.",
+      "whatHappened": "Freightos reports that China to North America air prices climbed 16% in the week ending 18 November 2026. The current rate of $9.25 per kg is higher than the $8 peak seen in December last year. \n\nThis price hike comes as Korean Air reports compounded capacity pressure on the transpacific lane. Demand for AI infrastructure is now overlapping with traditional peak-season shipments, creating a year-round squeeze on space.",
+      "whyItMatters": "If you are a high-value electronics or fashion seller who relies on air to replenish stock for the December rush, your margins are taking a hit. You are paying 16% more this week than you were seven days ago. \n\nThis is not a temporary spike. The AI hardware boom has created a permanent floor for transpacific demand. If you usually wait until November to air-ship your best-sellers, you are now fighting for space against data-centre equipment that pays a premium. You will see these costs reflected in your landed price per unit. For a seller moving 500kg of product, the jump from last year's peak to now adds over $600 in pure freight cost per shipment.",
+      "hotTake": "The AI boom has broken the traditional airfreight seasonality. You can no longer rely on a 'post-peak' dip in rates to move your late Q4 stock. I would stop chasing spot rates and lock in a contract for your 2027 Q1 volume now before the AI hardware demand swallows all the widebody capacity.",
+      "actions": [
+        "Switch late Q4 air shipments to sea-air via Dubai or Singapore to save on the $9.25 per kg rate",
+        "Audit your product weight and dimensions to minimise dimensional weight charges at these peak prices"
+      ],
+      "sourceUrl": "https://theloadstar.com/transatlantic-airfreight-rates-at-highest-level-for-four-years",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "air-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Port of LA moves 5M containers as rail congestion grows",
+      "tldr": "The Port of Los Angeles moved 5 million containers in five months, leaving 9,500 containers stalled at rail terminals.",
+      "whatHappened": "Executive Director Gene Seroka reported that the Port of Los Angeles moved 5 million container units over the last five months. October alone saw over 1 million containers. This surge followed a Supreme Court decision in February regarding Section 112 tariffs, which led importers to front-load inventory.\n\nRail networks are now straining. Approximately 9,500 containers are sitting for nine days or longer at BNSF and Phoenix Marine Terminal footprints. The port has hit 500,000-TEU import months 11 times, but export flows have not kept pace.",
+      "whyItMatters": "If you have stock on the water to the US West Coast, do not assume a 'landed' ship means your goods are moving. You are facing a rail bottleneck. A nine-day dwell time at the terminal is a minimum for nearly 10,000 containers. \n\nFor FBA sellers, this means your 'delivered' date is a lie. Your stock is likely sitting in a steel box at the BNSF terminal while the clock ticks on your storage fees. If you are a bulk importer, you are risking demurrage and detention charges because the railroads lack the engine power and crews to clear the backlog. This hits anyone using the LA Basin as their primary gateway for US distribution.",
+      "hotTake": "The 'tariff rush' worked for the importers who got their goods in, but it broke the rail system for everyone else. I would stop shipping to LA immediately. Divert your next three shipments to Savannah or New York to avoid the rail graveyard in California.",
+      "actions": [
+        "Check your container status daily and prepare for 10+ day rail dwell times in LA",
+        "Divert upcoming shipments to East Coast ports to bypass the BNSF and Phoenix Marine bottlenecks"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/port-of-la-crushes-records-5m-containers-in-5-months",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "ports-congestion",
+        "customs-us",
+        "sea-freight",
+        "tariffs-duties"
+      ]
+    },
+    {
+      "headline": "FedEx opens 45,000sqm cargo terminal in Guangzhou",
+      "tldr": "FedEx opened a new 45,000m² facility at Guangzhou Baiyun Airport capable of processing 28,000 shipments per hour.",
+      "whatHappened": "FedEx launched International Cargo Terminal 4 at Guangzhou Baiyun Airport. The facility integrates warehousing, sorting, and customs supervision. Its intelligent sorting system can process 28,000 shipments per hour, which is more than triple the previous capacity. \n\nThe terminal serves the Greater Bay Area, where nine mainland cities recorded $1.26 trillion in imports and exports in the first three quarters of 2026. Annual cargo handling capacity at the new site exceeds 100,000 metric tons.",
+      "whyItMatters": "If you source from factories in Guangdong or the wider Greater Bay Area, you now have a higher-capacity exit point for your express parcels. The triple increase in sorting speed reduces the risk of 'bottleneck' delays at the airport during the December peak. \n\nFor sellers moving small-parcel shipments or high-frequency replenishment, this facility reduces the friction between the factory gate and the aircraft. You can move more volume through Guangzhou without the typical end-of-year processing lag. It makes the GBA a more reliable hub for those avoiding the congestion of Shenzhen or Hong Kong gateways. This is a critical shift for sellers who need reliable, high-speed throughput for late Q4 stock movements.",
+      "hotTake": "FedEx is betting big on the GBA to steal volume from DHL and UPS. If you are paying premium express rates, now is the time to push your forwarder for a better FedEx quote out of Guangzhou. The capacity is there, and the carrier will be hungry to fill it.",
+      "actions": [
+        "Route your GBA express shipments through Guangzhou Baiyun to take advantage of the new sorting capacity",
+        "Request updated transit time quotes for Guangzhou to US/EU lanes from your logistics provider"
+      ],
+      "sourceUrl": "https://logisticsmanager.com/fedex-guangzhou-baiyun-airport-international-cargo-terminal-4-opens",
+      "sourceName": "Logistics Manager",
+      "tags": [
+        "air-freight",
+        "sourcing",
+        "peak-season"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The AI hardware boom is now a permanent tax on all transpacific airfreight.",
+    "Shipping to LA right now is a gamble with a rail-bound losing streak.",
+    "Air rates hit $9.25 per kg and we are still in the middle of the peak.",
+    "The Port of LA's record volumes are a warning sign for US rail capacity.",
+    "Stop using LA as your only US gateway if you value your sanity.",
+    "FedEx just tripled its sorting speed in Guangzhou, changing the GBA game.",
+    "Tariff clarity in the US is actually causing more port congestion.",
+    "Your FBA delivery date is meaningless if your box is stuck at a BNSF terminal.",
+    "The 'front-loading' trend is breaking the US supply chain from the inside.",
+    "AI infrastructure is the new 'peak season' for air cargo."
+  ],
+  "faq": [
+    {
+      "question": "What are the current airfreight rates from China to North America?",
+      "answer": "Rates rose 16% last week to $9.25 per kg as of 18 November 2026. This price exceeds the December 2025 peak of $8 per kg. You should expect these rates to remain high throughout the Q4 peak due to overlapping demand from AI infrastructure and holiday shipments."
+    },
+    {
+      "question": "Is there congestion at the Port of Los Angeles?",
+      "answer": "Yes. While the port moved a record 5 million containers in five months, the rail network is struggling. Roughly 9,500 containers are currently delayed by nine days or more at BNSF and Phoenix Marine terminals. Expect significant dwell times for any goods moving from the port to inland warehouses."
+    },
+    {
+      "question": "Where is the best place to ship express parcels from South China?",
+      "answer": "Guangzhou is currently a strong option. FedEx opened a new 45,000m² terminal at Baiyun Airport that can process 28,000 shipments per hour. This triples previous capacity and integrates customs and sorting, making it a faster alternative for sellers sourcing from the Greater Bay Area."
+    }
+  ],
+  "generatedAt": "2026-11-18T23:00:14.744Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
