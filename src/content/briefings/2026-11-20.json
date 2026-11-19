@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-20",
+  "title": "Asia-Europe carriers restrict contract capacity",
+  "metaDescription": "Carriers cut contract space on Asia-Europe lanes as pre-Lunar New Year peak hits. Red Sea security risks threaten Suez returns.",
+  "bottomLine": "Ocean carriers are restricting contract capacity on Asia-Europe lanes, forcing you into the volatile spot market. This happens as 60% of capacity returns to Suez, but security at Bab al-Mandeb is deteriorating.",
+  "stories": [
+    {
+      "headline": "Carriers cut contract space on Asia-Europe lanes",
+      "tldr": "Ocean carriers are restricting access to contracted capacity on Asia-Europe routes, pushing shippers toward the volatile spot market.",
+      "whatHappened": "Forwarders report that ocean carriers are limiting access to contracted capacity on the Asia-Europe trade lane. This move comes as the pre-Lunar New Year peak hits the market and shipping volumes rise. \n\nOngoing disruptions on the lane are driving this restriction. Shippers who previously relied on fixed contracts now find themselves exposed to spot market pricing to move their goods. Carriers are essentially ignoring agreed allocations to prioritise higher-paying cargo during this high-demand window.",
+      "whyItMatters": "If you have a contract for your Q4 or early 2027 shipments, do not assume your space is guaranteed. Carriers are prioritising higher-paying spot cargo over your agreed rates. This hits high-volume sellers who budget their landed costs based on contract stability. \n\nYou will likely see a sudden spike in your shipping costs if you wait until the last minute to book. For those shipping bulky goods or low-margin items, a shift from contract to spot rates can wipe out your entire profit margin on a shipment. You are now competing with every other shipper for the remaining vessel space as the Lunar New Year deadline approaches. This forces you to choose between paying a premium or risking an out-of-stock scenario during your most critical sales period.",
+      "hotTake": "Contracts are becoming suggestions rather than guarantees. Carriers know you are desperate to beat the Lunar New Year shutdown, so they are squeezing you. I would stop trusting your forwarder's 'guaranteed' space and start booking 14 days earlier than usual.",
+      "actions": [
+        "Verify your space allocations for December and January with your forwarder today",
+        "Budget for spot market premiums on at least 30% of your remaining 2026 volume"
+      ],
+      "sourceUrl": "https://joc.com/article/asia-europe-pre-lunar-new-year-peak-hits-amid-poor-reliability-port-congestion-6326542",
+      "sourceName": "JOC / Journal of Commerce",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Suez capacity returns but Red Sea security fails",
+      "tldr": "60% of Asia-Europe capacity returned to the Suez route by 15 November, but security at Bab al-Mandeb has deteriorated.",
+      "whatHappened": "Drewry reports that 60% of Asia-Europe capacity used the Suez route again during the week ended 15 November. A total of 57 containerships transited the canal, a 73% increase compared to the same week in 2025. \n\nHowever, security near Bab al-Mandeb has suffered a material deterioration. Government forces have withdrawn from positions overlooking the Strait, allowing Houthis to re-establish their position at this maritime chokepoint. Drewry warns that improving traffic figures should be treated with caution and not used to set expectations for December.",
+      "whyItMatters": "You might see shorter transit times on your tracking screens this week, but do not build your December inventory plan around this. If carriers pivot back to the Cape of Good Hope due to the security collapse at Bab al-Mandeb, your lead times will instantly jump by 10 to 14 days.\n\nFor sellers with stock arriving for the January sales window, this volatility is a nightmare. You are caught between a returning Suez flow and a potential sudden detour. If your goods are on a ship currently entering the Red Sea, prepare for a potential diversion that will delay your FBA inbound and leave your listings out of stock during a peak period. This instability makes it nearly impossible to time your product launches or warehouse arrivals with precision.",
+      "hotTake": "The return to Suez is a trap. Carriers are chasing efficiency, but the security reality hasn't changed. I expect a wave of diversions in December that will catch unprepared sellers off guard.",
+      "actions": [
+        "Add 14 days of buffer to all Asia-Europe lead time estimates",
+        "Check the current position of your vessels and identify if they are committed to the Suez route"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/drewry-asia-europe-capacity-returns-via-suez-but-security-concerns-remain",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "ports-congestion",
+        "peak-season",
+        "regulation-china"
+      ]
+    },
+    {
+      "headline": "China Oilfield Services orders $1.6bn in new vessels",
+      "tldr": "COSL signed contracts for 59 offshore vessels, including 46 LNG-powered ships, to be delivered between 2028 and 2030.",
+      "whatHappened": "China Oilfield Services Limited (COSL) signed contracts worth approximately $1.64 billion to build 59 offshore support vessels. The deal, disclosed on 16 November, includes 46 LNG-powered platform supply vessels and 13 conventionally powered anchor handling tug supply vessels. \n\nConstruction will be handled by three shipyards in Fujian province: Fujian Southeast Shipbuilding, Fujian Mawei Shipbuilding, and Fujian Funing Shipbuilding Heavy Industry. These vessels will support offshore oil, gas, and renewable energy projects in Chinese coastal waters with deliveries scheduled for 2028 to 2030.",
+      "whyItMatters": "While this is an offshore play, it signals a massive state-led shift toward LNG-powered logistics infrastructure. If you source heavy industrial components or energy-related hardware, this investment suggests a long-term increase in domestic capacity and infrastructure for offshore energy. \n\nFor the average ecommerce seller, this is a leading indicator of shipyard capacity. When state-owned giants like COSL lock up slots at major yards for the next four years, it puts pressure on smaller builders. If you are commissioning custom moulds or large-scale industrial equipment that requires shipyard space, you may find lead times extending as these massive state projects take priority. It also confirms that the Chinese government is doubling down on alternative-fuel propulsion for its internal logistics network.",
+      "hotTake": "COSL is hoarding shipyard capacity. When the state moves $1.6 billion into a single order, the smaller players get pushed to the back of the line. If you need custom fabrication in Fujian, book your slots now.",
+      "actions": [
+        "Review lead times for any custom industrial fabrication sourced from Fujian shipyards",
+        "Track LNG propulsion trends for potential shifts in future shipping surcharges"
+      ],
+      "sourceUrl": "https://gcaptain.com/china-oilfield-services-orders-59-offshore-vessels-in-1-6-billion-shipbuilding-deal",
+      "sourceName": "gCaptain",
+      "tags": [
+        "manufacturing",
+        "sourcing",
+        "sea-freight",
+        "fuel-surcharges"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Contract rates are becoming optional as carriers push shippers to the spot market.",
+    "Suez transit numbers are up 73%, but the security situation is actually worse.",
+    "The pre-Lunar New Year peak is hitting harder than the actual holiday.",
+    "Don't let a shorter transit time fool you into thinking the Red Sea is safe.",
+    "Your FBA inbound is at risk if your carrier suddenly diverts around the Cape.",
+    "Carriers are prioritising spot profits over contract loyalty right now.",
+    "The gap between contract and spot rates is where your margin disappears.",
+    "Booking space for January requires a 14-day head start this year."
+  ],
+  "faq": [
+    {
+      "question": "Why is my freight forwarder telling me my contract space isn't available?",
+      "answer": "Carriers are restricting contract capacity on Asia-Europe lanes to force shippers into the spot market during the pre-Lunar New Year peak. This happens when spot rates exceed contract rates, leading carriers to prioritise higher-paying cargo. You should check your allocations immediately and budget for spot premiums to ensure your goods move before the holiday shutdown."
+    },
+    {
+      "question": "Should I route my shipments through the Suez Canal or the Cape of Good Hope?",
+      "answer": "While 60% of capacity returned to Suez as of 15 November, security at Bab al-Mandeb has deteriorated. If you need absolute certainty on delivery dates for January stock, the Cape of Good Hope is slower but more predictable. If you choose Suez, add a 14-day buffer to your lead times to account for potential sudden diversions."
+    },
+    {
+      "question": "How does the pre-Lunar New Year peak affect my shipping costs?",
+      "answer": "It increases costs by pushing volume into the spot market and reducing available space. With carriers restricting contract access, you may face sudden rate hikes. To mitigate this, book your shipments at least two weeks earlier than usual and avoid relying solely on fixed-rate contracts for your December and January volume."
+    }
+  ],
+  "generatedAt": "2026-11-19T23:09:20.463Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
