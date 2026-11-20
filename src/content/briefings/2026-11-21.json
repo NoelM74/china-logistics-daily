@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-21",
+  "title": "Asia-Med spot rates spike 6.8% as Red Sea return stalls",
+  "metaDescription": "Asia-Mediterranean freight rates jump while Transpacific spots slide. Maersk adds heavy-load fees for South America and intra-Asia ports clog.",
+  "bottomLine": "Asia-Mediterranean spot rates rose 6.8% this week because Red Sea transits dropped 28% from their October peak. Transpacific rates are finally sliding, but intra-Asia congestion is pushing Shanghai-Manila rates up 7%.",
+  "stories": [
+    {
+      "headline": "Asia-Mediterranean spot rates jump 6.8% as Red Sea transits drop",
+      "tldr": "Far East to Mediterranean spot rates rose 6.8% in the week to 19 November 2026 to $4,989 per FEU.",
+      "whatHappened": "Average spot rates from the Far East to the Mediterranean rose 6.8% in the week to 19 November 2026, reaching $4,989 per FEU. This diverges from other Far East routes, such as North Europe, which saw rates drop 2.3% to $3,438 per FEU.\n\nXeneta reports that container ship transits through the Bab el-Mandeb Strait fell 28% from a peak of 16.6 transits per day on 25 October to 11.9 on 19 November. Drewry also recorded a 6% increase on the Shanghai-Genoa leg.",
+      "whyItMatters": "If you ship heavy goods to Italy, Greece, or Spain, your landed cost just spiked while your competitors shipping to Germany or the UK saw a dip. The $1,551 per FEU premium for the Mediterranean over North Europe is a massive hit to your margins if you rely on spot pricing for Q4 refills.\n\nYou cannot assume the general downward trend in global freight applies to your lane. The fragility of the Red Sea means you will see these unexpected spikes. For a mid-sized seller moving 20 FEUs a month, this weekly jump adds roughly $2,700 to your monthly spend without any change in your volume or product weight. This forces you to reconsider your inventory placement across Europe to avoid these high-cost entry points.",
+      "hotTake": "The market is pricing in a permanent risk premium for the Med. I do not trust the 'general downward trend' for 2027. If you have the warehouse space in Southern Europe, overstock now. Stop chasing the bottom on spot rates for this lane because the Red Sea is too volatile.",
+      "actions": [
+        "Lock in short-term contracts for Mediterranean lanes to avoid spot volatility",
+        "Compare Genoa and Rotterdam landed costs to see if rerouting is viable"
+      ],
+      "sourceUrl": "https://hellenicshippingnews.com/xeneta-weekly-ocean-container-shipping-market-update-mediterranean-spot-rates-move-in-mysterious-ways-as-red-sea-return-stalls",
+      "sourceName": "Hellenic Shipping News",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Maersk adds $200 surcharge for heavy containers to South America",
+      "tldr": "Maersk will charge $200 per container for loads exceeding 23 metric tonnes on China-South America routes from 5 December 2026.",
+      "whatHappened": "Maersk announced a heavy-load surcharge of $200 per container effective 5 December 2026. This fee applies specifically when the Verified Gross Mass of the container exceeds 23 metric tonnes.\n\nThe surcharge covers shipments originating from Shanghai, Qingdao, Xingang, and Dalian. Destinations covered by this measure include Santos, Itapoa, Itajai, and Paranagua in Brazil, as well as Montevideo in Uruguay and Buenos Aires in Argentina.",
+      "whyItMatters": "This hits sellers of industrial equipment, auto parts, or dense home goods. If you ship heavy machinery or stone-based products to Brazil or Argentina, your shipping cost per unit just rose. You have until 5 December to adjust your packing and weight distribution.\n\nIf you are currently loading containers to the absolute limit to save on freight, you might find that splitting a 24-tonne load into two lighter containers is more expensive, but barely so once you add this fee. For a seller moving 50 heavy containers a month, this is an unbudgeted $10,000 monthly hit to your bottom line. You must now factor weight-based surcharges into your product pricing for the South American market.",
+      "hotTake": "Maersk is squeezing the heavy-goods sellers because they can. This is a clear signal that carriers are looking for new ways to monetize weight beyond basic fuel surcharges. I would check your VGM carefully; being 100kg over 23 tonnes now costs you $200.",
+      "actions": [
+        "Audit your current VGM for all South America bookings departing after 5 December",
+        "Re-evaluate packing lists to keep container weight under 23 metric tonnes"
+      ],
+      "sourceUrl": "https://container-news.com/maersk-sets-heavy-load-surcharge-for-china-south-america-trade",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Intra-Asia port congestion pushes Shanghai-Manila rates up 7%",
+      "tldr": "Shanghai-Manila spot rates rose 7% to $1,310 per 40ft as South-east Asian transhipment hubs face worsening bottlenecks.",
+      "whatHappened": "Drewry’s Intra-Asia Container Index rose to $1,444 per 40ft. Specifically, Shanghai-Manila rates increased 7% to $1,310 per 40ft, while Shanghai-Laem Chabang rose 2% to $1,584 per 40ft.\n\nThese rate increases come as vessel waiting times increased by four hours on the Manila route and two hours on the Laem Chabang route. Bottlenecks are intensifying at major transhipment hubs in South-east Asia, even while congestion in China eases.",
+      "whyItMatters": "If you use South-east Asian hubs to break bulk or move stock between regional warehouses, your lead times are slipping. A four-hour increase in waiting time sounds small, but in a congested hub, that often cascades into missed feeder connections and a full week of delay.\n\nFor sellers using the Philippines or Thailand as a secondary market or sourcing hub, your logistics costs are rising. The 7% jump on the Manila lane means your regional distribution is becoming more expensive exactly when you need it to be lean for the end-of-year push. This congestion makes it harder to maintain tight inventory levels in South-east Asian fulfilment centres.",
+      "hotTake": "Everyone focuses on the long-haul lanes to the US and EU, but the intra-Asia mess is where the real operational headaches are right now. I would stop relying on 'just-in-time' movements between China and South-east Asia for the next month.",
+      "actions": [
+        "Add 5 to 7 days of buffer to your intra-Asia transit lead times",
+        "Check with your forwarder for alternative ports to avoid the worst transhipment bottlenecks"
+      ],
+      "sourceUrl": "https://theloadstar.com/congestion-at-transhipment-hubs-keeps-intra-asia-rates-firm",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "ports-congestion",
+        "sea-freight",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "The Red Sea is still the biggest variable in your Mediterranean landed cost.",
+    "Maersk just made shipping heavy goods to Brazil $200 more expensive per box.",
+    "Don't let the Transpacific rate drop fool you; the Med is spiking.",
+    "Intra-Asia congestion is the hidden bottleneck for Q4 regional distribution.",
+    "VGM accuracy now has a $200 penalty on South America lanes.",
+    "The gap between North Europe and Med rates is now over $1,500 per FEU.",
+    "Waiting times in South-east Asian hubs are climbing while China clears.",
+    "Spot rate divergence means your lane choice is more critical than your carrier choice."
+  ],
+  "faq": [
+    {
+      "question": "What are the current spot rates from China to the US and Europe?",
+      "answer": "As of 19 November 2026, Far East to US West Coast is $8,203 per FEU and US East Coast is $10,901 per FEU. Far East to North Europe is $3,438 per FEU, while the Far East to Mediterranean is $4,989 per FEU. Rates to the US and North Europe are softening, but Mediterranean rates are currently spiking."
+    },
+    {
+      "question": "Is there a new fee for heavy containers shipping to South America?",
+      "answer": "Yes. Starting 5 December 2026, Maersk is applying a $200 surcharge per container for shipments from Shanghai, Qingdao, Xingang, and Dalian to Brazil, Uruguay, and Argentina if the Verified Gross Mass (VGM) exceeds 23 metric tonnes. Review your packing lists to stay under this threshold."
+    },
+    {
+      "question": "Why are shipping rates to the Mediterranean increasing?",
+      "answer": "Rates are rising because container ship transits through the Bab el-Mandeb Strait fell 28% from a peak of 16.6 per day on 25 October to 11.9 per day on 19 November. This reduction in Red Sea transits creates capacity constraints that hit Mediterranean trades more acutely than other Far East routes."
+    }
+  ],
+  "generatedAt": "2026-11-20T22:45:56.848Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
