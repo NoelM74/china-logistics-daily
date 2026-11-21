@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-22",
+  "title": "Transpacific spot rates drop as Asia-Med spikes 6%",
+  "metaDescription": "Transpacific ocean rates slide into slack season while Shanghai-Genoa costs rise. New South China to Southeast Asia services launch.",
+  "bottomLine": "Transpacific spot rates are finally falling, but a 6% spike on the Shanghai-Genoa leg warns that Europe is not following the same trend. You should lock in US-bound shipments now while the slide continues.",
+  "stories": [
+    {
+      "headline": "Transpacific spot rates slide while Asia-Med costs spike",
+      "tldr": "Shanghai-Genoa spot rates rose 6% while Asia to US west and east coast rates declined.",
+      "whatHappened": "Container spot freight rates on transpacific trades began showing slack-season behaviour this week. Drewry recorded significant declines in rates from Asia to both the US west and east coasts.\n\nRates on the Asia-Europe trade moved in the opposite direction. The World Container Index from Drewry recorded a 6% increase in spot rates on the Shanghai-Genoa leg. This spike follows three weeks where those rates remained flat. This shift indicates a divergence in pricing between the US and Mediterranean lanes.",
+      "whyItMatters": "If you ship to the US, the window to save on spot rates is open. You can stop panic-booking and start negotiating harder with your forwarder for shipments leaving in December. The slack-season slide reduces your landed cost per unit for Q1 stock if you time the departure correctly. You can now push for better terms on short-term contracts.\n\nIf you source for the EU or Mediterranean markets, you face a different problem. The 6% jump on the Shanghai-Genoa lane suggests capacity is tightening or carriers are testing the market. You cannot rely on a general seasonal dip to lower your costs. Sellers of heavy goods into Southern Europe will see this eat into their margins if they have not locked in contracts. You must decide if you will absorb this cost or pass it to your customers before the New Year. This is a direct hit to your bottom line for any goods currently on the water to Italy.",
+      "hotTake": "The US market is finally behaving normally, but the Mediterranean spike is a red flag. Carriers are playing a game of whack-a-mole with rates. I would book all US-bound cargo for January now to catch the bottom of this slide before the CNY rush begins.",
+      "actions": [
+        "Negotiate spot rates for US-bound shipments immediately",
+        "Audit your landed cost for EU shipments against the 6% Genoa increase"
+      ],
+      "sourceUrl": "https://theloadstar.com/transpac-spots-finally-on-the-slide-but-asia-med-spike-a-surprise",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "sea-freight",
+        "peak-season",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "Interasia and T.S. Lines launch South China to SE Asia services",
+      "tldr": "Two new weekly container services now connect Nansha and Shekou with Vietnam and Thailand.",
+      "whatHappened": "Interasia Lines and T.S. Lines are restoring two weekly container services between South China and Southeast Asia. The carriers call the service SVT. The service uses two ships of approximately 1,000 TEU each to move cargo between regional hubs.\n\nThe SVT rotation includes Nansha, Shekou, Ho Chi Minh City (Cat Lai), Bangkok, and Laem Chabang. This restoration of service brings more capacity back to the regional lanes after a period of instability in South China shipping schedules.",
+      "whyItMatters": "This is a win for you if you use a hybrid sourcing model. Many operators move semi-finished goods from South China factories to Vietnam or Thailand for final assembly to avoid certain tariffs. More capacity on the Nansha and Shekou lanes reduces the risk of rolled cargo for these intermediate shipments. It ensures your assembly lines in SE Asia do not run dry.\n\nIf you are moving finished goods from South China to Southeast Asian markets, you now have more carrier options. This competition usually keeps spot rates lower and improves schedule reliability. You can now plan tighter inventory cycles between your Shenzhen warehouses and your Thai or Vietnamese hubs without fearing a total lack of space on the water. This is a major relief for sellers targeting the growing Thai and Vietnamese e-commerce markets who need consistent weekly refills.",
+      "hotTake": "More 1,000 TEU ships mean more flexibility for small-to-medium operators. I prefer these smaller vessels for regional hops because they often avoid the massive congestion seen at the largest terminals. Use these lanes to diversify your regional distribution.",
+      "actions": [
+        "Request quotes for the SVT service if you ship to Bangkok or Ho Chi Minh City",
+        "Review your South China to SE Asia transit times with your forwarder"
+      ],
+      "sourceUrl": "https://container-news.com/interasia-and-t-s-lines-restore-two-southeast-asia-services",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "Australian government threatens Darwin Port lease seizure",
+      "tldr": "Landbridge Group denies lease sale talks as Australia's PM seeks to end Chinese port influence.",
+      "whatHappened": "Landbridge Group, a Chinese company with a 99-year lease on Australia's Darwin Port, has denied that it is negotiating the sale of the lease. Prime Minister Anthony Albanese has repeatedly stated that negotiations are underway to return or seize the port to end Chinese influence.\n\nLandbridge has lodged a formal dispute under the Australia-China Free Trade Agreement (ChAFTA) and requested arbitration proceedings through the World Bank's International Centre for Settlement of Investor Disputes. The company claims it has met all financial obligations.",
+      "whyItMatters": "If you use Darwin as a gateway for goods moving into Northern Australia, this political instability is a risk to your long-term routing. While the port remains operational, a forced divestment or seizure by the Australian government could lead to operational chaos or changes in port management that affect your dwell times.\n\nYou need to monitor this if you have significant stock moving through this specific node. A shift in control from Landbridge to the Australian government may change the priority of certain cargo types or the efficiency of the terminal. For the average seller, this is a warning about the fragility of Chinese-operated infrastructure in the West. If your supply chain relies on a single port operated by a Chinese firm in a hostile political environment, you are exposed to seizure risks that no insurance policy fully covers.",
+      "hotTake": "This is a classic political play that ignores the actual operational efficiency of the port. Landbridge turned a money-losing operation into a model port. If the government seizes it, expect a dip in performance and a spike in bureaucracy. I would start looking at alternative Australian ports for critical stock.",
+      "actions": [
+        "Identify if any of your Australian inbound cargo routes through Darwin",
+        "Map out alternative Australian ports for critical Q1 shipments"
+      ],
+      "sourceUrl": "https://maritime-executive.com/article/darwin-port-arbitration-proceeds-as-landbridge-denies-lease-negotiations",
+      "sourceName": "The Maritime Executive",
+      "tags": [
+        "ports-congestion",
+        "regulation-china",
+        "sea-freight"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Transpacific rates are finally dropping, but don't let that lull you into a false sense of security for Europe.",
+    "The 6% spike in Shanghai-Genoa rates proves that slack season is not a universal rule.",
+    "Hybrid sourcing between China and SE Asia just got easier with the new SVT service.",
+    "Stop panic-booking US shipments and start leveraging the current spot rate slide.",
+    "If you are shipping to the Mediterranean, your landed cost just went up.",
+    "Small 1,000 TEU ships are the unsung heroes of regional South China logistics.",
+    "The divergence between US and EU freight rates is creating a massive planning headache for global sellers.",
+    "Wait for the bottom of the Transpacific slide, but don't wait too long before CNY."
+  ],
+  "faq": [
+    {
+      "question": "Are ocean freight rates from China to the US falling?",
+      "answer": "Yes. Spot rates on transpacific trades to both the US west and east coasts have declined as of 20 November 2026. This is normal slack-season behaviour. You should use this window to negotiate better spot rates for your upcoming shipments before the Chinese New Year peak begins."
+    },
+    {
+      "question": "What is happening with shipping rates to the Mediterranean?",
+      "answer": "Rates are rising. The Shanghai-Genoa leg saw a 6% increase in spot rates according to the World Container Index on 20 November 2026. This follows three weeks of flat rates. You should expect higher landed costs for goods entering Southern Europe and check your contracts for flexibility."
+    },
+    {
+      "question": "Are there new shipping options from South China to Southeast Asia?",
+      "answer": "Yes. Interasia Lines and T.S. Lines launched the SVT service. It provides two weekly sailings using 1,000 TEU ships. The route connects Nansha and Shekou to Ho Chi Minh City, Bangkok, and Laem Chabang. This increases capacity for operators moving goods between China and SE Asia."
+    }
+  ],
+  "generatedAt": "2026-11-21T23:43:29.508Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 8
+}
