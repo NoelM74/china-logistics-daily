@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-23",
+  "title": "Ceva Logistics cuts China truck energy costs by 43%",
+  "metaDescription": "Ceva Logistics slashes energy costs with electric heavy trucks in China, while new PHX shipping service links Korea, Vietnam and China.",
+  "bottomLine": "Ceva Logistics reduced energy costs by 43% on a 5,000-kilometre electric truck journey from Shenzhen to Alashankou. This proves that heavy-duty EV infrastructure in China is now viable for long-haul inland freight.",
+  "stories": [
+    {
+      "headline": "Ceva Logistics cuts China road energy costs by 43%",
+      "tldr": "Ceva Logistics reduced energy costs by 43% using battery-electric heavy trucks on a 5,000-kilometre trip from Shenzhen to Alashankou.",
+      "whatHappened": "Ceva Logistics completed a 5,000-kilometre journey across China using a battery-electric heavy truck. The route ran from Shenzhen in the south to Alashankou in the northwest. The trip required nine recharging stops.\n\nThe French company found that energy costs for this electric haul were 43% lower than those for a diesel-powered equivalent. This trip highlights the growth of China's infrastructure for new-energy articulated lorries and 18-wheelers.",
+      "whyItMatters": "If you move high-volume goods from southern factories to Central Asian rail gateways like Alashankou, your inland haulage costs are a major part of your landed cost. Most operators still quote based on diesel fluctuations. This 43% saving shows that the infrastructure for electric heavy-duty transport is no longer just for short-haul city deliveries.\n\nYou should push your freight forwarders to provide quotes for EV-powered inland trucking. If you are a high-volume seller shipping thousands of tonnes per month, this shift in energy costs can move your margin by a few percentage points. This is especially true for those using the rail corridor to Europe, where the first leg of the journey is often the most expensive. You can now demand lower inland rates by citing this proven efficiency in the Shenzhen-Alashankou lane.",
+      "hotTake": "Most sellers ignore the 'first mile' because they just take the forwarder's lump sum. I see the infrastructure in Shenzhen and Zhengzhou every day. The diesel era for inland China freight is ending. If your forwarder isn't talking about EV haulage for long-distance moves, they are overcharging you.",
+      "actions": [
+        "Ask your forwarder for a cost comparison between diesel and EV haulage for your next inland move",
+        "Request specific energy-cost breakdowns in your next quarterly logistics review"
+      ],
+      "sourceUrl": "https://scmp.com/plus/business/china-evs/article/3375206/chinas-battery-powered-heavy-trucks-see-electric-growth",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "rail-freight",
+        "manufacturing",
+        "fuel-surcharges"
+      ]
+    },
+    {
+      "headline": "New PHX service links South Korea, Vietnam and China",
+      "tldr": "Pan Continental and PanStar launched the PHX weekly container service using ships with 700 TEU and 1,000 TEU capacities.",
+      "whatHappened": "Pan Continental and PanStar started a new weekly container service called PHX. The service connects ports in South Korea, Vietnam and China. CK Line is taking slots on the operation.\n\nThe service uses two container ships. One vessel has a capacity of approximately 700 TEU and the other has a capacity of approximately 1,000 TEU. The port rotation begins in Busan.",
+      "whyItMatters": "If you source components from Korea or Vietnam to be assembled in China, or vice versa, you have a new weekly option. The small vessel sizes (700 to 1,000 TEU) mean this service is designed for agility rather than mass scale. It targets the regional 'shuttle' trade rather than the long-haul transpacific lanes.\n\nFor a seller using a multi-country sourcing strategy, this reduces your reliance on the massive carriers who often blank sailings on smaller regional routes. You can use this to move smaller batches of stock between Asian hubs without waiting for a mega-ship to fill up. It keeps your inventory lean and reduces the amount of capital tied up in transit between your regional suppliers.",
+      "hotTake": "The era of only using the giants for everything is over. These smaller, nimble services like PHX are better for the modern ecommerce operator who needs flexibility over raw volume. I would use this to balance stock between a Vietnamese factory and a Chinese warehouse.",
+      "actions": [
+        "Check the PHX port rotation against your current Asian supplier locations",
+        "Request a quote from Pan Continental for your Korea-China or Vietnam-China lanes"
+      ],
+      "sourceUrl": "https://container-news.com/pan-continental-and-panstar-launch-new-phx-service",
+      "sourceName": "Container News",
+      "tags": [
+        "sea-freight",
+        "sourcing",
+        "ports-congestion"
+      ]
+    },
+    {
+      "headline": "US panel warns of China biotech rise and tighter ties",
+      "tldr": "A US congressional advisory body warned that China's biopharmaceutical sector is gaining a competitive advantage, fueling US efforts to curb ties.",
+      "whatHappened": "The US-China Economic and Security Review Commission (USCC) issued warnings about the rapid growth of China's biopharmaceutical sector. The commission stated that China is gaining a competitive advantage in this field.\n\nThe USCC noted that Western firms are increasingly paying large upfront fees to license Chinese drugs. This trend is driving a push from Washington to curb cross-border ties in the biotech sector, though Chinese firms appear largely unfazed.",
+      "whyItMatters": "If you sell health supplements, skincare, or biotech-related products sourced from China, you are entering a high-risk zone. Washington is no longer just looking at electronics or EVs. The USCC is now targeting the biopharmaceutical sector specifically.\n\nYou face a real risk of new tariffs or outright import bans on biotech-derived goods. If your product relies on a Chinese patent or a specific Chinese bio-ingredient, your supply chain is fragile. You need to check if your products fall under the categories the USCC is monitoring. A sudden policy shift could leave your stock stranded at the border or subject to massive new duties that wipe out your margin overnight.",
+      "hotTake": "Biotech is the new frontier for trade wars. If you are sourcing 'innovative' health products from China, you are gambling on US politics. I would start looking for alternative sourcing in India or Mexico for any critical bio-components now.",
+      "actions": [
+        "Audit your product ingredients to see if they fall under biopharmaceutical categories",
+        "Identify a secondary supplier outside of China for all biotech-related components"
+      ],
+      "sourceUrl": "https://scmp.com/business/china-business/article/3375100/us-panel-warns-chinas-biotech-rise-fuelling-push-curb-ties-chinese-firms-unfazed",
+      "sourceName": "SCMP Business",
+      "tags": [
+        "tariffs-duties",
+        "customs-us",
+        "sourcing"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Inland China freight is moving to electric and it is 43% cheaper",
+    "Stop paying diesel surcharges for long-haul moves from Shenzhen to Alashankou",
+    "The US is targeting China's biotech sector and your health supplements might be next",
+    "Small container ships are returning to the Asia regional trade for better agility",
+    "The PHX service proves that regional agility beats mega-ship volume for some sellers",
+    "Your 'first mile' costs in China are a hidden margin killer",
+    "Biotech sourcing from China is becoming a political liability in the US",
+    "EV trucks are now viable for 5,000km journeys across China",
+    "Stop relying on the big carriers for your Korea-Vietnam-China lanes",
+    "The USCC is flagging Chinese bio-innovation as a security risk"
+  ],
+  "faq": [
+    {
+      "question": "Can I actually use electric trucks for long-haul shipping in China?",
+      "answer": "Yes. Ceva Logistics proved this with a 5,000-kilometre trip from Shenzhen to Alashankou. They reduced energy costs by 43% compared to diesel. You need a carrier with access to the new-energy charging infrastructure, which is now expanding for 18-wheelers and articulated lorries across the mainland."
+    },
+    {
+      "question": "Are there new shipping options for moving goods between Korea, Vietnam and China?",
+      "answer": "Yes. Pan Continental and PanStar launched the PHX weekly service. It uses vessels between 700 and 1,000 TEU. This is a good option for sellers who need more frequent, smaller shipments between these three countries rather than waiting for larger carrier schedules."
+    },
+    {
+      "question": "Is the US planning to restrict biotech imports from China?",
+      "answer": "The US-China Economic and Security Review Commission is urging Washington to curb cross-border ties in the biopharmaceutical sector. While no specific ban is in place today, the USCC warns of China's competitive advantage. Sellers of bio-derived products should prepare for potential tariffs or increased customs scrutiny."
+    }
+  ],
+  "generatedAt": "2026-11-22T22:00:25.199Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 19
+}
