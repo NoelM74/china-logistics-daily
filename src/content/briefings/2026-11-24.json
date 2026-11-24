@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-24",
+  "title": "Asia to US East Coast ocean rates top $10,000",
+  "metaDescription": "Trans-Pacific spot rates remain 300% higher than last year despite recent capacity increases. EU caps on hybrid imports hit vehicle logistics.",
+  "bottomLine": "Asia to US East Coast spot rates hit $10,901 per FEU, remaining nearly 300% higher than last year. While capacity is rising, the cost floor for US inbound remains punishingly high.",
+  "stories": [
+    {
+      "headline": "Asia to US East Coast spot rates hit $10,901 per FEU",
+      "tldr": "Far East to US East Coast spot rates dropped 1.9% to $10,901 per FEU for the week ending 19 November 2026.",
+      "whatHappened": "Xeneta reports that spot rates from Asia to the US declined in the week ending 19 November 2026. Average rates to the US West Coast fell 1.7% to $8,203 per FEU, while East Coast rates dropped 1.9% to $10,901 per FEU.\n\nThese declines follow a surge in offered capacity. Four-week rolling averages show capacity from the Far East to the West Coast rose 10.9% and to the East Coast rose 11.4% since 19 October 2026. Despite this, West Coast rates remain 304.3% and East Coast rates 297.8% higher than November 2025 levels.",
+      "whyItMatters": "If you ship heavy goods to the US East Coast, you are paying a massive premium compared to last year. A $10,901 spot rate per FEU destroys the margin for low-value, high-volume sellers. You cannot rely on the current 1.9% dip to signal a return to 2025 pricing. The floor has shifted.\n\nFor those using FBA in US East Coast warehouses, your inbound logistics cost per unit is nearly four times higher than it was twelve months ago. If you are a mid-sized seller moving 20 to 50 containers a month, this difference represents a six-figure hit to your annual profit. You must decide if you can pass this cost to the consumer or if you need to shift more volume to the West Coast, where you save roughly $2,700 per container.",
+      "hotTake": "The capacity increase is a distraction. A 11% rise in space does not matter when rates are still 300% above the previous year. Carriers have found a new equilibrium. I would stop hunting for the bottom and start adjusting my 2027 pricing now to bake in these permanent cost increases.",
+      "actions": [
+        "Compare your East Coast quotes against the $8,203 West Coast benchmark to see if routing shifts save you more than the inland haulage cost",
+        "Update your landed cost calculators using the $10,901 FEU figure for any new product launches"
+      ],
+      "sourceUrl": "https://freightwaves.com/news/asia-us-east-coast-ocean-freight-rates-top-10000-up-300-from-a-year-ago",
+      "sourceName": "FreightWaves",
+      "tags": [
+        "sea-freight",
+        "fuel-surcharges",
+        "peak-season"
+      ]
+    },
+    {
+      "headline": "EU caps imports of Chinese hybrid cars",
+      "tldr": "A new EU cap on Chinese hybrid car imports threatens European finished vehicle logistics players in a high-growth segment.",
+      "whatHappened": "The European Union is implementing a cap on the import of hybrid cars from China. This move aims to protect incumbent original equipment manufacturers within the EU bloc.\n\nThe Association of European Vehicle Logistics (ECG) notes that this segment is currently one of the most dynamic in the market. While the ECG remains optimistic about the flexibility of the sector, the cap creates a direct barrier to the volume of Chinese hybrid vehicles entering the European market.",
+      "whyItMatters": "This hits you if you are an operator in the finished vehicle logistics (FVL) space or a seller of high-value automotive components. A cap on vehicle numbers means a hard ceiling on the volume of shipments you can move. You cannot simply scale your way out of a regulatory cap by finding more capacity.\n\nIf you source hybrid vehicle kits or complete units, your lead times will likely increase as you fight for a limited number of import slots. For those using these vehicles as part of a larger logistics fleet in Europe, expect the cost of procurement to rise as supply tightens. You are no longer competing on price or speed, but on your ability to secure a quota.",
+      "hotTake": "Brussels is playing catch up with Chinese manufacturing. This cap is a blunt instrument that will only make Chinese hybrids more expensive and harder to get. I would diversify my sourcing for any EU-bound automotive project immediately to avoid being trapped by a quota.",
+      "actions": [
+        "Audit your 2027 import forecasts for hybrid vehicles to see if they exceed the new EU caps",
+        "Contact your EU customs broker to determine the specific quota allocation process for your HS codes"
+      ],
+      "sourceUrl": "https://theloadstar.com/eu-cap-on-chinese-hybrid-imports-will-be-a-blow-to-fvl-players",
+      "sourceName": "The Loadstar",
+      "tags": [
+        "tariffs-duties",
+        "customs-eu",
+        "sourcing"
+      ]
+    },
+    {
+      "headline": "Cathay Cargo integrates with Hong Kong Port Community System",
+      "tldr": "Cathay Cargo signed an MoU on 17 November to bring air cargo data into Hong Kong's multimodal Port Community System.",
+      "whatHappened": "Cathay Cargo signed a Memorandum of Understanding on 17 November 2026 with the Hong Kong SAR Government, LSCM, and Global Logistic System (GLS). Cathay is the first airline invited into the Port Community System (PCS).\n\nThe partners will implement the IATA ONE Record data standard. This open global standard allows airlines and forwarders to share shipment data in a common format. The goal is to bridge data gaps between air, land, and sea transport to create a digital ecosystem across the logistics chain.",
+      "whyItMatters": "If you use Hong Kong as a transit hub for air freight, this reduces the manual paperwork and 'black holes' in your tracking. The adoption of IATA ONE Record means your forwarder and the airline are finally looking at the same data set in real time.\n\nFor operators moving high-value goods, this means fewer delays at the handover between sea-to-air or land-to-air. You get better visibility on when your goods actually hit the tarmac, allowing you to time your final-mile delivery more accurately. It removes the need for multiple emails to check the status of a shipment moving through Hong Kong's multimodal network.",
+      "hotTake": "Standardisation is usually slow and painful, but ONE Record is the right move. If your forwarder is still sending you PDFs and manual spreadsheets for HK transit, they are falling behind. Demand to know if your partners are using the PCS for your shipments.",
+      "actions": [
+        "Ask your Hong Kong-based freight forwarder if they are integrated with the Port Community System",
+        "Verify if your current air freight provider supports the IATA ONE Record data standard"
+      ],
+      "sourceUrl": "https://payloadasia.com/2026/11/cathay-cargo-pioneers-air-cargo-connection-hong-kong-port-community-system-pcs",
+      "sourceName": "Payload Asia",
+      "tags": [
+        "air-freight",
+        "regulation-china",
+        "ports-congestion"
+      ]
+    }
+  ],
+  "contentHooks": [
+    "Asia to US East Coast rates are $10,901 per FEU and the floor is not moving",
+    "A 11% increase in shipping capacity is meaningless when rates are 300% higher than last year",
+    "The EU is capping Chinese hybrid imports to save its own car makers",
+    "Hong Kong is finally fixing the data gap between air and sea freight",
+    "Stop hunting for the bottom of the shipping market; the new cost floor is here",
+    "Your FBA inbound costs are 4x higher than they were in 2025",
+    "The IATA ONE Record standard is the end of the PDF tracking era in Hong Kong",
+    "Quota caps are the new tariffs for Chinese hybrid vehicles in Europe"
+  ],
+  "faq": [
+    {
+      "question": "What are the current spot rates for shipping from Asia to the US East Coast?",
+      "answer": "As of 19 November 2026, the average spot rate to the US East Coast is $10,901 per 40-foot container (FEU). This is a 1.9% weekly decrease but remains 297.8% higher than rates from November 2025. You should budget for these levels as capacity increases have not significantly lowered the price floor."
+    },
+    {
+      "question": "Are there new restrictions on importing Chinese hybrid cars to the EU?",
+      "answer": "Yes, the EU has implemented a cap on imports of Chinese hybrid cars to protect European manufacturers. This limit affects the volume of vehicles that can enter the bloc. Operators should check their specific HS codes and quota allocations with a customs broker to avoid shipment delays or rejections at the border."
+    },
+    {
+      "question": "How does the Hong Kong Port Community System affect air freight?",
+      "answer": "The system integrates air cargo data using the IATA ONE Record standard, starting with Cathay Cargo. This allows for better visibility across sea, land, and air transport. For sellers, this means more accurate tracking and fewer manual data errors when moving goods through Hong Kong's multimodal logistics network."
+    }
+  ],
+  "generatedAt": "2026-11-24T04:06:35.597Z",
+  "model": "google/gemma-4-31b-it",
+  "sourceCount": 20
+}
